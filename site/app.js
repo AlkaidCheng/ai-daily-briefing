@@ -50,7 +50,7 @@ function safeUrl(url, { httpsOnly = false } = {}) {
 }
 
 function highlight(text, terms) {
-  let html = escapeHtml(text);
+  const html = escapeHtml(text);
   if (!terms.length) return html;
   const pattern = new RegExp(`(${terms.map((t) => escapeHtml(t).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
   // Only replace in text, never inside an entity such as &amp;.
