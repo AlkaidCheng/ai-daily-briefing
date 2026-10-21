@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-19",
+  "heading": "Tuesday, May 19, 2026",
+  "topLine": "2 model releases: Google Gemini 3.5 Flash and Google Gemini Omni Flash.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google launches Gemini 3.5 Flash at I/O",
+          "summary": "Gemini 3.5 Flash is the first Gemini 3.5 model and launched generally available. Google reports 76.2% on Terminal-Bench 2.1 and says it outperforms Gemini 3.1 Pro on coding and agentic benchmarks. It became the default model in the Gemini app and Search AI Mode; Gemini 3.5 Pro was announced as coming later.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
+            }
+          ]
+        },
+        {
+          "headline": "Google introduces Gemini Omni, starting with video generation",
+          "summary": "Gemini Omni Flash is the first model in Google's Omni family, which aims to generate output from any combination of inputs, starting with video. It supports multi-turn conversational video editing. It rolled out to paid Google AI subscribers in the Gemini app and Flow, and to YouTube Shorts.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+            },
+            {
+              "name": "Google: 100 things announced at I/O 2026",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

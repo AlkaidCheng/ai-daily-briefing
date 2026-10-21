@@ -1,0 +1,26 @@
+{
+  "date": "2025-07-10",
+  "heading": "Thursday, July 10, 2025",
+  "topLine": "Mistral releases Devstral Medium and Devstral Small 1.1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Devstral Medium and Devstral Small 1.1",
+          "summary": "Mistral released Devstral Medium, an API model scoring 61.6% on SWE-Bench Verified by its own measurement, and Devstral Small 1.1, a 24B Apache 2.0 model scoring 53.6%. Mistral claims Devstral Medium beats Gemini 2.5 Pro and GPT-4.1 on cost-performance.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/devstral-2507/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

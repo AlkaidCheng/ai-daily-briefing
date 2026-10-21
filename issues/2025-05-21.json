@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-21",
+  "heading": "Wednesday, May 21, 2025",
+  "topLine": "Mistral and All Hands AI release Devstral for agentic coding.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral and All Hands AI release Devstral for agentic coding",
+          "summary": "Devstral is an open-weight agentic software-engineering model, built with All Hands AI, that runs on a single RTX 4090 or 32GB Mac and is released under Apache 2.0. Mistral reports 46.8% on SWE-Bench Verified, which it says led open models at release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/devstral/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Devstral_1Ib6un.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Devstral cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

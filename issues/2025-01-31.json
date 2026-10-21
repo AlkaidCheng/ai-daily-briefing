@@ -1,0 +1,26 @@
+{
+  "date": "2025-01-31",
+  "heading": "Friday, January 31, 2025",
+  "topLine": "OpenAI releases o3-mini reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases o3-mini reasoning model",
+          "summary": "o3-mini is a small, cost-efficient reasoning model aimed at STEM tasks, released in ChatGPT (including the free tier, a first for a reasoning model) and the API with low/medium/high reasoning effort settings. OpenAI says it outperforms o1 on coding and other reasoning tasks at lower cost and latency.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/openai-o3-mini/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

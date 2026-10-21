@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-29",
+  "heading": "Wednesday, July 29, 2026",
+  "topLine": "Google releases Lyria 3.5 music model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Lyria 3.5 music model",
+          "summary": "Lyria 3.5 is Google's newest music generation model. Google reports improvements in musicality, lyrics, vocal realism and control over tempo and duration. It launched in Google Flow Music and reached the Gemini API as generally available in early September.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/"
+            },
+            {
+              "name": "Gemini API changelog",
+              "url": "https://ai.google.dev/gemini-api/docs/changelog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2025-04-16",
+  "heading": "Wednesday, April 16, 2025",
+  "topLine": "OpenAI releases o3 and o4-mini reasoning models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases o3 and o4-mini reasoning models",
+          "summary": "o3 and o4-mini are o-series reasoning models that can use tools (web search, Python, file analysis) and reason over images within their chain of thought. They launched for ChatGPT Plus, Pro and Team users and in the API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-o3-and-o4-mini/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

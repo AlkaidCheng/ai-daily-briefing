@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-28",
+  "heading": "Tuesday, October 28, 2025",
+  "topLine": "MiniMax releases Hailuo 2.3 video model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases Hailuo 2.3 video model",
+          "summary": "Hailuo 2.3 and Hailuo 2.3 Fast update the Hailuo 02 video model with better body movement, facial micro-expressions, stylization and response to motion instructions. They are available on the Hailuo app, web and API, with the Fast version priced lower for batch generation.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-hailuo-23"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

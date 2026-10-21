@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-23",
+  "heading": "Tuesday, June 23, 2026",
+  "topLine": "Mistral releases Mistral OCR 4.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral OCR 4",
+          "summary": "Mistral OCR 4 is a compact document-parsing model that returns text with bounding boxes, block classification and confidence scores across 170 languages. Mistral reports 85.20 on OlmOCRBench and a 72% average win rate in annotator preference tests; it is available via API at $4 per 1,000 pages.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/ocr-4/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/images/heros/hero-ocr4-image.jpg",
+            "alt": "Mistral OCR 4 hero image"
+          }
+        }
+      ]
+    }
+  ]
+}

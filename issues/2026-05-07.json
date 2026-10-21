@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-07",
+  "heading": "Thursday, May 7, 2026",
+  "topLine": "OpenAI releases GPT-Realtime-2 and GPT-Realtime-Translate.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-Realtime-2 and GPT-Realtime-Translate",
+          "summary": "GPT-Realtime-2 is a voice-agent model for the Realtime API with configurable reasoning effort and more reliable tool use; GPT-Realtime-Translate is a streaming speech-to-speech translation model covering 70+ input and 13 output languages.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/"
+            },
+            {
+              "name": "OpenAI API changelog",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

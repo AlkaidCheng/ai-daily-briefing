@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-14",
+  "heading": "Friday, August 14, 2026",
+  "topLine": "2 model releases: Alibaba Qwen3.8-27B and Zhipu AI GLM-5.3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases open-weight Qwen3.8-27B",
+          "summary": "Qwen3.8-27B is an Apache-2.0 dense multimodal model with image and video understanding and 262K native context. Qwen reports 61.7 on SWE-bench Pro and 84.3 on OSWorld-Verified.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: QwenLM (news)",
+              "url": "https://github.com/QwenLM/Qwen3.5"
+            },
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+            }
+          ]
+        },
+        {
+          "headline": "Z.ai releases GLM-5.3 coding and cybersecurity model",
+          "summary": "GLM-5.3 is a post-trained update on the GLM-5.2 base model, first offered through the GLM Coding Plan with weights released later under a custom GLM-5.3 license. Z.ai claims a 50% gain over GLM-5.2 on its in-house coding benchmark and 84.5% on CyberGym.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/"
+            },
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-5.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

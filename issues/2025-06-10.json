@@ -1,0 +1,47 @@
+{
+  "date": "2025-06-10",
+  "heading": "Tuesday, June 10, 2025",
+  "topLine": "2 model releases: Mistral AI Magistral and OpenAI o3-pro.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Magistral, its first reasoning models",
+          "summary": "Magistral is Mistral's first reasoning model family: Magistral Small, a 24B open-weight model under Apache 2.0, and Magistral Medium, an enterprise model in Le Chat and the API. Mistral reports 73.6% on AIME 2024 for Magistral Medium and 70.7% for Small, and published a companion paper.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/magistral/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/d73ee721-ea92-46f5-af77-79674fdb4163_1gJcoR.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Magistral benchmark plot"
+          }
+        },
+        {
+          "headline": "OpenAI releases o3-pro",
+          "summary": "o3-pro is a version of o3 that uses more compute to think longer, replacing o1-pro for ChatGPT Pro and Team users and launching in the API at $20/$80 per million input/output tokens. OpenAI says expert reviewers preferred it over o3.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2025/06/10/openai-releases-o3-pro-a-souped-up-version-of-its-o3-ai-reasoning-model"
+            },
+            {
+              "name": "OpenAI API changelog",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

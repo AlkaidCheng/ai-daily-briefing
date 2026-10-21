@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-12",
+  "heading": "Wednesday, August 12, 2026",
+  "topLine": "2 model releases: Alibaba Qwen3.8-2.4T-A95B and xAI Grok 4.6.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases open weights for Qwen3.8-Max-class model",
+          "summary": "Qwen3.8-2.4T-A95B is the open-weight, text-only version of Qwen3.8-Max (2.4T total, 95B active parameters), released on Hugging Face and ModelScope. Its license requires providers with large annual revenue to obtain a commercial license; Qwen reports 67.7 on SWE-bench Pro.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: QwenLM (news)",
+              "url": "https://github.com/QwenLM/Qwen3.5"
+            },
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+            }
+          ]
+        },
+        {
+          "headline": "SpaceXAI releases Grok 4.6",
+          "summary": "Grok 4.6 builds on Grok 4.5 with stronger support for long-running agents and visual or interactive projects, at the same $2/$6 per million token pricing. The company reports it matches GPT-5.6 Sol at 61 on the Artificial Analysis Intelligence Index.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4-6?amp=&amp="
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

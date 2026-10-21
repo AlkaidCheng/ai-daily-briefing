@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-19",
+  "heading": "Tuesday, August 19, 2025",
+  "topLine": "Alibaba releases Qwen-Image-Edit.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen-Image-Edit",
+          "summary": "Qwen-Image-Edit is the image-editing version of the 20B Qwen-Image model, supporting semantic and appearance edits and bilingual text editing that preserves font and style. Qwen claims state-of-the-art results on several editing benchmarks; weights are on Hugging Face and ModelScope.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-Image/edit_homepage.jpg",
+            "alt": "Qwen-Image-Edit examples"
+          }
+        }
+      ]
+    }
+  ]
+}

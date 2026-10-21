@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-23",
+  "heading": "Thursday, April 23, 2026",
+  "topLine": "OpenAI releases GPT-5.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-5.5",
+          "summary": "GPT-5.5 is a frontier model positioned for agentic coding, computer use and knowledge work, launched in ChatGPT and Codex with API access on April 24 (1M context). OpenAI reports 82.7% on Terminal-Bench 2.0 and 58.6% on SWE-Bench Pro.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-5-5/"
+            },
+            {
+              "name": "OpenAI: GPT-5.5 System Card",
+              "url": "https://deploymentsafety.openai.com/gpt-5-5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

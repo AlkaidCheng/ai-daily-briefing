@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-24",
+  "heading": "Friday, April 24, 2026",
+  "topLine": "DeepSeek releases DeepSeek-V4 preview with 1M-token context.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-V4 preview with 1M-token context",
+          "summary": "DeepSeek-V4 Preview comprises V4-Pro (1.6T total, 49B active parameters) and V4-Flash (284B total, 13B active), both open-weight with 1M-token context and thinking/non-thinking modes. DeepSeek claims V4-Pro leads open models on agentic coding, math and STEM benchmarks; both are live in the app and API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news260424"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v4-spec-en.png",
+            "alt": "DeepSeek-V4 model specifications"
+          }
+        }
+      ]
+    }
+  ]
+}

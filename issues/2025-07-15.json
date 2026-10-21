@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-15",
+  "heading": "Tuesday, July 15, 2025",
+  "topLine": "Mistral releases Voxtral open speech-understanding models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Voxtral open speech-understanding models",
+          "summary": "Voxtral is Mistral's first audio model family: a 24B model and a 3B Mini for edge use, both under Apache 2.0, handling transcription, translation and spoken Q&A with a 32k context. Mistral claims it outperforms Whisper large-v3 and beats GPT-4o mini Transcribe and Gemini 2.5 Flash on transcription.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/voxtral/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/ec026954-d85f-4b11-94fd-d26fc8e13ae2_Z1SU1rQ.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Voxtral announcement cover"
+          }
+        }
+      ]
+    }
+  ]
+}

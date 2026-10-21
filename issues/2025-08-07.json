@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-07",
+  "heading": "Thursday, August 7, 2025",
+  "topLine": "OpenAI launches GPT-5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI launches GPT-5",
+          "summary": "GPT-5 is a unified system that routes between a fast model and a deeper reasoning model, rolled out to all ChatGPT tiers including Free. The API launched gpt-5, gpt-5-mini and gpt-5-nano with new verbosity and minimal-reasoning controls.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-5/"
+            },
+            {
+              "name": "OpenAI: GPT-5 for developers",
+              "url": "https://openai.com/index/introducing-gpt-5-for-developers/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-24",
+  "heading": "Monday, November 24, 2025",
+  "topLine": "Anthropic releases Claude Opus 4.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 4.5",
+          "summary": "Anthropic says Claude Opus 4.5 is state of the art on SWE-bench Verified and adds an effort parameter for trading speed and cost against capability. Pricing is $5/$25 per million input/output tokens, well below earlier Opus models, and it is available in the API and on the three major cloud platforms.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-opus-4-5"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/7022a87aeb6eab1458d68412bc927306224ea9eb-3840x2160.png",
+            "alt": "SWE-bench Verified chart from the Claude Opus 4.5 announcement"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-07",
+  "heading": "Tuesday, July 7, 2026",
+  "topLine": "Meta launches Muse Image and previews Muse Video.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta launches Muse Image and previews Muse Video",
+          "summary": "Muse Image is Meta Superintelligence Labs' first image generation and editing model, which can use search and refine its own drafts; it launched in Meta AI, Instagram Stories (US) and WhatsApp (limited countries). Meta reports it ranked No. 2 on Arena's text-to-image leaderboard and previewed Muse Video, a video model with native audio still in development.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

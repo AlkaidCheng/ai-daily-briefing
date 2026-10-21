@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-17",
+  "heading": "Monday, November 17, 2025",
+  "topLine": "xAI releases Grok 4.1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI releases Grok 4.1",
+          "summary": "Grok 4.1, in thinking and non-thinking configurations, rolled out to all users on grok.com, X and the mobile apps. xAI reports Grok 4.1 Thinking reached first place on LMArena's Text Arena with 1483 Elo and reduced hallucination rates.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4-1"
+            },
+            {
+              "name": "xAI model card (PDF)",
+              "url": "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

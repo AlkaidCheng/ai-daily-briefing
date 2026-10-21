@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-26",
+  "heading": "Thursday, February 26, 2026",
+  "topLine": "Google releases Nano Banana 2 image model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Nano Banana 2 image model",
+          "summary": "Nano Banana 2 (Gemini 3.1 Flash Image) brings features from Nano Banana Pro, including better text rendering and subject consistency, to a faster Flash model, with output from 512px to 4K. It replaced Nano Banana Pro as the default in the Gemini app and launched in preview in the Gemini API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/"
+            },
+            {
+              "name": "Google DeepMind model card",
+              "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-image/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

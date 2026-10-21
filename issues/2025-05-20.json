@@ -1,0 +1,39 @@
+{
+  "date": "2025-05-20",
+  "heading": "Tuesday, May 20, 2025",
+  "topLine": "2 model releases: Google Veo 3 and Google Imagen 4.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google unveils Veo 3 video model with native audio",
+          "summary": "Veo 3 is a video generation model that also generates audio, including sound effects, ambient noise and dialogue. At launch it was available to US Google AI Ultra subscribers in the Gemini app and Flow, and to enterprise users on Vertex AI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/ai/generative-media-models-io-2025/"
+            }
+          ]
+        },
+        {
+          "headline": "Google releases Imagen 4 image model",
+          "summary": "Imagen 4 is an image generation model with finer detail, output up to 2K resolution and better text rendering. It launched in the Gemini app, Whisk, Vertex AI and Workspace apps.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/ai/generative-media-models-io-2025/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

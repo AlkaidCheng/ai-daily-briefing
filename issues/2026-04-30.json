@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-30",
+  "heading": "Thursday, April 30, 2026",
+  "topLine": "xAI releases Grok 4.3 to the API.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI releases Grok 4.3 to the API",
+          "summary": "Grok 4.3, an always-on reasoning model with a 1M-token context, became generally available via the xAI API after an April subscriber beta, priced at $1.25/$2.50 per million input/output tokens. Artificial Analysis scored it 53 on its Intelligence Index; xAI also launched voice cloning and voice agent APIs.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "VentureBeat",
+              "url": "https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite"
+            },
+            {
+              "name": "OpenRouter",
+              "url": "https://openrouter.ai/x-ai/grok-4.3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

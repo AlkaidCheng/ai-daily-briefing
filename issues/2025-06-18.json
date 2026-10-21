@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-18",
+  "heading": "Wednesday, June 18, 2025",
+  "topLine": "MiniMax releases Hailuo 02 video model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases Hailuo 02 video model",
+          "summary": "Hailuo 02 is a video generation model with native 1080p output and clips up to 10 seconds, built on a Noise-aware Compute Redistribution architecture that MiniMax says improves training and inference efficiency 2.5x. MiniMax reports roughly 3x the parameters of Hailuo 01 and an early version ranking second on the Artificial Analysis Video Arena.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-hailuo-02"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/40350fe1-29a2-469f-98ec-fc9f0bfeb1ec.jpeg",
+            "alt": "Hailuo 02 NCR architecture figure"
+          }
+        }
+      ]
+    }
+  ]
+}

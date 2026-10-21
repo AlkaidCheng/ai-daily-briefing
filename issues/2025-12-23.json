@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-23",
+  "heading": "Tuesday, December 23, 2025",
+  "topLine": "MiniMax releases MiniMax-M2.1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases MiniMax-M2.1",
+          "summary": "MiniMax-M2.1 is an open-weight update to M2 focused on multi-language programming, native Android and iOS development and office tasks, with shorter reasoning chains than M2. MiniMax claims it outperforms Claude Sonnet 4.5 on multilingual coding tasks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-m21"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/1d46c2a2-6c36-4739-b820-cee832d1ecf9.png",
+            "alt": "MiniMax-M2.1 announcement figure"
+          }
+        }
+      ]
+    }
+  ]
+}

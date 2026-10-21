@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-15",
+  "heading": "Wednesday, January 15, 2025",
+  "topLine": "MiniMax open-sources MiniMax-01 models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax open-sources MiniMax-01 models",
+          "summary": "MiniMax-Text-01 and MiniMax-VL-01 are open-weight models with 456B total and 45.9B active parameters that pair Lightning Attention, a linear-attention mechanism, with mixture-of-experts. MiniMax claims a context length of up to 4 million tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-01-series-2"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/9b0eddb5-9284-46ab-8408-07b57951e658.png",
+            "alt": "MiniMax-01 announcement figure"
+          }
+        }
+      ]
+    }
+  ]
+}

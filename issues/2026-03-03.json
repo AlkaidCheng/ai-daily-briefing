@@ -1,0 +1,43 @@
+{
+  "date": "2026-03-03",
+  "heading": "Tuesday, March 3, 2026",
+  "topLine": "2 model releases: Google Gemini 3.1 Flash-Lite and OpenAI GPT-5.3 Instant.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 3.1 Flash-Lite",
+          "summary": "Gemini 3.1 Flash-Lite is a low-cost, low-latency Gemini 3 model for high-volume tasks such as translation and classification, with a 1M-token context window. It is priced at $0.25/$1.50 per million input/output tokens and launched in preview, reaching general availability on May 7.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google DeepMind model card",
+              "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/"
+            },
+            {
+              "name": "Gemini API changelog",
+              "url": "https://ai.google.dev/gemini-api/docs/changelog"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI makes GPT-5.3 Instant the ChatGPT default",
+          "summary": "GPT-5.3 Instant replaced GPT-5.2 Instant as ChatGPT's default model, with fewer unnecessary refusals and better web-grounded answers. OpenAI reported 26.8% fewer hallucinations with web use and 19.7% fewer without, on internal evaluations.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/gpt-5-3-instant/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

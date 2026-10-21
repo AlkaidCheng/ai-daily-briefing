@@ -1,0 +1,34 @@
+{
+  "date": "2026-06-30",
+  "heading": "Tuesday, June 30, 2026",
+  "topLine": "Anthropic releases Claude Sonnet 5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Sonnet 5",
+          "summary": "Anthropic calls Claude Sonnet 5 its most agentic Sonnet model and says it performs close to Opus 4.8 at a lower price. It became the default for Free and Pro users, with API pricing of $2/$10 per million tokens, which an August edit to the post made permanent.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-sonnet-5"
+            },
+            {
+              "name": "Quartz",
+              "url": "https://qz.com/anthropic-claude-sonnet-5-ai-agents-pricing-070126"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2039cc549c023bc855671308211d20d3382828a9-2880x1620.jpg",
+            "alt": "Header image from the Claude Sonnet 5 announcement"
+          }
+        }
+      ]
+    }
+  ]
+}

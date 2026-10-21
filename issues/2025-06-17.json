@@ -1,0 +1,43 @@
+{
+  "date": "2025-06-17",
+  "heading": "Tuesday, June 17, 2025",
+  "topLine": "2 model releases: Google Gemini 2.5 Flash-Lite and Moonshot AI Kimi-Dev-72B.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 2.5 Flash-Lite; 2.5 Pro and Flash reach GA",
+          "summary": "Google made Gemini 2.5 Pro and 2.5 Flash stable and generally available, and released Gemini 2.5 Flash-Lite in preview as its fastest and most cost-efficient 2.5 model, with adjustable thinking and a 1M-token context window.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/"
+            }
+          ]
+        },
+        {
+          "headline": "Moonshot AI releases Kimi-Dev-72B coding model",
+          "summary": "Kimi-Dev-72B is an open-weight software-engineering model optimized with large-scale reinforcement learning on real repositories. Moonshot reports 60.4% on SWE-bench Verified, which it described as a new state of the art among open-source models at release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Moonshot AI GitHub",
+              "url": "https://github.com/MoonshotAI/Kimi-Dev"
+            },
+            {
+              "name": "Kimi research index",
+              "url": "https://www.kimi.com/blog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

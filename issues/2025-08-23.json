@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-23",
+  "heading": "Saturday, August 23, 2025",
+  "topLine": "xAI publishes Grok 2.5 weights on Hugging Face.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI publishes Grok 2.5 weights on Hugging Face",
+          "summary": "Elon Musk announced that xAI had released the weights of Grok 2.5, a model it used in 2024, on Hugging Face (about 500 GB, requiring 8 GPUs). The weights use a custom Grok 2 Community License with usage restrictions; Musk said Grok 3 would be opened in about six months.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2025/08/24/elon-musk-says-xai-has-open-sourced-grok-2-5/"
+            },
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/xai-org/grok-2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

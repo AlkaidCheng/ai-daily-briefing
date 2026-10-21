@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-28",
+  "heading": "Tuesday, January 28, 2025",
+  "topLine": "Alibaba releases Qwen2.5-Max.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen2.5-Max",
+          "summary": "Qwen2.5-Max is a large MoE model pretrained on over 20 trillion tokens, offered through the Alibaba Cloud API and Qwen Chat without open weights. Alibaba claims it outperforms DeepSeek-V3 on Arena-Hard, LiveBench, LiveCodeBench and GPQA-Diamond.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen2.5-max/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen2.5-max-banner.png",
+            "alt": "Qwen2.5-Max banner"
+          }
+        }
+      ]
+    }
+  ]
+}

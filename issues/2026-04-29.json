@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-29",
+  "heading": "Wednesday, April 29, 2026",
+  "topLine": "Mistral releases Mistral Medium 3.5 open-weight model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral Medium 3.5 open-weight model",
+          "summary": "Mistral Medium 3.5 is a 128B dense model with a 256k context and vision input that combines instruction-following, reasoning and coding, released as open weights under a modified MIT license and as the default model in Le Chat and Vibe. Mistral reports 77.6% on SWE-Bench Verified.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/"
+            },
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260430-mistral-medium-3-5/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Medium_2iiBU6.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral Medium cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

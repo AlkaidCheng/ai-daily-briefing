@@ -1,0 +1,43 @@
+{
+  "date": "2026-02-17",
+  "heading": "Tuesday, February 17, 2026",
+  "topLine": "2 model releases: Anthropic Claude Sonnet 4.6 and xAI Grok 4.20.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Sonnet 4.6",
+          "summary": "Claude Sonnet 4.6 upgrades coding, computer use and long-context reasoning and adds a 1M-token context window in beta. Anthropic reports 80.2% on SWE-bench Verified; it became the default model for Free and Pro users at unchanged $3/$15 pricing.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+            }
+          ]
+        },
+        {
+          "headline": "xAI launches Grok 4.20 in beta",
+          "summary": "Grok 4.20 launched as a beta for SuperGrok and X Premium+ subscribers, featuring a multi-agent mode in which several agents work in parallel; API access, including a multi-agent variant, followed in March. xAI's documentation lists a 1M-token context and claims a low hallucination rate.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI docs",
+              "url": "https://docs.x.ai/developers/models/grok-4.20"
+            },
+            {
+              "name": "NextBigFuture",
+              "url": "https://www.nextbigfuture.com/2026/02/xai-launches-grok-4-20-and-it-has-4-ai-agents-collaborating.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

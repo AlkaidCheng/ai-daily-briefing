@@ -1,0 +1,43 @@
+{
+  "date": "2025-09-29",
+  "heading": "Monday, September 29, 2025",
+  "topLine": "2 model releases: Anthropic Claude Sonnet 4.5 and DeepSeek-V3.2-Exp.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Sonnet 4.5",
+          "summary": "Anthropic reports that Claude Sonnet 4.5 scores 77.2% on SWE-bench Verified and 61.4% on OSWorld, and says it can stay on multi-step tasks for more than 30 hours. It kept Sonnet 4 pricing ($3/$15) and launched with the Claude Agent SDK and Claude Code updates.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+            }
+          ]
+        },
+        {
+          "headline": "DeepSeek releases experimental DeepSeek-V3.2-Exp with sparse attention",
+          "summary": "DeepSeek-V3.2-Exp, built on V3.1-Terminus, introduces DeepSeek Sparse Attention for cheaper long-context training and inference; DeepSeek reports performance on par with V3.1-Terminus. API prices were cut by more than 50%, and weights, a tech report and GPU kernels were released.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news250929"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v3_2_benchmark.webp",
+            "alt": "DeepSeek-V3.2-Exp benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

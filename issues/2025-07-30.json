@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-30",
+  "heading": "Wednesday, July 30, 2025",
+  "topLine": "Mistral releases Codestral 25.08 and enterprise coding stack.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Codestral 25.08 and enterprise coding stack",
+          "summary": "Codestral 25.08 is an update to Mistral's fill-in-the-middle code completion model, announced with an enterprise coding stack that includes Codestral Embed, Devstral and the Mistral Code IDE extension. Mistral reports 30% more accepted completions and 50% fewer runaway generations than the prior version.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/codestral-25-08/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Codestral_Z2hbXei.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Codestral cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

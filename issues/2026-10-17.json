@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-17",
+  "heading": "Saturday, October 17, 2026",
+  "topLine": "DeepSeek releases DeepSeek-V4.1-Flash-1017 update.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-V4.1-Flash-1017 update",
+          "summary": "DeepSeek-V4.1-Flash-1017 is an update to V4.1-Flash that DeepSeek says scores higher while finishing tasks faster with shorter outputs; it reports 77.0 on DeepSWE v1.1, up from 74.2. Weights are on Hugging Face under the MIT license, and DeepSeek also opened its Search and Fetch APIs to all users.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news261017"
+            },
+            {
+              "name": "SiliconANGLE",
+              "url": "https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-05",
+  "heading": "Saturday, April 5, 2025",
+  "topLine": "Meta releases Llama 4 Scout and Maverick.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases Llama 4 Scout and Maverick",
+          "summary": "Meta released Llama 4 Scout (17B active / 109B total parameters, 16 experts, 10M-token context) and Llama 4 Maverick (17B active / 400B total, 128 experts), its first natively multimodal mixture-of-experts models, as open-weight downloads on llama.com and Hugging Face. Meta previewed the larger Llama 4 Behemoth, still in training, and claims Maverick beats GPT-4o and Gemini 2.0 Flash on a range of benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

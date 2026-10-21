@@ -1,0 +1,51 @@
+{
+  "date": "2026-01-27",
+  "heading": "Tuesday, January 27, 2026",
+  "topLine": "2 model releases: DeepSeek-OCR 2 and Moonshot AI Kimi K2.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-OCR 2",
+          "summary": "DeepSeek-OCR 2 is an open-source (Apache-2.0) document OCR model with a new visual encoding approach, using roughly 256 to 1,120 visual tokens per page via dynamic resolution. A paper accompanies the release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: deepseek-ai/DeepSeek-OCR-2",
+              "url": "https://github.com/deepseek-ai/DeepSeek-OCR-2"
+            },
+            {
+              "name": "TechNode",
+              "url": "https://technode.com/2026/01/28/deepseek-releases-ocr-2-with-new-visual-encoding-architecture-targeting-more-human-like-machine-vision/"
+            }
+          ],
+          "image": {
+            "url": "https://github.com/deepseek-ai/DeepSeek-OCR-2/raw/main/assets/fig1.png",
+            "alt": "DeepSeek-OCR 2 overview figure"
+          }
+        },
+        {
+          "headline": "Moonshot AI releases Kimi K2.5 multimodal model",
+          "summary": "Kimi K2.5 is an open-source natively multimodal model built on Kimi K2 with continued pretraining on about 15T mixed visual and text tokens. It adds an Agent Swarm beta that coordinates up to 100 sub-agents and 1,500 tool calls, and Moonshot called it the strongest open-source model at release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Kimi blog",
+              "url": "https://www.kimi.com/en/blog/kimi-k2-5"
+            }
+          ],
+          "image": {
+            "url": "https://statics.kimi.ai/blogs/k2-5/token_cost.png",
+            "alt": "Kimi K2.5 token cost chart"
+          }
+        }
+      ]
+    }
+  ]
+}

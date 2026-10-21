@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-03",
+  "heading": "Monday, August 3, 2026",
+  "topLine": "Alibaba releases Qwen3.8-Max.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3.8-Max",
+          "summary": "Qwen3.8-Max, a sparse MoE model with 2.4 trillion parameters, became broadly available as a hosted model with image input, a non-thinking mode and a default 1M-token context. Alibaba reports top scores on several of its own benchmarks against GPT-5.6 and Claude Fable 5.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MarkTechPost",
+              "url": "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/"
+            },
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com/tech/article/3362738/alibabas-ai-model-qwen38-max-made-widely-accessible-ahead-open-weights-release"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

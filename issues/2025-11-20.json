@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-20",
+  "heading": "Thursday, November 20, 2025",
+  "topLine": "Google releases Nano Banana Pro image model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Nano Banana Pro image model",
+          "summary": "Nano Banana Pro is an image generation and editing model built on Gemini 3 Pro. Google highlights legible multilingual text rendering, Search grounding, blending of up to 14 input images, and 2K and 4K output. It launched in the Gemini app, the Gemini API and Vertex AI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/ai/nano-banana-pro/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

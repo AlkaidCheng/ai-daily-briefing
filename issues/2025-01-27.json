@@ -1,0 +1,47 @@
+{
+  "date": "2025-01-27",
+  "heading": "Monday, January 27, 2025",
+  "topLine": "2 model releases: Alibaba Qwen2.5-1M and DeepSeek Janus-Pro.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen2.5-1M long-context models",
+          "summary": "Qwen2.5-7B-Instruct-1M and Qwen2.5-14B-Instruct-1M are open-weight models supporting context windows up to 1M tokens, released with a vLLM-based inference framework that Qwen says processes 1M-token inputs 3x to 7x faster.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen2.5-1m/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5-1M/passkey_retrieval.png",
+            "alt": "Qwen2.5-1M passkey retrieval results"
+          }
+        },
+        {
+          "headline": "DeepSeek releases Janus-Pro multimodal models",
+          "summary": "Janus-Pro (1B and 7B) is an open-weight autoregressive model that handles both image understanding and text-to-image generation, with improved training strategy, more data and larger size than the original Janus. Code is MIT-licensed and weights are under the DeepSeek Model License, which permits commercial use.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: deepseek-ai/Janus",
+              "url": "https://github.com/deepseek-ai/Janus"
+            },
+            {
+              "name": "InfoQ",
+              "url": "https://www.infoq.com/news/2025/01/deepseek-ai-janus/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-28",
+  "heading": "Monday, September 28, 2026",
+  "topLine": "Anthropic releases Claude Sonnet 5.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Sonnet 5.5",
+          "summary": "Claude Sonnet 5.5 is the faster, lower-cost model in the Claude 5.5 family. Anthropic reports 70.6% on Terminal-Bench 4.0 and output more than 30% faster than Sonnet 5, at unchanged $2/$10 per million token pricing.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/claude-sonnet-5-5"
+            },
+            {
+              "name": "TechNews",
+              "url": "https://technews.tw/2026/09/29/anthropic-upgrades-claude-with-new-sonnet-5-5-model/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

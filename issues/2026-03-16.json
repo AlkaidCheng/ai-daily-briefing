@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-16",
+  "heading": "Monday, March 16, 2026",
+  "topLine": "2 model releases: Mistral AI Mistral Small 4 and Mistral AI Leanstral.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral Small 4",
+          "summary": "Mistral Small 4 is a 119B-parameter mixture-of-experts model (6B active) with a 256k context and image input that merges reasoning, multimodal and agentic-coding capabilities into one model with configurable reasoning effort. It is released under Apache 2.0; Mistral claims it matches or beats GPT-OSS 120B on several benchmarks with shorter outputs.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-small-4/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Small_ryVwl.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral Small cover art"
+          }
+        },
+        {
+          "headline": "Mistral releases Leanstral, an open code agent for Lean 4 proofs",
+          "summary": "Leanstral is an open-weight (Apache 2.0) model with 6B active parameters for writing and verifying formal proofs in the Lean 4 proof assistant, integrated into Mistral Vibe. Mistral reports it outperforms Claude Sonnet 4.6 on its FLT-based benchmark at a fraction of the cost.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/leanstral/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Leanstral_2cGQ3n.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Leanstral cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

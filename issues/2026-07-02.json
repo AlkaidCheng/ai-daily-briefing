@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-02",
+  "heading": "Thursday, July 2, 2026",
+  "topLine": "Mistral releases Leanstral 1.5 theorem-proving model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Leanstral 1.5 theorem-proving model",
+          "summary": "Leanstral 1.5 is a 119B-parameter (6B active) Apache 2.0 model for formal proofs in Lean. Mistral reports 100% on miniF2F, 587 of 672 PutnamBench problems solved, and state-of-the-art results on FATE-H and FATE-X.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/leanstral-1-5/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Leanstral_Z1UAbrK.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Leanstral 1.5 cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

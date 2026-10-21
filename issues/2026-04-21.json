@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-21",
+  "heading": "Tuesday, April 21, 2026",
+  "topLine": "OpenAI launches ChatGPT Images 2.0 and gpt-image-2.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI launches ChatGPT Images 2.0 and gpt-image-2",
+          "summary": "ChatGPT Images 2.0, powered by gpt-image-2, adds a thinking mode that plans compositions before generating, outputs up to 2K resolution, and improved dense and multilingual text rendering. It is available in ChatGPT, Codex and the API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-0/"
+            },
+            {
+              "name": "PetaPixel",
+              "url": "https://petapixel.com/2026/04/21/openai-claims-chatgpt-images-2-0-can-think/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

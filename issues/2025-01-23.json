@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-23",
+  "heading": "Thursday, January 23, 2025",
+  "topLine": "OpenAI introduces Computer-Using Agent model with Operator.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI introduces Computer-Using Agent model with Operator",
+          "summary": "OpenAI introduced Computer-Using Agent, a model combining GPT-4o vision with reinforcement-learned reasoning to operate a browser via screenshots, mouse and keyboard; it powers the Operator research preview for US Pro users. OpenAI reported 38.1% on OSWorld and 58.1% on WebArena.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/computer-using-agent/"
+            },
+            {
+              "name": "OpenAI: Introducing Operator",
+              "url": "https://openai.com/index/introducing-operator/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

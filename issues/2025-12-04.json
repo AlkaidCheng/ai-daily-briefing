@@ -1,0 +1,26 @@
+{
+  "date": "2025-12-04",
+  "heading": "Thursday, December 4, 2025",
+  "topLine": "Google rolls out Gemini 3 Deep Think.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google rolls out Gemini 3 Deep Think",
+          "summary": "Gemini 3 Deep Think is a reasoning mode for Gemini 3 Pro that uses parallel reasoning for complex math, science and logic problems. Google reports 41.0% on Humanity's Last Exam without tools and 45.1% on ARC-AGI-2 with code execution. It is available to Google AI Ultra subscribers.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/products/gemini/gemini-3-deep-think/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

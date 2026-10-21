@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-06",
+  "heading": "Thursday, November 6, 2025",
+  "topLine": "Moonshot AI releases Kimi K2 Thinking.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Moonshot AI releases Kimi K2 Thinking",
+          "summary": "Kimi K2 Thinking is an open-weight reasoning model in the K2 family that interleaves step-by-step reasoning with tool use and can run 200 to 300 sequential tool calls. Moonshot reports 44.9% on Humanity's Last Exam with tools, 60.2% on BrowseComp and 71.3% on SWE-bench Verified, measured with native INT4 quantization.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Kimi blog",
+              "url": "https://www.kimi.com/en/blog/kimi-k2-thinking"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

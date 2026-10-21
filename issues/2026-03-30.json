@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-30",
+  "heading": "Monday, March 30, 2026",
+  "topLine": "Alibaba releases Qwen3.5-Omni.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3.5-Omni",
+          "summary": "Qwen3.5-Omni (Plus, Flash and Light) is an omni-modal model family that understands text, images, audio and video and generates text and speech, offered via Alibaba Cloud Model Studio APIs without published weights. Alibaba claims the Plus version surpasses Gemini 3.1 Pro on several audio benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260331-qwen3-5-omni"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

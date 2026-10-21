@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-11",
+  "heading": "Friday, July 11, 2025",
+  "topLine": "Moonshot AI releases open-weight Kimi K2.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Moonshot AI releases open-weight Kimi K2",
+          "summary": "Kimi K2 is a mixture-of-experts model with 1 trillion total and 32 billion active parameters, released as open weights in Base and Instruct versions and trained on 15.5T tokens with the MuonClip optimizer. Moonshot reports 65.8 on SWE-bench Verified for the non-thinking Instruct model and positions it for agentic and coding use.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Kimi blog",
+              "url": "https://www.kimi.com/en/blog/kimi-k2"
+            },
+            {
+              "name": "Notebookcheck",
+              "url": "https://www.notebookcheck.net/Kimi-K2-New-AI-model-from-China-outperforms-GPT-4-1-in-key-benchmarks.1067135.0.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

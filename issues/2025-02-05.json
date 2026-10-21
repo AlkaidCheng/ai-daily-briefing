@@ -1,0 +1,26 @@
+{
+  "date": "2025-02-05",
+  "heading": "Wednesday, February 5, 2025",
+  "topLine": "Google expands Gemini 2.0 with Pro Experimental and Flash-Lite.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google expands Gemini 2.0 with Pro Experimental and Flash-Lite",
+          "summary": "Google made Gemini 2.0 Flash generally available and released Gemini 2.0 Pro Experimental, its strongest model at the time for coding, with a 2-million-token context window. It also released Gemini 2.0 Flash-Lite in public preview as its most cost-efficient model.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

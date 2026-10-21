@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-17",
+  "heading": "Monday, March 17, 2025",
+  "topLine": "Mistral releases Mistral Small 3.1 with image understanding.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral Small 3.1 with image understanding",
+          "summary": "Mistral Small 3.1 adds multimodal image understanding and a 128k-token context to the 24B Small line and is released under Apache 2.0. Mistral claims it outperforms Gemma 3 and GPT-4o Mini while running at about 150 tokens per second on a single RTX 4090-class GPU.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-small-3-1/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Small_ryVwl.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral Small cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

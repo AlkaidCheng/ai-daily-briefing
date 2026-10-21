@@ -1,0 +1,51 @@
+{
+  "date": "2026-02-12",
+  "heading": "Thursday, February 12, 2026",
+  "topLine": "2 model releases: MiniMax-M2.5 and OpenAI GPT-5.3-Codex-Spark.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases MiniMax-M2.5",
+          "summary": "MiniMax-M2.5 is a coding and agent model released in standard and faster Lightning versions, with weights on Hugging Face under a modified MIT license. MiniMax reports 80.2% on SWE-Bench Verified and 76.3% on BrowseComp.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-m25"
+            },
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5"
+            }
+          ],
+          "image": {
+            "url": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+            "alt": "MiniMax-M2.5 announcement figure"
+          }
+        },
+        {
+          "headline": "OpenAI releases GPT-5.3-Codex-Spark on Cerebras hardware",
+          "summary": "GPT-5.3-Codex-Spark is a smaller version of GPT-5.3-Codex built for real-time coding at over 1,000 tokens per second, and OpenAI's first model served on Cerebras rather than Nvidia hardware. It launched as a research preview for ChatGPT Pro users in Codex.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/"
+            },
+            {
+              "name": "Bloomberg",
+              "url": "https://bloomberg.com/news/articles/2026-02-12/openai-debuts-first-model-using-chips-from-nvidia-rival-cerebras"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

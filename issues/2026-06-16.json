@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-16",
+  "heading": "Tuesday, June 16, 2026",
+  "topLine": "2 model releases: Moonshot AI Kimi K2.7 Code and Zhipu AI GLM-5.2.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Moonshot AI releases Kimi K2.7 Code",
+          "summary": "Kimi K2.7 Code is an open-weight coding model, with a HighSpeed variant, aimed at long-horizon agentic coding, with native image and video input. Moonshot reports 62.0 on its Kimi Code Bench V2 versus 50.9 for K2.6 and about 30% fewer thinking tokens; weights are on Hugging Face.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Kimi Forum",
+              "url": "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441"
+            }
+          ],
+          "image": {
+            "url": "https://forum.tos-s3-ap-southeast-1.volces.com/uploads/original/1X/2ac80fc96c25619b54bd7232cc7a5e8a4941aa59.jpeg",
+            "alt": "Kimi K2.7 Code benchmark chart"
+          }
+        },
+        {
+          "headline": "Z.ai releases GLM-5.2 with 1M-token context",
+          "summary": "GLM-5.2 is an MIT-licensed flagship for long-horizon tasks with a 1M-token context window, multiple reasoning-effort levels and an IndexShare sparse-attention design. Z.ai reports 62.1 on SWE-bench Pro and 81.0 on Terminal Bench 2.1.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-5.2"
+            },
+            {
+              "name": "Z.ai docs release notes",
+              "url": "https://docs.z.ai/release-notes/new-released"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

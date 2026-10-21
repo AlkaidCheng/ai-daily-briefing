@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-28",
+  "heading": "Friday, March 28, 2025",
+  "topLine": "Alibaba releases QVQ-Max visual reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases QVQ-Max visual reasoning model",
+          "summary": "QVQ-Max is Qwen's visual reasoning model, following QVQ-72B-Preview, aimed at reasoning over images and video such as diagram-based math problems. It is available in Qwen Chat.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qvq-max-preview/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/QVQ-Max/test_time.png",
+            "alt": "QVQ-Max test-time scaling chart"
+          }
+        }
+      ]
+    }
+  ]
+}

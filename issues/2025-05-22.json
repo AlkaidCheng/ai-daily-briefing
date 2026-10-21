@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-22",
+  "heading": "Thursday, May 22, 2025",
+  "topLine": "Anthropic launches Claude Opus 4 and Claude Sonnet 4.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic launches Claude Opus 4 and Claude Sonnet 4",
+          "summary": "The Claude 4 generation pairs Opus 4 ($15/$75 per million tokens) with Sonnet 4 ($3/$15); both are hybrid models that can use tools during extended thinking. Anthropic reports SWE-bench Verified scores of 72.5% (Opus 4) and 72.7% (Sonnet 4), and made Claude Code generally available the same day.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-4"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/9890d1bb39c15c41772af22d2282eb612469051c-2880x1620.jpg",
+            "alt": "Illustration from the Claude 4 announcement"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2025-08-14",
+  "heading": "Thursday, August 14, 2025",
+  "topLine": "Meta releases DINOv3 self-supervised vision model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases DINOv3 self-supervised vision model",
+          "summary": "DINOv3 is a self-supervised vision backbone scaled to 7B parameters and trained on about 1.7B unlabeled images, with smaller distilled ViT and ConvNeXt variants. Meta reports state-of-the-art dense-prediction results with a frozen backbone and released training code and pretrained models under a commercial license.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/dinov3-self-supervised-vision-model/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-20",
+  "heading": "Wednesday, May 20, 2026",
+  "topLine": "Alibaba unveils Qwen3.7-Max agent model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba unveils Qwen3.7-Max agent model",
+          "summary": "Qwen3.7-Max is Alibaba's flagship model for agentic coding, complex reasoning and long-horizon tasks, announced with new chips and servers at its cloud summit. Alibaba says it can run autonomously for up to 35 hours and over 1,000 tool calls; API access was said to be coming soon.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Alibaba press release (EQS)",
+              "url": "https://live.deutsche-boerse.com/news/Alibaba-Announces-Comprehensive-Full-Stack-AI-Upgrade-for-the-Agentic-Era-e2c712ff-b4d2-4879-8e88-f939028d81bf"
+            },
+            {
+              "name": "TechNode",
+              "url": "https://technode.com/2026/05/21/alibaba-introduces-qwen3-7-max-as-next-gen-ai-agent-model/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

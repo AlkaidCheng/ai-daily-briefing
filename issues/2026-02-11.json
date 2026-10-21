@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-11",
+  "heading": "Wednesday, February 11, 2026",
+  "topLine": "Z.ai releases GLM-5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Z.ai releases GLM-5",
+          "summary": "GLM-5 is an MIT-licensed mixture-of-experts model with 744B total and 40B active parameters, pretrained on 28.5T tokens and using DeepSeek Sparse Attention with a 200K context window. Z.ai reports 77.8 on SWE-bench Verified and best-in-class results among open models on reasoning, coding and agent tasks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-5"
+            },
+            {
+              "name": "Hugging Face blog",
+              "url": "https://huggingface.co/blog/mlabonne/glm-5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

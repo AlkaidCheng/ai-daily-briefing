@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-27",
+  "heading": "Thursday, March 27, 2025",
+  "topLine": "Alibaba releases Qwen2.5-Omni-7B multimodal model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen2.5-Omni-7B multimodal model",
+          "summary": "Qwen2.5-Omni-7B is an open end-to-end multimodal model that takes text, images, audio and video and streams text and speech, using a Thinker-Talker architecture. It is available on Hugging Face, ModelScope, DashScope and Qwen Chat.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen2.5-Omni/qwen_omni.png",
+            "alt": "Qwen2.5-Omni overview"
+          }
+        }
+      ]
+    }
+  ]
+}

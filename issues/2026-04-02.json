@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-02",
+  "heading": "Thursday, April 2, 2026",
+  "topLine": "2 model releases: Google Gemma 4 and Alibaba Qwen3.6-Plus.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemma 4 open models under Apache 2.0",
+          "summary": "Gemma 4 is an open-weight family built from Gemini 3 research, released under the Apache 2.0 license. The lineup includes E2B and E4B edge models, a 26B mixture-of-experts model and a 31B dense model, with context windows of up to 256K tokens. Google reports the 31B model ranked #3 among open models on the Arena AI text leaderboard.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+            },
+            {
+              "name": "Hugging Face blog",
+              "url": "https://huggingface.co/blog/gemma4"
+            }
+          ]
+        },
+        {
+          "headline": "Alibaba releases Qwen3.6-Plus",
+          "summary": "Qwen3.6-Plus is a hosted model focused on agentic coding and multimodal tasks, available on Alibaba Cloud's Bailian/Model Studio platform. Alibaba claims it is comparable to Claude Opus 4.5 on SWE-bench and Terminal-Bench 2.0.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Caixin Global",
+              "url": "https://www.caixinglobal.com/2026-04-02/alibaba-releases-qwen-36-plus-ai-model-with-enhanced-coding-capabilities-102430395.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

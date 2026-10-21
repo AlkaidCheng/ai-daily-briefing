@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-01",
+  "heading": "Monday, June 1, 2026",
+  "topLine": "MiniMax releases MiniMax M3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases MiniMax M3",
+          "summary": "MiniMax M3 is a natively multimodal model for coding and agents with up to 1M-token context via a new MiniMax Sparse Attention design, and image, video and computer-use input. MiniMax reports 59.0% on SWE-Bench Pro and said the weights and technical report would follow within about ten days.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax blog",
+              "url": "https://www.minimax.io/blog/minimax-m3"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/20260619-222405-1781879125997.png",
+            "alt": "MiniMax M3 benchmark figure"
+          }
+        }
+      ]
+    }
+  ]
+}

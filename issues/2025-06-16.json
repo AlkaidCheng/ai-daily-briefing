@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-16",
+  "heading": "Monday, June 16, 2025",
+  "topLine": "MiniMax releases open-weight MiniMax-M1 reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases open-weight MiniMax-M1 reasoning model",
+          "summary": "MiniMax-M1 is an open-weight hybrid-attention reasoning model with 456B total and 45.9B active parameters and native 1M-token context, released in 40K and 80K thinking-budget versions. MiniMax reports it uses about 25% of DeepSeek R1's FLOPs at 100K-token generation length and was trained with a new RL algorithm, CISPO.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2506.13585"
+            },
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k-hf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

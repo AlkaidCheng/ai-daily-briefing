@@ -1,0 +1,34 @@
+{
+  "date": "2025-10-20",
+  "heading": "Monday, October 20, 2025",
+  "topLine": "DeepSeek releases DeepSeek-OCR.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-OCR",
+          "summary": "DeepSeek-OCR is an open-source (MIT) vision-language model for OCR and document conversion that studies compressing long text contexts into a small number of visual tokens. The README reports about 2,500 tokens/s PDF throughput on an A100-40G with vLLM.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: deepseek-ai/DeepSeek-OCR",
+              "url": "https://github.com/deepseek-ai/DeepSeek-OCR"
+            },
+            {
+              "name": "TechNode",
+              "url": "https://technode.com/2025/10/21/deepseek-releases-new-ocr-model-capable-of-generating-200000-pages-daily-on-a-single-gpu"
+            }
+          ],
+          "image": {
+            "url": "https://github.com/deepseek-ai/DeepSeek-OCR/raw/main/assets/fig1.png",
+            "alt": "DeepSeek-OCR overview figure"
+          }
+        }
+      ]
+    }
+  ]
+}

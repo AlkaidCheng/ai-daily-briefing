@@ -1,0 +1,26 @@
+{
+  "date": "2025-02-27",
+  "heading": "Thursday, February 27, 2025",
+  "topLine": "OpenAI releases GPT-4.5 research preview.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-4.5 research preview",
+          "summary": "GPT-4.5 was released as a research preview of OpenAI's largest chat model at the time, built by scaling unsupervised pre-training rather than step-by-step reasoning. OpenAI claimed broader knowledge and fewer hallucinations; it launched for ChatGPT Pro users and in the API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-4-5/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

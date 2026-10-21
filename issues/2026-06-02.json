@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-02",
+  "heading": "Tuesday, June 2, 2026",
+  "topLine": "Alibaba releases Qwen3.7-Plus.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3.7-Plus",
+          "summary": "Qwen3.7-Plus is a closed-weight, API-only model that accepts text, image and video input, positioned as a lower-cost multimodal sibling of Qwen3.7-Max.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Epoch AI",
+              "url": "https://epoch.ai/models/qwen3-7-plus"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

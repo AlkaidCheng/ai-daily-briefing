@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-29",
+  "heading": "Wednesday, October 29, 2025",
+  "topLine": "OpenAI releases open-weight gpt-oss-safeguard safety models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases open-weight gpt-oss-safeguard safety models",
+          "summary": "gpt-oss-safeguard-120b and -20b are open-weight safety-classification reasoning models fine-tuned from gpt-oss under Apache 2.0, released as a research preview. Developers supply their own policy at inference time; the models were built with ROOST, Discord and SafetyKit.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-oss-safeguard/"
+            },
+            {
+              "name": "Help Net Security",
+              "url": "https://www.helpnetsecurity.com/2025/10/29/openai-gpt-oss-safeguard-safety-models/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

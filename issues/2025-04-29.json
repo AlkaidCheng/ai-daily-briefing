@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-29",
+  "heading": "Tuesday, April 29, 2025",
+  "topLine": "Alibaba releases Qwen3 model family.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3 model family",
+          "summary": "Qwen3 is an Apache 2.0 open-weight family of two MoE models (235B-A22B, 30B-A3B) and six dense models (0.6B–32B) with switchable thinking and non-thinking modes, trained on about 36 trillion tokens covering 119 languages and dialects. Qwen claims the flagship is competitive with DeepSeek-R1, o1, o3-mini, Grok-3 and Gemini 2.5 Pro.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen3/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/qwen3-banner.png",
+            "alt": "Qwen3 banner"
+          }
+        }
+      ]
+    }
+  ]
+}

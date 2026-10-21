@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-13",
+  "heading": "Thursday, August 13, 2026",
+  "topLine": "2 model releases: Google Gemini 3.7 Flash and DeepSeek-V4-Pro (GA).",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 3.7 Flash",
+          "summary": "Gemini 3.7 Flash arrived three weeks after 3.6 Flash and targets coding and agents. Google reports 65.3% on DeepSWE v1.1, up from 49.0% for 3.6 Flash. Introductory pricing is $0.75/$3.75 per million tokens through the end of 2026.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+            }
+          ]
+        },
+        {
+          "headline": "DeepSeek makes DeepSeek-V4-Pro generally available",
+          "summary": "DeepSeek released the general-availability version of DeepSeek-V4-Pro with agent-focused upgrades and adjustable reasoning effort for V4-Pro and V4-Flash. The release also added OpenAI Responses API support and peak/off-peak API pricing.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news260813"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v4_260813_benchmark_table_en.png",
+            "alt": "DeepSeek-V4-Pro GA benchmark table"
+          }
+        }
+      ]
+    }
+  ]
+}

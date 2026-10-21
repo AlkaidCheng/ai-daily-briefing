@@ -1,0 +1,30 @@
+{
+  "date": "2025-12-02",
+  "heading": "Tuesday, December 2, 2025",
+  "topLine": "Mistral releases Mistral 3 family, including Mistral Large 3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral 3 family, including Mistral Large 3",
+          "summary": "Mistral Large 3 is a sparse mixture-of-experts model with 41B active and 675B total parameters and image understanding, released alongside dense Ministral 3 models at 3B, 8B and 14B, each with base, instruct and reasoning variants. All are open-weight under Apache 2.0; Mistral reports Large 3 ranked second among open non-reasoning models on LMArena's text leaderboard.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-3/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Mistral%203_Z2gN5Tx.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral 3 cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

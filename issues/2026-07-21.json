@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-21",
+  "heading": "Tuesday, July 21, 2026",
+  "topLine": "Google releases Gemini 3.6 Flash and 3.5 Flash-Lite.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 3.6 Flash and 3.5 Flash-Lite",
+          "summary": "Gemini 3.6 Flash upgrades 3.5 Flash, and Google says it uses about 17% fewer output tokens and reports 83.0% on OSWorld-Verified. It is priced at $1.50/$7.50 per million tokens. Gemini 3.5 Flash-Lite ($0.30/$2.50) is the fastest 3.5-class model; Google also announced a limited-access 3.5 Flash Cyber model.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+            },
+            {
+              "name": "Google DeepMind model card",
+              "url": "https://deepmind.google/models/model-cards/gemini-3-6-flash/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-07-16",
+  "heading": "Thursday, July 16, 2026",
+  "topLine": "2 model releases: MiniMax Music 3.0 and Moonshot AI Kimi K3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases Music 3.0",
+          "summary": "Music 3.0 generates complete songs of up to five minutes, including composition, arrangement, vocals and production, from a brief and optional lyrics. MiniMax published open weights for the roughly 11B-parameter system on August 13, 2026.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax API release notes",
+              "url": "https://platform.minimax.io/docs/release-notes/models"
+            },
+            {
+              "name": "MiniMax blog",
+              "url": "https://minimax.cn/blog/minimax-music-3-0-cn"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/minimax-music-3-banner-cn-20260818112500.png",
+            "alt": "MiniMax Music 3.0 banner"
+          }
+        },
+        {
+          "headline": "Moonshot AI releases Kimi K3",
+          "summary": "Kimi K3 is a 2.8-trillion-parameter mixture-of-experts model (16 of 896 experts active) with native vision and a 1M-token context window, built on Kimi Delta Attention. Moonshot claims frontier-level results while acknowledging it trails the top US models overall; it launched on Kimi.com, Kimi Code and the API, with full weights promised by July 27, 2026.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Kimi blog",
+              "url": "https://www.kimi.com/en/blog/kimi-k3"
+            },
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

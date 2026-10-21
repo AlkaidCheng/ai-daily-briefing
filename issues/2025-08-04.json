@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-04",
+  "heading": "Monday, August 4, 2025",
+  "topLine": "Alibaba releases Qwen-Image text-to-image model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen-Image text-to-image model",
+          "summary": "Qwen-Image is a 20B-parameter MMDiT image generation model focused on complex text rendering in English and Chinese and on image editing. Weights are on Hugging Face and ModelScope, and it is available in Qwen Chat.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen-image/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-Image/merge3.jpg",
+            "alt": "Qwen-Image sample images"
+          }
+        }
+      ]
+    }
+  ]
+}

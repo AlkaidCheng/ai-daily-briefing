@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-07",
+  "heading": "Tuesday, October 7, 2025",
+  "topLine": "Google releases Gemini 2.5 Computer Use model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 2.5 Computer Use model",
+          "summary": "Gemini 2.5 Computer Use is a specialized model built on Gemini 2.5 Pro for agents that operate web and mobile interfaces by clicking and typing. Google claims it leads several control benchmarks with lower latency. It is in public preview in the Gemini API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/google-deepmind/gemini-computer-use-model/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

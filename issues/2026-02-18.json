@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-18",
+  "heading": "Wednesday, February 18, 2026",
+  "topLine": "Google brings Lyria 3 music model to the Gemini app.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google brings Lyria 3 music model to the Gemini app",
+          "summary": "Lyria 3 is Google DeepMind's generative music model. In the Gemini app it creates 30-second tracks with auto-generated lyrics from a text prompt or photo. It rolled out in beta to users 18 and older, and all output carries a SynthID watermark.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

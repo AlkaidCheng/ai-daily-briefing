@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-26",
+  "heading": "Tuesday, August 26, 2025",
+  "topLine": "Google releases Gemini 2.5 Flash Image, known as Nano Banana.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 2.5 Flash Image, known as Nano Banana",
+          "summary": "Gemini 2.5 Flash Image is an image generation and editing model focused on keeping characters consistent, blending multiple images and making edits from natural-language prompts. Google cited the LMArena leaderboard to call it top-rated for image editing. It launched in the Gemini app and in preview in the Gemini API and Vertex AI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/products/gemini/updated-image-editing-model/"
+            },
+            {
+              "name": "Google Developers Blog",
+              "url": "https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

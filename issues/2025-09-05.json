@@ -1,0 +1,43 @@
+{
+  "date": "2025-09-05",
+  "heading": "Friday, September 5, 2025",
+  "topLine": "2 model releases: Alibaba Qwen3-Max-Preview and Moonshot AI Kimi-K2-Instruct-0905.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-Max-Preview, its first trillion-parameter model",
+          "summary": "Qwen3-Max-Preview (Instruct) is a closed-weight model with over one trillion parameters, offered through Qwen Chat and the Alibaba Cloud API. Alibaba says it beats its previous top model, Qwen3-235B-A22B-2507, in internal benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "url": "https://scmp.com/tech/big-tech/article/3324684/alibaba-releases-biggest-ai-model-date-rival-openai-and-google-deepmind"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/alibaba-unveils-qwen3-max-preview-its-largest-language-model-yet/"
+            }
+          ]
+        },
+        {
+          "headline": "Moonshot AI updates Kimi K2 with 256K context",
+          "summary": "Kimi-K2-Instruct-0905 is an updated K2 checkpoint that extends the context window from 128K to 256K tokens and improves agentic and front-end coding. Moonshot reports SWE-bench Verified rising to 69.2 from 65.8; weights are released under a modified MIT license.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2025-08-05",
+  "heading": "Tuesday, August 5, 2025",
+  "topLine": "3 model releases: Anthropic Claude Opus 4.1, Google Genie 3 and OpenAI gpt-oss-120b and gpt-oss-20b.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 4.1",
+          "summary": "Claude Opus 4.1 is an upgrade to Opus 4 aimed at agentic tasks, real-world coding and reasoning, with Anthropic reporting 74.5% on SWE-bench Verified. It is priced the same as Opus 4 and available in paid Claude plans, Claude Code, the API, Amazon Bedrock and Vertex AI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-opus-4-1"
+            }
+          ]
+        },
+        {
+          "headline": "Google DeepMind announces Genie 3 world model",
+          "summary": "Genie 3 is a general-purpose world model that generates interactive environments from text prompts. Users can navigate them in real time at 24 frames per second and 720p, and the worlds stay consistent for a few minutes. It launched as a limited research preview.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI releases open-weight gpt-oss models",
+          "summary": "gpt-oss-120b and gpt-oss-20b are open-weight mixture-of-experts reasoning models under the Apache 2.0 license, OpenAI's first open-weight language models since GPT-2. OpenAI says the 120b model approaches o4-mini on core reasoning benchmarks and runs on a single 80 GB GPU; the 20b model fits in 16 GB of memory.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-oss/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://www.techcrunch.com/2025/08/05/openai-launches-two-open-ai-reasoning-models"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

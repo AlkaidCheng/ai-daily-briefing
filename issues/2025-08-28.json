@@ -1,0 +1,43 @@
+{
+  "date": "2025-08-28",
+  "heading": "Thursday, August 28, 2025",
+  "topLine": "2 model releases: xAI Grok Code Fast 1 and OpenAI gpt-realtime.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI releases Grok Code Fast 1 for agentic coding",
+          "summary": "Grok Code Fast 1 is a fast, low-cost reasoning model for agentic coding, priced at $0.20/$1.50 per million input/output tokens and offered free for a limited time through partners including GitHub Copilot and Cursor. xAI reports 70.8% on SWE-Bench Verified using its internal harness.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-code-fast-1"
+            },
+            {
+              "name": "xAI model card (PDF)",
+              "url": "https://data.x.ai/2025-08-26-grok-code-fast-1-model-card.pdf"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI releases gpt-realtime speech-to-speech model",
+          "summary": "gpt-realtime is a speech-to-speech model released as the Realtime API became generally available, with OpenAI claiming better instruction following, tool calling and natural speech, plus two new voices. The API added remote MCP server support, image input and SIP phone calling.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-realtime/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

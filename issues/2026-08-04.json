@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-04",
+  "heading": "Tuesday, August 4, 2026",
+  "topLine": "Mistral releases Shieldstral open safety classifier.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Shieldstral open safety classifier",
+          "summary": "Shieldstral is a 3B-parameter open-weight multimodal safety classifier that scores text and image content against policies written in plain language at inference time, released under Apache 2.0. Mistral says it matches or beats open guard models up to seven times its size.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/shieldstral/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model_Cover-Shieldstral@2x_2pnxcN.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Shieldstral cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

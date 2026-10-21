@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-05",
+  "heading": "Thursday, June 5, 2025",
+  "topLine": "Alibaba releases Qwen3 Embedding and Reranker models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3 Embedding and Reranker models",
+          "summary": "Qwen3-Embedding and Qwen3-Reranker (0.6B, 4B, 8B) are Apache 2.0 open-weight text embedding and reranking models. Qwen reports the 8B embedding model ranked first on the MTEB multilingual leaderboard with a score of 70.58 as of release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen3-embedding/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

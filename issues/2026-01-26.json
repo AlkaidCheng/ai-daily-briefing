@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-26",
+  "heading": "Monday, January 26, 2026",
+  "topLine": "Alibaba releases Qwen3-Max-Thinking reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-Max-Thinking reasoning model",
+          "summary": "Qwen3-Max-Thinking is Alibaba's flagship reasoning model with adaptive tool use (search, memory, code) and test-time scaling, available in Qwen Chat and the Alibaba Cloud API. Alibaba claims performance comparable to GPT-5.2-Thinking and Gemini 3 Pro across 19 benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Jiemian",
+              "url": "https://en.jiemian.com/article/13938310.html"
+            },
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260127-qwen3-max-thinking/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2025-07-09",
+  "heading": "Wednesday, July 9, 2025",
+  "topLine": "xAI releases Grok 4 and Grok 4 Heavy.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI releases Grok 4 and Grok 4 Heavy",
+          "summary": "Grok 4 is xAI's flagship reasoning model with native tool use and real-time search, offered with a 256k-token context in the API; Grok 4 Heavy uses parallel test-time compute and is sold through a new SuperGrok Heavy tier. xAI reports Grok 4 Heavy as the first model to reach 50% on Humanity's Last Exam (text-only subset) and Grok 4 at 15.9% on ARC-AGI-2.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

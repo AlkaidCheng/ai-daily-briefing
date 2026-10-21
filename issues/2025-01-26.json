@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-26",
+  "heading": "Sunday, January 26, 2025",
+  "topLine": "Alibaba releases Qwen2.5-VL vision-language models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen2.5-VL vision-language models",
+          "summary": "Qwen2.5-VL is an open-weight vision-language family (3B, 7B, 72B) with object grounding, document parsing, hour-long video understanding and computer/phone agent abilities. Qwen reports the 72B model is competitive with leading models, especially on document and diagram understanding.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen2.5-vl/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen2.5-vl-Capybara.png",
+            "alt": "Qwen2.5-VL banner"
+          }
+        }
+      ]
+    }
+  ]
+}
