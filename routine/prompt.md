@@ -47,7 +47,7 @@ Omit `image` when the item has no figure. Use the section names from step 2. Sou
 
 ## 6. Update the Google Doc
 - Doc: "AI Daily Briefing", document ID `1pUOWiFfoEoiFqmmvqEb5RGOhCUbZskV2UQajN8UEfms` (https://docs.google.com/document/d/1pUOWiFfoEoiFqmmvqEb5RGOhCUbZskV2UQajN8UEfms/edit). Use the Google Docs connector's `read_doc` and `update_doc` tools.
-- Call `read_doc`. Find the header paragraph whose text starts "A daily digest of AI news" and take its `endIndex` as InsertIndex (normally 109).
+- Call `read_doc`. The whole doc is returned, so the result is usually too large to show and is saved to a file instead; parse that file with `python3` to list each paragraph's `startIndex`, `endIndex`, `namedStyleType` and text. Find the header paragraph whose text starts "A daily digest of AI news" and take its `endIndex` as InsertIndex (normally 109).
 - Re-run guard: if the paragraph starting at InsertIndex is a HEADING_2 whose text equals today's heading, this issue was already posted today. Delete it first with one `update_doc` call containing a single `deleteContentRange` from InsertIndex to the `startIndex` of the next HEADING_2 paragraph (or, if there is none, to the `startIndex` of the document's last paragraph), then `read_doc` again.
 - Build the formatted requests with the helper script (it computes all indexes, headings, bullets, bold and links):
   `python3 scripts/build_doc_requests.py --issue issues/YYYY-MM-DD.json --insert-index <InsertIndex> --out /tmp/requests.json --images-out /tmp/images.json`
