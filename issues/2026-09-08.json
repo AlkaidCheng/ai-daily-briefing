@@ -27,7 +27,11 @@
               "name": "X: @OpenAI",
               "url": "https://x.com/OpenAI/status/2097374640582668336"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg",
+            "alt": "Flow lines of the blow-up solution, spiralling inward with axial stretching (from OpenAI's announcement)"
+          }
         }
       ]
     },

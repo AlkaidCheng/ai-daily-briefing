@@ -27,7 +27,11 @@
               "name": "X: @weijie444",
               "url": "https://x.com/weijie444/status/2095600108956262911"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://pbs.twimg.com/media/HRUQ98AaoAAOx6_.png",
+            "alt": "Abstract of OpenAI's paper 'Improved short gaps between primes', proving lim inf (pₙ₊₁ − pₙ) ≤ 186"
+          }
         }
       ]
     },

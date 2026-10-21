@@ -19,7 +19,11 @@
               "name": "X: @lmthang",
               "url": "https://x.com/lmthang/status/2018354184517808288"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://pbs.twimg.com/media/HAKib1zawAAatu4.png",
+            "alt": "Title page and abstract of the Gemini case study on 700 open Erdős problems"
+          }
         }
       ]
     }
