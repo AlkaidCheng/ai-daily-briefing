@@ -1,0 +1,393 @@
+"use strict";
+
+const REPO = "AlkaidCheng/ai-daily-briefing";
+const SECTIONS = [
+  "Company announcements",
+  "AI solves open problems",
+  "Models & open-source",
+  "Research papers",
+  "Policy & industry",
+];
+const PAGE_SIZE = 7;
+
+const ICONS = {
+  share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+  edit: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="m13 7 4 4"/></svg>',
+  sun: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+  moon: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"/></svg>',
+};
+
+const state = {
+  issues: [],
+  query: "",
+  sections: new Set(),
+  from: "",
+  to: "",
+  figuresOnly: false,
+  shown: PAGE_SIZE,
+};
+
+const $ = (id) => document.getElementById(id);
+
+// ---- Safe output -----------------------------------------------------------
+
+function escapeHtml(text) {
+  return String(text ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  })[c]);
+}
+
+function safeUrl(url, { httpsOnly = false } = {}) {
+  try {
+    const parsed = new URL(url);
+    const allowed = httpsOnly ? ["https:"] : ["https:", "http:"];
+    return allowed.includes(parsed.protocol) ? parsed.href : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function highlight(text, terms) {
+  let html = escapeHtml(text);
+  if (!terms.length) return html;
+  const pattern = new RegExp(`(${terms.map((t) => escapeHtml(t).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
+  // Only replace in text, never inside an entity such as &amp;.
+  return html.replace(/(&[a-z#0-9]+;)|([^&]+)/gi, (m, entity, plain) => entity || plain.replace(pattern, "<mark>$1</mark>"));
+}
+
+// ---- Data ------------------------------------------------------------------
+
+function itemId(date, ordinal) {
+  return `${date}-${ordinal}`;
+}
+
+function prepare(issues) {
+  for (const issue of issues) {
+    let ordinal = 0;
+    for (const section of issue.sections || []) {
+      for (const item of section.items || []) {
+        ordinal += 1;
+        item.id = itemId(issue.date, ordinal);
+        item.section = section.name;
+        item.haystack = [item.headline, item.summary, ...(item.sources || []).map((s) => s.name)]
+          .join(" ")
+          .toLowerCase();
+      }
+    }
+  }
+  return issues;
+}
+
+function searchTerms() {
+  return state.query.toLowerCase().split(/\s+/).filter(Boolean);
+}
+
+function isFiltering() {
+  return Boolean(state.query || state.sections.size || state.from || state.to || state.figuresOnly);
+}
+
+function itemMatches(item, terms) {
+  if (state.sections.size && !state.sections.has(item.section)) return false;
+  if (state.figuresOnly && !safeUrl(item.image?.url, { httpsOnly: true })) return false;
+  return terms.every((term) => item.haystack.includes(term));
+}
+
+function filteredIssues() {
+  const terms = searchTerms();
+  const result = [];
+  for (const issue of state.issues) {
+    if (state.from && issue.date < state.from) continue;
+    if (state.to && issue.date > state.to) continue;
+    const sections = (issue.sections || [])
+      .map((section) => ({ ...section, items: (section.items || []).filter((item) => itemMatches(item, terms)) }))
+      .filter((section) => section.items.length);
+    if (sections.length) result.push({ ...issue, sections });
+  }
+  return result;
+}
+
+// ---- URL state -------------------------------------------------------------
+
+function readUrlState() {
+  const params = new URLSearchParams(location.search);
+  state.query = params.get("q") || "";
+  state.sections = new Set((params.get("s") || "").split("|").filter((s) => SECTIONS.includes(s)));
+  state.from = params.get("from") || "";
+  state.to = params.get("to") || "";
+  state.figuresOnly = params.get("fig") === "1";
+}
+
+function writeUrlState() {
+  const params = new URLSearchParams();
+  if (state.query) params.set("q", state.query);
+  if (state.sections.size) params.set("s", [...state.sections].join("|"));
+  if (state.from) params.set("from", state.from);
+  if (state.to) params.set("to", state.to);
+  if (state.figuresOnly) params.set("fig", "1");
+  const query = params.toString();
+  history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
+}
+
+function baseUrl() {
+  return `${location.origin}${location.pathname}`;
+}
+
+// ---- Rendering -------------------------------------------------------------
+
+function editUrl(issue) {
+  return `https://github.com/${REPO}/edit/main/${issue.path}`;
+}
+
+function renderSources(sources) {
+  return (sources || [])
+    .map((source) => {
+      const url = safeUrl(source.url);
+      if (!url) return "";
+      const name = String(source.name || new URL(url).hostname);
+      const label = name.startsWith("X: ")
+        ? `<span class="x-mark">𝕏</span>${escapeHtml(name.slice(3))}`
+        : escapeHtml(name);
+      return `<a class="source" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+    })
+    .join("");
+}
+
+function renderFigure(image) {
+  const url = safeUrl(image?.url, { httpsOnly: true });
+  if (!url) return "";
+  const alt = escapeHtml(image.alt || "");
+  return `<figure class="figure"><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer"><img src="${escapeHtml(url)}" alt="${alt}" loading="lazy" referrerpolicy="no-referrer"></a>${alt ? `<figcaption>${alt}</figcaption>` : ""}</figure>`;
+}
+
+function renderItem(item, issue, terms) {
+  return `
+    <li class="item" id="${item.id}">
+      <p class="item-headline">${highlight(item.headline, terms)}</p>
+      <p class="item-summary">${highlight(item.summary, terms)}</p>
+      ${renderFigure(item.image)}
+      <div class="item-foot">
+        <div class="sources">${renderSources(item.sources)}</div>
+        <div class="actions">
+          <button class="action" type="button" data-share="${item.id}" data-title="${escapeHtml(item.headline)}">${ICONS.share}Share</button>
+          <a class="action" href="${editUrl(issue)}" target="_blank" rel="noopener">${ICONS.edit}Edit</a>
+        </div>
+      </div>
+    </li>`;
+}
+
+function renderIssue(issue, terms) {
+  const sections = issue.sections
+    .map((section) => `
+      <section class="section">
+        <h3>${escapeHtml(section.name)}</h3>
+        <ul class="items">${section.items.map((item) => renderItem(item, issue, terms)).join("")}</ul>
+      </section>`)
+    .join("");
+  return `
+    <article class="issue" id="${issue.date}">
+      <div class="issue-head">
+        <h2><a href="#${issue.date}">${escapeHtml(issue.heading || issue.date)}</a></h2>
+        <div class="actions">
+          <button class="action" type="button" data-share="${issue.date}" data-title="AI Daily Briefing — ${escapeHtml(issue.heading || issue.date)}">${ICONS.share}Share</button>
+          <a class="action" href="${editUrl(issue)}" target="_blank" rel="noopener">${ICONS.edit}Edit</a>
+        </div>
+      </div>
+      ${issue.topLine ? `<p class="top-line">${highlight(issue.topLine, terms)}</p>` : ""}
+      ${sections}
+    </article>`;
+}
+
+function render() {
+  const issues = filteredIssues();
+  const terms = searchTerms();
+  const visible = issues.slice(0, state.shown);
+  const feed = $("feed");
+
+  feed.innerHTML = visible.length
+    ? visible.map((issue) => renderIssue(issue, terms)).join("")
+    : `<p class="empty">${state.issues.length ? "No stories match these filters." : "No briefings yet."}</p>`;
+  feed.setAttribute("aria-busy", "false");
+
+  $("load-more").hidden = issues.length <= state.shown;
+  $("clear-filters").hidden = !isFiltering();
+
+  const stories = issues.reduce((n, issue) => n + issue.sections.reduce((m, s) => m + s.items.length, 0), 0);
+  $("result-count").textContent = isFiltering()
+    ? `${stories} ${stories === 1 ? "story" : "stories"} in ${issues.length} ${issues.length === 1 ? "briefing" : "briefings"}`
+    : `${state.issues.length} ${state.issues.length === 1 ? "briefing" : "briefings"}`;
+
+  for (const chip of document.querySelectorAll(".chip")) {
+    chip.setAttribute("aria-pressed", String(state.sections.has(chip.dataset.section)));
+  }
+}
+
+function syncControls() {
+  $("search").value = state.query;
+  $("date-from").value = state.from;
+  $("date-to").value = state.to;
+  $("figures-only").checked = state.figuresOnly;
+}
+
+function update() {
+  state.shown = PAGE_SIZE;
+  writeUrlState();
+  render();
+}
+
+// ---- Permalinks and sharing --------------------------------------------------
+
+function revealHash() {
+  const target = decodeURIComponent(location.hash.slice(1));
+  if (!target) return;
+  const date = target.slice(0, 10);
+  const index = state.issues.findIndex((issue) => issue.date === date);
+  if (index === -1) return;
+  if (isFiltering()) {
+    state.query = "";
+    state.sections.clear();
+    state.from = state.to = "";
+    state.figuresOnly = false;
+    syncControls();
+    writeUrlState();
+  }
+  state.shown = Math.max(state.shown, index + 1);
+  render();
+  const element = document.getElementById(target);
+  if (!element) return;
+  element.scrollIntoView({ block: "start" });
+  if (element.classList.contains("item")) {
+    element.classList.remove("flash");
+    void element.offsetWidth;
+    element.classList.add("flash");
+  }
+}
+
+let toastTimer;
+function toast(message) {
+  const element = $("toast");
+  element.textContent = message;
+  element.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => element.classList.remove("show"), 1800);
+}
+
+async function share(anchor, title) {
+  const url = `${baseUrl()}#${anchor}`;
+  if (navigator.share && matchMedia("(hover: none)").matches) {
+    try {
+      await navigator.share({ title, url });
+      return;
+    } catch (error) {
+      if (error.name === "AbortError") return;
+    }
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    toast("Link copied");
+  } catch (_) {
+    prompt("Copy this link", url);
+  }
+}
+
+// ---- Theme -----------------------------------------------------------------
+
+function currentTheme() {
+  const explicit = document.documentElement.dataset.theme;
+  if (explicit) return explicit;
+  return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function paintThemeButton() {
+  $("theme-toggle").innerHTML = currentTheme() === "dark" ? ICONS.sun : ICONS.moon;
+}
+
+function toggleTheme() {
+  const next = currentTheme() === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try {
+    localStorage.setItem("theme", next);
+  } catch (_) {}
+  paintThemeButton();
+}
+
+// ---- Wiring ----------------------------------------------------------------
+
+function buildChips() {
+  $("section-chips").innerHTML = SECTIONS.map(
+    (name) => `<button class="chip" type="button" data-section="${escapeHtml(name)}" aria-pressed="false">${escapeHtml(name)}</button>`,
+  ).join("");
+}
+
+function wire() {
+  let searchTimer;
+  $("search").addEventListener("input", (event) => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      state.query = event.target.value.trim();
+      update();
+    }, 120);
+  });
+  $("section-chips").addEventListener("click", (event) => {
+    const chip = event.target.closest(".chip");
+    if (!chip) return;
+    const name = chip.dataset.section;
+    state.sections.has(name) ? state.sections.delete(name) : state.sections.add(name);
+    update();
+  });
+  $("date-from").addEventListener("change", (event) => { state.from = event.target.value; update(); });
+  $("date-to").addEventListener("change", (event) => { state.to = event.target.value; update(); });
+  $("figures-only").addEventListener("change", (event) => { state.figuresOnly = event.target.checked; update(); });
+  $("clear-filters").addEventListener("click", () => {
+    state.query = "";
+    state.sections.clear();
+    state.from = state.to = "";
+    state.figuresOnly = false;
+    syncControls();
+    update();
+  });
+  $("load-more").addEventListener("click", () => {
+    state.shown += PAGE_SIZE;
+    render();
+  });
+  $("feed").addEventListener("click", (event) => {
+    const button = event.target.closest("[data-share]");
+    if (button) share(button.dataset.share, button.dataset.title);
+  });
+  // Hide figures whose source no longer serves them.
+  $("feed").addEventListener("error", (event) => {
+    if (event.target.tagName === "IMG") event.target.closest(".figure")?.remove();
+  }, true);
+  $("theme-toggle").addEventListener("click", toggleTheme);
+  document.addEventListener("keydown", (event) => {
+    const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName);
+    if (event.key === "/" && !typing) {
+      event.preventDefault();
+      $("search").focus();
+    } else if (event.key === "Escape" && document.activeElement === $("search")) {
+      $("search").blur();
+    }
+  });
+  window.addEventListener("hashchange", revealHash);
+}
+
+async function main() {
+  buildChips();
+  paintThemeButton();
+  readUrlState();
+  syncControls();
+  wire();
+  try {
+    const response = await fetch("data/issues.json", { cache: "no-cache" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state.issues = prepare(await response.json());
+  } catch (error) {
+    $("feed").innerHTML = `<p class="empty">Couldn't load the briefings (${escapeHtml(error.message)}).</p>`;
+    return;
+  }
+  const latest = state.issues[0];
+  if (latest) $("tagline").textContent = `A daily digest of AI news · latest: ${latest.heading || latest.date}`;
+  render();
+  revealHash();
+}
+
+main();
