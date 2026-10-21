@@ -137,6 +137,17 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 }
 .chip:hover { border-color: var(--faint); color: var(--text); }
 .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.chip-tag { font-weight: 600; }
+
+.tags { margin: 0 0 0.3rem; display: flex; gap: 0.35rem; }
+.tag {
+  padding: 0.05rem 0.5rem; border-radius: 999px; background: var(--accent-soft); color: var(--accent);
+  font: 600 0.7rem/1.6 var(--sans); letter-spacing: 0.04em; text-transform: uppercase;
+}
+.archive-label {
+  margin-left: 0.4rem; padding: 0.1rem 0.5rem; border: 1px solid var(--border); border-radius: 999px; vertical-align: middle;
+  color: var(--faint); font: 600 0.7rem/1.4 var(--sans); letter-spacing: 0.04em; text-transform: uppercase;
+}
 
 .filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1rem; font-size: 0.85rem; color: var(--muted); }
 .date-field { display: inline-flex; align-items: center; gap: 0.35rem; }
