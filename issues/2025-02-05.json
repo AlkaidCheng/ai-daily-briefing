@@ -1,9 +1,24 @@
 {
   "date": "2025-02-05",
   "heading": "Wednesday, February 5, 2025",
-  "topLine": "Google expands Gemini 2.0 with Pro Experimental and Flash-Lite.",
+  "topLine": "AlphaGeometry2 reported to surpass average gold medallist on olympiad geometry. Also: Google expands Gemini 2.0 with Pro Experimental and Flash-Lite.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AlphaGeometry2 reported to surpass average gold medallist on olympiad geometry",
+          "summary": "Google DeepMind researchers reported that AlphaGeometry2 solves 84% of IMO geometry problems from the last 25 years, up from 54% for the original AlphaGeometry, and said it surpasses an average gold medallist. These are the authors' own figures on historical problems.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2502.03544"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

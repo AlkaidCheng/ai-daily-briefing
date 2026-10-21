@@ -1,0 +1,27 @@
+{
+  "date": "2025-09-04",
+  "heading": "Thursday, September 4, 2025",
+  "topLine": "AI controller cuts noise in LIGO's hardest mirror-control loop by 30 to 100 times.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AI controller cuts noise in LIGO's hardest mirror-control loop by 30 to 100 times",
+          "summary": "Google DeepMind, LIGO/Caltech and the Gran Sasso Science Institute used Deep Loop Shaping, reinforcement learning with frequency-domain rewards, to design a controller for LIGO's most unstable feedback loop, reducing control noise 30 to 100 times in the 10-30 Hz band on the Livingston detector. Published in Science and validated on the real instrument; Caltech describes it as a proof of concept that, extended to all loops, could add many detections per year.",
+          "sources": [
+            {
+              "name": "Science paper",
+              "url": "https://www.science.org/doi/10.1126/science.adw1291"
+            },
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/discover/blog/using-ai-to-perceive-the-universe-in-greater-depth/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

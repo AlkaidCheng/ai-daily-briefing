@@ -1,9 +1,38 @@
 {
   "date": "2026-08-12",
   "heading": "Wednesday, August 12, 2026",
-  "topLine": "2 model releases: Alibaba Qwen3.8-2.4T-A95B and xAI Grok 4.6.",
+  "topLine": "2 stories on AI and open problems: Hadamard matrices of order 668 and OEIS conjectures benchmark. Also: 2 model releases: Alibaba Qwen3.8-2.4T-A95B and xAI Grok 4.6.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude-assisted team finds Hadamard matrices for all twelve open orders below 2000",
+          "summary": "Levent Alpöge announced Hadamard matrices of order 668 (the smallest order with no known example) and of the eleven other open orders below 2000. Epoch AI credits the work to a team of three humans working with an internal Claude model. The matrices can be checked directly by computer. Epoch's FrontierMath open-problems page lists the problem as solved (human + AI), but there is no technical paper yet. The Hadamard conjecture itself remains open.",
+          "sources": [
+            {
+              "name": "Epoch AI FrontierMath open problem",
+              "url": "https://epoch.ai/frontiermath/open-problems/hadamard"
+            },
+            {
+              "name": "John D. Cook's blog",
+              "url": "https://www.johndcook.com/blog/2026/08/13/constructing-hadamard-matrices/"
+            }
+          ]
+        },
+        {
+          "headline": "Language models settle 147 of 492 open OEIS conjectures in Epoch AI test",
+          "summary": "Tom Adamczewski (Epoch AI) ran general-purpose language models against 492 open OEIS conjectures that a DeepMind team had formalized in Lean. With a $50 budget per attempt, the models produced Lean-checked proofs or disproofs of 147 of them (30%). The results are machine-checked, but most of the conjectures are minor. The paper is an arXiv preprint.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2608.11941"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

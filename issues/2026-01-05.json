@@ -1,0 +1,23 @@
+{
+  "date": "2026-01-05",
+  "heading": "Monday, January 5, 2026",
+  "topLine": "Physicist and AI bootstrap an exact solution to the 1D frustrated Potts model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Physicist and AI bootstrap an exact solution to the 1D frustrated Potts model",
+          "summary": "Brookhaven theorist Weiguo Yin used OpenAI's o3-mini-high to help solve the one-dimensional frustrated Potts model with next-nearest-neighbour interactions for any number of spin orientations, a decades-old statistical-mechanics problem. Published in Physical Review B: the model exploited symmetry to crack the three-orientation case in about a day while also making frequent errors; Yin blocked the wrong steps and wrote the rigorous general proof himself.",
+          "sources": [
+            {
+              "name": "Brookhaven National Laboratory",
+              "url": "https://www.bnl.gov/newsroom/news.php?a=122742"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

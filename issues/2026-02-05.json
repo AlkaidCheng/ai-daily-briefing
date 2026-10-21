@@ -1,9 +1,32 @@
 {
   "date": "2026-02-05",
   "heading": "Thursday, February 5, 2026",
-  "topLine": "2 model releases: Anthropic Claude Opus 4.6 and OpenAI GPT-5.3-Codex.",
+  "topLine": "Eleven mathematicians launch 'First Proof' test of AI on unpublished research problems. Also: 2 model releases: Anthropic Claude Opus 4.6 and OpenAI GPT-5.3-Codex.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Eleven mathematicians launch 'First Proof' test of AI on unpublished research problems",
+          "summary": "Mohammed Abouzaid, Lauren Williams, Martin Hairer and eight other mathematicians posted ten unpublished research-level questions from their own work, with encrypted answers, to test AI systems more objectively than company announcements. Hairer told the Harvard Gazette the idea of AI replacing mathematicians was \"complete nonsense\" in his view.",
+          "sources": [
+            {
+              "name": "arXiv: First Proof",
+              "url": "https://arxiv.org/abs/2602.05192"
+            },
+            {
+              "name": "Harvard Gazette",
+              "url": "https://news.harvard.edu/gazette/story/2026/02/when-you-do-the-math-humans-still-rule"
+            }
+          ],
+          "image": {
+            "url": "https://news.harvard.edu/wp-content/uploads/2026/02/100225_Lauren_Williams_04.jpg?w=1488",
+            "alt": "Harvard mathematician Lauren Williams, a First Proof organizer"
+          }
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

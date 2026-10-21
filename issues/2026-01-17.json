@@ -1,0 +1,27 @@
+{
+  "date": "2026-01-17",
+  "heading": "Saturday, January 17, 2026",
+  "topLine": "GPT-5.2 Pro proof of Erdős problem #281, later shown to follow from older results.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5.2 Pro proof of Erdős problem #281, later shown to follow from older results",
+          "summary": "Neel Somani posted a ChatGPT (GPT-5.2 Pro) proof answering Erdős problem #281 on covering congruences, and Terence Tao called it \"perhaps the most unambiguous instance\" of AI solving an open problem. The next day, commenters pointed out a short alternative proof combining the Davenport–Erdős theorem (1936) and a result of Rogers (1966). Tao's wiki records that the AI proof differs from that literature route.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/gpt-5-2-pro-solves-another-erdos-problem-while-a-new-database-reveals-most-attempts-still-fail/"
+            },
+            {
+              "name": "erdosproblems.com #281",
+              "url": "https://www.erdosproblems.com/281"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,28 @@
 {
   "date": "2025-07-28",
   "heading": "Monday, July 28, 2025",
-  "topLine": "Z.ai releases open-weight GLM-4.5 and GLM-4.5-Air.",
+  "topLine": "Harmonic's Aristotle produces Lean-verified solutions to five IMO 2025 problems. Also: Z.ai releases open-weight GLM-4.5 and GLM-4.5-Air.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Harmonic's Aristotle produces Lean-verified solutions to five IMO 2025 problems",
+          "summary": "Harmonic said its Aristotle system reached gold-medal-level performance on IMO 2025 problems, with formal Lean 4 proofs for five of the six problems, published on GitHub. Its paper says humans translated the problem statements into Lean by hand. The proofs are machine-checked, but the result was not officially graded by the IMO.",
+          "sources": [
+            {
+              "name": "Harmonic announcement",
+              "url": "https://harmonic.fun/news/imo-ios"
+            },
+            {
+              "name": "Aristotle paper (arXiv)",
+              "url": "https://arxiv.org/abs/2510.01346"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

@@ -1,9 +1,24 @@
 {
   "date": "2026-04-23",
   "heading": "Thursday, April 23, 2026",
-  "topLine": "OpenAI releases GPT-5.5.",
+  "topLine": "Reinforcement-learning design model yields an antibiotic effective in infected mouse wounds. Also: OpenAI releases GPT-5.5.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Reinforcement-learning design model yields an antibiotic effective in infected mouse wounds",
+          "summary": "McMaster's Stokes lab with Stanford collaborators built SyntheMol-RL, which searches a space of up to 46 billion easily synthesisable molecules, and proposed 79 antibacterials from which they selected synthecin, a water-soluble compound against Staphylococcus aureus. Published in Molecular Systems Biology: formulated as a topical cream, it controlled a drug-resistant wound infection in mouse models, though its mechanism of action is still unknown.",
+          "sources": [
+            {
+              "name": "News-Medical report on the paper",
+              "url": "https://www.news-medical.net/news/20260423/AI-model-rapidly-designs-new-antibiotic-to-fight-resistant-bacteria.aspx"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

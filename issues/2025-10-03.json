@@ -1,0 +1,23 @@
+{
+  "date": "2025-10-03",
+  "heading": "Friday, October 3, 2025",
+  "topLine": "Diffusion model pinpoints a new antibiotic's target, cutting a two-year study to six months.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Diffusion model pinpoints a new antibiotic's target, cutting a two-year study to six months",
+          "summary": "McMaster and MIT researchers used the generative docking model DiffDock to predict in minutes that the narrow-spectrum antibiotic enterololin binds the LolCDE lipoprotein-transport complex; resistant-mutant sequencing, RNA-seq and CRISPR knockdowns confirmed the prediction, and the drug spared the wider microbiome in mouse models of Crohn's-like inflammation. Published in Nature; the team says mechanism-of-action work that normally takes 18 months to two years took about six months.",
+          "sources": [
+            {
+              "name": "MIT News",
+              "url": "https://news.mit.edu/2025/ai-maps-how-new-antibiotic-targets-gut-bacteria-1003"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

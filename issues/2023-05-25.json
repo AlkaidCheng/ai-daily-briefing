@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-25",
+  "heading": "Thursday, May 25, 2023",
+  "topLine": "Deep learning screen finds narrow-spectrum antibiotic against Acinetobacter baumannii.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Deep learning screen finds narrow-spectrum antibiotic against Acinetobacter baumannii",
+          "summary": "McMaster and MIT researchers (Jonathan Stokes, James Collins) trained a neural network on a growth-inhibition screen of about 7,500 molecules and used it to pick abaucin, a compound active only against the WHO priority pathogen Acinetobacter baumannii via lipoprotein trafficking. Published in Nature Chemical Biology; abaucin controlled infection in a mouse wound model, so it is experimentally validated but preclinical.",
+          "sources": [
+            {
+              "name": "McMaster University news",
+              "url": "https://news.mcmaster.ca/artificial-intelligence-new-antibiotic-drug-resistant-pathogen-acinetobacter-baumannii/"
+            },
+            {
+              "name": "MIT Jameel Clinic project page",
+              "url": "https://jclinic.mit.edu/research-project/deep-learning-guided-discovery-of-an-antibiotic-targeting-acinetobacter-baumannii/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

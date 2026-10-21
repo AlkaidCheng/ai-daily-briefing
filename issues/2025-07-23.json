@@ -1,0 +1,27 @@
+{
+  "date": "2025-07-23",
+  "heading": "Wednesday, July 23, 2025",
+  "topLine": "ByteDance Seed-Prover scores 30/42 at IMO 2025 with Lean proofs.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "ByteDance Seed-Prover scores 30/42 at IMO 2025 with Lean proofs",
+          "summary": "ByteDance Seed's Seed-Prover and Seed-Geometry wrote formal Lean proofs for IMO 2025 and received 30 points (2/7/7/7/7/0), which is silver-medal level. ByteDance says it confirmed the score with the IMO committee. The problem statements were formalized by hand. Four more days of search after the contest produced a complete proof of Problem 1, bringing the total to five of six problems fully proved.",
+          "sources": [
+            {
+              "name": "ByteDance Seed blog",
+              "url": "https://seed.bytedance.com/en/blog/bytedance-seed-prover-achieves-silver-medal-score-in-imo-2025"
+            }
+          ],
+          "image": {
+            "url": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/user-upload/4og2ymdfewdkk.jpeg",
+            "alt": "Seed-Prover IMO 2025 results chart"
+          }
+        }
+      ]
+    }
+  ]
+}

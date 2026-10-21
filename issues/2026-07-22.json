@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-22",
+  "heading": "Wednesday, July 22, 2026",
+  "topLine": "GPT-5.6 Pro finds a counterexample to the Dinitz–Garg–Goemans cost conjecture.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5.6 Pro finds a counterexample to the Dinitz–Garg–Goemans cost conjecture",
+          "summary": "Dmitry Rybin reported that GPT-5.6 Pro produced a small directed graph where the fractional flow costs 58, but every unsplittable flow within the allowed congestion costs at least 60. This refutes a roughly 30-year-old conjecture in combinatorial optimization that unsplittable flows can match the fractional cost; the 1999 congestion-only theorem is unaffected. Rybin published the chat transcript. Several people have checked the arithmetic informally, but no named expert verification or peer-reviewed paper has appeared.",
+          "sources": [
+            {
+              "name": "DataCamp explainer",
+              "url": "https://www.datacamp.com/blog/gpt-5-6-dinitz-garg-goemans-conjecture"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

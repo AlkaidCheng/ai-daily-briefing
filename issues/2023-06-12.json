@@ -1,0 +1,23 @@
+{
+  "date": "2023-06-12",
+  "heading": "Monday, June 12, 2023",
+  "topLine": "Terence Tao predicts AI could be a 'trustworthy co-author' by 2026.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Terence Tao predicts AI could be a 'trustworthy co-author' by 2026",
+          "summary": "In an essay for Microsoft's AI Anthology, Fields medallist Terence Tao wrote that 2023-era AI already offers mathematicians hints and leads, and that 2026-level AI, combined with proof verifiers and search, could become a \"trustworthy co-author\". He also warned that convincing-looking LLM mathematics needs line-by-line checking, and that journals may have to change their practices.",
+          "sources": [
+            {
+              "name": "Microsoft AI Anthology (Tao essay)",
+              "url": "https://unlocked.microsoft.com/ai-anthology/terence-tao/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

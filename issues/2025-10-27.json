@@ -1,9 +1,24 @@
 {
   "date": "2025-10-27",
   "heading": "Monday, October 27, 2025",
-  "topLine": "MiniMax releases open-weight MiniMax-M2.",
+  "topLine": "ChatGPT-assisted proof settles point convergence of Nesterov's method. Also: MiniMax releases open-weight MiniMax-M2.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "ChatGPT-assisted proof settles point convergence of Nesterov's method",
+          "summary": "Uijeong Jang and Ernest Ryu proved that the iterates of Nesterov's 1983 accelerated gradient method converge to a minimizer, a question that had been open for years. They state that ChatGPT heavily assisted in discovering the proof. The humans verified the argument, and the paper describes how the collaboration worked. The paper is an arXiv preprint.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2510.23513v1"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

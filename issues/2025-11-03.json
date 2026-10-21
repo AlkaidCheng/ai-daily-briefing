@@ -1,0 +1,27 @@
+{
+  "date": "2025-11-03",
+  "heading": "Monday, November 3, 2025",
+  "topLine": "Tao, Gómez-Serrano, Georgiev and Wagner test AlphaEvolve on 67 problems.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Tao, Gómez-Serrano, Georgiev and Wagner test AlphaEvolve on 67 problems",
+          "summary": "Bogdan Georgiev, Javier Gómez-Serrano, Terence Tao and Adam Zsolt Wagner ran AlphaEvolve on 67 problems in analysis, combinatorics, geometry and number theory. It matched the best known results in most cases and improved several of them, for example a slightly better finite-field Kakeya construction in three dimensions. Gemini Deep Think gave an informal proof of that construction and AlphaProof formalized it in Lean. Tao notes that a claimed four-dimensional Kakeya gain was already in the literature, that AlphaEvolve often exploited weak verifiers, and that humans designed the verifiers and supplied most proofs. The arXiv preprint has not been peer-reviewed.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2511.02864"
+            },
+            {
+              "name": "Terence Tao's blog",
+              "url": "https://terrytao.wordpress.com/2025/11/05/mathematical-exploration-and-discovery-at-scale/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2024-10-02",
+  "heading": "Wednesday, October 2, 2024",
+  "topLine": "Complete Lean formalization of Fermat's Last Theorem for regular primes.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Complete Lean formalization of Fermat's Last Theorem for regular primes",
+          "summary": "Alex Best, Christopher Birkbeck, Riccardo Brasca, Eric Rodriguez Boidi, Ruben van de Velde and Andrew Yang reported a complete Lean 4 proof of FLT for regular primes, including Kummer's lemma. This was a human formalization; Anthropic's 2026 FLT proof later relied on it for small exponents.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2410.01466"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2023-10-04",
+  "heading": "Wednesday, October 4, 2023",
+  "topLine": "Michael Harris says AMS AI advisory consultation asks too narrow questions.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Michael Harris says AMS AI advisory consultation asks too narrow questions",
+          "summary": "Columbia mathematician Michael Harris responded to the American Mathematical Society AI advisory committee's call for public comment. He argued on his Silicon Reckoner newsletter that its five suggested topics leave little room for critical analysis. He urged mathematicians to be \"very suspicious\" of Silicon Valley initiatives and to weigh issues such as intellectual property and AI's energy costs.",
+          "sources": [
+            {
+              "name": "Silicon Reckoner (Michael Harris)",
+              "url": "https://siliconreckoner.substack.com/p/how-do-mathematicians-really-feel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

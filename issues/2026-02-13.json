@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-13",
+  "heading": "Friday, February 13, 2026",
+  "topLine": "GPT-5.2 conjectures a formula showing single-minus gluon amplitudes are not zero.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5.2 conjectures a formula showing single-minus gluon amplitudes are not zero",
+          "summary": "Alfredo Guevara, Alexandru Lupsasca, David Skinner, Andrew Strominger and OpenAI's Kevin Weil report that tree-level single-minus gluon amplitudes, widely assumed to vanish, are nonzero in half-collinear or complexified momentum configurations. The humans computed small cases by hand, GPT-5.2 Pro simplified them and proposed the closed-form formula for any number of gluons, and an internal OpenAI model produced a proof the authors then checked analytically against recursion relations and Weinberg's soft theorem; the paper is a preprint, not peer reviewed, and two authors are at OpenAI.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2602.12176"
+            },
+            {
+              "name": "OpenAI announcement",
+              "url": "https://openai.com/index/new-result-theoretical-physics/"
+            },
+            {
+              "name": "The Quantum Insider",
+              "url": "https://thequantuminsider.com/2026/02/13/ai-scientist-spots-what-physicists-missed-in-gluon-scattering/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

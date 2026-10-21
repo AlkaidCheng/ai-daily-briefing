@@ -1,0 +1,31 @@
+{
+  "date": "2025-09-18",
+  "heading": "Thursday, September 18, 2025",
+  "topLine": "DeepMind and mathematicians find new families of unstable fluid singularities.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepMind and mathematicians find new families of unstable fluid singularities",
+          "summary": "A Google DeepMind team, with mathematicians from Brown, NYU and Stanford including Tristan Buckmaster and Javier Gómez-Serrano, used physics-informed neural networks and a high-precision Gauss–Newton optimizer. With them they found new unstable self-similar blow-up solutions for the incompressible porous media, Boussinesq and 3D Euler (with boundary) equations. They also report an empirical formula linking blow-up rate to the order of instability. The solutions are numerical, accurate to near double-precision limits, which the authors say is sufficient for future computer-assisted proofs. No rigorous proof was given yet, and the work does not resolve the Navier–Stokes problem. The preprint has not been peer-reviewed.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2509.14185"
+            },
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/discovering-new-solutions-to-century-old-problems-in-fluid-dynamics/"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2509.14185v1/results_summary.png",
+            "alt": "Self-similar unstable singularity profiles for the IPM and Boussinesq equations and inverse scaling rate versus instability order"
+          }
+        }
+      ]
+    }
+  ]
+}

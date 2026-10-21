@@ -1,9 +1,28 @@
 {
   "date": "2025-09-22",
   "heading": "Monday, September 22, 2025",
-  "topLine": "2 model releases: Alibaba Qwen3-Omni and DeepSeek-V3.1-Terminus.",
+  "topLine": "AlphaEvolve finds structures that sharpen hardness-of-approximation bounds. Also: 2 model releases: Alibaba Qwen3-Omni and DeepSeek-V3.1-Terminus.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AlphaEvolve finds structures that sharpen hardness-of-approximation bounds",
+          "summary": "Ansh Nagda, Prabhakar Raghavan and Abhradeep Thakurta used AlphaEvolve to search for combinatorial structures in complexity theory. It found near-extremal Ramanujan graphs on up to 163 vertices; these give conditional lower bounds for certifying MAX-CUT and MAX-Independent Set on random 3- and 4-regular graphs. It also found new gadget reductions showing that MAX-4-CUT is NP-hard to approximate within 0.987 (previous best 0.9883) and MAX-3-CUT within 0.9649. AlphaEvolve found the constructions and also evolved faster verification code; the humans supplied the analytical arguments. The arXiv preprint has been revised several times and has not been peer-reviewed.",
+          "sources": [
+            {
+              "name": "arXiv preprint (v1)",
+              "url": "https://arxiv.org/abs/2509.18057v1"
+            },
+            {
+              "name": "Google Research blog",
+              "url": "https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

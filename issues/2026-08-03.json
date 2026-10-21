@@ -1,9 +1,28 @@
 {
   "date": "2026-08-03",
   "heading": "Monday, August 3, 2026",
-  "topLine": "Alibaba releases Qwen3.8-Max.",
+  "topLine": "Quanta: how AI reshaped the Erdős-problems community. Also: Alibaba releases Qwen3.8-Max.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Quanta: how AI reshaped the Erdős-problems community",
+          "summary": "Quanta Magazine reported on reactions inside the erdosproblems.com community. Noga Alon said he had stopped working on Erdős problems once AI began solving them. Thomas Bloom worried about long AI-generated papers that \"no human is going to read\". The piece also reported that Terence Tao had stepped back from the community.",
+          "sources": [
+            {
+              "name": "Quanta Magazine",
+              "url": "https://www.quantamagazine.org/how-ai-tore-through-a-mathematical-community-20260803/"
+            }
+          ],
+          "image": {
+            "url": "https://www.quantamagazine.org/wp-content/uploads/2026/08/Erdos-1-cr.Simons-Foundation.webp",
+            "alt": "Photograph of Paul Erdős"
+          }
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

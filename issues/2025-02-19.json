@@ -1,0 +1,35 @@
+{
+  "date": "2025-02-19",
+  "heading": "Wednesday, February 19, 2025",
+  "topLine": "Google's AI co-scientist proposes validated AML drug candidates and recovers an unpublished gene-transfer mechanism.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Google's AI co-scientist proposes validated AML drug candidates and recovers an unpublished gene-transfer mechanism",
+          "summary": "Google's Gemini-based multi-agent co-scientist proposed drug-repurposing candidates that inhibited acute myeloid leukaemia cell lines in vitro, epigenetic liver-fibrosis targets with anti-fibrotic activity in human hepatic organoids, and independently ranked first the 'tail piracy' mechanism of cf-PICI gene transfer that Jose Penades's Imperial College team had found but not published. The cf-PICI biology and the AI comparison appeared in Cell in September 2025 and the system paper in Nature in May 2026; the cf-PICI case is a rediscovery of an answer the humans already had, not a new one.",
+          "sources": [
+            {
+              "name": "Google Research blog",
+              "url": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/"
+            },
+            {
+              "name": "GEN on the Cell papers",
+              "url": "https://www.genengnews.com/topics/infectious-diseases/tail-swapping-pirate-phages-expose-new-route-for-amr/"
+            },
+            {
+              "name": "Google DeepMind (Nature, 2026)",
+              "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/"
+            }
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/images/AICoScientist-1-Components.width-1250.png",
+            "alt": "Diagram of the agents making up Google's AI co-scientist"
+          }
+        }
+      ]
+    }
+  ]
+}

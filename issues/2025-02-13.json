@@ -1,0 +1,27 @@
+{
+  "date": "2025-02-13",
+  "heading": "Thursday, February 13, 2025",
+  "topLine": "AI-designed enzymes with multistep serine-hydrolase active sites.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AI-designed enzymes with multistep serine-hydrolase active sites",
+          "summary": "The Baker lab combined RFdiffusion with PLACER, a network that scores whether an active site stays preorganised at each step of a reaction, to design serine hydrolases from scratch, long difficult because catalysis passes through several intermediates. Published in Science: over 300 designs were tested in the lab, the best reached catalytic efficiencies around 2.2x10^5 M^-1 s^-1 with crystal structures matching the models, still short of natural enzymes.",
+          "sources": [
+            {
+              "name": "Baker Lab announcement",
+              "url": "https://www.bakerlab.org/2025/02/13/ai-enzymes-with-complex-active-sites/"
+            },
+            {
+              "name": "Fierce Biotech",
+              "url": "https://www.fiercebiotech.com/medtech/after-ai-antibodies-and-peptides-uws-baker-lab-now-tackles-computer-generated-enzymes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

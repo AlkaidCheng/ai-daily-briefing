@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-11",
+  "heading": "Friday, September 11, 2026",
+  "topLine": "Fields medallists warn AI labs' goals are 'severely misaligned' with mathematics.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Fields medallists warn AI labs' goals are 'severely misaligned' with mathematics",
+          "summary": "25 Fields medallists, including Terence Tao, Peter Scholze, Maryna Viazovska and James Maynard, posted \"A Severe Misalignment of AI in Mathematics\". It argues that AI companies' use of famous problems as benchmarks harms the field, and that rushed announcements without write-ups raise attribution and plagiarism concerns. It does not call for a ban. The site later listed 28 medallist signatories, and Tao wrote that urgency had ruled out a more consultative process like Leiden's.",
+          "sources": [
+            {
+              "name": "Declaration text",
+              "url": "https://mathandai.org/"
+            },
+            {
+              "name": "Tao's blog",
+              "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

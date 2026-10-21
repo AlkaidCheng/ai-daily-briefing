@@ -1,0 +1,27 @@
+{
+  "date": "2025-08-20",
+  "heading": "Wednesday, August 20, 2025",
+  "topLine": "GPT-5 Pro improves a step-size bound from a convex optimization preprint.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5 Pro improves a step-size bound from a convex optimization preprint",
+          "summary": "OpenAI researcher Sébastien Bubeck gave GPT-5 Pro an open question from version 1 of a convex-optimization preprint: for which step sizes does gradient descent keep the sequence of function values convex? The model proved the property for step sizes up to 1.5/L, improving the paper's 1/L. Bubeck checked the proof by hand. The original human authors had meanwhile closed the gap completely at 1.75/L in their version 2, so the AI bound was an intermediate improvement rather than the final answer. The episode is documented in OpenAI's later case-study paper.",
+          "sources": [
+            {
+              "name": "Early science acceleration experiments with GPT-5 (arXiv)",
+              "url": "https://arxiv.org/abs/2511.16072"
+            },
+            {
+              "name": "Diez, da Maia & Nourdin (arXiv), citing the 20 Aug claim",
+              "url": "https://arxiv.org/abs/2509.03065v1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-27",
+  "heading": "Wednesday, May 27, 2026",
+  "topLine": "Meta's AutoformBot builds a 500,000-line Lean library from 26 textbooks.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Meta's AutoformBot builds a 500,000-line Lean library from 26 textbooks",
+          "summary": "Meta researchers released AutoformBot, a multi-agent system that coordinates thousands of LLM agents. It turned 26 open-access graduate textbooks in analysis, algebra, topology, combinatorics and probability into the Atlas library: over 45,000 Lean 4 declarations and about 500,000 lines. The output is machine-checked in Lean. Whether each formal statement faithfully matches its textbook source is assessed by the authors, not by Lean.",
+          "sources": [
+            {
+              "name": "Meta AI publication",
+              "url": "https://ai.meta.com/research/publications/autoformbot-formalizing-mathematics-at-scale/"
+            },
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2605.29955"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

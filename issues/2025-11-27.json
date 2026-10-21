@@ -1,9 +1,24 @@
 {
   "date": "2025-11-27",
   "heading": "Thursday, November 27, 2025",
-  "topLine": "DeepSeek releases DeepSeekMath-V2 open math reasoning model.",
+  "topLine": "DeepSeek releases open-weight DeepSeekMath-V2 with reported IMO 2025 gold-level scores. Also: DeepSeek releases DeepSeekMath-V2 open math reasoning model.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepSeek releases open-weight DeepSeekMath-V2 with reported IMO 2025 gold-level scores",
+          "summary": "DeepSeek released DeepSeekMath-V2, a 685B-parameter open-weight model (Apache 2.0) that checks its own natural-language proofs. Its paper reports gold-level scores on IMO 2025 and CMO 2024 and 118/120 on Putnam 2024, using scaled test-time compute. These scores are self-reported and were not officially graded.",
+          "sources": [
+            {
+              "name": "Simon Willison",
+              "url": "https://simonwillison.net/2025/Nov/27/deepseek-math-v2"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-17",
+  "heading": "Monday, August 17, 2026",
+  "topLine": "Terence Tao's ICM essay asks what mathematics values once AI can do research.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Terence Tao's ICM essay asks what mathematics values once AI can do research",
+          "summary": "Tao posted \"Mathematics in the age of AI\", based on his public lecture at the 2026 International Congress of Mathematicians. It assumes AI will reach research-level capability and asks how the community should respond, using problem-solving as a case study for the goals and values of mathematical research.",
+          "sources": [
+            {
+              "name": "arXiv: Mathematics in the age of AI",
+              "url": "https://arxiv.org/abs/2608.16753"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

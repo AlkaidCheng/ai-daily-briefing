@@ -1,0 +1,27 @@
+{
+  "date": "2025-07-19",
+  "heading": "Saturday, July 19, 2025",
+  "topLine": "OpenAI experimental model scores 35/42 on IMO 2025, graded by former medallists.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI experimental model scores 35/42 on IMO 2025, graded by former medallists",
+          "summary": "OpenAI researchers Alexander Wei and Noam Brown said an experimental general-purpose reasoning model solved five of the six IMO 2025 problems, for 35 of 42 points, which is gold-medal level. It worked under exam conditions with natural-language proofs and no tools. Three former IMO medallists graded the proofs; the result was not graded or certified by official IMO coordinators.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/openai-claims-a-breakthrough-in-llm-reasoning-on-complex-math-problems/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2025/07/21/openai-and-google-outdo-the-mathletes-but-not-each-other"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

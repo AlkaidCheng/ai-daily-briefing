@@ -1,9 +1,28 @@
 {
   "date": "2025-10-15",
   "heading": "Wednesday, October 15, 2025",
-  "topLine": "2 model releases: Anthropic Claude Haiku 4.5 and Google Veo 3.1.",
+  "topLine": "Gemma-based single-cell model predicts a drug combination that boosts tumour antigen presentation. Also: 2 model releases: Anthropic Claude Haiku 4.5 and Google Veo 3.1.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Gemma-based single-cell model predicts a drug combination that boosts tumour antigen presentation",
+          "summary": "Google and Yale's 27-billion-parameter Cell2Sentence-Scale model predicted that the CK2 inhibitor silmitasertib would raise MHC-I antigen presentation only in an immune-context-positive setting, a link not previously reported. Yale experiments in human neuroendocrine cell models unseen in training found silmitasertib alone had no effect but combined with low-dose interferon produced about a 50% increase; reported in a company blog post and a bioRxiv preprint, needing further preclinical work.",
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/products/google-gemma-ai-cancer-therapy-discovery/"
+            },
+            {
+              "name": "bioRxiv preprint",
+              "url": "https://www.biorxiv.org/content/10.1101/2025.04.14.648850"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

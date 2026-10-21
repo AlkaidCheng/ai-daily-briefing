@@ -1,0 +1,27 @@
+{
+  "date": "2024-04-30",
+  "heading": "Tuesday, April 30, 2024",
+  "topLine": "Kevin Buzzard opens EPSRC-funded project to formalize Fermat's Last Theorem in Lean.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Kevin Buzzard opens EPSRC-funded project to formalize Fermat's Last Theorem in Lean",
+          "summary": "Kevin Buzzard (Imperial College London) announced that the open-source project to formalize a modern proof of Fermat's Last Theorem in Lean was open to contributors. The first goal was to reduce FLT to results known by the end of the 1980s, following a route planned with Richard Taylor. The project is human-led and funded by the EPSRC for five years, to September 2029.",
+          "sources": [
+            {
+              "name": "Lean community blog",
+              "url": "https://leanprover-community.github.io/blog/posts/FLT-announcement/"
+            },
+            {
+              "name": "Imperial FLT repository (GitHub)",
+              "url": "https://github.com/ImperialCollegeLondon/FLT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

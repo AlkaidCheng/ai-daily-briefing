@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-04",
+  "heading": "Sunday, January 4, 2026",
+  "topLine": "GPT-5.2 Pro and Aristotle produce a Lean-verified resolution of Erdős problem #728.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5.2 Pro and Aristotle produce a Lean-verified resolution of Erdős problem #728",
+          "summary": "Kevin Barreto used OpenAI's GPT-5.2 Pro, which gave an informal argument, and Harmonic's Aristotle, which turned it into a formal Lean proof and fixed minor errors, to resolve one reading of Erdős problem #728. Nat Sothanaphan's write-up calls it the first Erdős problem regarded as resolved autonomously by an AI system. The proof is checked by Lean. It remains unclear whether the version solved was the one Erdős intended, and Terence Tao described such problems as low-hanging fruit. Because the original statement is ambiguous, erdosproblems.com does not mark the problem fully solved.",
+          "sources": [
+            {
+              "name": "arXiv write-up",
+              "url": "https://arxiv.org/abs/2601.07421"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/terence-tao-says-gpt-5-2-pro-cracked-an-erdos-problem-but-warns-the-win-says-more-about-speed-than-difficulty/"
+            },
+            {
+              "name": "erdosproblems.com #728",
+              "url": "https://www.erdosproblems.com/728"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

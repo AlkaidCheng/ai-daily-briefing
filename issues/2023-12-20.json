@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-20",
+  "heading": "Wednesday, December 20, 2023",
+  "topLine": "Explainable deep learning identifies a new structural class of antibiotics active against MRSA.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Explainable deep learning identifies a new structural class of antibiotics active against MRSA",
+          "summary": "MIT and Broad Institute researchers (Felix Wong, Erica Zheng, James Collins) trained graph neural networks on about 39,000 tested compounds, screened roughly 12 million molecules, and used substructure explanations to flag candidate chemical classes. Published in Nature: two compounds from one class reduced MRSA burden about tenfold in mouse skin and systemic infection models and showed low toxicity to human cells; they remain preclinical.",
+          "sources": [
+            {
+              "name": "Nature paper",
+              "url": "https://www.nature.com/articles/s41586-023-06887-8"
+            },
+            {
+              "name": "Broad Institute news",
+              "url": "https://www.broadinstitute.org/node/5556221"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2025-09-03",
+  "heading": "Wednesday, September 3, 2025",
+  "topLine": "Mathematicians use GPT-5 to derive quantitative fourth-moment convergence rates.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Mathematicians use GPT-5 to derive quantitative fourth-moment convergence rates",
+          "summary": "Charles-Philippe Diez, Luis da Maia and Ivan Nourdin ran a controlled experiment in which GPT-5 was asked to turn a qualitative fourth-moment theorem into a quantitative one with explicit convergence rates, in both the Gaussian and Poisson settings. The authors say such rates had not been addressed in the literature. They report that GPT-5 produced the results under continuous human guidance and correction, and that the authors checked them. The arXiv preprint has not been peer-reviewed.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2509.03065v1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

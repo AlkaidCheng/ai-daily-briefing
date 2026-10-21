@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-07",
+  "heading": "Monday, September 7, 2026",
+  "topLine": "3 stories on AI and open problems: Forced Euler blow-up, Köthe conjecture disproved and Unforced Euler singularity evidence.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Buckmaster and Alpöge prove smooth-forcing blow-up for 3D Euler with LLM help",
+          "summary": "Tristan Buckmaster (NYU) and Levent Alpöge released preprints proving finite-time blow-up with smooth forcing for the incompressible porous medium equation, 2D Boussinesq and 3D incompressible Euler. The work extends a program by Diego Córdoba and Luis Martínez-Zoroa and comes with Lean verification. Buckmaster says Claude and OpenAI's Codex/GPT models did much of the proof work, and he calls the Euler write-up unpolished. Terence Tao called it a remarkable achievement. A hypodissipative Navier–Stokes result is still awaiting Lean verification.",
+          "sources": [
+            {
+              "name": "Buckmaster statement (PDF)",
+              "url": "https://cims.nyu.edu/~tristanb/statement.pdf"
+            },
+            {
+              "name": "Terence Tao's blog",
+              "url": "https://terrytao.wordpress.com/2026/09/07/finite-time-blowup-with-smooth-forcing-term-for-the-incompressible-porous-medium-boussinesq-and-incompressible-euler-equations/"
+            }
+          ]
+        },
+        {
+          "headline": "GPT-6 Astra finds a Lean-verified counterexample to Köthe's 1930 conjecture",
+          "summary": "In an Epoch AI run of Lean statements from the Formal Conjectures collection, with no human steering, a pre-release GPT-6 Astra found a counterexample to the matrix form of Köthe's conjecture in ring theory. Lean's Comparator tool checks the formal disproof. Ring theorists Bernhard Böhmler and René Marczinzik wrote it up with Tom Adamczewski on arXiv and answered a related question of Rowen. The same Epoch effort reported Astra-generated Lean results on the Ibragimov–Iosifescu conjecture, the Dittert conjecture, the n = 4 strong n-conjecture and an eternal-domination conjecture, most of which have not yet had human review.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2609.07996"
+            },
+            {
+              "name": "GitHub: Lean disproof",
+              "url": "https://github.com/tadamcz/koethe"
+            }
+          ]
+        },
+        {
+          "headline": "Neural-network search offers evidence for unforced Euler blow-up on R³",
+          "summary": "Anima Anandkumar's group (Ganeshram, Duruisseaux, Anandkumar) posted a manuscript using physics-informed neural networks to find a candidate self-similar blow-up profile for the 3D Euler equations in all of space, with no boundary or forcing. They convert the network output into splines with certified bounds and reduce the rest of the proof to a finite list of estimates. The authors call this evidence rather than a completed proof, and it has not been independently verified.",
+          "sources": [
+            {
+              "name": "Anandkumar blog post",
+              "url": "https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

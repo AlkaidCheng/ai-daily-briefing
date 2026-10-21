@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-27",
+  "heading": "Monday, July 27, 2026",
+  "topLine": "Neurosurgery resident proves Crouzeix's conjecture with GPT-5.6 Sol.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Neurosurgery resident proves Crouzeix's conjecture with GPT-5.6 Sol",
+          "summary": "Shanmu Jin, a neurosurgery resident at Peking Union Medical College Hospital, posted a proof that the numerical range of a matrix is a 2-spectral set, settling Crouzeix's 2004 conjecture. He said the key theorem came from a roughly 16-hour autonomous GPT-5.6 Sol run. Anne Greenbaum, Alex Townsend and Michel Crouzeix checked the proof and believe it is correct. On 4 August, Emiel Lorist and Felix Schwenninger posted an independent short proof, disclosing that they used ChatGPT 5.6 to explore strategies.",
+          "sources": [
+            {
+              "name": "SIAM News essay (Townsend & Greenbaum)",
+              "url": "https://alextownsend.net/essays/SIAMNews_CrouzeixConjecture.pdf"
+            },
+            {
+              "name": "arXiv: Lorist & Schwenninger",
+              "url": "https://arxiv.org/abs/2608.03841"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

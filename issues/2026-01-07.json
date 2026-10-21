@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-07",
+  "heading": "Wednesday, January 7, 2026",
+  "topLine": "Tao: AI solved Erdős #728 'more or less autonomously', but the win is mostly about speed.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Tao: AI solved Erdős #728 'more or less autonomously', but the win is mostly about speed",
+          "summary": "Terence Tao wrote on Mathstodon that Erdős problem #728 had been solved more or less autonomously by AI, without retrieving an existing solution from the literature. He cautioned that Erdős problems vary widely in difficulty and that failures go unreported. In a follow-up he estimated that only about 1–2% of open Erdős problems are simple enough for current AI to solve with minimal help.",
+          "sources": [
+            {
+              "name": "Mathstodon: @tao",
+              "url": "https://mathstodon.xyz/@tao/115855845720777387"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/terence-tao-says-gpt-5-2-pro-cracked-an-erdos-problem-but-warns-the-win-says-more-about-speed-than-difficulty/"
+            },
+            {
+              "name": "AI contributions wiki (Tao)",
+              "url": "https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

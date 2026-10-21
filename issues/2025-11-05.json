@@ -1,0 +1,31 @@
+{
+  "date": "2025-11-05",
+  "heading": "Wednesday, November 5, 2025",
+  "topLine": "RFdiffusion designs full antibodies to chosen epitopes, confirmed by cryo-EM.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "RFdiffusion designs full antibodies to chosen epitopes, confirmed by cryo-EM",
+          "summary": "The Baker lab extended RFdiffusion to generate complete antibody variable regions, including heavy and light chains, against targets such as influenza haemagglutinin and Clostridium difficile toxin B without animal immunisation, a long-standing goal in therapeutic antibody discovery. Published in Nature: cryo-EM matched four of five tested designs to their models and the best reached mid-nanomolar affinity after maturation, which Baker calls a proof of concept rather than drug-grade binders.",
+          "sources": [
+            {
+              "name": "Nature paper",
+              "url": "https://www.nature.com/articles/s41586-025-09721-5"
+            },
+            {
+              "name": "UW Institute for Protein Design",
+              "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature"
+            }
+          ],
+          "image": {
+            "url": "https://www.ipd.uw.edu/wp-content/uploads/2025/11/AI-generated-antibodies-RFantibody-University-of-Washington.jpg",
+            "alt": "Illustration of AI-generated antibodies designed with RFantibody"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-16",
+  "heading": "Wednesday, September 16, 2026",
+  "topLine": "GPT-6 Astra-found \"Chair44\" claimed as first 3D aperiodic monotile.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-6 Astra-found \"Chair44\" claimed as first 3D aperiodic monotile",
+          "summary": "Software developer Ioannis Tsiokos posted a 61-page, AI-written paper claiming that a single 3D tile, Chair44, tiles space only non-periodically. He said GPT-6 Astra found it. The finite checks were run by machine and partly formalized in Lean. Chaim Goodman-Strauss, co-discoverer of the 2D \"hat\" tile, condensed the core argument into an 8-page paper and praised the discovery, but said the original paper and its formalization are not readily checkable.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2609.19214"
+            },
+            {
+              "name": "Quanta Magazine update",
+              "url": "https://www.quantamagazine.org/update/167384/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-21",
+  "heading": "Thursday, May 21, 2026",
+  "topLine": "DeepMind's AlphaProof Nexus produces Lean proofs for 9 open Erdős problems and 44 OEIS conjectures.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepMind's AlphaProof Nexus produces Lean proofs for 9 open Erdős problems and 44 OEIS conjectures",
+          "summary": "Google DeepMind researchers described a Gemini-based agent that writes proofs in Lean and uses compiler feedback. It autonomously resolved 9 of 353 open Erdős problems and 44 of 492 OEIS conjectures, at a few hundred dollars per problem. All proofs are formally checked in Lean, and humans reviewed the results. A peer-reviewed version was reported to appear in Science in October 2026.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2605.22763v1"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

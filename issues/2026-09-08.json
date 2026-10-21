@@ -1,9 +1,32 @@
 {
   "date": "2026-09-08",
   "heading": "Tuesday, September 8, 2026",
-  "topLine": "OpenAI releases ChatGPT Images 2.5.",
+  "topLine": "OpenAI claims a Lean-checked blow-up for forced 3D Navier–Stokes. Also: OpenAI releases ChatGPT Images 2.5.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI claims a Lean-checked blow-up for forced 3D Navier–Stokes",
+          "summary": "OpenAI said about 10,000 agents running an unreleased internal model, over roughly 88 hours, produced a proof that smooth solutions of the 3D Navier–Stokes equations can blow up under a smooth external force, formalized in Lean. Charles Fefferman, who wrote the Clay problem statement, welcomed it. Critics note that it relies on the forcing clause rather than the unforced case, and OpenAI has said it will not claim the Millennium Prize. Credit is disputed by Tristan Buckmaster, whose forced-Euler results with Levent Alpöge appeared a day earlier; OpenAI denies his allegations. The proof had not been independently peer reviewed.",
+          "sources": [
+            {
+              "name": "Quanta Magazine",
+              "url": "https://quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908"
+            },
+            {
+              "name": "Scientific American",
+              "url": "https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/"
+            },
+            {
+              "name": "The Next Web",
+              "url": "https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

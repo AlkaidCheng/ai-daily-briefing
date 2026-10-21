@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-14",
+  "heading": "Thursday, May 14, 2026",
+  "topLine": "arXiv to ban authors for a year over unchecked LLM-generated content.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "arXiv to ban authors for a year over unchecked LLM-generated content",
+          "summary": "arXiv computer-science section chair Thomas Dietterich announced that authors face a one-year ban when there is \"incontrovertible evidence\" of unchecked LLM output, such as hallucinated references. Afterwards, their submissions must first be accepted by a peer-reviewed venue. The rule does not ban AI use, and authors remain responsible for their content.",
+          "sources": [
+            {
+              "name": "X: @tdietterich",
+              "url": "https://x.com/tdietterich/status/2055000962713133220"
+            },
+            {
+              "name": "Times Higher Education",
+              "url": "https://www.timeshighereducation.com/node/743014"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

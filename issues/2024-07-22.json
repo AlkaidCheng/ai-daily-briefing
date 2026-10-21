@@ -1,0 +1,23 @@
+{
+  "date": "2024-07-22",
+  "heading": "Monday, July 22, 2024",
+  "topLine": "Team Numina wins the first AI Mathematical Olympiad Progress Prize.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Team Numina wins the first AI Mathematical Olympiad Progress Prize",
+          "summary": "Team Numina won the first AIMO Progress Prize, a Kaggle competition run with XTX Markets funding in which open models solved olympiad-style problems with numerical answers. The team received $131,072, and the prize was presented at IMO 2024 in Bath. Rankings came from the competition's private leaderboard, and winners had to publish their code, data and model weights.",
+          "sources": [
+            {
+              "name": "Press release (ANP)",
+              "url": "https://persportaal.anp.nl/artikel/CSN-220724069/-first-ai-mathematical-olympiad-progress-prize-won-by-team-numina"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

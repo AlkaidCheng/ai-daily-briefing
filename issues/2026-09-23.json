@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-23",
+  "heading": "Wednesday, September 23, 2026",
+  "topLine": "Claude agents mine genomes and flag a previously undescribed reverse-transcriptase system.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude agents mine genomes and flag a previously undescribed reverse-transcriptase system",
+          "summary": "Anthropic reported that about 950 Claude agents spent 21 hours surveying over 200,000 reverse transcriptases across roughly 1.9 billion protein clusters, narrowing 3,500 candidate systems to 20 and identifying array-associated reverse transcriptases (ART), which pair a reverse transcriptase with an accessory gene and a CRISPR-like repeat array in phage DNA. Released as a company blog post and preprint, not peer reviewed: the system's biological function is unknown, wet-lab work is pending, and reporting notes that ten reruns of the same campaign failed to find the array.",
+          "sources": [
+            {
+              "name": "Interesting Engineering",
+              "url": "https://interestingengineering.com/ai-robotics/claude-discovers-crispr-like-enzyme-system"
+            },
+            {
+              "name": "The Next Web",
+              "url": "https://thenextweb.com/news/anthropic-claude-enzyme-system-crispr-like-repeats"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

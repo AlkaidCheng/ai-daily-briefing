@@ -1,0 +1,27 @@
+{
+  "date": "2026-01-08",
+  "heading": "Thursday, January 8, 2026",
+  "topLine": "Axiom says AxiomProver produced Lean proofs for all 12 Putnam 2025 problems.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Axiom says AxiomProver produced Lean proofs for all 12 Putnam 2025 problems",
+          "summary": "Axiom reported that AxiomProver wrote complete Lean proofs for all 12 problems of the 6 December 2025 Putnam, which an official proctor released section by section as the exam ran. Eight were finished before the exam deadline and four in the following days. The proofs are machine-checked in Lean and published, but the result is self-reported and was not graded by the Putnam organizers.",
+          "sources": [
+            {
+              "name": "Axiom research post",
+              "url": "https://axiommath.ai/research/from-seeing-why-to-checking-everything"
+            },
+            {
+              "name": "AxiomProver Putnam 2025 proofs (Lean Reservoir)",
+              "url": "https://reservoir.lean-lang.org/@AxiomMath/Putnam2025"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
