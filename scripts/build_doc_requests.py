@@ -4,6 +4,13 @@ Reads an issue JSON file and writes a JSON array of requests for the Google Docs
 connector's ``update_doc`` tool. The issue is inserted at ``--insert-index`` (the
 ``endIndex`` of the doc's header paragraph), so the newest issue sits on top.
 
+Items may carry a figure. Its text requests leave a line break at the end of the
+item's bullet, and ``--images-out`` writes one step per figure: an
+``insertInlineImage`` request to send in its own ``update_doc`` call after the text
+requests, and the ``deleteContentRange`` request that removes the empty line break
+if Docs cannot fetch the image. Steps are ordered from the end of the document
+backwards, so each one leaves the indexes of the steps after it unchanged.
+
 Issue schema::
 
     {
@@ -13,14 +20,15 @@ Issue schema::
       "sections": [
         {"name": "Section name",
          "items": [{"headline": "...", "summary": "...",
-                    "sources": [{"name": "...", "url": "https://..."}]}]}
+                    "sources": [{"name": "...", "url": "https://..."}],
+                    "image": {"url": "https://...png", "alt": "..."}}]}
       ]
     }
 
 Example::
 
     python3 scripts/build_doc_requests.py --issue issues/2026-10-21.json \\
-        --insert-index 109 --out /tmp/requests.json
+        --insert-index 109 --out /tmp/requests.json --images-out /tmp/images.json
 """
 
 import argparse
@@ -39,6 +47,11 @@ BULLET_PRESET = "BULLET_DISC_CIRCLE_SQUARE"
 LINK_COLOR = {"color": {"rgbColor": {"red": 0.07, "green": 0.33, "blue": 0.8}}}
 RESET_TEXT_FIELDS = "bold,italic,underline,link,foregroundColor,fontSize"
 EM_DASH = "—"
+
+# Figures: a vertical tab is a line break inside the bullet paragraph, so the
+# image sits under the item's text without ending its bullet.
+LINE_BREAK = "\u000b"
+IMAGE_WIDTH = {"magnitude": 320, "unit": "PT"}
 
 
 def utf16_length(text: str) -> int:
@@ -70,6 +83,8 @@ class _IssueLayout:
     text: str = ""
     paragraphs: list[_Paragraph] = field(default_factory=list)
     text_styles: list[_TextStyle] = field(default_factory=list)
+    # (index, url) of each figure, in document order.
+    images: list[tuple[int, str]] = field(default_factory=list)
 
     @property
     def position(self) -> int:
@@ -130,6 +145,10 @@ def _lay_out_issue(issue: dict[str, Any], insert_index: int) -> _IssueLayout:
                         "link,underline,foregroundColor",
                     )
                 layout.add_run(")")
+            image_url = (item.get("image") or {}).get("url")
+            if image_url:
+                layout.add_run(LINE_BREAK)
+                layout.images.append((layout.position, image_url))
             layout.complete_paragraph(start, NORMAL_TEXT, is_bullet=True)
 
     # Blank line separating this issue from the previous one.
@@ -233,6 +252,45 @@ def build_requests(issue: dict[str, Any], insert_index: int) -> list[dict[str, A
     return requests
 
 
+def build_image_steps(issue: dict[str, Any], insert_index: int) -> list[dict[str, Any]]:
+    """Return one step per figure in ``issue``, last figure first.
+
+    Each step is applied after the requests from :func:`build_requests`, as its own
+    ``update_doc`` call, so an image Docs cannot fetch fails alone.
+
+    Parameters
+    ----------
+    issue : dict
+        Parsed issue JSON (see the module docstring for the schema).
+    insert_index : int
+        The same index passed to :func:`build_requests`.
+
+    Returns
+    -------
+    list of dict
+        Steps with an ``insert`` request (``insertInlineImage``) and an
+        ``on_failure`` request (``deleteContentRange`` of the figure's line break).
+    """
+    layout = _lay_out_issue(issue, insert_index)
+    return [
+        {
+            "insert": {
+                "insertInlineImage": {
+                    "location": {"index": index},
+                    "uri": url,
+                    "objectSize": {"width": IMAGE_WIDTH},
+                }
+            },
+            "on_failure": {
+                "deleteContentRange": {
+                    "range": {"startIndex": index - 1, "endIndex": index}
+                }
+            },
+        }
+        for index, url in reversed(layout.images)
+    ]
+
+
 def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--issue", type=Path, required=True, help="issue JSON file")
@@ -243,22 +301,30 @@ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="endIndex of the doc's header paragraph",
     )
     parser.add_argument("--out", type=Path, required=True, help="requests JSON file")
+    parser.add_argument("--images-out", type=Path, help="figure steps JSON file")
     return parser.parse_args(argv)
+
+
+def _write_json(path: Path, value: Any) -> None:
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
 
 
 def main(argv: list[str] | None = None) -> None:
     args = _parse_args(argv)
     issue = json.loads(args.issue.read_text(encoding="utf-8"))
     requests = build_requests(issue, args.insert_index)
-    args.out.write_text(
-        json.dumps(requests, ensure_ascii=False, separators=(",", ":")),
-        encoding="utf-8",
-    )
+    _write_json(args.out, requests)
     inserted = requests[0]["insertText"]["text"]
     print(
         f"Wrote {len(requests)} requests ({utf16_length(inserted)} chars inserted "
         f"at index {args.insert_index}) to {args.out}"
     )
+    if args.images_out:
+        steps = build_image_steps(issue, args.insert_index)
+        _write_json(args.images_out, steps)
+        print(f"Wrote {len(steps)} figure steps to {args.images_out}")
 
 
 if __name__ == "__main__":
