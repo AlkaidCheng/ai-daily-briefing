@@ -8,6 +8,9 @@ publishes it to the website.
 **Read it at <https://alkaidcheng.github.io/ai-daily-briefing/>** — search every
 briefing, filter by section, date or figures, and share a link to any briefing or
 story (filtered views keep their filters in the link).
+<https://alkaidcheng.github.io/ai-daily-briefing/#today> opens just today's briefing.
+
+Keyboard: <kbd>/</kbd> search, <kbd>T</kbd> today's briefing, <kbd>F</kbd> filters.
 
 ## Layout
 

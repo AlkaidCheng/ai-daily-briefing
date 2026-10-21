@@ -32,21 +32,30 @@
 
   <div class="toolbar" role="search">
     <div class="toolbar-inner">
-      <div class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input id="search" type="search" placeholder="Search headlines, summaries, sources" aria-label="Search" autocomplete="off">
-        <kbd>/</kbd>
+      <div class="toolbar-row">
+        <div class="search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="search" type="search" placeholder="Search headlines, summaries, sources" aria-label="Search" autocomplete="off">
+          <kbd>/</kbd>
+        </div>
+        <button class="pill-button" id="today" type="button" aria-pressed="false" title="Show only today's briefing (T)">Today</button>
+        <button class="icon-button filter-button" id="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-panel" aria-label="Filters" title="Filters (F)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16l-6 7.5V19l-4 1.5v-8z"/></svg>
+          <span class="badge" id="filter-badge" hidden></span>
+        </button>
       </div>
-      <div class="filters">
+      <div class="filters" id="filter-panel" hidden>
         <div class="chips" id="section-chips" role="group" aria-label="Sections"></div>
         <div class="filter-row">
           <label class="date-field">From <input id="date-from" type="date"></label>
           <label class="date-field">To <input id="date-to" type="date"></label>
           <label class="toggle"><input id="figures-only" type="checkbox"> With figures</label>
-          <button class="text-button" id="clear-filters" type="button" hidden>Clear filters</button>
         </div>
       </div>
-      <p class="result-count" id="result-count" aria-live="polite"></p>
+      <p class="result-count" id="result-count" aria-live="polite" hidden>
+        <span id="result-text"></span>
+        <button class="text-button" id="clear-filters" type="button">Clear</button>
+      </p>
     </div>
   </div>
 

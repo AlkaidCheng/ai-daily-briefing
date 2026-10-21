@@ -9,6 +9,7 @@ const SECTIONS = [
   "Policy & industry",
 ];
 const PAGE_SIZE = 7;
+const TIME_ZONE = "America/Los_Angeles";
 
 const ICONS = {
   share: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
@@ -24,6 +25,7 @@ const state = {
   from: "",
   to: "",
   figuresOnly: false,
+  today: false,
   shown: PAGE_SIZE,
 };
 
@@ -82,8 +84,25 @@ function searchTerms() {
   return state.query.toLowerCase().split(/\s+/).filter(Boolean);
 }
 
+function activeFilterCount() {
+  return state.sections.size + Boolean(state.from) + Boolean(state.to) + Number(state.figuresOnly);
+}
+
 function isFiltering() {
-  return Boolean(state.query || state.sections.size || state.from || state.to || state.figuresOnly);
+  return Boolean(state.query || state.today || activeFilterCount());
+}
+
+function resetFilters() {
+  state.query = "";
+  state.sections.clear();
+  state.from = state.to = "";
+  state.figuresOnly = false;
+  state.today = false;
+}
+
+function todayInPacific() {
+  // en-CA formats dates as YYYY-MM-DD, matching the issue file names.
+  return new Intl.DateTimeFormat("en-CA", { timeZone: TIME_ZONE }).format(new Date());
 }
 
 function itemMatches(item, terms) {
@@ -94,8 +113,10 @@ function itemMatches(item, terms) {
 
 function filteredIssues() {
   const terms = searchTerms();
+  const latest = state.issues[0]?.date;
   const result = [];
   for (const issue of state.issues) {
+    if (state.today && issue.date !== latest) continue;
     if (state.from && issue.date < state.from) continue;
     if (state.to && issue.date > state.to) continue;
     const sections = (issue.sections || [])
@@ -115,6 +136,7 @@ function readUrlState() {
   state.from = params.get("from") || "";
   state.to = params.get("to") || "";
   state.figuresOnly = params.get("fig") === "1";
+  state.today = params.has("today");
 }
 
 function writeUrlState() {
@@ -124,7 +146,8 @@ function writeUrlState() {
   if (state.from) params.set("from", state.from);
   if (state.to) params.set("to", state.to);
   if (state.figuresOnly) params.set("fig", "1");
-  const query = params.toString();
+  if (state.today) params.set("today", "");
+  const query = params.toString().replace(/today=(&|$)/, "today$1");
   history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
 }
 
@@ -203,18 +226,26 @@ function render() {
   const visible = issues.slice(0, state.shown);
   const feed = $("feed");
 
-  feed.innerHTML = visible.length
+  const latest = state.issues[0];
+  const notice = state.today && latest && latest.date !== todayInPacific()
+    ? `<p class="notice">Today's briefing isn't out yet. Showing the latest, ${escapeHtml(latest.heading || latest.date)}.</p>`
+    : "";
+  feed.innerHTML = notice + (visible.length
     ? visible.map((issue) => renderIssue(issue, terms)).join("")
-    : `<p class="empty">${state.issues.length ? "No stories match these filters." : "No briefings yet."}</p>`;
+    : `<p class="empty">${state.issues.length ? "No stories match these filters." : "No briefings yet."}</p>`);
   feed.setAttribute("aria-busy", "false");
 
   $("load-more").hidden = issues.length <= state.shown;
-  $("clear-filters").hidden = !isFiltering();
 
   const stories = issues.reduce((n, issue) => n + issue.sections.reduce((m, s) => m + s.items.length, 0), 0);
-  $("result-count").textContent = isFiltering()
-    ? `${stories} ${stories === 1 ? "story" : "stories"} in ${issues.length} ${issues.length === 1 ? "briefing" : "briefings"}`
-    : `${state.issues.length} ${state.issues.length === 1 ? "briefing" : "briefings"}`;
+  $("result-count").hidden = !isFiltering();
+  $("result-text").textContent =
+    `${stories} ${stories === 1 ? "story" : "stories"} in ${issues.length} ${issues.length === 1 ? "briefing" : "briefings"}`;
+
+  const count = activeFilterCount();
+  $("filter-badge").hidden = !count;
+  $("filter-badge").textContent = String(count);
+  $("today").setAttribute("aria-pressed", String(state.today));
 
   for (const chip of document.querySelectorAll(".chip")) {
     chip.setAttribute("aria-pressed", String(state.sections.has(chip.dataset.section)));
@@ -239,14 +270,20 @@ function update() {
 function revealHash() {
   const target = decodeURIComponent(location.hash.slice(1));
   if (!target) return;
+  if (target === "today") {
+    // Short link: #today opens today's briefing.
+    resetFilters();
+    state.today = true;
+    syncControls();
+    history.replaceState(null, "", location.pathname);
+    update();
+    return;
+  }
   const date = target.slice(0, 10);
   const index = state.issues.findIndex((issue) => issue.date === date);
   if (index === -1) return;
   if (isFiltering()) {
-    state.query = "";
-    state.sections.clear();
-    state.from = state.to = "";
-    state.figuresOnly = false;
+    resetFilters();
     syncControls();
     writeUrlState();
   }
@@ -310,6 +347,20 @@ function toggleTheme() {
   paintThemeButton();
 }
 
+// ---- Toolbar -----------------------------------------------------------------
+
+function toggleToday() {
+  state.today = !state.today;
+  window.scrollTo({ top: 0 });
+  update();
+}
+
+function toggleFilterPanel() {
+  const panel = $("filter-panel");
+  panel.hidden = !panel.hidden;
+  $("filter-toggle").setAttribute("aria-expanded", String(!panel.hidden));
+}
+
 // ---- Wiring ----------------------------------------------------------------
 
 function buildChips() {
@@ -338,13 +389,12 @@ function wire() {
   $("date-to").addEventListener("change", (event) => { state.to = event.target.value; update(); });
   $("figures-only").addEventListener("change", (event) => { state.figuresOnly = event.target.checked; update(); });
   $("clear-filters").addEventListener("click", () => {
-    state.query = "";
-    state.sections.clear();
-    state.from = state.to = "";
-    state.figuresOnly = false;
+    resetFilters();
     syncControls();
     update();
   });
+  $("today").addEventListener("click", toggleToday);
+  $("filter-toggle").addEventListener("click", toggleFilterPanel);
   $("load-more").addEventListener("click", () => {
     state.shown += PAGE_SIZE;
     render();
@@ -360,9 +410,14 @@ function wire() {
   $("theme-toggle").addEventListener("click", toggleTheme);
   document.addEventListener("keydown", (event) => {
     const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName);
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
     if (event.key === "/" && !typing) {
       event.preventDefault();
       $("search").focus();
+    } else if (event.key.toLowerCase() === "t" && !typing) {
+      toggleToday();
+    } else if (event.key.toLowerCase() === "f" && !typing) {
+      toggleFilterPanel();
     } else if (event.key === "Escape" && document.activeElement === $("search")) {
       $("search").blur();
     }

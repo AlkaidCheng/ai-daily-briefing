@@ -95,7 +95,26 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 }
 .toolbar-inner { max-width: var(--measure); margin: 0 auto; padding: 0.75rem 16px 0.6rem; }
 
+.toolbar-row { display: flex; align-items: center; gap: 0.5rem; }
+
+.pill-button {
+  flex: none; height: 40px; padding: 0 0.9rem; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--border); background: var(--surface); color: var(--muted); font: 500 0.85rem var(--sans);
+}
+.pill-button:hover { border-color: var(--faint); color: var(--text); }
+.pill-button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+
+.filter-button { position: relative; width: 40px; height: 40px; }
+.filter-button[aria-expanded="true"] { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+.badge {
+  position: absolute; top: -4px; right: -4px; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 999px;
+  background: var(--accent); color: var(--surface); font: 600 0.7rem/18px var(--sans); text-align: center;
+}
+
+.notice { margin: 0 0 1rem; padding: 0.6rem 0.9rem; border-radius: var(--radius); background: var(--accent-soft); color: var(--text); font-size: 0.9rem; }
+
 .search {
+  flex: 1; min-width: 0;
   display: flex; align-items: center; gap: 0.5rem; padding: 0 0.75rem;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); color: var(--faint);
 }
@@ -109,6 +128,7 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 }
 
 .filters { margin-top: 0.6rem; display: grid; gap: 0.5rem; }
+.filters[hidden] { display: none; }
 .chips { display: flex; gap: 0.4rem; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
 .chips::-webkit-scrollbar { display: none; }
 .chip {
@@ -129,7 +149,8 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 .text-button { border: 0; background: none; padding: 0; color: var(--accent); font: inherit; cursor: pointer; }
 .text-button:hover { text-decoration: underline; }
 
-.result-count { margin: 0.4rem 0 0; font-size: 0.8rem; color: var(--faint); min-height: 1.2em; }
+.result-count { margin: 0.5rem 0 0; font-size: 0.8rem; color: var(--faint); display: flex; gap: 0.75rem; }
+.result-count[hidden] { display: none; }
 
 /* Feed */
 .feed { max-width: var(--measure); margin: 0 auto; padding: 1.5rem 16px 0; }
