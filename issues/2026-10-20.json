@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-20",
+  "heading": "Tuesday, October 20, 2026",
+  "topLine": "Reuters reports OpenAI is racing to close a giant funding round, possibly valuing it above $1.4 trillion, before Anthropic's expected IPO.",
+  "sections": [
+    {
+      "name": "Company announcements",
+      "items": [
+        {
+          "headline": "Meta details Prometheus, its gigawatt-scale training supercluster in Ohio",
+          "summary": "Meta's engineering blog says Prometheus (New Albany, Ohio) already has hundreds of thousands of GB200/GB300 GPUs and is scaling toward ~1M GPUs, with Vera Rubin racks coming next. It trained the Muse models, and Meta reports more than 85% goodput during pre-training. The post is a rare detailed look at how frontier compute is built across multiple buildings.",
+          "sources": [ { "name": "Meta Engineering", "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/" } ]
+        },
+        {
+          "headline": "Microsoft adds enterprise controls to assess and shut down risky AI agents",
+          "summary": "Microsoft announced tools in Microsoft 365 E7 and Project Perception that score agent risk and let admins restrict agents, require approval for their actions, or stop them. It is part of a broader push to give enterprises governance over autonomous agents.",
+          "sources": [ { "name": "GeekWire", "url": "https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/" } ]
+        }
+      ]
+    },
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude designs lab-validated protein binders against scorpion neurotoxins",
+          "summary": "Anthropic says an internal Claude research model ran a 64-hour autonomous design campaign. Lab tests by Adaptyv Bio and Twist confirmed that 17 of 211 tested minibinders bind four of five target toxins, the best at single-digit nanomolar affinity. Binding was measured against recombinant toxins only, and the work is not peer-reviewed (technical report plus two outside expert reviews). Neutralization in cells or animals was not tested, and Anthropic says this is not an antivenom.",
+          "sources": [ { "name": "Anthropic research", "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50170021" } ]
+        }
+      ]
+    },
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek open-sources DeepInfer, its production inference engine",
+          "summary": "DeepSeek released the Apache-2.0 framework it says powers its production serving. It supports DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, with speculative decoding and batch-invariant inference. KV-cache and prefill/decode disaggregation are not included yet. It is the top AI story on Hacker News today (~2,000 points).",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/deepseek-ai/DeepInfer" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50163277" } ]
+        },
+        {
+          "headline": "Mistral launches Voxtral 3 speech-to-text and text-to-speech family",
+          "summary": "The family includes transcription models with diarization in 50+ languages, a sub-500 ms realtime model, a voice-cloning TTS model in 35+ languages, and a LiveKit-based voice-agent SDK. Mistral reports about 4% WER on FLEURS versus about 16% for Whisper large-v3 (its own evaluation). The page does not say whether weights are open.",
+          "sources": [ { "name": "Mistral AI", "url": "https://mistral.ai/news/voxtral-3/" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50168396" } ]
+        },
+        {
+          "headline": "MiniMax releases M3.1 Flash for cheap, fast agentic coding",
+          "summary": "MiniMax claims about 3x faster inference and 70% lower cost ($0.15/$0.60 per 1M input/output tokens). It reports 73.7% on DeepSWE v1.1 and 61.7 on OSWorld V2, both its own numbers. Weights are promised 'later'.",
+          "sources": [ { "name": "MiniMax blog", "url": "https://www.minimax.io/blog/minimax-m31f" } ]
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
+      "items": [
+        {
+          "headline": "Robot fleets learn from each other's experience without new demonstrations",
+          "summary": "'Learning from Fleet Experience' pools execution data across deployed robots. When one robot fails, the method retrieves successful segments from the rest of the fleet to update a shared policy. Success on a multi-stage packaging task rose from 79.2% to 98.3% across 96 real robots. Takeaway: deployed fleets can keep improving themselves without extra human data collection.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.25736" } ]
+        },
+        {
+          "headline": "MemT-1.0 builds memory into the model instead of bolting on retrieval",
+          "summary": "MemT-1.0 is a Gated DeltaNet-2 model with a 'Mixture-of-Storage' memory. It is competitive with retrieval-augmented baselines, and at 128K-token histories it reports about 1.86x faster inference and 66x less storage than keeping a full KV cache. Takeaway: long-term agent memory could become a native model feature instead of an external database.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.26825" } ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
+      "items": [
+        {
+          "headline": "OpenAI reportedly speeds up mega-round ahead of Anthropic's IPO",
+          "summary": "Reuters, citing sources, reports that OpenAI is pushing to close a funding round that could value it above $1.4 trillion before Anthropic's expected public listing. Earlier reports put the round at $30B+. The race between the two labs for capital is now driving financing timelines.",
+          "sources": [ { "name": "Reuters", "url": "https://www.reuters.com/world/openai-seeks-accelerate-fundraising-ahead-anthropic-ipo-sources-say-2026-10-19/" } ]
+        },
+        {
+          "headline": "US federal civilian agencies ordered to remove DeepSeek technology",
+          "summary": "The Wall Street Journal reports a DHS directive that requires civilian agencies to remove DeepSeek technology from their IT systems and blocks future purchases. It is the broadest US government action against a Chinese AI lab so far. This briefing could not independently confirm the directive beyond the WSJ report.",
+          "sources": [ { "name": "WSJ", "url": "https://www.wsj.com/tech/ai/dhs-orders-deepseek-technology-removed-from-federal-civilian-it-systems-060b6d3d" } ]
+        },
+        {
+          "headline": "Lone hacker used AI agents to break into scores of websites for a few thousand dollars",
+          "summary": "Reuters details a campaign in which commercially available AI agent frameworks automated intrusions into dozens of companies' sites at very low cost per target. Security researchers point to it as a concrete case of agentic AI making attacks cheaper.",
+          "sources": [ { "name": "Reuters", "url": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/" } ]
+        }
+      ]
+    }
+  ]
+}
