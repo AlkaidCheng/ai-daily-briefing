@@ -18,8 +18,16 @@
             {
               "name": "AlphaEvolve white paper (arXiv)",
               "url": "https://arxiv.org/abs/2506.13131"
+            },
+            {
+              "name": "X: @GoogleDeepMind",
+              "url": "https://x.com/GoogleDeepMind/status/1922669321559347498"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/mUd0dQneyWkX6ohzKGk0dE4-vJaSgvgYGPFjWC2krhVWILtIiMFkSxz8OWA3ug17ZzUd61rKPuHFWafiuVJ2j9IVFzHSlklrd5ykNk3t_AZno9gXBfU=w1440",
+            "alt": "Diagram of the AlphaEvolve loop: prompt sampler, LLMs, evaluators and program database"
+          }
         }
       ]
     }

@@ -22,6 +22,10 @@
             {
               "name": "arXiv: Lamzouri",
               "url": "https://arxiv.org/abs/2609.02882"
+            },
+            {
+              "name": "X: @AnthropicAI",
+              "url": "https://x.com/AnthropicAI/status/2086867246073401655"
             }
           ],
           "image": {
@@ -45,7 +49,11 @@
               "name": "Meta AI research blog",
               "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1763817931416938&version=1786388559",
+            "alt": "Benchmark table comparing Muse Glimmer 30B with Gemma 4 31B and Qwen3.6 27B"
+          }
         }
       ]
     }

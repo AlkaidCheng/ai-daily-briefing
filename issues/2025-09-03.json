@@ -15,7 +15,11 @@
               "name": "arXiv preprint",
               "url": "https://arxiv.org/abs/2509.03065v1"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2509.03065v1/1.png",
+            "alt": "Screenshot of the GPT-5 conversation used in the experiment"
+          }
         }
       ]
     }

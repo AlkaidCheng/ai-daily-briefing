@@ -22,8 +22,16 @@
             {
               "name": "The Matroid Union (Carmesin)",
               "url": "https://matroidunion.org/?p=6255"
+            },
+            {
+              "name": "X: @__eknight__",
+              "url": "https://x.com/__eknight__/status/2075643450196971805"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://matroidunion.org/wp-content/uploads/2026/07/bowtie.png",
+            "alt": "Bowtie graph with its cycle double cover (Matroid Union)"
+          }
         }
       ]
     }

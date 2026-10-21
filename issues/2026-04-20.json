@@ -18,7 +18,11 @@
               "name": "Kimi blog",
               "url": "https://www.kimi.com/en/blog/kimi-k2-6"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j305qav1fc641b5670?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+            "alt": "Kimi Code Bench results for Kimi K2.6"
+          }
         }
       ]
     }

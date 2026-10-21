@@ -18,8 +18,16 @@
             {
               "name": "The Decoder",
               "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/"
+            },
+            {
+              "name": "X: @pushmeet",
+              "url": "https://x.com/pushmeet/status/2058936037754224998"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2605.22763v1/system_design_centered.png",
+            "alt": "Design of the AlphaProof Nexus agent (paper Fig. 2)"
+          }
         }
       ]
     }

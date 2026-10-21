@@ -15,7 +15,11 @@
               "name": "MIT News",
               "url": "https://news.mit.edu/2025/ai-maps-how-new-antibiotic-targets-gut-bacteria-1003"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://news.mit.edu/sites/default/files/images/202510/mit-csail-enterololin.jpg",
+            "alt": "Illustration of enterololin's protein target in gut bacteria"
+          }
         }
       ]
     }

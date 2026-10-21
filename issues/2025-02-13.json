@@ -19,7 +19,11 @@
               "name": "Fierce Biotech",
               "url": "https://www.fiercebiotech.com/medtech/after-ai-antibodies-and-peptides-uws-baker-lab-now-tackles-computer-generated-enzymes"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://www.bakerlab.org/wp-content/uploads/2025/02/AI-enzyme-BY-Sam-Pellock-University-of-Washington-web-1024x576.jpg",
+            "alt": "Illustration of an AI-designed serine hydrolase enzyme (Sam Pellock, UW)"
+          }
         }
       ]
     }

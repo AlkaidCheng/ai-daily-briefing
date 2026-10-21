@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/products/gemini/gemini-3-deep-think/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/final_dt_blog_evals_2.gif",
+            "alt": "Gemini 3 Deep Think evaluation chart"
+          }
         }
       ]
     }

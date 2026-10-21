@@ -14,6 +14,10 @@
             {
               "name": "arXiv paper",
               "url": "https://arxiv.org/abs/2502.03544"
+            },
+            {
+              "name": "X: @lmthang",
+              "url": "https://x.com/lmthang/status/1887928665100665111"
             }
           ]
         }
@@ -33,7 +37,11 @@
               "name": "Google blog",
               "url": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_benchmarks_cropped_light1x.gif",
+            "alt": "Benchmark table comparing Gemini 2.0 Pro, Flash and Flash-Lite with 1.5 models"
+          }
         }
       ]
     }

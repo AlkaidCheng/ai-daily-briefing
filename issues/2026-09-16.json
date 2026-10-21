@@ -14,12 +14,12 @@
             {
               "name": "arXiv paper",
               "url": "https://arxiv.org/abs/2609.19214"
-            },
-            {
-              "name": "Quanta Magazine update",
-              "url": "https://www.quantamagazine.org/update/167384/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2609.19214v1/figure1-corrected.png",
+            "alt": "The Chair44 solid (Figure 1 of the paper)"
+          }
         }
       ]
     }

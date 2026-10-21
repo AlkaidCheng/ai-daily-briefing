@@ -18,8 +18,16 @@
             {
               "name": "Max Planck Institute for the Science of Light",
               "url": "https://mpl.mpg.de/news/article/ai-finds-new-ways-to-observe-the-most-extreme-events-in-the-universe"
+            },
+            {
+              "name": "X: @MarioKrenn6240",
+              "url": "https://x.com/MarioKrenn6240/status/1911109057139843452"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2312.04258v1/GWDetectorPool.png",
+            "alt": "Sketch of the Urania discovery engine optimising a pool of interferometer designs"
+          }
         }
       ]
     },
@@ -41,7 +49,11 @@
               "name": "Synced",
               "url": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/amp/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://github.com/zai-org/GLM-4/raw/main/resources/Bench-32B.png",
+            "alt": "GLM-4-32B-0414 benchmark scores compared with other models"
+          }
         },
         {
           "headline": "OpenAI launches GPT-4.1, 4.1 mini and 4.1 nano in the API",

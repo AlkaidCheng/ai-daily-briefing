@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_2.5_blog_1.width-1200.format-webp.webp",
+            "alt": "Gemini 2.5 Pro reasoning, science and math scores compared with other models"
+          }
         },
         {
           "headline": "DeepSeek releases DeepSeek-V3-0324 update",

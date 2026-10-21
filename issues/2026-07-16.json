@@ -43,7 +43,11 @@
               "name": "Fortune",
               "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/2/2026-07-16/1d9chl6mdcmosb3rnlehg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+            "alt": "Kimi K3 benchmark comparison with other frontier models"
+          }
         }
       ]
     }

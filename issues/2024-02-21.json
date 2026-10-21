@@ -12,10 +12,18 @@
           "summary": "A Princeton and PPPL team (Jaemin Seo, Egemen Kolemen) trained a controller on past DIII-D data that forecast tearing-mode instabilities up to 300 milliseconds ahead and adjusted plasma shape and beam power to avoid them during a live experiment, rather than suppressing them after onset. Published in Nature; demonstrated on one tokamak and proposed as a step toward stable high-performance ITER scenarios.",
           "sources": [
             {
+              "name": "Princeton Engineering news",
+              "url": "https://engineering.princeton.edu/news/2024/02/21/engineers-use-ai-wrangle-fusion-power-grid"
+            },
+            {
               "name": "ScienceDaily (Princeton release)",
               "url": "https://sciencedaily.com/releases/2024/02/240221160337.htm"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-024-07024-9/MediaObjects/41586_2024_7024_Fig1_HTML.png",
+            "alt": "Fig. 1: architecture of the tearing-avoidance control system in the DIII-D tokamak"
+          }
         }
       ]
     }

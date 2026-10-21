@@ -18,7 +18,11 @@
               "name": "Mistral AI news",
               "url": "https://mistral.ai/news/robostral-navigate/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://mistral.ai/cms-media/api/media/file/model-performance-comparison-(success-rate-%E2%86%91)%203-1.svg",
+            "alt": "Navigation success rate of Robostral Navigate compared with other models"
+          }
         },
         {
           "headline": "SpaceXAI releases Grok 4.5, trained with Cursor",

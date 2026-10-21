@@ -19,7 +19,11 @@
               "name": "arXiv paper",
               "url": "https://arxiv.org/abs/2605.29955"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2605.29955v1/figures/visualizer.png",
+            "alt": "AutoformBot task graph in its visual interface (paper Fig. 4)"
+          }
         }
       ]
     }

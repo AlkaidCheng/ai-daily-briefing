@@ -22,7 +22,11 @@
               "name": "Simon Willison",
               "url": "https://feeds.simonwillison.net/2025/Aug/1/deep-think-in-the-gemini-app/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/all_benchmarks_blog.width-1200.format-webp.webp",
+            "alt": "Gemini 2.5 Deep Think reasoning, code and math scores compared with o3 and Grok 4"
+          }
         }
       ]
     }

@@ -18,7 +18,11 @@
               "name": "Mistral AI news",
               "url": "https://mistral.ai/news/devstral-2507/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/ae27ff96-c7b6-4a6b-a3a1-0e02e156198a_iY90N.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Devstral Medium SWE-bench Verified performance compared with other models"
+          }
         }
       ]
     }

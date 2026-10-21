@@ -19,7 +19,11 @@
               "name": "NeurIPS 2024 proceedings",
               "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/aa280e73c4e23e765fde232571116d3b-Abstract.html"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2410.08304v1/Stable_fig.png",
+            "alt": "Fig. 1: trajectories of a stable dynamical system staying within a ball"
+          }
         }
       ]
     }

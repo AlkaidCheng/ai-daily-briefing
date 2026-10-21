@@ -12,14 +12,26 @@
           "summary": "Anthropic reported that about 950 Claude agents spent 21 hours surveying over 200,000 reverse transcriptases across roughly 1.9 billion protein clusters, narrowing 3,500 candidate systems to 20 and identifying array-associated reverse transcriptases (ART), which pair a reverse transcriptase with an accessory gene and a CRISPR-like repeat array in phage DNA. Released as a company blog post and preprint, not peer reviewed: the system's biological function is unknown, wet-lab work is pending, and reporting notes that ten reruns of the same campaign failed to find the array.",
           "sources": [
             {
+              "name": "Anthropic research",
+              "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system"
+            },
+            {
               "name": "Interesting Engineering",
               "url": "https://interestingengineering.com/ai-robotics/claude-discovers-crispr-like-enzyme-system"
             },
             {
               "name": "The Next Web",
               "url": "https://thenextweb.com/news/anthropic-claude-enzyme-system-crispr-like-repeats"
+            },
+            {
+              "name": "X: @DarioAmodei",
+              "url": "https://x.com/DarioAmodei/status/2102831170299834652"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0f6064436a364b73ce0d2a80848ac56be7ae9ddd-1360x1160.gif",
+            "alt": "Graphic of Claude identifying patterns in DNA"
+          }
         }
       ]
     }

@@ -19,7 +19,11 @@
               "name": "Google DeepMind blog (update note)",
               "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/-zGoVZij6MXIV2t6Pl2k1-pKPmVibDbCmhW1mkGu3jreGSirseXSrSedUWdzM_hlEihbrRA2yfdeKRvkMRqVCcFffPTZsikNwBczD6dKJXH5ISaC=w1440",
+            "alt": "AlphaProof reinforcement-learning training loop infographic"
+          }
         }
       ]
     },

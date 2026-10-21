@@ -22,7 +22,11 @@
               "name": "The Decoder",
               "url": "https://the-decoder.com/alibaba-unveils-qwen3-max-preview-its-largest-language-model-yet/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://the-decoder.com/wp-content/uploads/2025/09/qwen_3_max_benchmark.png",
+            "alt": "Qwen3-Max-Preview benchmark scores compared with other models"
+          }
         },
         {
           "headline": "Moonshot AI updates Kimi K2 with 256K context",

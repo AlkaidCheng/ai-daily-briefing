@@ -19,7 +19,11 @@
               "name": "Broad Institute news",
               "url": "https://www.broadinstitute.org/node/5556221"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-023-06887-8/MediaObjects/41586_2023_6887_Fig1_HTML.png",
+            "alt": "Fig. 1: ensembles of deep learning models predicting antibiotic activity and human-cell cytotoxicity"
+          }
         }
       ]
     }

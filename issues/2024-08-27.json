@@ -12,6 +12,10 @@
           "summary": "Shehper, Gukov and co-authors treated the Andrews–Curtis conjecture in combinatorial group theory as a reinforcement-learning environment and applied classical search, RL and language models to it. They showed that one Akbulut–Kirby potential counterexample, whose status had been open for 39 years, is stably AC-trivial. A later version also reports resolving potential counterexamples in the Miller–Schupp series. The trivializations are explicit sequences of moves that can be checked. The preprint was later published at NeurIPS 2025.",
           "sources": [
             {
+              "name": "Caltech News",
+              "url": "https://www.caltech.edu/about/news/ai-program-plays-the-long-game-to-solve-decades-old-math-problems"
+            },
+            {
               "name": "arXiv preprint",
               "url": "https://arxiv.org/abs/2408.15332v1"
             },
@@ -19,7 +23,11 @@
               "name": "NeurIPS 2025 proceedings",
               "url": "https://papers.nips.cc/paper_files/paper/2025/hash/ea8c9cd935dc62e0288bbf33a15e65e9-Abstract-Conference.html"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2408.15332v1/fig/anatomy200.png",
+            "alt": "Anatomy of successful Andrews-Curtis trivialization paths found by an RL agent"
+          }
         }
       ]
     }

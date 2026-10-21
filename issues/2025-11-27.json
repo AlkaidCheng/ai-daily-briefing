@@ -12,10 +12,18 @@
           "summary": "DeepSeek released DeepSeekMath-V2, a 685B-parameter open-weight model (Apache 2.0) that checks its own natural-language proofs. Its paper reports gold-level scores on IMO 2025 and CMO 2024 and 118/120 on Putnam 2024, using scaled test-time compute. These scores are self-reported and were not officially graded.",
           "sources": [
             {
+              "name": "Hugging Face (DeepSeek)",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2"
+            },
+            {
               "name": "Simon Willison",
               "url": "https://simonwillison.net/2025/Nov/27/deepseek-math-v2"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/deepseek-ai/DeepSeek-Math-V2/refs/heads/main/figures/Competitions.png",
+            "alt": "DeepSeekMath-V2 scores on IMO 2025, CMO 2024 and Putnam 2024"
+          }
         }
       ]
     },

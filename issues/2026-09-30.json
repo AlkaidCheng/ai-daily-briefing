@@ -22,7 +22,11 @@
               "name": "Google blog (general availability)",
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-argon_table_blog.gif",
+            "alt": "Benchmark table of Gemini 4 Argon capabilities"
+          }
         }
       ]
     }

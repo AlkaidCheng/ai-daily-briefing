@@ -18,7 +18,11 @@
               "name": "Mistral AI news",
               "url": "https://mistral.ai/news/codestral-2501/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/0e0dd22c-b037-423f-ad2f-d6b429a871d3_Z2uYvw3.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Codestral 25.01 chat demo screenshot"
+          }
         }
       ]
     }

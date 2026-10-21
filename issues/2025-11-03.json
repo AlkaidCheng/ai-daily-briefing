@@ -18,8 +18,16 @@
             {
               "name": "Terence Tao's blog",
               "url": "https://terrytao.wordpress.com/2025/11/05/mathematical-exploration-and-discovery-at-scale/"
+            },
+            {
+              "name": "X: @pushmeet",
+              "url": "https://x.com/pushmeet/status/1986371193411150248"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://terrytao.wordpress.com/wp-content/uploads/2025/11/result_distribution.png",
+            "alt": "Grid of outcomes across the 67 problems"
+          }
         }
       ]
     }

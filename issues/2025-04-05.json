@@ -22,7 +22,11 @@
               "name": "TechCrunch",
               "url": "https://techcrunch.com/2025/04/05/meta-releases-llama-4-a-new-crop-of-flagship-ai-models"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://techcrunch.com/wp-content/uploads/2025/04/488655517_650996354186993_1043942188415715102_n.png?w=680",
+            "alt": "Llama 4 mixture-of-experts architecture diagram (Meta)"
+          }
         }
       ]
     }

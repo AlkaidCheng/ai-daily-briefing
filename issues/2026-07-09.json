@@ -22,7 +22,11 @@
               "name": "GIGAZINE",
               "url": "https://gigazine.net/gsc_news/en/20260710-meta-muse-spark-1-1"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://i.gzn.jp/img/2026/07/10/meta-muse-spark-1-1/03.png",
+            "alt": "Benchmark comparison of Muse Spark 1.1 with Gemini 3.1 Pro, Claude Opus 4.8 and GPT-5.5"
+          }
         }
       ]
     }

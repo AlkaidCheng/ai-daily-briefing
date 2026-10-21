@@ -12,6 +12,10 @@
           "summary": "Mohammed Abouzaid, Lauren Williams, Martin Hairer and eight other mathematicians posted ten unpublished research-level questions from their own work, with encrypted answers, to test AI systems more objectively than company announcements. Hairer told the Harvard Gazette the idea of AI replacing mathematicians was \"complete nonsense\" in his view.",
           "sources": [
             {
+              "name": "First Proof project",
+              "url": "https://1stproof.org/"
+            },
+            {
               "name": "arXiv: First Proof",
               "url": "https://arxiv.org/abs/2602.05192"
             },
@@ -62,7 +66,11 @@
               "name": "Gigazine",
               "url": "https://gigazine.net/gsc_news/en/20260206-openai-gpt-5-3-codex"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://i.gzn.jp/img/2026/02/06/openai-gpt-5-3-codex/04_m.png",
+            "alt": "GPT-5.3-Codex Terminal-Bench 2.0 scores"
+          }
         }
       ]
     }

@@ -12,6 +12,10 @@
           "summary": "McMaster's Stokes lab with Stanford collaborators built SyntheMol-RL, which searches a space of up to 46 billion easily synthesisable molecules, and proposed 79 antibacterials from which they selected synthecin, a water-soluble compound against Staphylococcus aureus. Published in Molecular Systems Biology: formulated as a topical cream, it controlled a drug-resistant wound infection in mouse models, though its mechanism of action is still unknown.",
           "sources": [
             {
+              "name": "McMaster University news",
+              "url": "https://news.mcmaster.ca/mcmaster-built-ai-model-speeds-up-drug-discovery-designs-new-antibiotic/"
+            },
+            {
               "name": "News-Medical report on the paper",
               "url": "https://www.news-medical.net/news/20260423/AI-model-rapidly-designs-new-antibiotic-to-fight-resistant-bacteria.aspx"
             }
@@ -37,7 +41,11 @@
               "name": "OpenAI: GPT-5.5 System Card",
               "url": "https://deploymentsafety.openai.com/gpt-5-5"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-5/assets/images/capture_the_flag.png",
+            "alt": "Capture-the-flag cybersecurity evaluation results from the GPT-5.5 system card"
+          }
         }
       ]
     }

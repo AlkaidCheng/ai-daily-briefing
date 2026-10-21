@@ -18,7 +18,11 @@
               "name": "Google Developers Blog",
               "url": "https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemma_3n_Chart_1_RD1-V01_1.original.png",
+            "alt": "LMArena text Elo scores with Gemma 3n E4B compared with larger models"
+          }
         },
         {
           "headline": "Alibaba previews Qwen VLo image understanding and generation model",

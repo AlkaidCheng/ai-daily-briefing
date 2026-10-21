@@ -23,7 +23,11 @@
               "name": "X: @jessemhan",
               "url": "https://x.com/jessemhan/status/1966379609932673097"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://github.com/math-inc/strongpnt/raw/main/blueprint/blueprint_screenshot.png",
+            "alt": "Dependency graph of the Strong PNT Lean blueprint"
+          }
         }
       ]
     },

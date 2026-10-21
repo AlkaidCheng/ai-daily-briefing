@@ -18,6 +18,10 @@
             {
               "name": "John D. Cook's blog",
               "url": "https://www.johndcook.com/blog/2026/08/13/constructing-hadamard-matrices/"
+            },
+            {
+              "name": "X: @__alpoge__",
+              "url": "https://x.com/__alpoge__/status/2087504785952182273"
             }
           ]
         },
@@ -26,10 +30,18 @@
           "summary": "Tom Adamczewski (Epoch AI) ran general-purpose language models against 492 open OEIS conjectures that a DeepMind team had formalized in Lean. With a $50 budget per attempt, the models produced Lean-checked proofs or disproofs of 147 of them (30%). The results are machine-checked, but most of the conjectures are minor. The paper is an arXiv preprint.",
           "sources": [
             {
+              "name": "OEIS Open results explorer",
+              "url": "https://tadamcz.com/oeis-open"
+            },
+            {
               "name": "arXiv paper",
               "url": "https://arxiv.org/abs/2608.11941"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2608.11941v2/figures/accuracy.png",
+            "alt": "Accuracy chart of language models on OEIS Open"
+          }
         }
       ]
     },

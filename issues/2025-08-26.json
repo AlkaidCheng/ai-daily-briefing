@@ -22,7 +22,11 @@
               "name": "Google Developers Blog",
               "url": "https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gemini-image__image-editing__no_product-reconte.original.png",
+            "alt": "LMArena image-editing scores with Gemini 2.5 Flash Image compared with other models"
+          }
         }
       ]
     }

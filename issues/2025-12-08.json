@@ -12,10 +12,18 @@
           "summary": "Tao's Equational Theories Project began in September 2024 and settled all 22,028,942 implications among 4,694 equational laws for magmas. The main goal was reached on 14 April 2025, and the write-up was posted on 8 December 2025. Results came from a mix of human proofs and automated tools, including automated theorem provers, and were validated in Lean. The 36-author paper describes it as a pilot for large-scale, machine-assisted collaboration.",
           "sources": [
             {
+              "name": "Terence Tao's blog",
+              "url": "https://terrytao.wordpress.com/2025/12/09/the-equational-theories-project-advancing-collaborative-mathematical-research-at-scale/"
+            },
+            {
               "name": "arXiv paper",
               "url": "https://arxiv.org/abs/2512.07087"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2512.07087v2/854.png",
+            "alt": "Hasse diagram of equational laws implied by E854"
+          }
         },
         {
           "headline": "Erdős Problem #1026 solved through a mix of online collaboration and AI tools",
@@ -25,7 +33,11 @@
               "name": "Terence Tao's blog",
               "url": "https://terrytao.wordpress.com/2025/12/08/the-story-of-erdos-problem-126/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://terrytao.wordpress.com/wp-content/uploads/2025/12/game.jpg",
+            "alt": "Diagram of the coin-splitting game behind Erdős #1026"
+          }
         }
       ]
     },

@@ -22,7 +22,11 @@
               "name": "ComfyUI Wiki",
               "url": "https://comfyui-wiki.com/en/news/2025-03-04-cogview4-release"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://cdn.bigmodel.cn/markdown/1749449849627DPG-Bench.png?attname=DPG-Bench.png",
+            "alt": "CogView4 DPG-Bench results compared with other image models"
+          }
         }
       ]
     }

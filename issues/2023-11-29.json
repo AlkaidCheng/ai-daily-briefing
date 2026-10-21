@@ -12,6 +12,10 @@
           "summary": "Google DeepMind's GNoME graph networks predicted 2.2 million crystal structures below the known stability hull, about 380,000 of them deemed most stable, and reported that 736 had already been made independently in labs (Nature). In an April 2024 Chemistry of Materials perspective, UC Santa Barbara chemists Anthony Cheetham and Ram Seshadri sampled the release and found scant evidence of compounds that are simultaneously novel, credible and useful, arguing many are trivial variants of known compounds.",
           "sources": [
             {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/"
+            },
+            {
               "name": "Nature paper",
               "url": "https://www.nature.com/articles/s41586-023-06735-9"
             },
@@ -22,13 +26,29 @@
             {
               "name": "404 Media",
               "url": "https://www.404media.co/google-says-it-discovered-millions-of-new-materials-with-ai-human-researchers/"
+            },
+            {
+              "name": "X: @GoogleDeepMind",
+              "url": "https://x.com/GoogleDeepMind/status/1729895673368068596"
+            },
+            {
+              "name": "X: @simonbatzner",
+              "url": "https://x.com/simonbatzner/status/1729956302141767814"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/eQQaMwaeVZIZ6W3FXvY4Fq9xdFvA2s5z94cSv74_GF8Ctdyn0Xtq5vOXBpuGNhx_PgmsmHz266aYV3KiAJCYxKxR2FbTyF-PwlJTY5fLweVHCWr15w=w1440",
+            "alt": "Concentric-circle diagram of the scale of GNoME's crystal discoveries versus previously known materials"
+          }
         },
         {
           "headline": "Berkeley's A-Lab makes dozens of predicted compounds; its novelty claim is later corrected",
           "summary": "The A-Lab at Lawrence Berkeley National Laboratory, with Google DeepMind, reported in Nature that an AI-planned robotic workflow synthesised 41 of 58 target compounds in 17 days of continuous operation. Critics including UCL's Robert Palgrave challenged the X-ray phase identification and the novelty claim; a January 2026 author correction states the compounds were new to the prediction platform rather than necessarily new to science, confirms 36 of 40 reported successes after manual re-analysis, and removes one training-set compound.",
           "sources": [
+            {
+              "name": "Berkeley Lab News Center",
+              "url": "https://newscenter.lbl.gov/2023/11/29/google-deepmind-new-compounds-materials-project/"
+            },
             {
               "name": "Nature paper",
               "url": "https://www.nature.com/articles/s41586-023-06734-w"
@@ -40,8 +60,20 @@
             {
               "name": "Author correction (PMC)",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12872444/"
+            },
+            {
+              "name": "X: @NJSzymanski",
+              "url": "https://x.com/NJSzymanski/status/1729895473274867924"
+            },
+            {
+              "name": "X: @Robert_Palgrave",
+              "url": "https://x.com/Robert_Palgrave/status/1730358675523424344"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-023-06734-w/MediaObjects/41586_2023_6734_Fig1_HTML.png",
+            "alt": "Fig. 1: autonomous materials synthesis workflow of the A-Lab"
+          }
         }
       ]
     }

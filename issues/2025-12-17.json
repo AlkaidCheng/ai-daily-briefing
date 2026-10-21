@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/products/gemini/gemini-3-flash/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-flash_pareto_graph_dec1.width-1200.format-webp.webp",
+            "alt": "LMArena Elo versus price per million tokens, with Gemini 3 Flash on the Pareto frontier"
+          }
         },
         {
           "headline": "Mistral releases Mistral OCR 3",

@@ -18,7 +18,11 @@
               "name": "Mistral AI news",
               "url": "https://mistral.ai/news/voxtral-transcribe-2/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/58664549-fe38-420a-86fd-5c7003476689_Z126oto.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Voxtral Transcribe 2 word error rate on top FLEURS languages versus price per minute"
+          }
         }
       ]
     }

@@ -18,8 +18,20 @@
             {
               "name": "erdosproblems.com #281",
               "url": "https://www.erdosproblems.com/281"
+            },
+            {
+              "name": "X: @neelsomani",
+              "url": "https://x.com/neelsomani/status/2012695714187325745"
+            },
+            {
+              "name": "X: @gdb",
+              "url": "https://x.com/gdb/status/2012737490239566243"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://the-decoder.com/wp-content/uploads/2026/01/erdos_problem_281.png",
+            "alt": "Screenshot of Erdős problem #281 (via Neel Somani)"
+          }
         }
       ]
     }

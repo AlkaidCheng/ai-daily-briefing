@@ -45,7 +45,11 @@
               "name": "Google DeepMind model card",
               "url": "https://deepmind.google/models/model-cards/gemini-3-6-flash/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__quality.width-1200.format-webp.webp",
+            "alt": "Gemini 3.6 Flash quality benchmark chart"
+          }
         }
       ]
     }

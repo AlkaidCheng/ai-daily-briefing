@@ -22,7 +22,11 @@
               "name": "Le Matin",
               "url": "https://lematin.ma/hi-tech/anthropic-muscle-claude-avec-ses-nouveaux-modeles-fable-51-et-mythos-51/363103"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3dd626b47b88feb72082646cdea87944d49a3c7f-800x800.png&w=1920&q=75",
+            "alt": "New 300 m Venus elevation model of a small shield volcano produced with Claude"
+          }
         },
         {
           "headline": "Meta releases Muse Voice Transcribe real-time speech model",
@@ -35,7 +39,11 @@
               "name": "Meta AI research blog",
               "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://research.meta.ai/_next/image?url=%2Farticles%2Fintroducing-muse-audio%2Fbenchmarks%2Fstreaming-final-transcription-wer-v1.png&w=3840&q=90&dpl=dpl_3r2SM52NFkaU5xrSbUz6eLoDH4Xv",
+            "alt": "Streaming transcription word error rate of Muse Voice Transcribe versus other systems"
+          }
         }
       ]
     }

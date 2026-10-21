@@ -22,7 +22,11 @@
               "name": "Help Net Security",
               "url": "https://www.helpnetsecurity.com/2025/10/29/openai-gpt-oss-safeguard-safety-models/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://img2.helpnetsecurity.com/posts2025/gpt_oss_safeguard.webp",
+            "alt": "Policy-based reasoning with gpt-oss-safeguard"
+          }
         }
       ]
     }

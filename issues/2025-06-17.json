@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini_2-5_benchmarks_margin_light2x_1.gif",
+            "alt": "Gemini 2.5 Flash-Lite benchmarks table"
+          }
         },
         {
           "headline": "Moonshot AI releases Kimi-Dev-72B coding model",
@@ -35,7 +39,11 @@
               "name": "Kimi research index",
               "url": "https://www.kimi.com/blog"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://github.com/MoonshotAI/Kimi-Dev/raw/master/assets/open_performance_white.png",
+            "alt": "SWE-bench Verified scores of open-source models including Kimi-Dev-72B"
+          }
         }
       ]
     }

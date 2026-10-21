@@ -35,7 +35,11 @@
               "name": "Mistral AI news",
               "url": "https://mistral.ai/news/mistral-ocr/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/5ec9ef56-c72a-4f6c-bcbc-f2e344909059_2ep0b0.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral OCR output for a document with tables and figures"
+          }
         }
       ]
     }
