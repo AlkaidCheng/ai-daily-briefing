@@ -28,6 +28,7 @@
       "items": [
         {
           "headline": "NVIDIA releases a new wave of open models: Nemotron 3.5, Cosmos 3.5, Kumo",
+          "tags": ["model-release"],
           "summary": "At GTC Berlin NVIDIA released Nemotron 3.5 Super VL and Nemotron 3.5 Bolt, Nemotron Retriever models, Cosmos 3.5 world models, Alpamayo 2 Edge for autonomous vehicles, and Kumo, a new open-weight family of foundation models for structured business data. NVIDIA remains one of the most prolific Western open-weight publishers.",
           "sources": [ { "name": "NVIDIA blog", "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/" } ]
         },
