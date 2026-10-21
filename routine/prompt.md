@@ -72,7 +72,7 @@ Markdown, exactly this layout:
 
 …
 
-Coverage: <start> → <end> (Pacific) · [Open the Google Doc](https://docs.google.com/document/d/1pUOWiFfoEoiFqmmvqEb5RGOhCUbZskV2UQajN8UEfms/edit)
+Coverage: <start> → <end> (Pacific) · [Read on the web](https://alkaidcheng.github.io/ai-daily-briefing/#YYYY-MM-DD) · [Open the Google Doc](https://docs.google.com/document/d/1pUOWiFfoEoiFqmmvqEb5RGOhCUbZskV2UQajN8UEfms/edit)
 ```
 
 ## Constraints

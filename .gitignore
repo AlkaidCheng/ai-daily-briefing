@@ -55,7 +55,6 @@ desktop.ini
 
 # ---- Documentation builds ------------------------------------------------
 docs/_build/
-site/
 
 # ── Credentials & private keys — never commit these ──────────
 *.pem
@@ -87,3 +86,6 @@ CLAUDE.local.md
 .agents/
 AGENTS.md
 AGENTS.local.md
+
+# ---- Built site ----------------------------------------------------------
+_site/
