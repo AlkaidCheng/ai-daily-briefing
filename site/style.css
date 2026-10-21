@@ -129,8 +129,7 @@ svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width:
 
 .filters { margin-top: 0.6rem; display: grid; gap: 0.5rem; }
 .filters[hidden] { display: none; }
-.chips { display: flex; gap: 0.4rem; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
-.chips::-webkit-scrollbar { display: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .chip {
   flex: none; padding: 0.25rem 0.75rem; border-radius: 999px; cursor: pointer;
   border: 1px solid var(--border); background: var(--surface); color: var(--muted); font: 0.85rem var(--sans);
