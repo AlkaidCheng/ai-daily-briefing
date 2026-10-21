@@ -1,0 +1,38 @@
+{
+  "date": "2025-09-11",
+  "heading": "Thursday, September 11, 2025",
+  "topLine": "Alibaba releases Qwen3-Next-80B-A3B.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-Next-80B-A3B",
+          "summary": "Qwen3-Next-80B-A3B is an Apache 2.0 open-weight MoE model (80B total, 3B active) using hybrid Gated DeltaNet and gated attention, in Instruct and Thinking versions. Qwen says the base model beats Qwen3-32B-Base at about 10% of the training cost with over 10x throughput at contexts above 32K.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: QwenLM (news)",
+              "url": "https://github.com/QwenLM/Qwen3.5"
+            },
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
+            },
+            {
+              "name": "X: @Alibaba_Qwen",
+              "url": "https://x.com/Alibaba_Qwen/status/1966197643904000262"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3-Next/Qwen3-Next-80B-A3B-Instruct.001.jpeg",
+            "alt": "Qwen3-Next-80B-A3B benchmark comparison"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-19",
+  "heading": "Sunday, July 19, 2026",
+  "topLine": "Alibaba previews 2.4-trillion-parameter Qwen3.8-Max.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba previews 2.4-trillion-parameter Qwen3.8-Max",
+          "summary": "Qwen3.8-Max-Preview is a 2.4-trillion-parameter multimodal model, the first Qwen model above one trillion parameters to handle images, video and documents. Alibaba claimed it ranks second only to Anthropic's Claude Fable 5 but released no model card or benchmark data with the preview.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Techstrong.ai",
+              "url": "https://techstrong.ai/articles/alibaba-unveils-trillion-parameter-qwen3-8-ai-model-claiming-global-second-place-standing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

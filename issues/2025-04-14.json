@@ -1,0 +1,43 @@
+{
+  "date": "2025-04-14",
+  "heading": "Monday, April 14, 2025",
+  "topLine": "2 model releases: Zhipu AI GLM-4-32B-0414 / GLM-Z1 and OpenAI GPT-4.1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Zhipu AI releases GLM-4-0414 and GLM-Z1 reasoning models",
+          "summary": "Zhipu released the open-weight GLM-4-32B-0414 series, including the GLM-Z1-32B and GLM-Z1-9B reasoning models and the GLM-Z1-Rumination deep-research model, alongside its new Z.ai domain. Zhipu claims GLM-Z1-32B matches DeepSeek-R1 on some tasks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Zhipu AI GitHub",
+              "url": "https://github.com/zai-org/GLM-4"
+            },
+            {
+              "name": "Synced",
+              "url": "https://syncedreview.com/2025/04/16/zhipu-ais-open-source-power-play-blazing-fast-glm-models-global-expansion-ahead-of-potential-ipo/amp/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI launches GPT-4.1, 4.1 mini and 4.1 nano in the API",
+          "summary": "The API-only GPT-4.1 family supports up to 1 million tokens of context. OpenAI reported 54.6% on SWE-bench Verified (versus 33.2% for GPT-4o) and gains in instruction following.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/gpt-4-1/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

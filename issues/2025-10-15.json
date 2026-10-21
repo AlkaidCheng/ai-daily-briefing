@@ -1,0 +1,43 @@
+{
+  "date": "2025-10-15",
+  "heading": "Wednesday, October 15, 2025",
+  "topLine": "2 model releases: Anthropic Claude Haiku 4.5 and Google Veo 3.1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Haiku 4.5",
+          "summary": "Claude Haiku 4.5 is Anthropic's small model. Anthropic says it matches Claude Sonnet 4 on coding at about one-third the cost and more than twice the speed, and reports 73.3% on SWE-bench Verified. It is priced at $1/$5 per million input/output tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+            }
+          ]
+        },
+        {
+          "headline": "Google releases Veo 3.1 video model",
+          "summary": "Veo 3.1 builds on Veo 3 with stronger prompt adherence and better audiovisual quality, and it brings audio to Flow features such as Ingredients to Video and Extend. It is available in Flow, the Gemini app, the Gemini API and Vertex AI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/ai/veo-updates-flow/"
+            },
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20251016-google-veo-3-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

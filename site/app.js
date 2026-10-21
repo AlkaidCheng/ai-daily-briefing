@@ -8,6 +8,10 @@ const SECTIONS = [
   "Research papers",
   "Policy & industry",
 ];
+// Item tags the site can filter on, with their chip and badge labels.
+const TAGS = {
+  "model-release": { chip: "Model releases", badge: "Model release" },
+};
 const PAGE_SIZE = 7;
 const TIME_ZONE = "America/Los_Angeles";
 
@@ -22,6 +26,7 @@ const state = {
   issues: [],
   query: "",
   sections: new Set(),
+  tags: new Set(),
   from: "",
   to: "",
   figuresOnly: false,
@@ -71,7 +76,13 @@ function prepare(issues) {
         ordinal += 1;
         item.id = itemId(issue.date, ordinal);
         item.section = section.name;
-        item.haystack = [item.headline, item.summary, ...(item.sources || []).map((s) => s.name)]
+        item.tags = (item.tags || []).filter((tag) => Object.hasOwn(TAGS, tag));
+        item.haystack = [
+          item.headline,
+          item.summary,
+          ...(item.sources || []).map((s) => s.name),
+          ...item.tags.map((tag) => TAGS[tag].badge),
+        ]
           .join(" ")
           .toLowerCase();
       }
@@ -85,7 +96,7 @@ function searchTerms() {
 }
 
 function activeFilterCount() {
-  return state.sections.size + Boolean(state.from) + Boolean(state.to) + Number(state.figuresOnly);
+  return state.tags.size + state.sections.size + Boolean(state.from) + Boolean(state.to) + Number(state.figuresOnly);
 }
 
 function isFiltering() {
@@ -95,6 +106,7 @@ function isFiltering() {
 function resetFilters() {
   state.query = "";
   state.sections.clear();
+  state.tags.clear();
   state.from = state.to = "";
   state.figuresOnly = false;
   state.today = false;
@@ -107,6 +119,7 @@ function todayInPacific() {
 
 function itemMatches(item, terms) {
   if (state.sections.size && !state.sections.has(item.section)) return false;
+  if (state.tags.size && !item.tags.some((tag) => state.tags.has(tag))) return false;
   if (state.figuresOnly && !safeUrl(item.image?.url, { httpsOnly: true })) return false;
   return terms.every((term) => item.haystack.includes(term));
 }
@@ -133,6 +146,7 @@ function readUrlState() {
   const params = new URLSearchParams(location.search);
   state.query = params.get("q") || "";
   state.sections = new Set((params.get("s") || "").split("|").filter((s) => SECTIONS.includes(s)));
+  state.tags = new Set((params.get("tag") || "").split("|").filter((tag) => Object.hasOwn(TAGS, tag)));
   state.from = params.get("from") || "";
   state.to = params.get("to") || "";
   state.figuresOnly = params.get("fig") === "1";
@@ -143,6 +157,7 @@ function writeUrlState() {
   const params = new URLSearchParams();
   if (state.query) params.set("q", state.query);
   if (state.sections.size) params.set("s", [...state.sections].join("|"));
+  if (state.tags.size) params.set("tag", [...state.tags].join("|"));
   if (state.from) params.set("from", state.from);
   if (state.to) params.set("to", state.to);
   if (state.figuresOnly) params.set("fig", "1");
@@ -185,6 +200,7 @@ function renderFigure(image) {
 function renderItem(item, issue, terms) {
   return `
     <li class="item" id="${item.id}">
+      ${item.tags.length ? `<p class="tags">${item.tags.map((tag) => `<span class="tag">${escapeHtml(TAGS[tag].badge)}</span>`).join("")}</p>` : ""}
       <p class="item-headline">${highlight(item.headline, terms)}</p>
       <p class="item-summary">${highlight(item.summary, terms)}</p>
       ${renderFigure(item.image)}
@@ -209,7 +225,7 @@ function renderIssue(issue, terms) {
   return `
     <article class="issue" id="${issue.date}">
       <div class="issue-head">
-        <h2><a href="#${issue.date}">${escapeHtml(issue.heading || issue.date)}</a></h2>
+        <h2><a href="#${issue.date}">${escapeHtml(issue.heading || issue.date)}</a>${issue.archive ? ' <span class="archive-label" title="Added to the archive after the fact">Archive</span>' : ""}</h2>
         <div class="actions">
           <button class="action" type="button" data-share="${issue.date}" data-title="AI Daily Briefing — ${escapeHtml(issue.heading || issue.date)}">${ICONS.share}Share</button>
           <a class="action" href="${editUrl(issue)}" target="_blank" rel="noopener">${ICONS.edit}Edit</a>
@@ -247,8 +263,11 @@ function render() {
   $("filter-badge").textContent = String(count);
   $("today").setAttribute("aria-pressed", String(state.today));
 
-  for (const chip of document.querySelectorAll(".chip")) {
+  for (const chip of document.querySelectorAll("#section-chips .chip")) {
     chip.setAttribute("aria-pressed", String(state.sections.has(chip.dataset.section)));
+  }
+  for (const chip of document.querySelectorAll("#tag-chips .chip")) {
+    chip.setAttribute("aria-pressed", String(state.tags.has(chip.dataset.tag)));
   }
 }
 
@@ -364,6 +383,9 @@ function toggleFilterPanel() {
 // ---- Wiring ----------------------------------------------------------------
 
 function buildChips() {
+  $("tag-chips").innerHTML = Object.entries(TAGS)
+    .map(([tag, label]) => `<button class="chip chip-tag" type="button" data-tag="${tag}" aria-pressed="false">${escapeHtml(label.chip)}</button>`)
+    .join("");
   $("section-chips").innerHTML = SECTIONS.map(
     (name) => `<button class="chip" type="button" data-section="${escapeHtml(name)}" aria-pressed="false">${escapeHtml(name)}</button>`,
   ).join("");
@@ -383,6 +405,13 @@ function wire() {
     if (!chip) return;
     const name = chip.dataset.section;
     state.sections.has(name) ? state.sections.delete(name) : state.sections.add(name);
+    update();
+  });
+  $("tag-chips").addEventListener("click", (event) => {
+    const chip = event.target.closest(".chip");
+    if (!chip) return;
+    const tag = chip.dataset.tag;
+    state.tags.has(tag) ? state.tags.delete(tag) : state.tags.add(tag);
     update();
   });
   $("date-from").addEventListener("change", (event) => { state.from = event.target.value; update(); });
@@ -418,6 +447,9 @@ function wire() {
       toggleToday();
     } else if (event.key.toLowerCase() === "f" && !typing) {
       toggleFilterPanel();
+    } else if (event.key.toLowerCase() === "m" && !typing) {
+      state.tags.has("model-release") ? state.tags.delete("model-release") : state.tags.add("model-release");
+      update();
     } else if (event.key === "Escape" && document.activeElement === $("search")) {
       $("search").blur();
     }

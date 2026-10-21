@@ -1,0 +1,34 @@
+{
+  "date": "2026-02-03",
+  "heading": "Tuesday, February 3, 2026",
+  "topLine": "Alibaba releases Qwen3-Coder-Next open-weight coding model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-Coder-Next open-weight coding model",
+          "summary": "Qwen3-Coder-Next is an Apache-2.0 open-weight MoE model (80B total, 3B active) for coding agents and local development, with 256K context. Qwen reports 70.6 on SWE-bench Verified and 44.3 on SWE-bench Pro.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+            },
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/alibabas-qwen3-coder-next-delivers-solid-coding-performance-in-a-compact-package/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen3-Coder-Next/benchmarks.png",
+            "alt": "Qwen3-Coder-Next benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2025-04-17",
+  "heading": "Thursday, April 17, 2025",
+  "topLine": "Google previews Gemini 2.5 Flash with adjustable thinking.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google previews Gemini 2.5 Flash with adjustable thinking",
+          "summary": "Google describes Gemini 2.5 Flash as its first fully hybrid reasoning model: developers can turn thinking on or off and set a thinking budget of up to 24,576 tokens. It launched in preview in the Gemini API, AI Studio, Vertex AI and the Gemini app.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google Developers Blog",
+              "url": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

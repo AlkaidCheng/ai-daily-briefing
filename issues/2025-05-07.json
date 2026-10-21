@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-07",
+  "heading": "Wednesday, May 7, 2025",
+  "topLine": "Mistral releases Mistral Medium 3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral Medium 3",
+          "summary": "Mistral Medium 3 is a proprietary enterprise model priced at $0.40/$2 per million input/output tokens, deployable in hybrid, on-premises or VPC setups. Mistral claims it performs at or above 90% of Claude Sonnet 3.7 across benchmarks, with strengths in coding and STEM.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-medium-3/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Medium_2iiBU6.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral Medium cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

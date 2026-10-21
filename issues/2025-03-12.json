@@ -1,0 +1,26 @@
+{
+  "date": "2025-03-12",
+  "heading": "Wednesday, March 12, 2025",
+  "topLine": "Google releases Gemma 3 open models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemma 3 open models",
+          "summary": "Gemma 3 is a family of open-weight models in 1B, 4B, 12B and 27B sizes, with vision input on the three larger sizes, a 128K-token context window and support for over 140 languages. Weights are available on Hugging Face and Kaggle.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/developers/gemma-3/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

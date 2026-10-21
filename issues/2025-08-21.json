@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-21",
+  "heading": "Thursday, August 21, 2025",
+  "topLine": "DeepSeek releases DeepSeek-V3.1 hybrid reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-V3.1 hybrid reasoning model",
+          "summary": "DeepSeek-V3.1 combines thinking and non-thinking modes in one model, with 128K context and post-training aimed at tool use and multi-step agent tasks; DeepSeek claims gains on SWE and Terminal-Bench. Base and post-trained weights are on Hugging Face, and the API's deepseek-chat and deepseek-reasoner now map to its two modes.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news250821"
+            }
+          ],
+          "image": {
+            "url": "https://cdn.deepseek.com/api-docs/v3.1_benchmark_1.webp",
+            "alt": "DeepSeek-V3.1 benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

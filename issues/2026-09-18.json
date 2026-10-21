@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-18",
+  "heading": "Friday, September 18, 2026",
+  "topLine": "Alibaba releases Qwen3.8-Omni-Flash.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3.8-Omni-Flash",
+          "summary": "Qwen3.8-Omni-Flash is a native omni-modal model accepting text, image, audio and video with 1M-token context, available on Alibaba's Qwen platform with a Realtime variant. Alibaba reports average benchmark gains of over 26% versus Qwen3.5-Omni-Plus.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "IT之家 (IThome)",
+              "url": "https://www.ithome.com/1/004/049.htm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

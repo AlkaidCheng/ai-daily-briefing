@@ -38,11 +38,13 @@
         },
         {
           "headline": "Mistral launches Voxtral 3 speech-to-text and text-to-speech family",
+          "tags": ["model-release"],
           "summary": "The family includes transcription models with diarization in 50+ languages, a sub-500 ms realtime model, a voice-cloning TTS model in 35+ languages, and a LiveKit-based voice-agent SDK. Mistral reports about 4% WER on FLEURS versus about 16% for Whisper large-v3 (its own evaluation). The page does not say whether weights are open.",
           "sources": [ { "name": "Mistral AI", "url": "https://mistral.ai/news/voxtral-3/" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50168396" } ]
         },
         {
           "headline": "MiniMax releases M3.1 Flash for cheap, fast agentic coding",
+          "tags": ["model-release"],
           "summary": "MiniMax claims about 3x faster inference and 70% lower cost ($0.15/$0.60 per 1M input/output tokens). It reports 73.7% on DeepSWE v1.1 and 61.7 on OSWorld V2, both its own numbers. Weights are promised 'later'.",
           "sources": [ { "name": "MiniMax blog", "url": "https://www.minimax.io/blog/minimax-m31f" } ]
         }

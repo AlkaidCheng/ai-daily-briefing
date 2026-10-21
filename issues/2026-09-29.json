@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-29",
+  "heading": "Tuesday, September 29, 2026",
+  "topLine": "OpenAI releases GPT-6.1 Sol at DevDay.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-6.1 Sol at DevDay",
+          "summary": "GPT-6.1 Sol is an upgrade to GPT-6 Sol that OpenAI says nearly matches GPT-6 Astra on agentic coding, computer use and professional work at one-fifth of Astra's token prices. It is available in ChatGPT Work, Codex and the API, and is rated Critical in cybersecurity.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+            },
+            {
+              "name": "OpenAI: GPT-6.1 Sol system card addendum",
+              "url": "https://deploymentsafety.openai.com/gpt-6-1-sol"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

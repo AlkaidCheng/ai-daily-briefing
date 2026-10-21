@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "heading": "Wednesday, October 7, 2026",
+  "topLine": "2 model releases: Anthropic Claude Haiku 5.5 and OpenAI GPT-6 (ChatGPT).",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Haiku 5.5",
+          "summary": "Claude Haiku 5.5 is Anthropic's small model for high-volume, latency-sensitive work and the first Haiku with an adjustable effort setting. It is priced from $0.10/$0.50 per million input/output tokens, and Anthropic says it costs about 75% less to run on average than Haiku 4.5.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/claude-haiku-5-5"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI brings GPT-6 and Intelligent UI to all ChatGPT users",
+          "summary": "OpenAI rolled out October versions of GPT-6 Sol (paid tiers) and GPT-6 Luna (Free and Go) to ChatGPT's Chat tab, replacing the GPT-5.6 models, along with Intelligent UI responses that can include charts, forms and interactive elements. OpenAI says GPT-6 Instant starts answering search queries 44% sooner than GPT-5.6 Instant.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/gpt-6-for-everyone/"
+            },
+            {
+              "name": "OpenAI: GPT-6 October update system card",
+              "url": "https://deploymentsafety.openai.com/gpt-6-october"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

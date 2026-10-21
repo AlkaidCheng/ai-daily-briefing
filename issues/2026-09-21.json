@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-21",
+  "heading": "Monday, September 21, 2026",
+  "topLine": "SpaceXAI releases Grok 4.7.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "SpaceXAI releases Grok 4.7",
+          "summary": "Grok 4.7 is the company's most capable model for coding and knowledge work, priced the same as Grok 4.6 and available in Cursor, Grok Build, the API and third-party platforms. The company reports gains over Grok 4.6 on benchmarks including Terminal-Bench 4.0 (37.6%) and DeepSWE v1.1 (71.0%).",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4-7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

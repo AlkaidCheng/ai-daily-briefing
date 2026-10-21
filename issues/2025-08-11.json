@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-11",
+  "heading": "Monday, August 11, 2025",
+  "topLine": "Z.ai releases GLM-4.5V vision-language model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Z.ai releases GLM-4.5V vision-language model",
+          "summary": "GLM-4.5V is an MIT-licensed vision-language model built on GLM-4.5-Air (106B total, 12B active parameters) covering image and video understanding, GUI tasks, document parsing and grounding. Z.ai claims state-of-the-art results among models of its scale on 42 public vision-language benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-4.5V"
+            },
+            {
+              "name": "Zhipu AI GitHub",
+              "url": "https://github.com/zai-org/GLM-4.1V-Thinking"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

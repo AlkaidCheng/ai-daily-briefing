@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-22",
+  "heading": "Tuesday, September 22, 2026",
+  "topLine": "2 model releases: Anthropic Claude Opus 5.5 and OpenAI GPT-6 Sol and GPT-6 Luna.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 5.5",
+          "summary": "Claude Opus 5.5 is the first model in the Claude 5.5 family. Anthropic says it performs at about the level of Fable 5.1 on most work and reports 66.4% on Terminal-Bench 4.0. Pricing drops to $4/$20 per million tokens, which Anthropic estimates is about 40% cheaper than Opus 5 for typical workloads.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/claude-opus-5-5"
+            },
+            {
+              "name": "TechNews",
+              "url": "https://technews.tw/2026/09/23/anthropic-upgrades-claude-with-new-opus-5-5-model/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI launches GPT-6 Sol and Luna",
+          "summary": "GPT-6 Sol and GPT-6 Luna are the smaller tiers of the GPT-6 generation, priced at roughly half their GPT-5.6 counterparts ($2/$10 and $0.10/$0.50 per million tokens). OpenAI claims Sol makes about half as many mistakes as its predecessor on an internal factuality evaluation.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

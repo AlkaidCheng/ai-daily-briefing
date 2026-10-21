@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-01",
+  "heading": "Tuesday, July 1, 2025",
+  "topLine": "Zhipu AI releases GLM-4.1V-Thinking vision reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Zhipu AI releases GLM-4.1V-Thinking vision reasoning model",
+          "summary": "GLM-4.1V-9B-Thinking is an open-weight 9B vision-language model trained with reinforcement learning for multimodal reasoning, released with a technical report. It is the first model in the GLM-V line that later produced GLM-4.5V and GLM-4.6V.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Zhipu AI GitHub",
+              "url": "https://github.com/zai-org/GLM-4.1V-Thinking"
+            },
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2507.01006"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

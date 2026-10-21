@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-21",
+  "heading": "Friday, August 21, 2026",
+  "topLine": "DeepSeek releases experimental multimodal DeepSeek-V4-Flash-Vision-Exp.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases experimental multimodal DeepSeek-V4-Flash-Vision-Exp",
+          "summary": "DeepSeek-V4-Flash-Vision-Exp is an experimental API model that adds image input to V4-Flash while, per DeepSeek, matching it on text tasks. DeepSeek claims multimodal agent performance close to Claude Opus 4.8; a free Files API launched alongside it.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news260821"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v4_260821_benchmark_en.png",
+            "alt": "DeepSeek-V4-Flash-Vision-Exp benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

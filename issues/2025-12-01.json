@@ -1,0 +1,34 @@
+{
+  "date": "2025-12-01",
+  "heading": "Monday, December 1, 2025",
+  "topLine": "DeepSeek releases DeepSeek-V3.2 and V3.2-Speciale.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-V3.2 and V3.2-Speciale",
+          "summary": "DeepSeek-V3.2 succeeds V3.2-Exp as the default app and API model and supports tool use in thinking mode; DeepSeek claims GPT-5-level performance. V3.2-Speciale, a higher-compute reasoning variant without tool use, is claimed to reach gold-level results at IMO, CMO, ICPC World Finals and IOI 2025; weights for both are on Hugging Face.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news251201"
+            },
+            {
+              "name": "DeepSeek news",
+              "url": "https://deepseek.com/en/news/deepseek-v3-2/"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v3.2_251201_benchmark.webp",
+            "alt": "DeepSeek-V3.2 benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

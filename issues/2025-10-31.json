@@ -1,0 +1,30 @@
+{
+  "date": "2025-10-31",
+  "heading": "Friday, October 31, 2025",
+  "topLine": "MiniMax releases Music 2.0.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases Music 2.0",
+          "summary": "Music 2.0 is a music generation model that produces structured songs of up to five minutes with more realistic vocals, duets and a cappella, and instruction control over individual accompaniment instruments. It is available through the MiniMax API and web app.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-music-20"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/c1edd74b-af24-4011-80cc-5f9907983b44.png",
+            "alt": "MiniMax Music 2.0 figure"
+          }
+        }
+      ]
+    }
+  ]
+}

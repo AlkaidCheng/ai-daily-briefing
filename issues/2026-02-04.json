@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-04",
+  "heading": "Wednesday, February 4, 2026",
+  "topLine": "Mistral releases Voxtral Transcribe 2 and open-weight Voxtral Realtime.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Voxtral Transcribe 2 and open-weight Voxtral Realtime",
+          "summary": "Mistral released Voxtral Mini Transcribe V2, a batch transcription model with diarization and word-level timestamps, and Voxtral Realtime, an open-weight Apache 2.0 streaming model with latency configurable below 200 ms. Mistral reports about 4% word error rate on FLEURS for Transcribe V2; both support 13 languages.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/voxtral-transcribe-2/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

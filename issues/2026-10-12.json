@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-12",
+  "heading": "Monday, October 12, 2026",
+  "topLine": "Meta releases Muse Wonder and Muse Wonder Full frontier models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases Muse Wonder and Muse Wonder Full frontier models",
+          "summary": "Muse Wonder and Muse Wonder Full are Meta's most capable models, aimed at personal and professional agentic tasks in areas such as law, finance, health and coding, with features Meta calls Active Memory and Active Focus. Muse Wonder is available via the Meta Model API and Muse Code, Wonder Full only to Muse Code subscribers; Meta claims state-of-the-art results but published no scores in the announcement.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta newsroom",
+              "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+            },
+            {
+              "name": "Meta AI research blog",
+              "url": "https://research.meta.ai/blog/muse-wonder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

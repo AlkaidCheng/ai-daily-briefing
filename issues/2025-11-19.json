@@ -1,0 +1,64 @@
+{
+  "date": "2025-11-19",
+  "heading": "Wednesday, November 19, 2025",
+  "topLine": "3 model releases: Meta SAM 3 and SAM 3D, xAI Grok 4.1 Fast and OpenAI GPT-5.1-Codex-Max.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases SAM 3 and SAM 3D",
+          "summary": "SAM 3 detects, segments and tracks objects in images and video from text and visual prompts, and SAM 3D is a pair of models that reconstruct 3D objects and human bodies from a single image. Meta released weights or checkpoints, inference code and evaluation datasets, and made both available in its Segment Anything Playground.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta newsroom",
+              "url": "https://about.fb.com/news/2025/11/new-sam-models-detect-objects-create-3d-reconstructions/"
+            },
+            {
+              "name": "Meta AI blog (SAM 3D)",
+              "url": "https://ai.meta.com/blog/sam-3d/"
+            }
+          ],
+          "image": {
+            "url": "https://about.fb.com/wp-content/uploads/2025/11/01_Say-What-You-Mean_Carousel-01-1.jpg?fit=960%2C960&resize=960%2C960",
+            "alt": "SAM 3 text-prompted segmentation example"
+          }
+        },
+        {
+          "headline": "xAI releases Grok 4.1 Fast and Agent Tools API",
+          "summary": "Grok 4.1 Fast is a tool-calling model with a 2M-token context window for agentic API use, launched with an Agent Tools API for server-side search, code execution and MCP. xAI reports a 100% score on tau2-bench Telecom and half the hallucination rate of Grok 4 Fast.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4-1-fast"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI releases GPT-5.1-Codex-Max",
+          "summary": "GPT-5.1-Codex-Max is an agentic coding model that uses compaction to work across multiple context windows on long-running tasks, and is OpenAI's first model trained to work in Windows environments. It became the default in Codex, with API access later.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/gpt-5-1-codex-max/"
+            },
+            {
+              "name": "Simon Willison",
+              "url": "https://simonwillison.net/2025/Nov/19/gpt-51-codex-max/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

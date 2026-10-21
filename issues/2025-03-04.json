@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-04",
+  "heading": "Tuesday, March 4, 2025",
+  "topLine": "Zhipu AI open-sources CogView4 image model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Zhipu AI open-sources CogView4 image model",
+          "summary": "CogView4 is an open-source text-to-image model that accepts Chinese and English prompts of any length and can render Chinese characters in images, using a GLM-4 text encoder. Zhipu reports it ranked first overall on DPG-Bench among open-source text-to-image models at release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Z.ai docs",
+              "url": "https://docs.z.ai/guides/image/cogview-4"
+            },
+            {
+              "name": "ComfyUI Wiki",
+              "url": "https://comfyui-wiki.com/en/news/2025-03-04-cogview4-release"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

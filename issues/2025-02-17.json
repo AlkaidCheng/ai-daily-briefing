@@ -1,0 +1,51 @@
+{
+  "date": "2025-02-17",
+  "heading": "Monday, February 17, 2025",
+  "topLine": "2 model releases: Mistral AI Mistral Saba and xAI Grok 3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Saba, a regional model for Arabic and South Asian languages",
+          "summary": "Mistral Saba is a 24B-parameter model trained on curated data from the Middle East and South Asia, supporting Arabic and many Indian-origin languages. It is Mistral's first specialized regional model and is available via API and for local deployment.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-saba/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Saba_Z2blync.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral Saba cover art"
+          }
+        },
+        {
+          "headline": "xAI releases Grok 3 and Grok 3 mini",
+          "summary": "xAI launched Grok 3 and the smaller Grok 3 mini, trained on its Colossus cluster, with reasoning (Think) modes and a DeepSearch tool, initially for X Premium+ subscribers and a new SuperGrok tier. xAI reports 93.3% on AIME 2025 and a 1402 Chatbot Arena Elo; API access followed in April.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-3"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2025/02/17/elon-musks-ai-company-xai-releases-its-latest-flagship-ai-grok-3"
+            }
+          ],
+          "image": {
+            "url": "https://media.x.ai/cdn-cgi/image/fit=scale-down,onerror=redirect,f=auto/v1/website/arena-b7019483.webp",
+            "alt": "Grok 3 Chatbot Arena score chart"
+          }
+        }
+      ]
+    }
+  ]
+}

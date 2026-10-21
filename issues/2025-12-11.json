@@ -1,0 +1,26 @@
+{
+  "date": "2025-12-11",
+  "heading": "Thursday, December 11, 2025",
+  "topLine": "OpenAI releases GPT-5.2.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-5.2",
+          "summary": "GPT-5.2 is a frontier model aimed at professional work and long-running agents, with OpenAI claiming gains in spreadsheets, presentations, coding, long context and tool use, and state-of-the-art results on GDPval. It rolled out to paid ChatGPT plans and the API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-5-2/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

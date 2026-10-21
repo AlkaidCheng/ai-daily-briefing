@@ -1,0 +1,43 @@
+{
+  "date": "2025-12-16",
+  "heading": "Tuesday, December 16, 2025",
+  "topLine": "2 model releases: Meta SAM Audio and OpenAI GPT Image 1.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases SAM Audio for prompt-based sound separation",
+          "summary": "SAM Audio is a unified model, from 500M to 3B parameters, that separates sounds from audio mixtures using text, visual (clicking an object in video) or time-span prompts. Meta released it alongside the Perception Encoder Audiovisual model, with code and checkpoints public.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/sam-audio/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI releases GPT Image 1.5 in new ChatGPT Images",
+          "summary": "GPT Image 1.5 became the model behind ChatGPT Images, with OpenAI claiming up to 4x faster generation and more precise edits that preserve unedited details. It reached all ChatGPT users and the API at lower prices than GPT Image 1.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/new-chatgpt-images-is-here/"
+            },
+            {
+              "name": "TechRadar",
+              "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/chatgpt-images-just-got-a-major-upgrade-and-it-could-change-how-we-all-create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

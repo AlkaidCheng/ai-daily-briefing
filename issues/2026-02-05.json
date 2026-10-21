@@ -1,0 +1,47 @@
+{
+  "date": "2026-02-05",
+  "heading": "Thursday, February 5, 2026",
+  "topLine": "2 model releases: Anthropic Claude Opus 4.6 and OpenAI GPT-5.3-Codex.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 4.6",
+          "summary": "Claude Opus 4.6 is the first Opus-class model with a 1M-token context window (beta) and 128K output tokens, and it adds adaptive thinking and agent teams in Claude Code. Anthropic reports the top score on Terminal-Bench 2.0 among the models it compared, at $5/$25 per million tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-opus-4-6"
+            }
+          ],
+          "image": {
+            "url": "https://cdn.sanity.io/images/4zrzovbb/website/5ac72c2c6509b4b6c41ac8f742636fe123b0ba1a-1920x1080.png",
+            "alt": "Video thumbnail from the Claude Opus 4.6 announcement"
+          }
+        },
+        {
+          "headline": "OpenAI releases GPT-5.3-Codex",
+          "summary": "GPT-5.3-Codex combines GPT-5.2-Codex's coding ability with GPT-5.2's reasoning; OpenAI called it its most capable agentic coding model and said it runs about 25% faster. It launched across Codex surfaces for paid ChatGPT plans, with API access on February 24.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-5-3-codex/"
+            },
+            {
+              "name": "Gigazine",
+              "url": "https://gigazine.net/gsc_news/en/20260206-openai-gpt-5-3-codex"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

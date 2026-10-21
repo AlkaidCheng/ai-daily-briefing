@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-23",
+  "heading": "Monday, March 23, 2026",
+  "topLine": "Mistral releases Voxtral TTS text-to-speech model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Voxtral TTS text-to-speech model",
+          "summary": "Voxtral TTS is a 4B-parameter text-to-speech model supporting nine languages and voice adaptation from about 3 seconds of reference audio, with open weights under the non-commercial CC BY-NC 4.0 license. Mistral reports human raters preferred it over ElevenLabs Flash v2.5 for naturalness.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/voxtral-tts/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/hero-blog-voxtral_Z2kTJq2.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Voxtral TTS hero image"
+          }
+        }
+      ]
+    }
+  ]
+}

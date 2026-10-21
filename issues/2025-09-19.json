@@ -1,0 +1,26 @@
+{
+  "date": "2025-09-19",
+  "heading": "Friday, September 19, 2025",
+  "topLine": "xAI releases Grok 4 Fast.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI releases Grok 4 Fast",
+          "summary": "Grok 4 Fast is a cost-efficient model that combines reasoning and non-reasoning modes with a 2M-token context window, priced from $0.20/$0.50 per million input/output tokens and available to free Grok users. xAI claims performance comparable to Grok 4 while using about 40% fewer thinking tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4-fast"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

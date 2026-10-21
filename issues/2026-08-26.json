@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-26",
+  "heading": "Wednesday, August 26, 2026",
+  "topLine": "2 model releases: Alibaba Qwen3.8-Flash / Qwen3.8-Flash-Next and Zhipu AI GLM-5.3-Flash.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3.8-Flash and open-weight Qwen3.8-Flash-Next",
+          "summary": "Qwen3.8-Flash is a lower-cost multimodal MoE model (125B parameters, 6B active), released alongside open weights for Qwen3.8-Flash-Next, which Qwen describes as an experimental preview of the architecture for Qwen4. Alibaba says training cost is about one-ninth that of Qwen3.7-Plus.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "IT之家 (IThome)",
+              "url": "https://www.ithome.com/0/994/735.htm"
+            },
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+            },
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-08-26/alibaba-releases-smaller-cost-effective-qwen-ai-model"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.8-Flash-Next/architecture.png",
+            "alt": "Qwen3.8-Flash-Next architecture diagram"
+          }
+        },
+        {
+          "headline": "Z.ai releases GLM-5.3-Flash multimodal model",
+          "summary": "GLM-5.3-Flash is an open-weight mixture-of-experts model with 320B total and 18B active parameters, native visual input and a hybrid attention architecture. Z.ai describes it as the first natively multimodal model in the GLM-5 series, targeting office-document and financial-research workflows.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Z.ai docs release notes",
+              "url": "https://docs.z.ai/release-notes/new-released"
+            },
+            {
+              "name": "Zhipu AI GitHub",
+              "url": "https://github.com/zai-org/GLM-4.1V-Thinking"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

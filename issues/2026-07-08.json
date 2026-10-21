@@ -1,0 +1,60 @@
+{
+  "date": "2026-07-08",
+  "heading": "Wednesday, July 8, 2026",
+  "topLine": "3 model releases: Mistral AI Robostral Navigate, xAI Grok 4.5 and OpenAI GPT-Live.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral introduces Robostral Navigate for robot navigation",
+          "summary": "Robostral Navigate is Mistral's first embodied navigation model, an 8B-parameter model that guides wheeled, legged or flying robots from a single RGB camera and plain-language instructions. Mistral reports a 76.6% success rate on the R2R-CE unseen validation split, ahead of prior single-camera approaches.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/robostral-navigate/"
+            }
+          ]
+        },
+        {
+          "headline": "SpaceXAI releases Grok 4.5, trained with Cursor",
+          "summary": "Grok 4.5, from the rebranded xAI (SpaceXAI), is a model for coding, agentic tasks and office work trained alongside Cursor; it is the default model in Grok Build and available in Cursor and the API at $2/$6 per million input/output tokens. The company reports it leads on SWE Marathon but trails top rivals on several other coding evaluations.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-4-5"
+            },
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-08/spacexai-cursor-unveil-grok-ai-model-for-legal-finance-tasks"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI introduces GPT-Live voice models for ChatGPT",
+          "summary": "GPT-Live is a full-duplex voice model family that can listen and speak at the same time and hands off harder tasks to a frontier model in the background; GPT-Live-1 became the default for paid ChatGPT Voice users and GPT-Live-1 mini for free users. API access followed on September 10.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-live/"
+            },
+            {
+              "name": "OpenAI: GPT-Live System Card",
+              "url": "https://deploymentsafety.openai.com/gpt-live"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

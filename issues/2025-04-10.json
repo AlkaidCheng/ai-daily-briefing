@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-10",
+  "heading": "Thursday, April 10, 2025",
+  "topLine": "Moonshot AI open-sources Kimi-VL vision-language models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Moonshot AI open-sources Kimi-VL vision-language models",
+          "summary": "Kimi-VL is an MIT-licensed mixture-of-experts vision-language model with 16B total and about 3B active parameters, a 128K context window and the MoonViT native-resolution encoder, released in Instruct and Thinking variants. Moonshot claims state-of-the-art results among open models on OSWorld and long-video and document benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Moonshot AI GitHub",
+              "url": "https://github.com/MoonshotAI/Kimi-VL"
+            },
+            {
+              "name": "Kimi research index",
+              "url": "https://www.kimi.com/blog"
+            }
+          ],
+          "image": {
+            "url": "https://github.com/MoonshotAI/Kimi-VL/raw/main/figures/arch.png",
+            "alt": "Kimi-VL architecture diagram"
+          }
+        }
+      ]
+    }
+  ]
+}

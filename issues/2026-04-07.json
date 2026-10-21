@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-07",
+  "heading": "Tuesday, April 7, 2026",
+  "topLine": "2 model releases: Anthropic Claude Mythos Preview and Zhipu AI GLM-5.1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic previews Claude Mythos for cyber defense via Project Glasswing",
+          "summary": "Claude Mythos Preview is an unreleased general-purpose frontier model that Anthropic is offering only to Project Glasswing partners and about 40 other organizations for defensive security work, not for general availability. Anthropic reports it has found thousands of high-severity zero-day vulnerabilities and scores 93.9% on SWE-bench Verified.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic: Project Glasswing",
+              "url": "https://www.anthropic.com/glasswing"
+            }
+          ]
+        },
+        {
+          "headline": "Z.ai releases GLM-5.1",
+          "summary": "GLM-5.1 is an MIT-licensed post-training upgrade to GLM-5 built for long-horizon agentic engineering, which Z.ai says can sustain work over thousands of tool calls. Z.ai reports 58.4 on SWE-Bench Pro, which it called state of the art at release.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-5.1"
+            },
+            {
+              "name": "Z.ai docs release notes",
+              "url": "https://docs.z.ai/release-notes/new-released"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

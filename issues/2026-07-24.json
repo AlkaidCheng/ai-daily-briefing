@@ -1,0 +1,34 @@
+{
+  "date": "2026-07-24",
+  "heading": "Friday, July 24, 2026",
+  "topLine": "Anthropic releases Claude Opus 5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 5",
+          "summary": "Anthropic positions Claude Opus 5 as close to Claude Fable 5's capability at half the price, keeping Opus 4.8's $5/$25 per million token pricing. It reports leading results on several coding and agent benchmarks, and the model is the default on Claude Max.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-opus-5"
+            },
+            {
+              "name": "DataNorth",
+              "url": "https://datanorth.ai/news/claude-opus-5-by-anthropic"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/54b7ab1d2c2521f83ae5d2da5f9d99321c370d24-2880x1620.png",
+            "alt": "Header image from the Claude Opus 5 announcement"
+          }
+        }
+      ]
+    }
+  ]
+}

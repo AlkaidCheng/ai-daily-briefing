@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-28",
+  "heading": "Wednesday, January 28, 2026",
+  "topLine": "xAI launches Grok Imagine video generation API.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI launches Grok Imagine video generation API",
+          "summary": "xAI released the Grok Imagine API, which it calls its most powerful video-audio generative model, for text- and image-to-video generation with native audio and video editing. xAI reports it ranked first on Artificial Analysis's text-to-video leaderboard at launch.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-imagine-api"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

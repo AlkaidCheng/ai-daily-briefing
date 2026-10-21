@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-09",
+  "heading": "Thursday, July 9, 2026",
+  "topLine": "Meta releases Muse Spark 1.1 and opens the Meta Model API.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases Muse Spark 1.1 and opens the Meta Model API",
+          "summary": "Muse Spark 1.1 is a multimodal reasoning model aimed at agentic tasks, with a 1M-token context and improved tool use, computer use and coding, according to Meta. It launched with a public preview of the paid, OpenAI-compatible Meta Model API and in the Thinking mode of Meta AI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+            },
+            {
+              "name": "GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260710-meta-muse-spark-1-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

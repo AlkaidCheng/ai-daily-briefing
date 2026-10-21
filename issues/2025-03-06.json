@@ -1,0 +1,43 @@
+{
+  "date": "2025-03-06",
+  "heading": "Thursday, March 6, 2025",
+  "topLine": "2 model releases: Alibaba QwQ-32B and Mistral AI Mistral OCR.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases QwQ-32B reasoning model",
+          "summary": "QwQ-32B is a 32B-parameter open-weight (Apache 2.0) reasoning model trained with reinforcement learning. Qwen claims performance comparable to the much larger DeepSeek-R1; it is on Hugging Face, ModelScope, Qwen Chat and the DashScope API.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwq-32b/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/qwq-32b-final.jpg",
+            "alt": "QwQ-32B benchmark chart"
+          }
+        },
+        {
+          "headline": "Mistral launches Mistral OCR document understanding API",
+          "summary": "Mistral OCR is a document-understanding model and API that extracts text, tables, equations and images from documents, processing up to 2,000 pages per minute on a single node. Mistral reports an overall score of 94.89 in its internal benchmarks; pricing was about 1,000 pages per dollar.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-ocr/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

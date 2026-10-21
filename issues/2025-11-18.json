@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-18",
+  "heading": "Tuesday, November 18, 2025",
+  "topLine": "Google launches Gemini 3 Pro.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google launches Gemini 3 Pro",
+          "summary": "Google calls Gemini 3 Pro its most intelligent model and reports 1501 Elo on LMArena, 37.5% on Humanity's Last Exam without tools and 76.2% on SWE-bench Verified. It launched in preview in the Gemini app, Search AI Mode, the Gemini API and the new Google Antigravity platform.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/products/gemini/gemini-3/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-27",
+  "heading": "Thursday, November 27, 2025",
+  "topLine": "DeepSeek releases DeepSeekMath-V2 open math reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeekMath-V2 open math reasoning model",
+          "summary": "DeepSeekMath-V2 is an open-weight mathematical reasoning model built on DeepSeek-V3.2-Exp-Base that uses a proof generator with a separate verifier. DeepSeek reports gold-level performance on IMO 2025 problems and 118/120 on Putnam 2024.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com/tech/tech-trends/article/3334553/deepseek-releases-first-open-ai-model-gold-level-scores-maths-olympiad"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2025-01-13",
+  "heading": "Monday, January 13, 2025",
+  "topLine": "Mistral releases Codestral 25.01.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Codestral 25.01",
+          "summary": "Codestral 25.01 is an updated code model with a 256k context window and a more efficient architecture and tokenizer that Mistral says makes generation about twice as fast. Mistral reports 86.6% on HumanEval; it is available via API, IDE partners and cloud platforms.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/codestral-2501/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

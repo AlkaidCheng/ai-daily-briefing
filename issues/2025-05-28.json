@@ -1,0 +1,30 @@
+{
+  "date": "2025-05-28",
+  "heading": "Wednesday, May 28, 2025",
+  "topLine": "DeepSeek releases DeepSeek-R1-0528 update.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-R1-0528 update",
+          "summary": "DeepSeek-R1-0528 is an updated R1 reasoning model that DeepSeek says improves benchmark performance and front-end coding, reduces hallucinations, and adds JSON output and function calling. Open weights are on Hugging Face and API usage is unchanged.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news250528"
+            }
+          ],
+          "image": {
+            "url": "https://cdn.deepseek.com/api-docs/r1_0528_benchmark.PNG",
+            "alt": "DeepSeek-R1-0528 benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

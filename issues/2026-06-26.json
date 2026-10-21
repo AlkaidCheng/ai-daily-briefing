@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-26",
+  "heading": "Friday, June 26, 2026",
+  "topLine": "OpenAI previews GPT-5.6 Sol, Terra and Luna.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI previews GPT-5.6 Sol, Terra and Luna",
+          "summary": "The GPT-5.6 family has three tiers: flagship Sol, lower-cost Terra and fastest Luna. It first went to a limited group of trusted partners at the US government's request, then became generally available in ChatGPT, Codex and the API on July 9; OpenAI rated all three High capability in cybersecurity and bio/chem.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/previewing-gpt-5-6-sol/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

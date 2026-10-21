@@ -4,7 +4,7 @@ You are running in a fresh cloud sandbox with this repository (ai-daily-briefing
 
 ## 1. Set the coverage window
 - Get today's Pacific date with `TZ=America/Los_Angeles date +%F` and the heading text with `TZ=America/Los_Angeles date '+%A, %B %-d, %Y'`; never assume either, and never use plain `date`.
-- Issue files live in `issues/` (`YYYY-MM-DD.json`). File modification times are meaningless after a fresh clone, so find when the latest issue was written from git: `git log -1 --format=%cI -- issues/`. Cover news published since then — normally the last ~24 hours. If runs were missed, cover at most the last 72 hours and say so. If there are no issue files, cover the last 24 hours.
+- Issue files live in `issues/` (`YYYY-MM-DD.json`). File modification times are meaningless after a fresh clone, so find when the newest issue was first committed: `git log --diff-filter=A -1 --format=%cI -- "$(ls issues/*.json | sort | tail -1)"` (later edits and archive backfills of older dates do not move this). Cover news published since then — normally the last ~24 hours. If runs were missed, cover at most the last 72 hours and say so. If there are no issue files, cover the last 24 hours.
 - Read the 3 most recent issue files (excluding today's, if this is a re-run) and do not repeat any story they already covered, unless there is a significant new development (then prefix the headline with "Update:").
 
 ## 2. Topics (these become the sections, in this order; omit a section if nothing qualifies)
@@ -27,6 +27,7 @@ Out of scope: developer-tool/SDK minutiae, tutorials, listicles, opinion pieces 
 - Run several WebSearch queries per topic (mode "standard"; use "extended" when results come back thin or for the open-problems and policy topics), and check the community pages above.
 - Select 8–12 items in total, ranked by importance within each section. On a slow day fewer items is fine — quality over quantity.
 - Each item: a short factual headline, a 1–2 sentence summary of what happened and why it matters, and 1–2 source links, plus the X post when there is one (step 3).
+- Tags: give an item `"tags": ["model-release"]` when it announces the release of a new AI model, model version or open-weight model (from any company, in any section). Do not tag infrastructure, products, funding or research that is not itself a model release.
 - Figures: give each item one representative figure when a fitting one exists — a key chart or diagram from the paper or announcement, a product screenshot, or the announcement's own header image. Take it from the primary source: ask WebFetch for the page's main figure or `og:image` URL, or for an arXiv paper use a figure from its HTML version (`https://arxiv.org/html/<id>`). Use only a direct https URL to a PNG, JPEG, GIF or WebP image that you saw on that page; never construct or guess one. Skip logos, headshots, stock photos and generic illustrations; if nothing fits, leave the item without a figure.
 
 ## 5. Save the issue
@@ -38,12 +39,12 @@ Write `issues/YYYY-MM-DD.json` (UTF-8; overwrite it if it already exists) with e
   "topLine": "One sentence on the day's single biggest story.",
   "sections": [
     { "name": "Company announcements",
-      "items": [ { "headline": "...", "summary": "...", "sources": [ { "name": "Anthropic blog", "url": "https://..." } ],
+      "items": [ { "headline": "...", "summary": "...", "tags": [ "model-release" ], "sources": [ { "name": "Anthropic blog", "url": "https://..." } ],
                    "image": { "url": "https://....png", "alt": "What the figure shows" } } ] }
   ]
 }
 ```
-Omit `image` when the item has no figure. Use the section names from step 2. Source names should be short (publication or site name, or "HN thread" / "r/LocalLLaMA thread" / "X: @AnthropicAI").
+Omit `tags` when the item has none, and `image` when it has no figure. Use the section names from step 2. Source names should be short (publication or site name, or "HN thread" / "r/LocalLLaMA thread" / "X: @AnthropicAI").
 
 ## 6. Archive the issue
 - Commit only the issue file and push it to `main`: `git add issues/YYYY-MM-DD.json && git commit -m "Issue YYYY-MM-DD" && git push origin HEAD:main`.

@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-28",
+  "heading": "Thursday, May 28, 2026",
+  "topLine": "Anthropic releases Claude Opus 4.8.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 4.8",
+          "summary": "Anthropic describes Claude Opus 4.8 as a modest upgrade over Opus 4.7, with more reliable agentic work and better honesty about flaws in its own code. Standard pricing is unchanged at $5/$25 per million tokens, and fast mode was cut to $10/$50.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-opus-4-8"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0eaa0ed2dce9810169112e1c77de2585fcf1f5c2-2880x1620.jpg",
+            "alt": "Header image from the Claude Opus 4.8 announcement"
+          }
+        }
+      ]
+    }
+  ]
+}

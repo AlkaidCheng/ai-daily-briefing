@@ -1,0 +1,43 @@
+{
+  "date": "2025-12-17",
+  "heading": "Wednesday, December 17, 2025",
+  "topLine": "2 model releases: Google Gemini 3 Flash and Mistral AI Mistral OCR 3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 3 Flash",
+          "summary": "Gemini 3 Flash is designed to pair Gemini 3 Pro-grade reasoning with Flash-level latency and cost. Google reports 90.4% on GPQA Diamond and 78% on SWE-bench Verified. It became the default model in the Gemini app and is priced at $0.50/$3 per million input/output tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/products/gemini/gemini-3-flash/"
+            }
+          ]
+        },
+        {
+          "headline": "Mistral releases Mistral OCR 3",
+          "summary": "Mistral OCR 3 is a document-extraction model that outputs Markdown with HTML table reconstruction, priced at $2 per 1,000 pages. Mistral reports a 74% overall win rate over OCR 2 on forms, scans, complex tables and handwriting in internal tests.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-ocr-3/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/ocr_Z8SAAK.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral OCR 3 announcement image"
+          }
+        }
+      ]
+    }
+  ]
+}

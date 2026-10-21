@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-10",
+  "heading": "Thursday, September 10, 2026",
+  "topLine": "DeepSeek releases DeepSeek-V4.1-Flash.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-V4.1-Flash",
+          "summary": "DeepSeek-V4.1-Flash is a 552B-parameter MoE model with a new causal encoder-decoder design (8B active parameters for input, 16B for output) and native image understanding; DeepSeek says it outperforms V4-Pro and cuts KV-cache memory substantially. Weights and a technical report are on Hugging Face.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news260910"
+            },
+            {
+              "name": "DeepSeek news",
+              "url": "https://deepseek.com/en/news/deepseek-v4-1-flash/"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v4.1_260910_benchmark.png",
+            "alt": "DeepSeek-V4.1-Flash benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

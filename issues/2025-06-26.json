@@ -1,0 +1,43 @@
+{
+  "date": "2025-06-26",
+  "heading": "Thursday, June 26, 2025",
+  "topLine": "2 model releases: Google Gemma 3n and Alibaba Qwen VLo.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google fully releases Gemma 3n on-device open models",
+          "summary": "Gemma 3n is a mobile-first open model family in E2B and E4B sizes that accepts image, audio, video and text input. Google says the models can run in as little as 2GB and 3GB of memory; weights are on Hugging Face and Kaggle.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google Developers Blog",
+              "url": "https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/"
+            }
+          ]
+        },
+        {
+          "headline": "Alibaba previews Qwen VLo image understanding and generation model",
+          "summary": "Qwen VLo is a unified multimodal understanding and generation model that creates and edits images from text instructions, including bilingual text rendering. It launched as a preview in Qwen Chat.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen-vlo/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen-VLo/vlo.png",
+            "alt": "Qwen VLo banner"
+          }
+        }
+      ]
+    }
+  ]
+}

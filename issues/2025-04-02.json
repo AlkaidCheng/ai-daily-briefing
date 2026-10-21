@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-02",
+  "heading": "Wednesday, April 2, 2025",
+  "topLine": "MiniMax releases Speech-02 text-to-speech models.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases Speech-02 text-to-speech models",
+          "summary": "Speech-02 (HD and Turbo) is a text-to-speech model series built on an autoregressive Transformer with a learnable speaker encoder for zero-shot voice cloning, supporting 32 languages. MiniMax reported Speech-02-HD ranked first on the Artificial Analysis and Hugging Face TTS arenas.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax API release notes",
+              "url": "https://platform.minimax.io/docs/release-notes/models"
+            },
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-speech-02"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/e9972ac8-29d8-4bad-8555-4defbdbcb96c.png",
+            "alt": "MiniMax Speech-02 figure"
+          }
+        }
+      ]
+    }
+  ]
+}

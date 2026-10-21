@@ -1,0 +1,43 @@
+{
+  "date": "2025-10-30",
+  "heading": "Thursday, October 30, 2025",
+  "topLine": "2 model releases: MiniMax Speech 2.6 and Moonshot AI Kimi Linear.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases Speech 2.6 for voice agents",
+          "summary": "Speech 2.6 is a text-to-speech model aimed at real-time voice agents, with end-to-end latency under 250 milliseconds, direct reading of URLs, dates and amounts, and a Fluent LoRA voice-cloning feature covering 40+ languages.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-speech-26"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/f161797a-a16c-457d-ae97-56590263e5b6.png",
+            "alt": "MiniMax Speech 2.6 figure"
+          }
+        },
+        {
+          "headline": "Moonshot AI open-sources Kimi Linear hybrid-attention model",
+          "summary": "Kimi Linear is a 48B-total, 3B-active model built on Kimi Delta Attention (KDA), a linear-attention variant interleaved with MLA layers. Moonshot reports up to 75% lower KV-cache use and up to 6x decoding throughput at 1M-token context, and released the KDA kernel, vLLM support and base and instruct checkpoints.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2510.26692"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-28",
+  "heading": "Monday, July 28, 2025",
+  "topLine": "Z.ai releases open-weight GLM-4.5 and GLM-4.5-Air.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Z.ai releases open-weight GLM-4.5 and GLM-4.5-Air",
+          "summary": "GLM-4.5 (355B total, 32B active parameters) and GLM-4.5-Air (106B total, 12B active) are MIT-licensed hybrid reasoning models with thinking and non-thinking modes, aimed at reasoning, coding and agent tasks. Z.ai reports GLM-4.5 ranked third across 12 benchmarks behind o3 and Grok 4.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-4.5"
+            },
+            {
+              "name": "Simon Willison",
+              "url": "https://simonwillison.net/2025/Jul/28/glm-45/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

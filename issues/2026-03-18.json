@@ -1,0 +1,34 @@
+{
+  "date": "2026-03-18",
+  "heading": "Wednesday, March 18, 2026",
+  "topLine": "MiniMax releases MiniMax-M2.7.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases MiniMax-M2.7",
+          "summary": "MiniMax-M2.7 is a coding, office and agent model that MiniMax describes as its first to take part in its own development, used to update its memory, skills and training workflow. MiniMax reports 56.22% on SWE-Pro and 57.0% on Terminal Bench 2; weights later appeared on Hugging Face under a custom license.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax news",
+              "url": "https://www.minimax.io/news/minimax-m27-en"
+            },
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7"
+            }
+          ],
+          "image": {
+            "url": "https://filecdn.minimax.chat/public/86637d58-0e78-44f5-bb08-d149ed0c4418.png",
+            "alt": "MiniMax-M2.7 announcement figure"
+          }
+        }
+      ]
+    }
+  ]
+}

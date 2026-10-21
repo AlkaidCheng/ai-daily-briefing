@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-31",
+  "heading": "Friday, July 31, 2026",
+  "topLine": "MiniMax releases H3 multimodal video model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax releases H3 multimodal video model",
+          "summary": "MiniMax H3 is a general-purpose video generation model that takes text, images, video and audio as input and produces up to 15 seconds of 2K video with native stereo sound. MiniMax said it would release the weights after launch.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "MiniMax blog",
+              "url": "https://www.minimax.io/blog/minimax-h3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-08",
+  "heading": "Wednesday, April 8, 2026",
+  "topLine": "Meta Superintelligence Labs debuts Muse Spark.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta Superintelligence Labs debuts Muse Spark",
+          "summary": "Muse Spark is the first model from Meta Superintelligence Labs: a natively multimodal reasoning model with tool use and multi-agent orchestration that powers Meta AI. Unlike Llama it is not open-weight; Meta offered a private API preview and claims its Contemplating mode scores 58% on Humanity's Last Exam.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/"
+            },
+            {
+              "name": "Meta newsroom",
+              "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/"
+            }
+          ],
+          "image": {
+            "url": "https://about.fb.com/wp-content/uploads/2026/04/Introducing-Muse-Spark_Header.gif",
+            "alt": "Introducing Muse Spark header graphic"
+          }
+        }
+      ]
+    }
+  ]
+}

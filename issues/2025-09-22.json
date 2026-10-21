@@ -1,0 +1,47 @@
+{
+  "date": "2025-09-22",
+  "heading": "Monday, September 22, 2025",
+  "topLine": "2 model releases: Alibaba Qwen3-Omni and DeepSeek-V3.1-Terminus.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-Omni multimodal model",
+          "summary": "Qwen3-Omni-30B-A3B is an Apache-2.0 open-weight end-to-end omni-modal model that takes text, image, audio and video input and streams text and speech output. Qwen reports state-of-the-art results on 22 of 36 audio/video benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: QwenLM/Qwen3-Omni",
+              "url": "https://github.com/QwenLM/Qwen3-Omni"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-Omni/overview.png",
+            "alt": "Qwen3-Omni overview"
+          }
+        },
+        {
+          "headline": "DeepSeek releases DeepSeek-V3.1-Terminus",
+          "summary": "DeepSeek-V3.1-Terminus is an update to V3.1 that improves language consistency (fewer mixed Chinese/English outputs) and upgrades the code and search agents. It is available in the app, web and API, with open weights on Hugging Face.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news250922"
+            }
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/zh-cn/img/deepseek_v3.1_terminus_benchmark_en.png",
+            "alt": "DeepSeek-V3.1-Terminus benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-08",
+  "heading": "Tuesday, September 8, 2026",
+  "topLine": "OpenAI releases ChatGPT Images 2.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases ChatGPT Images 2.5",
+          "summary": "ChatGPT Images 2.5 is OpenAI's next image model, offered in the API as two variants: gpt-image-2.5-flare, which OpenAI says beats GPT-Image-2 quality at 50% lower latency, and gpt-image-2.5-sunburst for premium workflows needing tighter edit control.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+            },
+            {
+              "name": "OpenAI: ChatGPT Images 2.5 System Card",
+              "url": "https://deploymentsafety.openai.com/chatgpt-images-2-5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

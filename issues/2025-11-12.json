@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-12",
+  "heading": "Wednesday, November 12, 2025",
+  "topLine": "OpenAI releases GPT-5.1 Instant and Thinking.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-5.1 Instant and Thinking",
+          "summary": "GPT-5.1 updates the GPT-5 series in ChatGPT with a warmer default Instant model that can choose to reason on harder questions, and a Thinking model that adapts reasoning time to the question. It added tone presets; API access followed on November 13.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/gpt-5-1/"
+            },
+            {
+              "name": "OpenAI: GPT-5.1 for developers",
+              "url": "https://openai.com/index/gpt-5-1-for-developers/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

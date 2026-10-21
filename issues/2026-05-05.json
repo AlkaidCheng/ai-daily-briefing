@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-05",
+  "heading": "Tuesday, May 5, 2026",
+  "topLine": "OpenAI makes GPT-5.5 Instant the ChatGPT default.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI makes GPT-5.5 Instant the ChatGPT default",
+          "summary": "GPT-5.5 Instant replaced GPT-5.3 Instant as the default model for all ChatGPT users, with shorter answers and personalization from past chats and connected apps. OpenAI reports 52.5% fewer hallucinated claims on high-stakes prompts in internal evaluations.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/gpt-5-5-instant/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

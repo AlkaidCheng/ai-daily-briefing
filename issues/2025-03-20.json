@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-20",
+  "heading": "Thursday, March 20, 2025",
+  "topLine": "OpenAI launches next-generation audio models in the API.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI launches next-generation audio models in the API",
+          "summary": "OpenAI added gpt-4o-transcribe and gpt-4o-mini-transcribe speech-to-text models, which it says lower word error rates versus Whisper, plus gpt-4o-mini-tts, a text-to-speech model whose tone and style can be steered by instructions.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-our-next-generation-audio-models/"
+            },
+            {
+              "name": "OpenAI API changelog",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

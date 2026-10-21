@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-10",
+  "heading": "Monday, November 10, 2025",
+  "topLine": "Meta releases Omnilingual ASR covering 1,600+ languages.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases Omnilingual ASR covering 1,600+ languages",
+          "summary": "Omnilingual ASR is a family of open speech-recognition models from 300M to 7B parameters covering more than 1,600 languages, including about 500 never before transcribed by AI. Models are released under Apache 2.0, with a transcribed-speech corpus for 350 underserved languages under CC-BY.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

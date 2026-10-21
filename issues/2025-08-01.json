@@ -1,0 +1,30 @@
+{
+  "date": "2025-08-01",
+  "heading": "Friday, August 1, 2025",
+  "topLine": "Google rolls out Gemini 2.5 Deep Think to Ultra subscribers.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google rolls out Gemini 2.5 Deep Think to Ultra subscribers",
+          "summary": "Gemini 2.5 Deep Think uses parallel thinking and longer inference time. Google describes it as a faster variant of the model that reached gold-medal standard at the 2025 International Mathematical Olympiad. It launched in the Gemini app for Google AI Ultra subscribers.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/products/gemini/gemini-2-5-deep-think/"
+            },
+            {
+              "name": "Simon Willison",
+              "url": "https://feeds.simonwillison.net/2025/Aug/1/deep-think-in-the-gemini-app/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

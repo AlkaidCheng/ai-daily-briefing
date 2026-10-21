@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-29",
+  "heading": "Friday, May 29, 2026",
+  "topLine": "xAI opens Grok Build 0.1 coding model to the API.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "xAI opens Grok Build 0.1 coding model to the API",
+          "summary": "Grok Build 0.1, the coding model behind xAI's Grok Build agent, became available in public beta on the xAI API at $1/$2 per million input/output tokens and over 100 tokens per second. It replaced Grok Code Fast 1, which was retired from the API in May 2026.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "xAI news",
+              "url": "https://x.ai/news/grok-build-0-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

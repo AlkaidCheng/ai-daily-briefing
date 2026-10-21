@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-01",
+  "heading": "Tuesday, September 1, 2026",
+  "topLine": "2 model releases: Anthropic Claude Fable 5.1 and Claude Mythos 5.1 and Meta Muse Voice Transcribe.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Fable 5.1 and Mythos 5.1",
+          "summary": "Fable 5.1 is generally available and Mythos 5.1, the same model with different safeguards, is limited to vetted users in cybersecurity and life-sciences verification programs. Anthropic reports gains in long-running coding and agentic work at unchanged $10/$50 pricing, with cheaper cache reads.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+            },
+            {
+              "name": "Le Matin",
+              "url": "https://lematin.ma/hi-tech/anthropic-muscle-claude-avec-ses-nouveaux-modeles-fable-51-et-mythos-51/363103"
+            }
+          ]
+        },
+        {
+          "headline": "Meta releases Muse Voice Transcribe real-time speech model",
+          "summary": "Muse Voice Transcribe is Meta Superintelligence Labs' first real-time audio perception model, offering streaming speech recognition, speaker diarization and transcription trained on 70+ languages. Meta reports a 3.1% word error rate and first place on Artificial Analysis streaming speech-to-text; it is available through the Meta Model API, Meta AI for Mac and Muse Code.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI research blog",
+              "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

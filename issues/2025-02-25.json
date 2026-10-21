@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-25",
+  "heading": "Tuesday, February 25, 2025",
+  "topLine": "Alibaba previews QwQ-Max reasoning model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba previews QwQ-Max reasoning model",
+          "summary": "QwQ-Max-Preview is a reasoning model built on Qwen2.5-Max, available in Qwen Chat as a preview of QwQ-Max. Qwen said it planned to open-source QwQ-Max and Qwen2.5-Max under Apache 2.0.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwq-max-preview/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/qwq-banner-en.jpg",
+            "alt": "QwQ-Max-Preview banner"
+          }
+        }
+      ]
+    }
+  ]
+}

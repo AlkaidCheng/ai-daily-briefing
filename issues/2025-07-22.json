@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-22",
+  "heading": "Tuesday, July 22, 2025",
+  "topLine": "Alibaba releases Qwen3-Coder agentic coding model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-Coder agentic coding model",
+          "summary": "Qwen3-Coder-480B-A35B-Instruct is an open-weight MoE coding model (480B total, 35B active) with 256K native context, released with the open-source Qwen Code CLI. Qwen claims state-of-the-art results among open models on agentic coding and SWE-Bench Verified, comparable to Claude Sonnet 4.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Qwen blog",
+              "url": "https://qwenlm.github.io/blog/qwen3-coder/"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-Coder/qwen3-coder-main.jpg",
+            "alt": "Qwen3-Coder banner"
+          }
+        }
+      ]
+    }
+  ]
+}

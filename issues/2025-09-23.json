@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-23",
+  "heading": "Tuesday, September 23, 2025",
+  "topLine": "Alibaba releases Qwen3-VL vision-language model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba releases Qwen3-VL vision-language model",
+          "summary": "Qwen3-VL-235B-A22B (Instruct and Thinking) is an open-weight vision-language model with 256K native context, GUI agent abilities, 32-language OCR and visual coding; Qwen calls it the most capable VL model in the series. Smaller sizes followed in October 2025.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: QwenLM/Qwen3-VL",
+              "url": "https://github.com/QwenLM/Qwen3-VL"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3-VL/qwen3vl_arc.jpg",
+            "alt": "Qwen3-VL architecture diagram"
+          }
+        }
+      ]
+    }
+  ]
+}

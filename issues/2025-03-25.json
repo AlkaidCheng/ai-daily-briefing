@@ -1,0 +1,60 @@
+{
+  "date": "2025-03-25",
+  "heading": "Tuesday, March 25, 2025",
+  "topLine": "3 model releases: Google Gemini 2.5 Pro, DeepSeek-V3-0324 and OpenAI GPT-4o image generation.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google introduces Gemini 2.5 Pro, a thinking model",
+          "summary": "Gemini 2.5 Pro Experimental was the first Gemini 2.5 model, built to reason before responding. Google reported it debuted at #1 on LMArena and scored 18.8% on Humanity's Last Exam without tools; it shipped with a 1M-token context window.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/"
+            }
+          ]
+        },
+        {
+          "headline": "DeepSeek releases DeepSeek-V3-0324 update",
+          "summary": "DeepSeek-V3-0324 is an updated DeepSeek-V3 checkpoint that the company says improves reasoning, front-end development and tool use. Weights are on Hugging Face under the MIT License, and API usage is unchanged.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek API news",
+              "url": "https://api-docs.deepseek.com/news/news250325"
+            }
+          ],
+          "image": {
+            "url": "https://cdn.deepseek.com/api-docs/v3_0324_benchmark.webp",
+            "alt": "DeepSeek-V3-0324 benchmark chart"
+          }
+        },
+        {
+          "headline": "OpenAI adds native image generation to GPT-4o",
+          "summary": "OpenAI built image generation directly into GPT-4o as an autoregressive model, replacing DALL-E as ChatGPT's default image generator. OpenAI highlighted improved text rendering, prompt following and multi-turn editing; images carry C2PA metadata. API access followed later as gpt-image-1.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-4o-image-generation/"
+            },
+            {
+              "name": "OpenAI system card addendum",
+              "url": "https://openai.com/index/gpt-4o-image-generation-system-card-addendum/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

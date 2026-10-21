@@ -1,0 +1,26 @@
+{
+  "date": "2025-09-15",
+  "heading": "Monday, September 15, 2025",
+  "topLine": "OpenAI releases GPT-5-Codex for agentic coding.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-5-Codex for agentic coding",
+          "summary": "GPT-5-Codex is a version of GPT-5 optimized for agentic software engineering in Codex, adjusting its thinking time to task complexity and trained for code review. It became the default for Codex cloud tasks; API access followed on September 23.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-upgrades-to-codex/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

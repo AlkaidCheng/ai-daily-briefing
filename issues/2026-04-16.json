@@ -1,0 +1,68 @@
+{
+  "date": "2026-04-16",
+  "heading": "Thursday, April 16, 2026",
+  "topLine": "3 model releases: Anthropic Claude Opus 4.7, Alibaba Qwen3.6-35B-A3B and OpenAI GPT-Rosalind.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude Opus 4.7",
+          "summary": "Claude Opus 4.7 improves on Opus 4.6 in advanced software engineering, adds higher-resolution vision and a new xhigh effort level, and ships with automatic cyber-misuse safeguards. Pricing is unchanged at $5/$25 per million tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-opus-4-7"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/96ea2509a90e527642c822303e56296a07bcfce4-1920x1080.png",
+            "alt": "Header image from the Claude Opus 4.7 announcement"
+          }
+        },
+        {
+          "headline": "Alibaba releases open-weight Qwen3.6-35B-A3B",
+          "summary": "Qwen3.6-35B-A3B is an Apache-2.0 open-weight multimodal MoE model (35B total, 3B active) aimed at agentic coding, with 262K native context. Qwen reports 73.4 on SWE-bench Verified and claims it beats Gemma 4 models on its published benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "GitHub: QwenLM (news)",
+              "url": "https://github.com/QwenLM/Qwen3.5"
+            },
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+            }
+          ],
+          "image": {
+            "url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3.6/Figures/qwen3.6_35b_a3b_score.png",
+            "alt": "Qwen3.6-35B-A3B benchmark chart"
+          }
+        },
+        {
+          "headline": "OpenAI introduces GPT-Rosalind for life sciences",
+          "summary": "GPT-Rosalind is a reasoning model specialized for biology, drug discovery and translational medicine, tuned for multi-step use of scientific tools and databases. It launched as a limited-access research preview for qualified organizations in ChatGPT, Codex and the API, with partners including Amgen and Moderna.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-rosalind/"
+            },
+            {
+              "name": "heise",
+              "url": "https://heise.de/-11263023"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

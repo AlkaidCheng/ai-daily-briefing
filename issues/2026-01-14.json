@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-14",
+  "heading": "Wednesday, January 14, 2026",
+  "topLine": "Z.ai releases GLM-Image, trained on Huawei Ascend chips.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Z.ai releases GLM-Image, trained on Huawei Ascend chips",
+          "summary": "GLM-Image is an open-source 16B image generation model that combines a 9B autoregressive model based on GLM-4 with a 7B diffusion decoder, aimed at better text rendering in images. Z.ai says it was trained entirely on Huawei Ascend hardware with the MindSpore framework.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Z.ai docs release notes",
+              "url": "https://docs.z.ai/release-notes/new-released"
+            },
+            {
+              "name": "Decrypt",
+              "url": "https://decrypt.co/354590/china-zai-releases-ai-image-generation-model-trained-without-american-chips"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

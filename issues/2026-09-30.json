@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-30",
+  "heading": "Wednesday, September 30, 2026",
+  "topLine": "Google announces Gemini 4 Argon frontier model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google announces Gemini 4 Argon frontier model",
+          "summary": "Gemini 4 Argon is Google's frontier model for coding, enterprise knowledge work and cyber defense, with a 1M-token output limit, up from 64K. Google first released it to vetted cyber defenders through the Fairwind Program and made it broadly available on October 13. It reports 77.9% on DeepSWE v1.1, with introductory pricing of $2/$10 per million tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+            },
+            {
+              "name": "Google blog (general availability)",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

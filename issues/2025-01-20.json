@@ -1,0 +1,55 @@
+{
+  "date": "2025-01-20",
+  "heading": "Monday, January 20, 2025",
+  "topLine": "2 model releases: DeepSeek-R1 and Moonshot AI Kimi k1.5.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "DeepSeek releases DeepSeek-R1 reasoning model",
+          "summary": "DeepSeek-R1 is an open-weight reasoning model (671B total, 37B active parameters, MoE) that DeepSeek says performs comparably to OpenAI o1 on math, code and reasoning tasks. Weights are MIT-licensed, alongside six distilled dense models (1.5B–70B) based on Qwen2.5 and Llama, and it is available via the web app and the API as deepseek-reasoner.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "DeepSeek news",
+              "url": "https://deepseek.com/en/news/deepseek-r1/"
+            },
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+            }
+          ],
+          "image": {
+            "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1/resolve/main/figures/benchmark.jpg",
+            "alt": "DeepSeek-R1 benchmark comparison chart"
+          }
+        },
+        {
+          "headline": "Moonshot AI releases Kimi k1.5 reasoning model",
+          "summary": "Kimi k1.5 is a multimodal model trained with large-scale reinforcement learning, with long-chain-of-thought and short-chain-of-thought modes. Moonshot claims long-CoT results matching OpenAI o1 on benchmarks such as AIME, MathVista and Codeforces; a technical report was published, but no weights.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Moonshot AI GitHub",
+              "url": "https://github.com/MoonshotAI/Kimi-k1.5"
+            },
+            {
+              "name": "Kimi research index",
+              "url": "https://www.kimi.com/blog"
+            }
+          ],
+          "image": {
+            "url": "https://github.com/MoonshotAI/Kimi-k1.5/raw/main/images/benchmark-long.jpeg",
+            "alt": "Kimi k1.5 long-CoT benchmark chart"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-02",
+  "heading": "Wednesday, September 2, 2026",
+  "topLine": "2 model releases: Google Gemini 3.8 Flash and 3.8 Flash Cyber and Meta Muse Spark 1.3.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Google releases Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "summary": "Google calls Gemini 3.8 Flash its best reasoning and coding Flash model, with gains over 3.7 Flash on software engineering and agentic tasks, at the same introductory $0.75/$3.75 pricing. Gemini 3.8 Flash Cyber, for vulnerability detection and patching, is limited to trusted defenders through the Fairwind Program.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta releases Muse Spark 1.3",
+          "summary": "Muse Spark 1.3 updates Meta's Spark line for agentic and coding work and is available in Muse Code and the Meta Model API, with a max reasoning setting. Meta reports it uses about 20% fewer tool calls and 25% fewer tokens than Muse Spark 1.2 in internal coding comparisons.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI research blog",
+              "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+            },
+            {
+              "name": "Meta for Developers",
+              "url": "https://developer.meta.com/ai/models/muse-spark/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

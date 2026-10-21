@@ -1,0 +1,51 @@
+{
+  "date": "2025-09-30",
+  "heading": "Tuesday, September 30, 2025",
+  "topLine": "2 model releases: Zhipu AI GLM-4.6 and OpenAI Sora 2.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Z.ai releases GLM-4.6",
+          "summary": "GLM-4.6 is Z.ai's flagship update to GLM-4.5, expanding the context window from 128K to 200K tokens and improving coding, reasoning, tool use and search agents. Weights are MIT-licensed; Z.ai reports competitive results against DeepSeek-V3.1-Terminus and Claude Sonnet 4 across eight benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/zai-org/GLM-4.6"
+            },
+            {
+              "name": "Z.ai docs release notes",
+              "url": "https://docs.z.ai/release-notes/new-released"
+            },
+            {
+              "name": "X: @Zai_org",
+              "url": "https://x.com/Zai_org/status/1973034639708344767"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI releases Sora 2 video and audio model",
+          "summary": "Sora 2 generates video with synchronized dialogue and sound effects, which OpenAI says is more physically accurate and controllable than earlier systems. It launched with an invite-based Sora iOS app in the US and Canada, with a higher-quality Sora 2 Pro for ChatGPT Pro users.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/sora-2/"
+            },
+            {
+              "name": "OpenAI: Sora 2 System Card",
+              "url": "https://openai.com/index/sora-2-system-card/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

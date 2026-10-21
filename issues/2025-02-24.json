@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-24",
+  "heading": "Monday, February 24, 2025",
+  "topLine": "Anthropic releases Claude 3.7 Sonnet.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Anthropic releases Claude 3.7 Sonnet",
+          "summary": "Anthropic describes Claude 3.7 Sonnet as its first hybrid reasoning model, able to answer directly or use visible extended thinking with a budget of up to 128K tokens, and reports 70.3% on SWE-bench Verified with high compute. It launched alongside Claude Code as a limited research preview, at $3/$15 per million input/output tokens.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Anthropic news",
+              "url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/4a4df6b6629f9814aec4eb9323028130f43a8d70-1920x1080.png",
+            "alt": "Claude Code onboarding screen shown in the Claude 3.7 Sonnet announcement"
+          }
+        }
+      ]
+    }
+  ]
+}

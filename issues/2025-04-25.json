@@ -1,0 +1,26 @@
+{
+  "date": "2025-04-25",
+  "heading": "Friday, April 25, 2025",
+  "topLine": "Moonshot AI open-sources Kimi-Audio foundation model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Moonshot AI open-sources Kimi-Audio foundation model",
+          "summary": "Kimi-Audio-7B is an open-source audio foundation model for speech recognition, audio understanding, audio generation and voice conversation, pretrained on more than 13 million hours of audio. Moonshot reports state-of-the-art results on several audio benchmarks; the Instruct weights, inference code and technical report were released first, with base weights following.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Moonshot AI GitHub",
+              "url": "https://github.com/MoonshotAI/Kimi-Audio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

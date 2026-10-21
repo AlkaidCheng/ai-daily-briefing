@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-30",
+  "heading": "Thursday, January 30, 2025",
+  "topLine": "Mistral releases Mistral Small 3 under Apache 2.0.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Mistral releases Mistral Small 3 under Apache 2.0",
+          "summary": "Mistral Small 3 is a latency-optimized 24B-parameter open-weight model released under Apache 2.0, with base and instruct checkpoints. Mistral claims over 81% on MMLU and performance competitive with Llama 3.3 70B while running more than three times faster.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Mistral AI news",
+              "url": "https://mistral.ai/news/mistral-small-3/"
+            }
+          ],
+          "image": {
+            "url": "https://mistral.ai/_astro/Cover-Model-Small_ryVwl.webp?dpl=6ad8d949e89eda69d2365f39",
+            "alt": "Mistral Small cover art"
+          }
+        }
+      ]
+    }
+  ]
+}

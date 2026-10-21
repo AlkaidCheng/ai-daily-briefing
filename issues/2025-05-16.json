@@ -1,0 +1,26 @@
+{
+  "date": "2025-05-16",
+  "heading": "Friday, May 16, 2025",
+  "topLine": "OpenAI introduces Codex cloud agent powered by codex-1.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI introduces Codex cloud agent powered by codex-1",
+          "summary": "codex-1 is a version of o3 tuned for software engineering with reinforcement learning on real coding tasks; it powers Codex, a cloud agent that runs multiple coding tasks in parallel. A smaller o4-mini-based variant shipped as codex-mini-latest for Codex CLI.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-codex/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

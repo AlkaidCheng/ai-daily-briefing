@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-11",
+  "heading": "Wednesday, June 11, 2025",
+  "topLine": "Meta releases V-JEPA 2 world model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases V-JEPA 2 world model",
+          "summary": "V-JEPA 2 is a 1.2B-parameter video world model built on Meta's Joint Embedding Predictive Architecture, pre-trained on over 1 million hours of video and used for zero-shot robot planning in Meta's labs. Meta released code and checkpoints for commercial and research use, along with three new physical-reasoning benchmarks.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI blog",
+              "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

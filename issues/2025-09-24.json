@@ -1,0 +1,43 @@
+{
+  "date": "2025-09-24",
+  "heading": "Wednesday, September 24, 2025",
+  "topLine": "2 model releases: Alibaba Qwen3-Max and Meta Code World Model (CWM).",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Alibaba launches Qwen3-Max at Apsara Conference",
+          "summary": "Qwen3-Max is Alibaba's largest model, with over one trillion parameters, in Instruct and Thinking modes; Alibaba reports 69.6 on SWE-Bench for the Instruct version. It was announced at Apsara Conference 2025 alongside Qwen3-VL and Qwen3-Omni.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Alibaba Cloud press release",
+              "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-strategic-roadmaps-for-the-next-generation-ai-innovations_602560"
+            }
+          ]
+        },
+        {
+          "headline": "Meta FAIR releases Code World Model, a 32B research model",
+          "summary": "CWM is a 32B dense open-weight code model mid-trained on Python execution traces and agentic environment trajectories to study world modeling for code, with a 131k-token context. Meta reports 65.8% on SWE-bench Verified with test-time scaling; weights are released under a noncommercial research license.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face model card",
+              "url": "https://huggingface.co/facebook/cwm"
+            },
+            {
+              "name": "The Batch (DeepLearning.AI)",
+              "url": "https://www.deeplearning.ai/the-batch/metas-newest-world-model-research-project"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

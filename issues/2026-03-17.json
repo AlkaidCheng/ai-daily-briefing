@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-17",
+  "heading": "Tuesday, March 17, 2026",
+  "topLine": "OpenAI releases GPT-5.4 mini and nano.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "OpenAI releases GPT-5.4 mini and nano",
+          "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 aimed at coding and subagent workloads; mini has a 400K context window and is available to free ChatGPT users, while nano is API-only.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

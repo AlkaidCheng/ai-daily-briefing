@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-10",
+  "heading": "Monday, August 10, 2026",
+  "topLine": "Meta releases Muse Glimmer, an open-weight 30B agent model.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Meta releases Muse Glimmer, an open-weight 30B agent model",
+          "summary": "Muse Glimmer is a 30B-parameter model for local agent workflows, released with open weights under Apache 2.0 and designed to run on a single consumer GPU or high-memory Mac when quantized to about 4-bit. It is the first Meta Superintelligence Labs model with open weights; Meta claims strong results for its size against Gemma4-31B and Qwen3.6-27B.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Meta AI research blog",
+              "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
