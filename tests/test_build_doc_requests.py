@@ -6,7 +6,12 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from build_doc_requests import build_requests, main, utf16_length  # noqa: E402
+from build_doc_requests import (  # noqa: E402
+    build_image_steps,
+    build_requests,
+    main,
+    utf16_length,
+)
 
 LINK = "https://example.com/a"
 ISSUE = {
@@ -127,3 +132,47 @@ def test_cli_writes_requests(tmp_path, capsys):
     assert (
         "Wrote 13 requests (31 chars inserted at index 109)" in capsys.readouterr().out
     )
+
+
+FIGURES_ISSUE = {
+    **ISSUE,
+    "sections": [
+        {**ISSUE["sections"][0], "items": [{**ISSUE["sections"][0]["items"][0]}]},
+        ISSUE["sections"][1],
+        {**ISSUE["sections"][2], "items": [{**ISSUE["sections"][2]["items"][0]}]},
+    ],
+}
+FIGURES_ISSUE["sections"][0]["items"][0]["image"] = {"url": "https://e.com/1.png"}
+FIGURES_ISSUE["sections"][2]["items"][0]["image"] = {"url": "https://e.com/2.png"}
+
+
+def test_figure_line_break_stays_inside_bullet():
+    requests = build_requests(FIGURES_ISSUE, 109)
+    text = requests[0]["insertText"]["text"]
+    assert text == "Mon\nTop\nS1\nH — x (A)\u000b\nS2\nG — y\u000b\n\n"
+    assert _ranges(requests, "createParagraphBullets") == [(120, 131), (134, 141)]
+
+
+def test_figure_steps_run_last_to_first():
+    steps = build_image_steps(FIGURES_ISSUE, 109)
+    inserts = [s["insert"]["insertInlineImage"] for s in steps]
+    assert [i["location"]["index"] for i in inserts] == [140, 130]
+    assert [i["uri"] for i in inserts] == ["https://e.com/2.png", "https://e.com/1.png"]
+    assert [s["on_failure"]["deleteContentRange"]["range"] for s in steps] == [
+        {"startIndex": 139, "endIndex": 140},
+        {"startIndex": 129, "endIndex": 130},
+    ]
+
+
+def test_figure_steps_land_after_their_line_breaks():
+    document = list(build_requests(FIGURES_ISSUE, 109)[0]["insertText"]["text"])
+    for step in build_image_steps(FIGURES_ISSUE, 109):
+        index = step["insert"]["insertInlineImage"]["location"]["index"] - 109
+        document.insert(index, "IMG")
+    rendered = "".join(document)
+    assert rendered.count("\u000bIMG\n") == 2
+
+
+def test_no_figure_steps_without_images():
+    assert build_image_steps(ISSUE, 109) == []
+    assert "\u000b" not in build_requests(ISSUE, 109)[0]["insertText"]["text"]
