@@ -19,7 +19,11 @@
               "name": "X: @lmthang",
               "url": "https://x.com/lmthang/status/1887928665100665111"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://pbs.twimg.com/media/GjNCr-4aQAIFXUz.jpg",
+            "alt": "Olympiad geometry construction diagram shared with the AlphaGeometry2 announcement"
+          }
         }
       ]
     },

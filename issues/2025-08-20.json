@@ -23,7 +23,11 @@
               "name": "X: @SebastienBubeck",
               "url": "https://x.com/SebastienBubeck/status/1958198661139009862"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://pbs.twimg.com/media/Gyzo2H4aYAAbbHQ.png",
+            "alt": "ChatGPT 5 Pro conversation proposing the improved step-size bound η ≤ 3/(2L)"
+          }
         }
       ]
     }

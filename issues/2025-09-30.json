@@ -26,7 +26,11 @@
               "name": "X: @Zai_org",
               "url": "https://x.com/Zai_org/status/1973034639708344767"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://pbs.twimg.com/media/G2Gfn1xaAAEo9lh.jpg",
+            "alt": "GLM-4.6 benchmark chart against GLM-4.5, DeepSeek-V3.2-Exp and Claude Sonnet 4 and 4.5"
+          }
         },
         {
           "headline": "OpenAI releases Sora 2 video and audio model",
