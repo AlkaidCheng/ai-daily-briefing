@@ -26,8 +26,20 @@
             {
               "name": "X: @demishassabis",
               "url": "https://x.com/demishassabis/status/1979417877590774063"
+            },
+            {
+              "name": "X: @MarkSellke",
+              "url": "https://x.com/MarkSellke/status/1979226538059931886"
+            },
+            {
+              "name": "X: @SebastienBubeck",
+              "url": "https://x.com/SebastienBubeck/status/1979539604522127746"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2511.16072v1/figures/pommerenke.png",
+            "alt": "Pommerenke's published solution to Erdős Problem #1043"
+          }
         }
       ]
     }

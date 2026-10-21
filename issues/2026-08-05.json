@@ -12,6 +12,10 @@
           "summary": "Lech Mazur posted a proof of Sendov's 1959 conjecture on polynomial zeros and critical points, for all degrees. The proof was generated with OpenAI's GPT-5.6 Pro and formalized in about 90,000 lines of Lean. On 12 August, Terence Tao published a human-readable version, built with AI help, along with his own roughly 15,000-line Lean formalization. Tao also extended the method to the stronger Phelps–Rodriguez conjecture. The result has not been peer reviewed.",
           "sources": [
             {
+              "name": "ProofAtlas (Sendov formalization page)",
+              "url": "https://www.proofatlas.ai/formalizations/sendov-conjecture/"
+            },
+            {
               "name": "Mazur proof (PDF)",
               "url": "https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf"
             },
@@ -23,7 +27,11 @@
               "name": "Tao's Lean formalization",
               "url": "https://github.com/teorth/sendov"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://terrytao.wordpress.com/wp-content/uploads/2026/08/polar-region.png",
+            "alt": "Polar-region diagram from Tao's digest of the Sendov proof"
+          }
         },
         {
           "headline": "European Mathematical Society declines formal endorsement of Leiden Declaration",
@@ -55,7 +63,11 @@
               "name": "X: @AIatMeta",
               "url": "https://x.com/AIatMeta/status/2085084713203487041"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://research.meta.ai/_next/image?url=%2Farticles%2Fintroducing-muse-code-and-muse-spark-1-2%2Fevaluations%2Fterminal-bench-2-1-v1.png&w=3840&q=90&dpl=dpl_3r2SM52NFkaU5xrSbUz6eLoDH4Xv",
+            "alt": "Terminal-Bench 2.1 scores for Muse Spark 1.2 and other coding models"
+          }
         }
       ]
     }

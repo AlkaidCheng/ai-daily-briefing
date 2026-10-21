@@ -12,6 +12,10 @@
           "summary": "Kevin Buzzard's group at Imperial, funded by Renaissance Philanthropy, published Lean statements of 50 important theorems from 2020s Annals of Mathematics papers and added many new definitions to Mathlib. They challenge humans to formalize more statements and AI systems to autoformalize the proofs. Writing the statements in Lean has already found missing hypotheses in four papers by Fields Medallists.",
           "sources": [
             {
+              "name": "GitHub: ImperialCollegeLondon/AnnalsChallenge",
+              "url": "https://github.com/ImperialCollegeLondon/AnnalsChallenge"
+            },
+            {
               "name": "Xena blog",
               "url": "https://xenaproject.wordpress.com/2026/08/13/the-annals-challenge/"
             }
@@ -33,7 +37,11 @@
               "name": "Google blog",
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash__evals__benchma.width-1200.format-webp.webp",
+            "alt": "Gemini 3.7 Flash benchmark comparison chart"
+          }
         },
         {
           "headline": "DeepSeek makes DeepSeek-V4-Pro generally available",

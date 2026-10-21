@@ -15,7 +15,11 @@
               "name": "Brookhaven National Laboratory",
               "url": "https://www.bnl.gov/newsroom/news.php?a=122742"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://www.bnl.gov/today/body_pics/2025/12/AI_HumanInt_MazeFinal3-1000px.jpg",
+            "alt": "Illustration of human-AI collaboration as a maze (Brookhaven)"
+          }
         }
       ]
     }

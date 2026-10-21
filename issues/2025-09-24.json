@@ -18,7 +18,11 @@
               "name": "Alibaba Cloud press release",
               "url": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-strategic-roadmaps-for-the-next-generation-ai-innovations_602560"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://yqintl.alicdn.com/b4d81ffab65050461b4bc6a5e9bf1c31d5f4e3c5.png",
+            "alt": "Qwen3-Max benchmark results"
+          }
         },
         {
           "headline": "Meta FAIR releases Code World Model, a 32B research model",

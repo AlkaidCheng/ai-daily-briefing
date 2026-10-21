@@ -12,8 +12,8 @@
           "summary": "OpenAI said about 10,000 agents running an unreleased internal model, over roughly 88 hours, produced a proof that smooth solutions of the 3D Navier–Stokes equations can blow up under a smooth external force, formalized in Lean. Charles Fefferman, who wrote the Clay problem statement, welcomed it. Critics note that it relies on the forcing clause rather than the unforced case, and OpenAI has said it will not claim the Millennium Prize. Credit is disputed by Tristan Buckmaster, whose forced-Euler results with Levent Alpöge appeared a day earlier; OpenAI denies his allegations. The proof had not been independently peer reviewed.",
           "sources": [
             {
-              "name": "Quanta Magazine",
-              "url": "https://quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908"
+              "name": "OpenAI",
+              "url": "https://openai.com/index/navier-stokes-solution/"
             },
             {
               "name": "Scientific American",
@@ -22,6 +22,10 @@
             {
               "name": "The Next Web",
               "url": "https://thenextweb.com/news/openai-navier-stokes-proof-published-millennium-prize"
+            },
+            {
+              "name": "X: @OpenAI",
+              "url": "https://x.com/OpenAI/status/2097374640582668336"
             }
           ]
         }

@@ -22,7 +22,11 @@
               "name": "Notebookcheck",
               "url": "https://www.notebookcheck.net/Kimi-K2-New-AI-model-from-China-outperforms-GPT-4-1-in-key-benchmarks.1067135.0.html"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://kimi-file.kimi.ai/prod-chat-kimi/kfs/4/4/2026-07-13/d9af7sff2ena62011o2g?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1",
+            "alt": "Kimi K2 training loss versus tokens, Muon compared with AdamW"
+          }
         }
       ]
     }

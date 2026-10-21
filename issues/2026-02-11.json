@@ -22,7 +22,11 @@
               "name": "Hugging Face blog",
               "url": "https://huggingface.co/blog/mlabonne/glm-5"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://cdn-uploads.huggingface.co/production/uploads/61b8e2ba285851687028d395/o_cYCM3j97RbRHVaTwwKQ.png",
+            "alt": "GLM-5 benchmark results"
+          }
         }
       ]
     }

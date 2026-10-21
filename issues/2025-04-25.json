@@ -18,7 +18,11 @@
               "name": "Moonshot AI GitHub",
               "url": "https://github.com/MoonshotAI/Kimi-Audio"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://github.com/MoonshotAI/Kimi-Audio/raw/master/assets/kimia_radar_chart.png",
+            "alt": "Radar chart of Kimi-Audio results across audio benchmarks"
+          }
         }
       ]
     }

@@ -35,7 +35,11 @@
               "name": "OpenAI: GPT-6 October update system card",
               "url": "https://deploymentsafety.openai.com/gpt-6-october"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://deploymentsafety.openai.com/data/eval-sets/gpt-6-october/assets/images/image1.png",
+            "alt": "Response- and claim-level factual error rates for the GPT-6 October update"
+          }
         }
       ]
     }

@@ -19,7 +19,11 @@
               "name": "Google Research blog",
               "url": "https://research.google/blog/ai-as-a-research-partner-advancing-theoretical-computer-science-with-alphaevolve/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/images/ReGeCS-2-Gadget.width-1250.png",
+            "alt": "Gadget reduction found by AlphaEvolve"
+          }
         }
       ]
     },

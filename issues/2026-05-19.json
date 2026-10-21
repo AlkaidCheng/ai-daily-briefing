@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-3-5__benchmarks__light.gif",
+            "alt": "Benchmark comparison table of Gemini 3.5 Flash against Claude and GPT models"
+          }
         },
         {
           "headline": "Google introduces Gemini Omni, starting with video generation",

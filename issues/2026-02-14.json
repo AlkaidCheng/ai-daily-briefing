@@ -12,12 +12,20 @@
           "summary": "The First Proof team reported that AI systems gave confident proofs to all ten problems but only two were correct, and that one of those closely matched an existing proof. OpenAI chief scientist Jakub Pachocki said six of OpenAI's solutions had a high chance of being correct. OpenAI's own write-up acknowledged expert feedback and human selection among attempts, and mathematicians pointed to possible gaps in at least one of the six.",
           "sources": [
             {
+              "name": "First Proof: solutions and comments (PDF)",
+              "url": "https://1stproof.org/documents/FirstProofSolutionsComments.pdf"
+            },
+            {
               "name": "Scientific American",
               "url": "https://www.scientificamerican.com/article/first-proof-is-ais-toughest-math-test-yet-the-results-are-mixed"
             },
             {
               "name": "OpenAI: First Proof submissions",
               "url": "https://openai.com/index/first-proof-submissions/"
+            },
+            {
+              "name": "X: @merettm",
+              "url": "https://x.com/merettm/status/2022517085193277874"
             }
           ]
         }

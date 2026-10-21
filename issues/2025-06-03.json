@@ -19,7 +19,11 @@
               "name": "Insilico press release",
               "url": "https://www.biospace.com/press-releases/insilico-medicine-announces-nature-medicine-publication-of-phase-iia-results-evaluating-rentosertib-the-novel-tnik-inhibitor-for-idiopathic-pulmonary-fibrosis-ipf-discovered-and-designed-with-a-pioneering-ai-approach"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://mma.prnewswire.com/media/2702264/Changes_FVC___95__CI_12_weeks_Rentosertib_treatment_compared.jpg",
+            "alt": "Change in FVC at 12 weeks, rentosertib dose groups vs placebo"
+          }
         }
       ]
     }

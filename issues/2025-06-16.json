@@ -22,7 +22,11 @@
               "name": "Hugging Face",
               "url": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k-hf"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k-hf/resolve/main/figures/TextBench.png",
+            "alt": "MiniMax-M1 benchmark comparison with leading commercial and open-weight models"
+          }
         }
       ]
     }

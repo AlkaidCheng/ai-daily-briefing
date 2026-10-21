@@ -12,14 +12,30 @@
           "summary": "When OpenAI announced o3, it reported a 25.2% score on Epoch AI's FrontierMath benchmark of hard research-style problems. Previous models had scored about 2%. The score was self-reported. It later emerged that OpenAI had funded the benchmark and had access to many of its problems. In April 2025, Epoch's independent test of the released o3 found about 10%, on a different problem set and setup.",
           "sources": [
             {
+              "name": "OpenAI (12 Days of OpenAI, day 12)",
+              "url": "https://openai.com/12-days/?day=12"
+            },
+            {
               "name": "The Decoder",
               "url": "https://the-decoder.com/openai-quietly-funded-independent-math-benchmark-before-setting-record-with-o3/"
             },
             {
               "name": "TechCrunch (Epoch's independent result)",
               "url": "https://techcrunch.com/2025/04/20/openais-o3-ai-model-scores-lower-on-a-benchmark-than-the-company-initially-implied"
+            },
+            {
+              "name": "X: @OpenAI",
+              "url": "https://x.com/OpenAI/status/1870186518230511844"
+            },
+            {
+              "name": "X: @polynoamial",
+              "url": "https://x.com/polynoamial/status/1870196476908834893"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://the-decoder.com/wp-content/uploads/2025/01/openai_o3_frontier_math-e1737283620250.png",
+            "alt": "Bar chart of FrontierMath accuracy: previous state of the art 2.0% vs o3 25.2%"
+          }
         }
       ]
     }

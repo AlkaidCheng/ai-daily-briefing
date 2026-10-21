@@ -12,10 +12,26 @@
           "summary": "Team Numina won the first AIMO Progress Prize, a Kaggle competition run with XTX Markets funding in which open models solved olympiad-style problems with numerical answers. The team received $131,072, and the prize was presented at IMO 2024 in Bath. Rankings came from the competition's private leaderboard, and winners had to publish their code, data and model weights.",
           "sources": [
             {
+              "name": "AIMO Prize",
+              "url": "https://aimoprize.com/updates/2024-07-20-progress-prize-results"
+            },
+            {
               "name": "Press release (ANP)",
               "url": "https://persportaal.anp.nl/artikel/CSN-220724069/-first-ai-mathematical-olympiad-progress-prize-won-by-team-numina"
+            },
+            {
+              "name": "X: @AIMOprize",
+              "url": "https://x.com/AIMOprize/status/1814759235437404485"
+            },
+            {
+              "name": "X: @JiaLi52524397",
+              "url": "https://x.com/JiaLi52524397/status/1814957190320631929"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/winning-aimo-progress-prize/sc-tir.png",
+            "alt": "Diagram of Numina's self-consistency tool-integrated reasoning (SC-TIR) inference"
+          }
         }
       ]
     }

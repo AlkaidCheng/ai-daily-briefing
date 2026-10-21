@@ -39,7 +39,11 @@
               "name": "InfoQ",
               "url": "https://www.infoq.com/news/2025/01/deepseek-ai-janus/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://github.com/deepseek-ai/Janus/raw/main/images/teaser_januspro.png",
+            "alt": "Janus-Pro benchmark results and text-to-image samples"
+          }
         }
       ]
     }

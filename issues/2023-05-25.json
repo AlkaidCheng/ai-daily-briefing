@@ -18,8 +18,16 @@
             {
               "name": "MIT Jameel Clinic project page",
               "url": "https://jclinic.mit.edu/research-project/deep-learning-guided-discovery-of-an-antibiotic-targeting-acinetobacter-baumannii/"
+            },
+            {
+              "name": "X: @ItsJonStokes",
+              "url": "https://x.com/ItsJonStokes/status/1661755271960510469"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41589-023-01349-8/MediaObjects/41589_2023_1349_Fig1_HTML.png",
+            "alt": "Fig. 1: machine learning-guided discovery of abaucin"
+          }
         }
       ]
     }

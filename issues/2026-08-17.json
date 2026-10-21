@@ -15,7 +15,11 @@
               "name": "arXiv: Mathematics in the age of AI",
               "url": "https://arxiv.org/abs/2608.16753"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2608.16753v1/bourgain-besicovitch.jpg",
+            "alt": "Annotated page from a 1991 Bourgain paper (figure in Tao's essay)"
+          }
         }
       ]
     }

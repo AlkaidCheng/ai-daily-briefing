@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/technology/developers/gemma-3/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chatbot_Arena_ELO_Score.width-1200.format-webp.webp",
+            "alt": "Chatbot Arena Elo scores with Gemma 3 27B highlighted"
+          }
         }
       ]
     }

@@ -22,8 +22,16 @@
             {
               "name": "MIT Technology Review",
               "url": "https://www.technologyreview.com/2023/12/14/1085318/google-deepmind-large-language-model-solve-unsolvable-math-problem-cap-set/"
+            },
+            {
+              "name": "X: @GoogleDeepMind",
+              "url": "https://x.com/GoogleDeepMind/status/1735332722208284797"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/fy2yezSUH6zXaZy4Ya8fAvMVZJhlyQpRMkflDqJRzj5WxNUg0aGCghOwSc6OzsF5c6B06qHUTLytzkMMKJnXHiUjl8a-nGxDxXAVPeAOYA5JVlt1=w1440",
+            "alt": "Diagram of the FunSearch loop: prompt, LLM, evaluator and programs database"
+          }
         }
       ]
     }

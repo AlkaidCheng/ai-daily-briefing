@@ -18,7 +18,11 @@
               "name": "xAI news",
               "url": "https://x.ai/news/grok-4-fast"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://media.x.ai/cdn-cgi/image/fit=scale-down,onerror=redirect,f=auto/v1/website/search_arena-c5105183.webp",
+            "alt": "LMArena Search Arena leaderboard with Grok 4 Fast"
+          }
         }
       ]
     }

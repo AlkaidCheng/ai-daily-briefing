@@ -22,7 +22,11 @@
               "name": "Google DeepMind model card",
               "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-image/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/NB2_Hero.width-200.format-webp.webp",
+            "alt": "Nano Banana 2 surrounded by images it generated"
+          }
         }
       ]
     }

@@ -18,7 +18,11 @@
               "name": "Google blog",
               "url": "https://blog.google/technology/google-deepmind/gemini-computer-use-model/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CTU-Benchmark_Chart-RD5_V01.width-1200.format-webp.webp",
+            "alt": "Gemini 2.5 Computer Use benchmark results on Online-Mind2Web, WebVoyager and AndroidWorld"
+          }
         }
       ]
     }

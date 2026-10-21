@@ -18,8 +18,16 @@
             {
               "name": "bioRxiv preprint",
               "url": "https://www.biorxiv.org/content/10.1101/2025.04.14.648850"
+            },
+            {
+              "name": "X: @sundarpichai",
+              "url": "https://x.com/sundarpichai/status/1978507110477332582"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/C2S_Illustration_RD3-V03.width-1200.format-webp.webp",
+            "alt": "Immune-context-neutral vs immune-context-positive illustration"
+          }
         }
       ]
     },
@@ -37,7 +45,11 @@
               "name": "Anthropic news",
               "url": "https://www.anthropic.com/news/claude-haiku-4-5"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a27d7a85f953c5a0577dc19b507d6e1b93444d5-1920x1080.png&w=3840&q=75",
+            "alt": "SWE-bench Verified scores of Claude Haiku 4.5 compared with frontier models"
+          }
         },
         {
           "headline": "Google releases Veo 3.1 video model",

@@ -12,6 +12,10 @@
           "summary": "With the GPT-6 Astra launch, OpenAI released a paper (dated 30 August) proving DHL[40,2], which implies infinitely many pairs of consecutive primes differ by at most 186. This improves the Polymath bound of 246 and Julia Stadlmann's concurrent 240, and the paper attributes the proof to GPT-6 Astra. The accompanying Lean formalization depends on three stated axioms: cited Kloosterman-sum estimates and numerical integral bounds that are checked separately in Python. No independent human review had been reported, and the twin prime conjecture is untouched.",
           "sources": [
             {
+              "name": "OpenAI (GPT-6 Astra launch post)",
+              "url": "https://openai.com/index/gpt-6-astra/"
+            },
+            {
               "name": "OpenAI paper (PDF)",
               "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
             },

@@ -39,7 +39,11 @@
               "name": "Hugging Face",
               "url": "https://huggingface.co/zai-org/GLM-5.3"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/bench_53_2.png",
+            "alt": "GLM-5.3 benchmark results compared with other models"
+          }
         }
       ]
     }

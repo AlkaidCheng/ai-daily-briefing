@@ -39,7 +39,11 @@
               "name": "Z.ai docs release notes",
               "url": "https://docs.z.ai/release-notes/new-released"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/zai-org/GLM-5/refs/heads/main/resources/bench_52.png",
+            "alt": "GLM-5.2 benchmark results compared with other models"
+          }
         }
       ]
     }

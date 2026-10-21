@@ -18,7 +18,11 @@
               "name": "Anthropic news",
               "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F6421e7049ff8b2c4591497ec92dc4157b2ac1b30-3840x2160.png&w=3840&q=75",
+            "alt": "SWE-bench Verified scores with Claude Sonnet 4.5 leading frontier models"
+          }
         },
         {
           "headline": "DeepSeek releases experimental DeepSeek-V3.2-Exp with sparse attention",

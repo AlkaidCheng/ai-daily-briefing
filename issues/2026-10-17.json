@@ -37,7 +37,11 @@
               "name": "SiliconANGLE",
               "url": "https://siliconangle.com/2026/10/18/deepseek-releases-updated-v4-1-flash-model-it-says-completes-tasks-faster/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://api-docs.deepseek.com/img/v4.1_261017_perf_cost_en.png",
+            "alt": "DeepSWE v1.1 Pass@1 versus cost per task for DeepSeek V4.1 Flash 1017"
+          }
         }
       ]
     }

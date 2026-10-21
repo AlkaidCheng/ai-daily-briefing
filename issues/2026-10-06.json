@@ -12,12 +12,12 @@
           "summary": "OpenAI posted 722 papers on GitHub, grouped into about 372–377 result families, from an unreleased internal model that attempted about 4,000 problems. Each result used an average of about three hours of Pro-level compute. The 722 are manuscripts, not 722 solved problems. OpenAI says about 42% of the top-line results have Lean formalizations, and the rest are unverified. Within days, three algebraic geometry papers were withdrawn over a sign error, and Johan Commelin said some formalizations prove weaker statements than the papers claim. Mathematicians including Daniel Litt suggested treating the papers as raw research findings for now.",
           "sources": [
             {
-              "name": "GitHub: openai/math",
-              "url": "https://github.com/openai/math"
+              "name": "OpenAI",
+              "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
             },
             {
-              "name": "Quanta Magazine update",
-              "url": "https://www.quantamagazine.org/update/167703/"
+              "name": "GitHub: openai/math",
+              "url": "https://github.com/openai/math"
             }
           ]
         },
@@ -26,8 +26,8 @@
           "summary": "Among OpenAI's 6 October release was a proof of a \"quasi-Riemann hypothesis\": all nontrivial zeta zeros have real part between 1/8 and 7/8 (Lean-verified). A later version, edited by a human, narrows the strip to between 1/12 and 11/12 but has not been formally verified. Experts quoted by Quanta largely agree the result is correct. Peter Sarnak won't call it a theorem until humans check all the details, and Maksym Radziwiłł found the papers poorly written. Jared Duker Lichtman called it the most significant AI-for-math achievement so far.",
           "sources": [
             {
-              "name": "Quanta Magazine",
-              "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/"
+              "name": "OpenAI",
+              "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
             },
             {
               "name": "GitHub: openai/math",

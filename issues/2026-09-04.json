@@ -22,11 +22,15 @@
             {
               "name": "The Next Web",
               "url": "https://thenextweb.com/news/anthropic-claude-fermat-last-theorem-lean-buzzard"
+            },
+            {
+              "name": "X: @AnthropicAI",
+              "url": "https://x.com/AnthropicAI/status/2095947707605266436"
             }
           ],
           "image": {
-            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e9a4df22447005cac83ac42a7b0f71afcaf1b849-2000x1125.jpg",
-            "alt": "Header image from Anthropic's Fermat's Last Theorem post"
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/afd8e238255ec2654f2322f3d3630dcf1e8ea4ca-6800x3264.png",
+            "alt": "DAG of sub-theorems Claude formalized on the way to FLT"
           }
         }
       ]

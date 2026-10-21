@@ -22,7 +22,11 @@
               "name": "Decrypt",
               "url": "https://decrypt.co/354590/china-zai-releases-ai-image-generation-model-trained-without-american-chips"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://img.decrypt.co/insecure/rs:fit:3840:0:0:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/architecture_1-1.jpeg@webp",
+            "alt": "GLM-Image model architecture diagram from Z.ai"
+          }
         }
       ]
     }

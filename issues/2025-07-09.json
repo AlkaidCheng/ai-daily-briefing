@@ -18,7 +18,11 @@
               "name": "xAI news",
               "url": "https://x.ai/news/grok-4"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://media.x.ai/cdn-cgi/image/fit=scale-down,onerror=redirect,width=256,height=554,f=auto/v1/website/voice-vision-b7fa5d42.webp",
+            "alt": "Grok app voice mode describing what the camera sees"
+          }
         }
       ]
     }

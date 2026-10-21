@@ -18,7 +18,11 @@
               "name": "Google Developers Blog",
               "url": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini-2.5-Flash-price-to-performance-compariso.original_FhSF5J2.png",
+            "alt": "Gemini 2.5 Flash price-to-performance comparison"
+          }
         }
       ]
     }

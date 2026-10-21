@@ -22,7 +22,11 @@
               "name": "Hugging Face blog",
               "url": "https://huggingface.co/blog/gemma4"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/g4-blog/g4_graph.png",
+            "alt": "Gemma 4 performance versus model size"
+          }
         },
         {
           "headline": "Alibaba releases Qwen3.6-Plus",

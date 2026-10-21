@@ -22,7 +22,11 @@
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1329479142728807&version=1783727678",
+            "alt": "Text-to-image Arena Elo leaderboard with Muse Image"
+          }
         }
       ]
     }

@@ -18,11 +18,19 @@
             {
               "name": "TechXplore",
               "url": "https://techxplore.com/news/2024-01-deepmind-ai-alphageometry-complex-geometry.html"
+            },
+            {
+              "name": "X: @lmthang",
+              "url": "https://x.com/lmthang/status/1747654360686113191"
+            },
+            {
+              "name": "X: @thtrieu_",
+              "url": "https://x.com/thtrieu_/status/1747653990173876255"
             }
           ],
           "image": {
-            "url": "https://lh3.googleusercontent.com/cQLEqi2Bbkp1-0nAO7lQDLeykaEYEOZnRJCJNUMhxC9PuCpr_4L2dzqyIqaTkZrmxbFBXFG7ZRERnzdIIfeJwPTHB937SX-p7J4S5xwIqSU5XjjQ=w1440-h810-n-nu",
-            "alt": "AlphaGeometry header image from the Google DeepMind blog"
+            "url": "https://lh3.googleusercontent.com/fl7Tr2po9Y9Cc_qcKPxMZ69-4xgvqCMBX8PO-EzZgudxJZT8Tl44FnYC0yVFOmI1fJ4gO01I-K-WlhKDfetfWzDbTM0M9dfn8PAccdaaExhox1I0=w1440",
+            "alt": "Bar chart of IMO geometry problems solved by AlphaGeometry versus earlier methods and human medallists"
           }
         }
       ]

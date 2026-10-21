@@ -19,7 +19,11 @@
               "name": "Google DeepMind blog",
               "url": "https://deepmind.google/discover/blog/using-ai-to-perceive-the-universe-in-greater-depth/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/Ipt51zpd_jDIqEgOKyNGNkIBkBtnOP6-Ay9Y8Xj89sNA8oApb7GSgAilmoODPqARSscDI8JT6WAfBYs5nQ-o7gPXonMe7A4VTLp0CkmO5PbyZmXoKw=w1440",
+            "alt": "Control-noise spectrum: linear controller vs Deep Loop Shaping"
+          }
         }
       ]
     }

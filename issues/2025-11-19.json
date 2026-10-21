@@ -56,7 +56,11 @@
               "name": "Simon Willison",
               "url": "https://simonwillison.net/2025/Nov/19/gpt-51-codex-max/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://static.simonwillison.net/static/2025/codex-max-xhigh.jpg",
+            "alt": "Pelican-riding-a-bicycle SVG drawn by GPT-5.1-Codex-Max (xhigh)"
+          }
         }
       ]
     }

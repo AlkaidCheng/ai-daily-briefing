@@ -12,6 +12,10 @@
           "summary": "OpenAI and academic co-authors, including Timothy Gowers, Mehtaab Sawhney and Mark Sellke, posted case studies of GPT-5 in research. They report four new mathematical results verified by the human authors. One is Erdős Problem #848: Sawhney and Sellke combined a new idea from GPT-5 with earlier suggestions from online commenters to solve it for all sufficiently large N. The erdosproblems.com entry lists it as solved for large N. The paper also documents failures, such as a hallucinated citation and a result that turned out to have appeared on arXiv three years earlier. The preprint has not been peer-reviewed.",
           "sources": [
             {
+              "name": "OpenAI blog",
+              "url": "https://openai.com/index/accelerating-science-gpt-5/"
+            },
+            {
               "name": "arXiv preprint",
               "url": "https://arxiv.org/abs/2511.16072"
             },
@@ -19,7 +23,11 @@
               "name": "Erdős Problem #848",
               "url": "https://www.erdosproblems.com/848"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2511.16072v1/figures/CD8_figure.jpeg",
+            "alt": "Flow-cytometry plots from the immunology case study"
+          }
         }
       ]
     },
@@ -37,7 +45,11 @@
               "name": "Google blog",
               "url": "https://blog.google/technology/ai/nano-banana-pro/"
             }
-          ]
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/PromptNanoBanana_Hero.width-800.format-webp.webp",
+            "alt": "Collage of images created with Nano Banana Pro"
+          }
         }
       ]
     }
