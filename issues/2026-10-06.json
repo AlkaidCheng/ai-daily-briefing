@@ -9,11 +9,15 @@
       "items": [
         {
           "headline": "OpenAI releases 722 AI-written manuscripts claiming 377 results on open questions",
-          "summary": "OpenAI posted 722 papers on GitHub, grouped into about 372–377 result families, from an unreleased internal model that attempted about 4,000 problems. Each result used an average of about three hours of Pro-level compute. The 722 are manuscripts, not 722 solved problems. OpenAI says about 42% of the top-line results have Lean formalizations, and the rest are unverified. Within days, three algebraic geometry papers were withdrawn over a sign error, and Johan Commelin said some formalizations prove weaker statements than the papers claim. Mathematicians including Daniel Litt suggested treating the papers as raw research findings for now.",
+          "summary": "OpenAI posted 722 papers on GitHub, grouped into about 372–377 result families, from an unreleased internal model that attempted about 4,000 problems. Each result used an average of about three hours of Pro-level compute. The 722 are manuscripts, not 722 solved problems. OpenAI says about 42% of the top-line results have Lean formalizations, and the rest are unverified. Within days, three algebraic geometry papers were withdrawn over a sign error (the catalogue now lists 719 manuscripts in 372 families), and Johan Commelin said some formalizations prove weaker statements than the papers claim. Mathematicians including Daniel Litt suggested treating the papers as raw research findings for now.",
           "sources": [
             {
               "name": "OpenAI",
               "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+            },
+            {
+              "name": "Overview paper (PDF)",
+              "url": "https://github.com/openai/math/blob/main/overview.pdf"
             },
             {
               "name": "GitHub: openai/math",
