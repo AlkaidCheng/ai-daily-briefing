@@ -1,0 +1,27 @@
+{
+  "date": "2025-09-27",
+  "heading": "Saturday, September 27, 2025",
+  "topLine": "GPT-5 suggests key step in Aaronson–Witteveen quantum complexity proof.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5 suggests key step in Aaronson–Witteveen quantum complexity proof",
+          "summary": "Scott Aaronson and Freek Witteveen proved that black-box amplification of QMA completeness to doubly-exponentially close to 1 is optimal (arXiv, 25 Sept 2025). On his blog, Aaronson wrote that GPT-5-Thinking suggested the key technical idea: studying the trace of (I − E(θ))⁻¹. The model's first answers were wrong, and the authors checked the idea and wrote the proof themselves. A blog commenter later proposed a simpler function, and Aaronson said the idea arguably should have been obvious to the authors. The preprint has not been peer-reviewed.",
+          "sources": [
+            {
+              "name": "Shtetl-Optimized (Scott Aaronson)",
+              "url": "https://scottaaronson.blog/?p=9183"
+            },
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2509.21131v1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

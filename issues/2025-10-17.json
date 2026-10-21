@@ -1,0 +1,35 @@
+{
+  "date": "2025-10-17",
+  "heading": "Friday, October 17, 2025",
+  "topLine": "Claimed GPT-5 solutions to 10 Erdős problems were existing literature.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claimed GPT-5 solutions to 10 Erdős problems were existing literature",
+          "summary": "OpenAI VP Kevin Weil posted that GPT-5 had found solutions to 10 previously unsolved Erdős problems and made progress on 11 more. Thomas Bloom, who maintains erdosproblems.com, called this a dramatic misrepresentation: the problems were listed as open only because he did not know of a solution, and GPT-5 had located published papers that already solved them. Weil deleted the post, and OpenAI's Sébastien Bubeck acknowledged that only solutions in the literature were found. OpenAI's later paper lists the problems as #223, 339, 494, 515, 621, 822, 883, 903, 1043 and 1079, and treats the episode as a literature-search result rather than new mathematics. Google DeepMind CEO Demis Hassabis called the episode \"embarrassing\".",
+          "sources": [
+            {
+              "name": "X: @thomasfbloom",
+              "url": "https://x.com/thomasfbloom/status/1979254235075059732"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2025/10/19/openais-embarrassing-math/"
+            },
+            {
+              "name": "Early science acceleration experiments with GPT-5 (arXiv)",
+              "url": "https://arxiv.org/abs/2511.16072"
+            },
+            {
+              "name": "X: @demishassabis",
+              "url": "https://x.com/demishassabis/status/1979417877590774063"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

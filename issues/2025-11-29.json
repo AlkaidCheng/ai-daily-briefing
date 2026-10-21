@@ -1,0 +1,31 @@
+{
+  "date": "2025-11-29",
+  "heading": "Saturday, November 29, 2025",
+  "topLine": "Harmonic's Aristotle proves a weaker version of Erdős Problem #124 in Lean.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Harmonic's Aristotle proves a weaker version of Erdős Problem #124 in Lean",
+          "summary": "Boris Alexeev reported on the Erdős Problems forum that Harmonic's Aristotle had autonomously proved, with a Lean proof, the first question of Erdős Problem #124, which Erdős had listed as open. Alexeev and Thomas Bloom noted that this is a weaker version of the problem than the one Erdős probably intended. Commenters found the proof surprisingly easy, and the harder version remains open. Searches by Terence Tao with deep-research tools found no prior literature solving it.",
+          "sources": [
+            {
+              "name": "Erdős Problems forum, thread #124",
+              "url": "https://www.erdosproblems.com/forum/thread/124"
+            },
+            {
+              "name": "Erdős Problem #124",
+              "url": "https://www.erdosproblems.com/124"
+            },
+            {
+              "name": "Xena Project blog (Boris Alexeev guest post)",
+              "url": "https://xenaproject.wordpress.com/2025/12/05/formalization-of-erdos-problems/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

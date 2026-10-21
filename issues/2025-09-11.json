@@ -1,9 +1,32 @@
 {
   "date": "2025-09-11",
   "heading": "Thursday, September 11, 2025",
-  "topLine": "Alibaba releases Qwen3-Next-80B-A3B.",
+  "topLine": "Math, Inc.'s Gauss agent completes the Strong Prime Number Theorem formalization. Also: Alibaba releases Qwen3-Next-80B-A3B.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Math, Inc.'s Gauss agent completes the Strong Prime Number Theorem formalization",
+          "summary": "Math, Inc. announced Gauss, an autoformalization agent, which it says completed the Strong Prime Number Theorem formalization challenge set by Terence Tao and Alex Kontorovich in January 2024. The work took about three weeks and produced about 25,000 lines of Lean. The proof compiles in Lean. The timing claims come from Math, Inc., and humans supplied the natural-language blueprint and guidance.",
+          "sources": [
+            {
+              "name": "Math, Inc. announcement",
+              "url": "https://www.math.inc/gauss"
+            },
+            {
+              "name": "strongpnt repository (GitHub)",
+              "url": "https://github.com/math-inc/strongpnt"
+            },
+            {
+              "name": "X: @jessemhan",
+              "url": "https://x.com/jessemhan/status/1966379609932673097"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

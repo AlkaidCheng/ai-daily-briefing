@@ -1,9 +1,32 @@
 {
   "date": "2026-05-20",
   "heading": "Wednesday, May 20, 2026",
-  "topLine": "Alibaba unveils Qwen3.7-Max agent model.",
+  "topLine": "OpenAI model disproves Erdős's 1946 planar unit distance conjecture. Also: Alibaba unveils Qwen3.7-Max agent model.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI model disproves Erdős's 1946 planar unit distance conjecture",
+          "summary": "OpenAI said a general-purpose internal reasoning model produced point sets with more unit distances than the square-grid bound Erdős conjectured was optimal (Erdős problem #90). The gain is polynomial but very small. Nine outside mathematicians, including Noga Alon, Tim Gowers, Will Sawin and Melanie Matchett Wood, published a condensed, human-verified version of the construction and linked its ideas to earlier work in number theory. The companion paper is an arXiv preprint. Gowers called it a milestone for AI in mathematics.",
+          "sources": [
+            {
+              "name": "OpenAI announcement",
+              "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+            },
+            {
+              "name": "arXiv: Alon et al.",
+              "url": "https://arxiv.org/abs/2605.20695"
+            },
+            {
+              "name": "Quanta Magazine",
+              "url": "https://www.quantamagazine.org/how-ai-tore-through-a-mathematical-community-20260803/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

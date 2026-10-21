@@ -1,0 +1,31 @@
+{
+  "date": "2024-01-17",
+  "heading": "Wednesday, January 17, 2024",
+  "topLine": "DeepMind's AlphaGeometry solves 25 of 30 olympiad geometry problems.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepMind's AlphaGeometry solves 25 of 30 olympiad geometry problems",
+          "summary": "Google DeepMind published AlphaGeometry in Nature. It pairs a neural language model with a symbolic deduction engine and was trained on 100 million synthetic examples without human demonstrations. On a benchmark of 30 IMO geometry problems from 2000 to 2022 it solved 25 within the time limit; the previous best method solved 10, and the average human gold medallist solved 25.9. Solutions are checked by the symbolic engine, and the result is a benchmark evaluation, not a live competition.",
+          "sources": [
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/"
+            },
+            {
+              "name": "TechXplore",
+              "url": "https://techxplore.com/news/2024-01-deepmind-ai-alphageometry-complex-geometry.html"
+            }
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/cQLEqi2Bbkp1-0nAO7lQDLeykaEYEOZnRJCJNUMhxC9PuCpr_4L2dzqyIqaTkZrmxbFBXFG7ZRERnzdIIfeJwPTHB937SX-p7J4S5xwIqSU5XjjQ=w1440-h810-n-nu",
+            "alt": "AlphaGeometry header image from the Google DeepMind blog"
+          }
+        }
+      ]
+    }
+  ]
+}

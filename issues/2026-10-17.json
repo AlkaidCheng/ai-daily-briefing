@@ -1,9 +1,24 @@
 {
   "date": "2026-10-17",
   "heading": "Saturday, October 17, 2026",
-  "topLine": "DeepSeek releases DeepSeek-V4.1-Flash-1017 update.",
+  "topLine": "Mathematicians propose a new journal requiring Lean-verified proofs. Also: DeepSeek releases DeepSeek-V4.1-Flash-1017 update.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Mathematicians propose a new journal requiring Lean-verified proofs",
+          "summary": "In a guest post on Terence Tao's blog, Shaoming Guo, writing for several colleagues, announced plans for a journal that will accept papers only if their proofs are formally verified in Lean. They cited the risk of subtle errors in LLM-assisted proofs, and said they value how much a paper deepens understanding over being first.",
+          "sources": [
+            {
+              "name": "Tao's blog (guest post)",
+              "url": "https://terrytao.wordpress.com/2026/10/17/starting-a-new-journal/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

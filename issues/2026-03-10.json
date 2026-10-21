@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-10",
+  "heading": "Tuesday, March 10, 2026",
+  "topLine": "AlphaEvolve improves lower bounds for nine classical Ramsey numbers.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AlphaEvolve improves lower bounds for nine classical Ramsey numbers",
+          "summary": "Google DeepMind researchers (Nagda, Raghavan, Thakurta) used AlphaEvolve, an LLM-driven code-evolution agent, to generate search algorithms that raised lower bounds for nine Ramsey numbers, for example R(4,16) from 170 to 174 and R(4,19) from 213 to 219. Each bound comes with an explicit graph that can be checked by computer. The work is an arXiv preprint.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2603.09172"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

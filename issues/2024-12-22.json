@@ -1,0 +1,23 @@
+{
+  "date": "2024-12-22",
+  "heading": "Sunday, December 22, 2024",
+  "topLine": "Kevin Buzzard: o3's FrontierMath score is a shock, but research maths is 'a long way away'.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Kevin Buzzard: o3's FrontierMath score is a shock, but research maths is 'a long way away'",
+          "summary": "Imperial College mathematician Kevin Buzzard wrote that he was \"shocked\" by OpenAI o3's 25% score on the FrontierMath benchmark. He still placed AI at roughly undergraduate level, noted that numerical-answer tasks differ from producing proofs, and argued that Lean-verified proofs are more reliable than language-model proofs.",
+          "sources": [
+            {
+              "name": "Xena Project blog (Buzzard)",
+              "url": "https://xenaproject.wordpress.com/2024/12/22/can-ai-do-maths-yet-thoughts-from-a-mathematician/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2024-07-25",
+  "heading": "Thursday, July 25, 2024",
+  "topLine": "AlphaProof and AlphaGeometry 2 reach IMO 2024 silver-medal standard.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AlphaProof and AlphaGeometry 2 reach IMO 2024 silver-medal standard",
+          "summary": "Google DeepMind's AlphaProof, a reinforcement-learning system that proves statements in Lean, and AlphaGeometry 2 solved four of the six IMO 2024 problems, for 28 of 42 points. The gold cutoff was 29. Humans translated the problems into formal language by hand, and some solutions took up to three days instead of the contest's 4.5-hour sessions. Timothy Gowers and Joseph Myers scored the solutions under IMO rules, but they were not official IMO coordinators.",
+          "sources": [
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/"
+            }
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/iSMHpqQhw2pxSwyQiqpDGchZpJpOatzY0at6ok3Br8SvKYUun75o59u1ad32zgjOTcu9g5ZKAgZc0rDBcJXAU4tE6cph7dRf5svD4SEXV4aa827gyr0=w1440",
+            "alt": "Chart of the AI system's IMO 2024 score against human contestants"
+          }
+        }
+      ]
+    }
+  ]
+}

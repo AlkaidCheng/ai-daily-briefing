@@ -1,9 +1,24 @@
 {
   "date": "2025-08-14",
   "heading": "Thursday, August 14, 2025",
-  "topLine": "Meta releases DINOv3 self-supervised vision model.",
+  "topLine": "Generative AI designs antibiotics that clear drug-resistant gonorrhoea and MRSA in mice. Also: Meta releases DINOv3 self-supervised vision model.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Generative AI designs antibiotics that clear drug-resistant gonorrhoea and MRSA in mice",
+          "summary": "James Collins's group at MIT used generative models to produce more than 36 million candidate molecules, screened them computationally, then synthesised and tested the best: NG1 cleared drug-resistant Neisseria gonorrhoeae and DN1 cleared an MRSA skin infection in mouse models, both structurally unlike existing antibiotics and apparently acting on bacterial membranes. Published in Cell; the compounds need years of optimisation and clinical testing.",
+          "sources": [
+            {
+              "name": "MIT News",
+              "url": "https://news.mit.edu/index.php/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

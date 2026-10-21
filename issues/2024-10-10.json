@@ -1,0 +1,27 @@
+{
+  "date": "2024-10-10",
+  "heading": "Thursday, October 10, 2024",
+  "topLine": "Meta transformers find new global Lyapunov functions.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Meta transformers find new global Lyapunov functions",
+          "summary": "Alberto Alfarano, François Charton (Meta) and Amaury Hayat trained sequence-to-sequence transformers on synthetic data built from random solutions. The models then found Lyapunov functions that certify global stability of dynamical systems, a problem with no known general method. They report that the models beat algorithmic solvers and humans on polynomial systems, and found new Lyapunov functions for some non-polynomial systems. Each candidate function can be checked independently. The paper was peer-reviewed and published at NeurIPS 2024.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2410.08304"
+            },
+            {
+              "name": "NeurIPS 2024 proceedings",
+              "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/aa280e73c4e23e765fde232571116d3b-Abstract.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

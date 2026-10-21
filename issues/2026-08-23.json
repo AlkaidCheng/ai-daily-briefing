@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-23",
+  "heading": "Sunday, August 23, 2026",
+  "topLine": "2 stories on AI and open problems: Rank-31 elliptic curve and Complex structure on S⁶.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude-assisted search sets elliptic-curve rank records of 30 and 31",
+          "summary": "Levent Alpöge and Ava Howell, working with an internal version of Claude, posted an elliptic curve over the rationals with rank at least 30 on 20 August and one with rank at least 31 on 23 August. The previous record, set in 2024, was 29. The lower bounds are certified by listing independent rational points, which ICARM's leaderboard says it verified. Exact ranks of 30 and 31 hold only assuming GRH and BSD. Andrej Dujella's record table now also lists a rank-32 curve by Elkies, Klagsbrun and Li.",
+          "sources": [
+            {
+              "name": "ICARM leaderboard: curve #302",
+              "url": "https://elliptic-rank.icarm.cloud/curve/302"
+            },
+            {
+              "name": "Epoch AI FrontierMath open problem",
+              "url": "https://epoch.ai/frontiermath/open-problems/elliptic-curve-rank"
+            },
+            {
+              "name": "Scientific American",
+              "url": "https://scientificamerican.com/article/anthropics-ai-steals-mathematicians-record-for-most-complicated-curve"
+            }
+          ]
+        },
+        {
+          "headline": "Alpöge and Claude propose a complex structure on the six-sphere",
+          "summary": "Levent Alpöge posted a 100-plus-page argument, written out with an internal Claude model, that the 6-sphere admits a complex structure. This would answer Hopf's question from the 1940s. Within days, Robert Bryant described an emerging consensus that the construction is plausible, Philip Engel posted an exposition, and OpenAI researcher Boris Alexeev reported a Lean formalization. The claim is not yet peer reviewed, and Lean's benchmark page does not assume it is correct.",
+          "sources": [
+            {
+              "name": "Scientific American",
+              "url": "https://scientificamerican.com/article/ai-solves-79-year-old-math-mystery-of-six-dimensional-spheres"
+            },
+            {
+              "name": "OfficeChai",
+              "url": "https://officechai.com/ai/anthropic-researcher-says-claude-helped-build-a-complex-structure-on-s%E2%81%B6-taking-aim-at-the-unsolved-hopf-problem/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

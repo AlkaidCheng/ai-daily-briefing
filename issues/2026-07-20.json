@@ -1,0 +1,41 @@
+{
+  "date": "2026-07-20",
+  "heading": "Monday, July 20, 2026",
+  "topLine": "2 stories on AI and open problems: Jacobian conjecture counterexample and Buzzard: 'outcounterexampled'.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude-assisted counterexample refutes the Jacobian conjecture in three dimensions",
+          "summary": "Levent Alpöge (Anthropic) posted an explicit degree-7 polynomial map from C³ to C³, found with Claude Fable 5. The map has constant Jacobian determinant −2 but sends three distinct points to the same output, which disproves Keller's 1939 conjecture in every dimension of 3 or more. Alpöge credited Akhil Mathew with prompting the question. Terence Tao published an exposition of the map, and an Archive of Formal Proofs entry checks the key identities in Isabelle/HOL. The two-variable case remains open, and there is no peer-reviewed paper.",
+          "sources": [
+            {
+              "name": "Terence Tao's blog",
+              "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/"
+            },
+            {
+              "name": "Archive of Formal Proofs",
+              "url": "https://isa-afp.org/entries/Jacobian_Counterexample.html"
+            },
+            {
+              "name": "John D. Cook's blog",
+              "url": "https://www.johndcook.com/blog/2026/07/21/jacobian-conjecture/"
+            }
+          ]
+        },
+        {
+          "headline": "Kevin Buzzard: AI counterexamples plus Lean make conjectures checkable",
+          "summary": "Buzzard surveyed recent AI-found counterexamples, including to Erdős's unit distance conjecture, a Grothendieck question on finite flat group schemes, and the Jacobian conjecture. He said he does not read AI-generated informal mathematics but checks Lean statements and proofs instead. He argued that the next task for humans is understanding what the counterexamples reveal.",
+          "sources": [
+            {
+              "name": "Xena Project blog (Buzzard)",
+              "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

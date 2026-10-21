@@ -1,9 +1,32 @@
 {
   "date": "2025-07-30",
   "heading": "Wednesday, July 30, 2025",
-  "topLine": "Mistral releases Codestral 25.08 and enterprise coding stack.",
+  "topLine": "Physics-tailored neural network uncovers non-reciprocal force laws in dusty plasma. Also: Mistral releases Codestral 25.08 and enterprise coding stack.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Physics-tailored neural network uncovers non-reciprocal force laws in dusty plasma",
+          "summary": "Emory physicists (Wentao Yu, Eslam Abdelaleem, Ilya Nemenman, Justin Burton) trained a symmetry-aware neural network on 3D particle tracking in laboratory dusty plasma and recovered the interparticle forces to better than 99% accuracy, showing that a leading particle attracts a trailing one while the trailing one repels it, and that long-held assumptions about charge scaling with particle radius and size-independent force decay are wrong. Published in PNAS and later awarded a PNAS Cozzarelli Prize.",
+          "sources": [
+            {
+              "name": "PNAS paper",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2505725122"
+            },
+            {
+              "name": "Emory University news",
+              "url": "https://news.emory.edu/features/2025/07/esc_ai_dusty_plasma_30-07-2025/index.html"
+            }
+          ],
+          "image": {
+            "url": "https://news.emory.edu/sites/emorynews/files/shorthand/stories/tfhj8Ti1wS/2025-07-31T19%3A31%3A45.585Z/assets/rfjKvihe7k/burton_tracking-frame-0ms-960x540.jpg",
+            "alt": "Particle tracking in the Emory dusty plasma experiment"
+          }
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

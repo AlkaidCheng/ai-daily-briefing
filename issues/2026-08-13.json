@@ -1,9 +1,24 @@
 {
   "date": "2026-08-13",
   "heading": "Thursday, August 13, 2026",
-  "topLine": "2 model releases: Google Gemini 3.7 Flash and DeepSeek-V4-Pro (GA).",
+  "topLine": "Buzzard's team releases the Annals Challenge: 50 recent Annals theorems stated in Lean. Also: 2 model releases: Google Gemini 3.7 Flash and DeepSeek-V4-Pro (GA).",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Buzzard's team releases the Annals Challenge: 50 recent Annals theorems stated in Lean",
+          "summary": "Kevin Buzzard's group at Imperial, funded by Renaissance Philanthropy, published Lean statements of 50 important theorems from 2020s Annals of Mathematics papers and added many new definitions to Mathlib. They challenge humans to formalize more statements and AI systems to autoformalize the proofs. Writing the statements in Lean has already found missing hypotheses in four papers by Fields Medallists.",
+          "sources": [
+            {
+              "name": "Xena blog",
+              "url": "https://xenaproject.wordpress.com/2026/08/13/the-annals-challenge/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

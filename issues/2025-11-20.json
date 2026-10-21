@@ -1,9 +1,28 @@
 {
   "date": "2025-11-20",
   "heading": "Thursday, November 20, 2025",
-  "topLine": "Google releases Nano Banana Pro image model.",
+  "topLine": "OpenAI case studies report GPT-5 contributions to new results, including Erdős #848. Also: Google releases Nano Banana Pro image model.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI case studies report GPT-5 contributions to new results, including Erdős #848",
+          "summary": "OpenAI and academic co-authors, including Timothy Gowers, Mehtaab Sawhney and Mark Sellke, posted case studies of GPT-5 in research. They report four new mathematical results verified by the human authors. One is Erdős Problem #848: Sawhney and Sellke combined a new idea from GPT-5 with earlier suggestions from online commenters to solve it for all sufficiently large N. The erdosproblems.com entry lists it as solved for large N. The paper also documents failures, such as a hallucinated citation and a result that turned out to have appeared on arXiv three years earlier. The preprint has not been peer-reviewed.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2511.16072"
+            },
+            {
+              "name": "Erdős Problem #848",
+              "url": "https://www.erdosproblems.com/848"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

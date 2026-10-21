@@ -1,0 +1,31 @@
+{
+  "date": "2025-09-17",
+  "heading": "Wednesday, September 17, 2025",
+  "topLine": "Genome language models design whole bacteriophage genomes that work in the lab.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Genome language models design whole bacteriophage genomes that work in the lab",
+          "summary": "Samuel King and Brian Hie at Stanford and the Arc Institute used the Evo 1 and Evo 2 genome language models to generate complete phiX174-like phage genomes; of 302 designs synthesised, 16 produced viable phages that killed E. coli, and cryo-EM showed one uses a DNA-packaging protein evolutionarily distant from the template. First reported as a bioRxiv preprint in September 2025 and peer-reviewed in Science on 6 August 2026, where a cocktail of designed phages also overcame phiX174-resistant E. coli.",
+          "sources": [
+            {
+              "name": "Science paper",
+              "url": "https://doi.org/10.1126/science.aec2657"
+            },
+            {
+              "name": "bioRxiv preprint",
+              "url": "https://www.biorxiv.org/content/10.1101/2025.09.12.675911v1"
+            },
+            {
+              "name": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2025/09/17/1123801/ai-virus-bacteriophage-life/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

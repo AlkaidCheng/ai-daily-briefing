@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "heading": "Monday, October 5, 2026",
+  "topLine": "Claude-discovered algorithm breaks the 3SUM and APSP barriers.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude-discovered algorithm breaks the 3SUM and APSP barriers",
+          "summary": "Josh Alman and Virginia Vassilevska Williams posted deterministic algorithms solving 3SUM in about O(n^1.9992) time and all-pairs shortest paths in about O(n^2.9995) time, the first polynomial improvements over the textbook algorithms. If correct, this refutes the widely used 3SUM and APSP hardness hypotheses. The paper states that Anthropic's Claude discovered the algorithm, which the authors then simplified and extended. Claude also formalized the main results in Lean, published in Anthropic's formal-math repository. It is an arXiv preprint.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2610.06783"
+            },
+            {
+              "name": "GitHub: Lean formalization",
+              "url": "https://github.com/anthropics/formal-math/tree/main/3sum-apsp"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

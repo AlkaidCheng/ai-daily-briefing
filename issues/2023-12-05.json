@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-05",
+  "heading": "Tuesday, December 5, 2023",
+  "topLine": "Lean formalization of the Polynomial Freiman–Ruzsa proof completed in three weeks.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Lean formalization of the Polynomial Freiman–Ruzsa proof completed in three weeks",
+          "summary": "A collaborative Lean 4 project led by Terence Tao, with Yaël Dillies and many contributors, finished formalizing the recent proof of Marton's Polynomial Freiman–Ruzsa conjecture (the m=2 case) about three weeks after it began. The Lean kernel checks the full proof from the standard axioms. The work was done by humans; it is often cited as an early test of fast, large-team formalization.",
+          "sources": [
+            {
+              "name": "Mathstodon: Terence Tao",
+              "url": "https://mathstodon.xyz/@tao/111526765350663641"
+            },
+            {
+              "name": "PFR project repository (GitHub)",
+              "url": "https://github.com/teorth/pfr"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

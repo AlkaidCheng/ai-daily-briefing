@@ -1,0 +1,23 @@
+{
+  "date": "2026-01-29",
+  "heading": "Thursday, January 29, 2026",
+  "topLine": "Google DeepMind uses Gemini to screen 700 open Erdős problems.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Google DeepMind uses Gemini to screen 700 open Erdős problems",
+          "summary": "A Google DeepMind team and outside mathematicians used Gemini to check 700 problems marked open in Thomas Bloom's Erdős database, with human experts then assessing correctness and novelty. The arXiv paper reports 13 problems addressed: about 5 with apparently new autonomous solutions and 8 that already had solutions in the literature. The authors say these problems were open mainly because they were obscure, and they warn about AI reproducing published work without attribution. The paper is an arXiv preprint.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2601.22401"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

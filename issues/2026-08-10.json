@@ -1,9 +1,36 @@
 {
   "date": "2026-08-10",
   "heading": "Monday, August 10, 2026",
-  "topLine": "Meta releases Muse Glimmer, an open-weight 30B agent model.",
+  "topLine": "Claude proves more than two-thirds of Riemann zeta zeros lie on the critical line. Also: Meta releases Muse Glimmer, an open-weight 30B agent model.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude proves more than two-thirds of Riemann zeta zeros lie on the critical line",
+          "summary": "Anthropic said an unreleased research version of Claude raised the proven share of zeta zeros that are simple and on the critical line from about 41.6% to 67.25%. The result does not prove the Riemann hypothesis. Anthropic mathematicians Levent Alpöge and Ralph Furman verified it and posted a paper on arXiv, and the main results were formalized in Lean. Outside experts Brian Conrey and Dan Goldston looked over the paper. In September, Youness Lamzouri posted an independent, simpler proof of the bounds that credits Claude with finding them first.",
+          "sources": [
+            {
+              "name": "Anthropic research post",
+              "url": "https://www.anthropic.com/research/riemann-zeta"
+            },
+            {
+              "name": "arXiv: Alpöge & Furman",
+              "url": "https://arxiv.org/abs/2608.13637"
+            },
+            {
+              "name": "arXiv: Lamzouri",
+              "url": "https://arxiv.org/abs/2609.02882"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/a6e2409a7f7976ca07da0eb4d8c199002729557e-2000x1125.jpg",
+            "alt": "Anthropic illustration of a mathematical compass accompanying the zeta-zeros announcement"
+          }
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

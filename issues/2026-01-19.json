@@ -1,0 +1,23 @@
+{
+  "date": "2026-01-19",
+  "heading": "Monday, January 19, 2026",
+  "topLine": "Thomas Bloom calls AI tools 'invaluable' for Erdős problems but novelty 'ill-defined'.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Thomas Bloom calls AI tools 'invaluable' for Erdős problems but novelty 'ill-defined'",
+          "summary": "In a retrospective on erdosproblems.com, Bloom wrote that AI became useful from October 2025 as a \"super-powered literature search\" and that AI-generated solutions had begun arriving in the previous month. He said picking off low-hanging fruit is being automated, that whether an AI solution is new is often unclear, and that he was unsure how soon AI would help with the hardest problems.",
+          "sources": [
+            {
+              "name": "erdosproblems.com blog (Bloom)",
+              "url": "https://www.erdosproblems.com/forum/thread/blog:1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

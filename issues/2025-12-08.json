@@ -1,9 +1,34 @@
 {
   "date": "2025-12-08",
   "heading": "Monday, December 8, 2025",
-  "topLine": "Z.ai releases GLM-4.6V vision models with native tool calling.",
+  "topLine": "2 stories on AI and open problems: Equational Theories Project write-up and Erdős #1026 via humans and AI. Also: Z.ai releases GLM-4.6V vision models with native tool calling.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Equational Theories Project reports all 22 million magma implications settled in Lean",
+          "summary": "Tao's Equational Theories Project began in September 2024 and settled all 22,028,942 implications among 4,694 equational laws for magmas. The main goal was reached on 14 April 2025, and the write-up was posted on 8 December 2025. Results came from a mix of human proofs and automated tools, including automated theorem provers, and were validated in Lean. The 36-author paper describes it as a pilot for large-scale, machine-assisted collaboration.",
+          "sources": [
+            {
+              "name": "arXiv paper",
+              "url": "https://arxiv.org/abs/2512.07087"
+            }
+          ]
+        },
+        {
+          "headline": "Erdős Problem #1026 solved through a mix of online collaboration and AI tools",
+          "summary": "Terence Tao described how Erdős Problem #1026, on monotone subsequence sums, was resolved. On 7 December, Aristotle autonomously produced a Lean proof of the key case c(k²) = 1/k. Tao then used AlphaEvolve to find numerical upper bounds for small n, from which humans extracted the general formula, and humans also supplied proofs and constructions. Deep-research tools helped find related papers. The square case later turned out to appear already in a 2016 paper by Tidor, Wang and Yang. The general formula rests on an LLM-assembled argument that had not yet been formalized.",
+          "sources": [
+            {
+              "name": "Terence Tao's blog",
+              "url": "https://terrytao.wordpress.com/2025/12/08/the-story-of-erdos-problem-126/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

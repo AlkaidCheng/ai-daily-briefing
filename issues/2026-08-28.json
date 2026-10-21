@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-28",
+  "heading": "Friday, August 28, 2026",
+  "topLine": "Claude-written Lean proof claims no infinite cluster at critical percolation in dimensions 3–10.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude-written Lean proof claims no infinite cluster at critical percolation in dimensions 3–10",
+          "summary": "Anthropic staff member Justin Leder posted a Lean 4 proof that θ(p_c) = 0 for bond percolation on Z^d in every dimension d ≥ 2, closing the long-open cases 3–10, by proving an inequality that Kozma and Nitzan (2024) showed would be enough. The README says Claude models wrote all the Lean code autonomously under his direction. Lean checks the proof, but no independent human has refereed it. Gady Kozma is withholding judgment until a human-readable version appears. Ahmed Bou-Rabee called it clever but without substantially new ideas, and he used AI models to extend it to further Kozma–Nitzan conjectures. Anthropic had made no formal announcement as of 1 October.",
+          "sources": [
+            {
+              "name": "GitHub: proof README",
+              "url": "https://github.com/anthropics/formal-math/blob/795efb86f191735c5481675763537cfb4ff37e55/percolation/README.md"
+            },
+            {
+              "name": "Quanta Magazine update",
+              "url": "https://www.quantamagazine.org/update/167555/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

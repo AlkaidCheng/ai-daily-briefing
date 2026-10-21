@@ -1,9 +1,42 @@
 {
   "date": "2026-08-05",
   "heading": "Wednesday, August 5, 2026",
-  "topLine": "Meta releases Muse Spark 1.2 alongside Muse Code agent.",
+  "topLine": "2 stories on AI and open problems: Sendov's conjecture and EMS declines to endorse. Also: Meta releases Muse Spark 1.2 alongside Muse Code agent.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "GPT-5.6 Pro-generated proof of Sendov's conjecture for all degrees, streamlined by Tao",
+          "summary": "Lech Mazur posted a proof of Sendov's 1959 conjecture on polynomial zeros and critical points, for all degrees. The proof was generated with OpenAI's GPT-5.6 Pro and formalized in about 90,000 lines of Lean. On 12 August, Terence Tao published a human-readable version, built with AI help, along with his own roughly 15,000-line Lean formalization. Tao also extended the method to the stronger Phelps–Rodriguez conjecture. The result has not been peer reviewed.",
+          "sources": [
+            {
+              "name": "Mazur proof (PDF)",
+              "url": "https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf"
+            },
+            {
+              "name": "Terence Tao's blog",
+              "url": "https://terrytao.wordpress.com/2026/08/12/a-digestion-of-the-proof-of-sendovs-conjecture/"
+            },
+            {
+              "name": "Tao's Lean formalization",
+              "url": "https://github.com/teorth/sendov"
+            }
+          ]
+        },
+        {
+          "headline": "European Mathematical Society declines formal endorsement of Leiden Declaration",
+          "summary": "The EMS Executive Committee said it had decided not to formally endorse the Leiden Declaration. It said this does not diminish the issues raised, and called the declaration \"a valuable contribution to an essential and timely discussion\".",
+          "sources": [
+            {
+              "name": "EMS statement",
+              "url": "https://euromathsoc.org/news/leiden-declaration-on-artificial-intelligence-and-mathematics-224"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

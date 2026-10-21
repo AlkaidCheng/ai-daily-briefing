@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-04",
+  "heading": "Friday, September 4, 2026",
+  "topLine": "Anthropic's Claude agents produce the first complete Lean proof of Fermat's Last Theorem.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Anthropic's Claude agents produce the first complete Lean proof of Fermat's Last Theorem",
+          "summary": "Anthropic announced a complete, computer-checked Lean proof of Fermat's Last Theorem. Dozens of Claude agents wrote it largely autonomously over about 11 days, producing about 13 million lines and 29,500 intermediate theorems in the final proof. It follows the Darmon–Diamond–Taylor account of Wiles's proof and reuses parts of the Imperial FLT and flt-regular projects. Kevin Buzzard compiled it himself and ran the comparator tool, which confirmed the theorem matches Mathlib's statement of FLT; he says it adds no new mathematics and that his project to formalize the modern proof continues.",
+          "sources": [
+            {
+              "name": "Anthropic research post",
+              "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+            },
+            {
+              "name": "Xena blog (Kevin Buzzard)",
+              "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/"
+            },
+            {
+              "name": "The Next Web",
+              "url": "https://thenextweb.com/news/anthropic-claude-fermat-last-theorem-lean-buzzard"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e9a4df22447005cac83ac42a7b0f71afcaf1b849-2000x1125.jpg",
+            "alt": "Header image from Anthropic's Fermat's Last Theorem post"
+          }
+        }
+      ]
+    }
+  ]
+}

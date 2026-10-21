@@ -1,9 +1,24 @@
 {
   "date": "2026-02-12",
   "heading": "Thursday, February 12, 2026",
-  "topLine": "2 model releases: MiniMax-M2.5 and OpenAI GPT-5.3-Codex-Spark.",
+  "topLine": "Mathematicians split on how much AI's Erdős-problem progress means. Also: 2 model releases: MiniMax-M2.5 and OpenAI GPT-5.3-Codex-Spark.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Mathematicians split on how much AI's Erdős-problem progress means",
+          "summary": "Scientific American reported mixed assessments of AI's Erdős-problem results. Andrew Sutherland called LLMs useful research tools. Daniel Litt said they produce \"a huge amount of garbage\" and that individual results have been overhyped online, and Lauren Williams flagged verification as a major problem.",
+          "sources": [
+            {
+              "name": "Scientific American",
+              "url": "https://www.scientificamerican.com/article/ai-uncovers-solutions-to-erdos-problems-moving-closer-to-transforming-math/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

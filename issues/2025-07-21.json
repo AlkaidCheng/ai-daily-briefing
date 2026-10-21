@@ -1,9 +1,28 @@
 {
   "date": "2025-07-21",
   "heading": "Monday, July 21, 2025",
-  "topLine": "Alibaba releases updated Qwen3-235B-A22B-Instruct-2507.",
+  "topLine": "Gemini Deep Think achieves officially certified gold-medal score at IMO 2025. Also: Alibaba releases updated Qwen3-235B-A22B-Instruct-2507.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Gemini Deep Think achieves officially certified gold-medal score at IMO 2025",
+          "summary": "Google DeepMind's advanced Gemini Deep Think solved five of the six IMO 2025 problems end to end in natural language within the 4.5-hour limit, for 35 of 42 points. IMO coordinators graded and certified the result using the same criteria as for student solutions. IMO President Gregor Dolinar confirmed it as a gold-medal score.",
+          "sources": [
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/"
+            }
+          ],
+          "image": {
+            "url": "https://lh3.googleusercontent.com/YRB5o1FNS6WKEzr5g8yecUNVvzl9iUS4cbSHau5zT05EHi8BnKbGm83bqBn0XGYdGTJFHE2spmFaOHrPWDTAIP3KwWRhoCI5Q5K6AwbMxZgZj56d-A=w1440-h810-n-nu",
+            "alt": "Header image from the Google DeepMind IMO 2025 announcement"
+          }
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

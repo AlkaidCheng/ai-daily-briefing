@@ -1,0 +1,27 @@
+{
+  "date": "2024-11-01",
+  "heading": "Friday, November 1, 2024",
+  "topLine": "PatternBoost finds counterexample to a 30-year-old hypercube conjecture.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "PatternBoost finds counterexample to a 30-year-old hypercube conjecture",
+          "summary": "François Charton, Jordan Ellenberg, Adam Zsolt Wagner and Geordie Williamson introduced PatternBoost. It alternates classical local search with a transformer trained on the best constructions found so far. Among other results, it found a spanning subgraph of the 6-cube with diameter 6 and 81 edges, one fewer than the standard construction that Graham had conjectured was optimal. This disproves a conjecture that had been open for about 30 years. The counterexample is an explicit graph that can be checked directly; the paper is an arXiv preprint.",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2411.00566"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2411.00566v1/pics/hypercube_graph7.png",
+            "alt": "Spanning subgraph of the 6-cube with diameter 6 and 81 edges, the counterexample found by PatternBoost"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,28 @@
 {
   "date": "2025-11-12",
   "heading": "Wednesday, November 12, 2025",
-  "topLine": "OpenAI releases GPT-5.1 Instant and Thinking.",
+  "topLine": "DeepMind publishes AlphaProof methodology in Nature. Also: OpenAI releases GPT-5.1 Instant and Thinking.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepMind publishes AlphaProof methodology in Nature",
+          "summary": "Google DeepMind published the method behind AlphaProof in Nature. AlphaProof is an AlphaZero-style agent that learns to find Lean proofs through reinforcement learning on millions of autoformalized problems, and it uses test-time RL for the hardest problems. The paper documents the IMO 2024 result: three of the five non-geometry problems solved, which with AlphaGeometry 2 gave silver-medal-level performance after multi-day computation.",
+          "sources": [
+            {
+              "name": "Nature paper",
+              "url": "https://www.nature.com/articles/s41586-025-09833-y"
+            },
+            {
+              "name": "Google DeepMind blog (update note)",
+              "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

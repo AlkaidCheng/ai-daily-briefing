@@ -1,9 +1,32 @@
 {
   "date": "2026-09-03",
   "heading": "Thursday, September 3, 2026",
-  "topLine": "OpenAI launches GPT-6 Astra.",
+  "topLine": "OpenAI's GPT-6 Astra claims infinitely many consecutive primes at most 186 apart. Also: OpenAI launches GPT-6 Astra.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI's GPT-6 Astra claims infinitely many consecutive primes at most 186 apart",
+          "summary": "With the GPT-6 Astra launch, OpenAI released a paper (dated 30 August) proving DHL[40,2], which implies infinitely many pairs of consecutive primes differ by at most 186. This improves the Polymath bound of 246 and Julia Stadlmann's concurrent 240, and the paper attributes the proof to GPT-6 Astra. The accompanying Lean formalization depends on three stated axioms: cited Kloosterman-sum estimates and numerical integral bounds that are checked separately in Python. No independent human review had been reported, and the twin prime conjecture is untouched.",
+          "sources": [
+            {
+              "name": "OpenAI paper (PDF)",
+              "url": "https://cdn.openai.com/pdf/51126fac-1b68-4128-9666-c908bcc16033/short_gaps.pdf"
+            },
+            {
+              "name": "GitHub: openai/PrimeGaps186",
+              "url": "https://github.com/openai/PrimeGaps186"
+            },
+            {
+              "name": "X: @weijie444",
+              "url": "https://x.com/weijie444/status/2095600108956262911"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

@@ -1,9 +1,28 @@
 {
   "date": "2025-01-15",
   "heading": "Wednesday, January 15, 2025",
-  "topLine": "MiniMax open-sources MiniMax-01 models.",
+  "topLine": "De novo designed proteins neutralise lethal snake three-finger toxins in mice. Also: MiniMax open-sources MiniMax-01 models.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "De novo designed proteins neutralise lethal snake three-finger toxins in mice",
+          "summary": "David Baker's Institute for Protein Design at UW Medicine, with DTU, used RFdiffusion and ProteinMPNN to design small proteins that bind elapid three-finger toxins, which plasma-derived antivenoms address poorly. Published in Nature: the designs neutralised all three toxin subfamilies in vitro and gave 80-100% survival in mice challenged with lethal neurotoxin doses; they do not yet neutralise whole venoms.",
+          "sources": [
+            {
+              "name": "ScienceDaily (UW Medicine release)",
+              "url": "https://sciencedaily.com/releases/2025/01/250115124535.htm"
+            },
+            {
+              "name": "GEN",
+              "url": "https://www.genengnews.com/topics/artificial-intelligence/ai-designed-antivenom-counteracts-toxins-from-snakebites-in-mice"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

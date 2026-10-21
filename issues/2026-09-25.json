@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-25",
+  "heading": "Friday, September 25, 2026",
+  "topLine": "Claude computes a nine-loop scattering amplitude no one had calculated before.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claude computes a nine-loop scattering amplitude no one had calculated before",
+          "summary": "Anthropic physicists Liam Fitzpatrick and Siddharth Mishra-Sharma had Claude compute the nine-loop six-particle MHV amplitude in planar N=4 super-Yang-Mills, answering a public challenge from physicist Matt von Hippel, largely unsupervised over several days for roughly $1,000-2,000 of compute. Lance Dixon, who published the eight-loop result in 2023, validated the output and the programs reproduced his published eight-loop symbol; it is a company blog post with released data files rather than a peer-reviewed paper, run once, and a separate group reached nine loops the same week using GPT-6 for some constraints.",
+          "sources": [
+            {
+              "name": "Anthropic research post",
+              "url": "https://anthropic.com/research/yes-claude-can-do-nine-loops"
+            }
+          ],
+          "image": {
+            "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/57556701e55ca0440a25accfa3f8655c7254e89f-2000x1125.jpg",
+            "alt": "Illustration of a nine-loop Feynman diagram"
+          }
+        }
+      ]
+    }
+  ]
+}

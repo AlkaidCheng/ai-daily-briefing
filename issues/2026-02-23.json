@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-23",
+  "heading": "Monday, February 23, 2026",
+  "topLine": "Gauss completes Lean formalization of Viazovska's sphere-packing proofs in dimensions 8 and 24.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Gauss completes Lean formalization of Viazovska's sphere-packing proofs in dimensions 8 and 24",
+          "summary": "Math, Inc. announced on Lean Zulip that its Gauss agent had proved all remaining results for the 8-dimensional sphere-packing theorem in about five days. Gauss built on a blueprint and codebase from the human team led by Sidharth Hariharan and Maryna Viazovska. On 2 March, Math, Inc. said Gauss had also formalized the 24-dimensional case, over 200,000 lines, in about two weeks without a blueprint. The human team checked that the definitions were unchanged and only classical axioms were used, ran lean4checker, and is refactoring the code.",
+          "sources": [
+            {
+              "name": "Math, Inc.",
+              "url": "https://www.math.inc/sphere-packing"
+            },
+            {
+              "name": "Lean community blog",
+              "url": "https://leanprover-community.github.io/blog/posts/SpherePacking-1/"
+            },
+            {
+              "name": "IEEE Spectrum (via AOL)",
+              "url": "https://www.aol.com/articles/ai-humans-verify-fields-medal-180003543.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

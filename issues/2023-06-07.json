@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-07",
+  "heading": "Wednesday, June 7, 2023",
+  "topLine": "AlphaDev finds faster small-sort and hashing routines now shipped in libc++ and Abseil.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AlphaDev finds faster small-sort and hashing routines now shipped in libc++ and Abseil",
+          "summary": "Google DeepMind's reinforcement-learning agent AlphaDev searched assembly instructions directly and found sorting routines up to 70% faster for short sequences (about 1.7% for sequences over 250,000 elements) plus a hashing routine 30% faster in the 9-16 byte range. Published in Nature and merged into LLVM's libc++, the first change to that part of the library in over a decade; the gains are concentrated on very small inputs.",
+          "sources": [
+            {
+              "name": "Nature paper",
+              "url": "https://www.nature.com/articles/s41586-023-06004-9"
+            },
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/alphadev-discovers-faster-sorting-algorithms/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

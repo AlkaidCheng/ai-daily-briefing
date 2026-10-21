@@ -1,9 +1,28 @@
 {
   "date": "2025-04-14",
   "heading": "Monday, April 14, 2025",
-  "topLine": "2 model releases: Zhipu AI GLM-4-32B-0414 / GLM-Z1 and OpenAI GPT-4.1.",
+  "topLine": "AI search proposes gravitational-wave detector layouts that beat next-generation designs in simulation. Also: 2 model releases: Zhipu AI GLM-4-32B-0414 / GLM-Z1 and OpenAI GPT-4.1.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "AI search proposes gravitational-wave detector layouts that beat next-generation designs in simulation",
+          "summary": "Mario Krenn's Artificial Scientist Lab at the Max Planck Institute for the Science of Light, with LIGO's Rana Adhikari and Yehonathan Drori, built Urania, which recast interferometer design as continuous optimisation and found topologies that could extend detectable range by more than an order of magnitude, some using mechanisms the authors say they do not yet fully understand. Published in Physical Review X with 50 designs released as a public 'Detector Zoo'; the designs are simulated, not built.",
+          "sources": [
+            {
+              "name": "Physical Review X paper",
+              "url": "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.15.021012"
+            },
+            {
+              "name": "Max Planck Institute for the Science of Light",
+              "url": "https://mpl.mpg.de/news/article/ai-finds-new-ways-to-observe-the-most-extreme-events-in-the-universe"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

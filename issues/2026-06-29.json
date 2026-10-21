@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-29",
+  "heading": "Monday, June 29, 2026",
+  "topLine": "Machine-learning screening leads to two new kagome superconductors made at Rice.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Machine-learning screening leads to two new kagome superconductors made at Rice",
+          "summary": "Aalto University's Paivi Torma and the SuperC consortium used machine-learning pre-screening plus targeted quantum calculations to pick candidate superconductors, and Emilia Morosan's group at Rice synthesised and measured them, confirming bulk superconductivity in YRu3B2 and LuRu3B2 at 0.81 K and 0.95 K. Published in Physical Review Research as a proof of concept for a pipeline the consortium hopes can scale to thousands of candidates; the critical temperatures are far below room temperature.",
+          "sources": [
+            {
+              "name": "Physical Review Research paper",
+              "url": "https://journals.aps.org/prresearch/abstract/10.1103/lpqj-7hyg"
+            },
+            {
+              "name": "Aalto University news",
+              "url": "https://www.aalto.fi/en/news/researchers-identify-new-superconductors-unlocking-process-that-could-yield-thousands-more"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

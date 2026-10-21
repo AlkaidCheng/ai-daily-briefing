@@ -1,0 +1,23 @@
+{
+  "date": "2025-05-19",
+  "heading": "Monday, May 19, 2025",
+  "topLine": "FutureHouse's Robin agents nominate ripasudil for dry macular degeneration, supported in cell assays.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "FutureHouse's Robin agents nominate ripasudil for dry macular degeneration, supported in cell assays",
+          "summary": "FutureHouse's multi-agent system Robin proposed enhancing retinal pigment epithelium phagocytosis as a strategy for dry age-related macular degeneration, a condition with almost no treatments, and identified the glaucoma drug ripasudil, which increased phagocytosis in human-run experiments whose analysis Robin also performed. Reported as an arXiv preprint; the evidence is in vitro only, and Robin's reported effect size (7.5-fold) was larger than a human re-analysis of the same data (1.75-fold).",
+          "sources": [
+            {
+              "name": "arXiv preprint",
+              "url": "https://arxiv.org/abs/2505.13400"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,32 @@
 {
   "date": "2026-07-21",
   "heading": "Tuesday, July 21, 2026",
-  "topLine": "Google releases Gemini 3.6 Flash and 3.5 Flash-Lite.",
+  "topLine": "Xiaohongshu and Huawei AI systems reported to score 42/42 at IMO 2026. Also: Google releases Gemini 3.6 Flash and 3.5 Flash-Lite.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Xiaohongshu and Huawei AI systems reported to score 42/42 at IMO 2026",
+          "summary": "Xiaohongshu (RedNote) said its dots-note-3.0 model, entered at the IMO's invitation, solved all six IMO 2026 problems in natural language for a perfect 42/42. Chinese press reports say IMO officials graded it. Huawei followed on 22 July with its own 42/42 claim, and a statement attributed to IMO President Gregor Dolinar confirmed Huawei's perfect score. The AI systems received the problems after the human contestants had finished and had to answer within the time limit. Other perfect-score claims for commercial models came from informal tests and were not officially graded.",
+          "sources": [
+            {
+              "name": "iFeng (QbitAI report)",
+              "url": "https://i.ifeng.com/c/8uwqoXa8M5r"
+            },
+            {
+              "name": "Sina News (Huawei)",
+              "url": "https://news.sina.cn/sx/2026-07-24/detail-iniiwkur1790660.d.html"
+            },
+            {
+              "name": "AFP via Newswav",
+              "url": "https://newswav.com/article/huawei-xiaohongshu-ai-storm-olympiad-join-maths-elite-with-perfect-100pc-sc-A2607_2xKqqu"
+            }
+          ]
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

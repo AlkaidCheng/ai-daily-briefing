@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-10",
+  "heading": "Friday, July 10, 2026",
+  "topLine": "OpenAI posts a two-page proof of the cycle double cover conjecture.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI posts a two-page proof of the cycle double cover conjecture",
+          "summary": "OpenAI published a proof, credited to GPT-5.6 Sol Ultra, that every bridgeless graph has a collection of cycles covering each edge exactly twice. Humans wrote the prompt and set up the multi-agent run. Graph theorists Jim Geelen and Sang-il Oum posted expositions on arXiv, and Johannes Carmesin wrote that the proof is correct. Thomas Bloom noted that the core ideas go back to a 1983 paper the proof did not cite. The proof has not been peer reviewed.",
+          "sources": [
+            {
+              "name": "OpenAI proof (PDF)",
+              "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"
+            },
+            {
+              "name": "arXiv: Oum exposition",
+              "url": "https://arxiv.org/abs/2607.16356"
+            },
+            {
+              "name": "The Matroid Union (Carmesin)",
+              "url": "https://matroidunion.org/?p=6255"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

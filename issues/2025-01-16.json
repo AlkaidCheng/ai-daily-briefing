@@ -1,0 +1,35 @@
+{
+  "date": "2025-01-16",
+  "heading": "Thursday, January 16, 2025",
+  "topLine": "Microsoft's MatterGen designs a material that was synthesised; its novelty is later disputed.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Microsoft's MatterGen designs a material that was synthesised; its novelty is later disputed",
+          "summary": "Microsoft Research's generative diffusion model MatterGen (Nature) proposed TaCr2O6 when conditioned on a 200 GPa bulk modulus, and a team at the Shenzhen Institutes of Advanced Technology synthesised it with Ta/Cr disorder and measured 169 GPa. A 2026 Materials Horizons analysis by Mikkel Juelsholt argues the synthesised phase is crystallographically identical to Ta1/2Cr1/2O2, reported in 1971 and already present in MatterGen's training data.",
+          "sources": [
+            {
+              "name": "Microsoft Research blog",
+              "url": "https://www.microsoft.com/en-us/research/blog/mattergen-a-new-paradigm-of-materials-design-with-generative-ai/"
+            },
+            {
+              "name": "Nature paper",
+              "url": "https://www.nature.com/articles/s41586-025-08628-5"
+            },
+            {
+              "name": "Juelsholt critique (Materials Horizons)",
+              "url": "https://edoc.hu-berlin.de/18452/38430"
+            }
+          ],
+          "image": {
+            "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Experimental-validation-modified.png",
+            "alt": "Experimental validation of the MatterGen-generated compound TaCr2O6"
+          }
+        }
+      ]
+    }
+  ]
+}

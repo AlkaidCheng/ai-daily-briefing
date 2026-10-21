@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-01",
+  "heading": "Saturday, August 1, 2026",
+  "topLine": "OpenAI's internal Astra model claims ten results, including the first explicit non-sofic group.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI's internal Astra model claims ten results, including the first explicit non-sofic group",
+          "summary": "OpenAI said an internal version of its next model (later released as GPT-6 Astra) produced ten results. They include an explicit non-sofic group, a counterexample to Connes's rigidity conjecture, Ehrhart's volume conjecture, polynomial-factor hardness for the closest vector problem, and resolutions of Erdős problems 146, 180 and 183. OpenAI published a 249-page manuscript and Lean 4 files for every result. Coverage at launch reported no independent expert verification. Thomas Bloom called the results \"big news\".",
+          "sources": [
+            {
+              "name": "OpenAI announcement",
+              "url": "https://openai.com/index/ten-advances-in-mathematics/"
+            },
+            {
+              "name": "GitHub: openai/ten-proofs",
+              "url": "https://github.com/openai/ten-proofs"
+            },
+            {
+              "name": "The Next Web",
+              "url": "https://thenextweb.com/news/openai-astra-model-ten-math-proofs-non-sofic-groups"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

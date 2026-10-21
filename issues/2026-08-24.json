@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-24",
+  "heading": "Monday, August 24, 2026",
+  "topLine": "OpenAI model's bug hunt finds soundness bugs in the Lean kernel and runtime.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI model's bug hunt finds soundness bugs in the Lean kernel and runtime",
+          "summary": "From 30 July to 20 August 2026, OpenAI's Daniel Selsam used internal OpenAI models to search for soundness bugs in Lean. The models found exploits that made Lean accept a proof of False, which led to fixes for several kernel-logic bugs and two runtime bugs. Lean v4.33.1, released 21 August, fixes all the issues found. Leonardo de Moura's postmortem notes that independent checkers rejected most of the bogus proofs, and the Lean team now treats AI-generated proofs as potentially malicious.",
+          "sources": [
+            {
+              "name": "Leonardo de Moura postmortem",
+              "url": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

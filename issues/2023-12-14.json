@@ -1,0 +1,31 @@
+{
+  "date": "2023-12-14",
+  "heading": "Thursday, December 14, 2023",
+  "topLine": "DeepMind's FunSearch finds larger cap sets than known constructions.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepMind's FunSearch finds larger cap sets than known constructions",
+          "summary": "Google DeepMind's FunSearch pairs a large language model with an automated evaluator in an evolutionary loop. It searches for programs that build solutions, not for the solutions themselves. Applied to the cap set problem in extremal combinatorics, it produced larger cap sets than any previously known in dimension 8, and better constructions bearing on the asymptotic bound. The work appeared in Nature as a peer-reviewed paper (Romera-Paredes et al., with Jordan Ellenberg as co-author), and the discovered programs were released publicly. These results are constructions that improve lower bounds; they do not settle the problem.",
+          "sources": [
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
+            },
+            {
+              "name": "FunSearch code and cap sets (GitHub)",
+              "url": "https://github.com/google-deepmind/funsearch"
+            },
+            {
+              "name": "MIT Technology Review",
+              "url": "https://www.technologyreview.com/2023/12/14/1085318/google-deepmind-large-language-model-solve-unsolvable-math-problem-cap-set/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2025-06-03",
+  "heading": "Tuesday, June 3, 2025",
+  "topLine": "Drug for an AI-identified fibrosis target shows safety and a lung-function signal in phase 2a.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Drug for an AI-identified fibrosis target shows safety and a lung-function signal in phase 2a",
+          "summary": "Insilico Medicine's rentosertib, whose target TNIK and whose molecule both came from the company's generative AI platform, met its safety endpoint in a double-blind, placebo-controlled 71-patient, 12-week trial in idiopathic pulmonary fibrosis in China, with forced vital capacity changing by +98.4 mL at 60 mg once daily versus -20.3 mL on placebo. Published in Nature Medicine; efficacy was a secondary endpoint in a small single-country trial and needs larger studies.",
+          "sources": [
+            {
+              "name": "Nature Medicine paper (PubMed)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40461817/"
+            },
+            {
+              "name": "Insilico press release",
+              "url": "https://www.biospace.com/press-releases/insilico-medicine-announces-nature-medicine-publication-of-phase-iia-results-evaluating-rentosertib-the-novel-tnik-inhibitor-for-idiopathic-pulmonary-fibrosis-ipf-discovered-and-designed-with-a-pioneering-ai-approach"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

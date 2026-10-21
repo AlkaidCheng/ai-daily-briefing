@@ -1,9 +1,36 @@
 {
   "date": "2026-06-02",
   "heading": "Tuesday, June 2, 2026",
-  "topLine": "Alibaba releases Qwen3.7-Plus.",
+  "topLine": "Leiden Declaration sets out values for AI use in mathematics; IMU endorses. Also: Alibaba releases Qwen3.7-Plus.",
   "archive": true,
   "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Leiden Declaration sets out values for AI use in mathematics; IMU endorses",
+          "summary": "A 16-member working group convened by Jim Portegies (Eindhoven University of Technology) published the Leiden Declaration on Artificial Intelligence and Mathematics. It grew out of a September 2025 NIAS–Lorentz workshop in Leiden. The declaration does not oppose AI but names threats including unreliable proofs, weak attribution, dependence on proprietary tools, overhyped claims and loss of research autonomy. It asks mathematicians to disclose tool use and stay responsible for correctness, and asks societies, funders and policymakers to set policies. The International Mathematical Union endorsed it, and its site listed more than 4,300 signatories by October 2026.",
+          "sources": [
+            {
+              "name": "Declaration text",
+              "url": "https://leidendeclaration.ai/"
+            },
+            {
+              "name": "Leiden University",
+              "url": "https://www.universiteitleiden.nl/en/news/2026/06/leiden-declaration-warns-ai-is-challenging-the-core-values-of-mathematics"
+            },
+            {
+              "name": "London Mathematical Society",
+              "url": "https://www.lms.ac.uk/news/leiden-declaration-on-ai-and-mathematics"
+            }
+          ],
+          "image": {
+            "url": "https://www.universiteitleiden.nl/binaries/content/gallery/ul2/main-images/science/nieuws/2026/6/header-2-leiden-declaration-mathemtics-formula-ai.jpg/header-2-leiden-declaration-mathemtics-formula-ai.jpg/d1180x428",
+            "alt": "Leiden University header image for the Leiden Declaration on AI and mathematics"
+          }
+        }
+      ]
+    },
     {
       "name": "Models & open-source",
       "items": [

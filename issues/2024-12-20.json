@@ -1,0 +1,27 @@
+{
+  "date": "2024-12-20",
+  "heading": "Friday, December 20, 2024",
+  "topLine": "OpenAI reports o3 solves 25.2% of FrontierMath problems.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI reports o3 solves 25.2% of FrontierMath problems",
+          "summary": "When OpenAI announced o3, it reported a 25.2% score on Epoch AI's FrontierMath benchmark of hard research-style problems. Previous models had scored about 2%. The score was self-reported. It later emerged that OpenAI had funded the benchmark and had access to many of its problems. In April 2025, Epoch's independent test of the released o3 found about 10%, on a different problem set and setup.",
+          "sources": [
+            {
+              "name": "The Decoder",
+              "url": "https://the-decoder.com/openai-quietly-funded-independent-math-benchmark-before-setting-record-with-o3/"
+            },
+            {
+              "name": "TechCrunch (Epoch's independent result)",
+              "url": "https://techcrunch.com/2025/04/20/openais-o3-ai-model-scores-lower-on-a-benchmark-than-the-company-initially-implied"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

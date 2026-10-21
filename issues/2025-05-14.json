@@ -1,0 +1,27 @@
+{
+  "date": "2025-05-14",
+  "heading": "Wednesday, May 14, 2025",
+  "topLine": "DeepMind's AlphaEvolve improves known results on about 20% of 50+ open problems.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "DeepMind's AlphaEvolve improves known results on about 20% of 50+ open problems",
+          "summary": "Google DeepMind's AlphaEvolve is a Gemini-powered evolutionary coding agent. On more than 50 open problems in analysis, geometry, combinatorics and number theory, DeepMind reports that it matched the best known constructions in about 75% of cases and improved on them in about 20%. Highlights include multiplying 4x4 complex-valued matrices with 48 scalar multiplications, which DeepMind calls the first improvement over Strassen's 1969 method in this setting, and a configuration of 593 spheres that raises the kissing-number lower bound in 11 dimensions. These results are DeepMind's own claims for explicit, checkable constructions; the accompanying white paper (arXiv, June 2025) was not peer-reviewed. In Google's own systems, a scheduling heuristic it found recovers about 0.7% of worldwide compute.",
+          "sources": [
+            {
+              "name": "Google DeepMind blog",
+              "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/"
+            },
+            {
+              "name": "AlphaEvolve white paper (arXiv)",
+              "url": "https://arxiv.org/abs/2506.13131"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

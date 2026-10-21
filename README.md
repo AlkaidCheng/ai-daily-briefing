@@ -14,9 +14,11 @@ model release.
 Keyboard: <kbd>/</kbd> search, <kbd>T</kbd> today's briefing, <kbd>M</kbd> model
 releases, <kbd>F</kbd> filters.
 
-Briefings marked **Archive** were added after the fact to cover major model releases
+Briefings marked **Archive** were added after the fact. They cover major model releases
 since January 2025, from OpenAI, Anthropic, Google, Meta, xAI, Mistral, DeepSeek,
-Alibaba (Qwen), Moonshot AI (Kimi), Zhipu AI (GLM) and MiniMax.
+Alibaba (Qwen), Moonshot AI (Kimi), Zhipu AI (GLM) and MiniMax, and, since January
+2023, AI results on open problems in mathematics and science, formal proofs and
+competition milestones, and the mathematical community's response to them.
 
 ## Layout
 

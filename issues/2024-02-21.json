@@ -1,0 +1,23 @@
+{
+  "date": "2024-02-21",
+  "heading": "Wednesday, February 21, 2024",
+  "topLine": "Reinforcement-learning controller predicts and avoids tearing instabilities in the DIII-D tokamak.",
+  "archive": true,
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Reinforcement-learning controller predicts and avoids tearing instabilities in the DIII-D tokamak",
+          "summary": "A Princeton and PPPL team (Jaemin Seo, Egemen Kolemen) trained a controller on past DIII-D data that forecast tearing-mode instabilities up to 300 milliseconds ahead and adjusted plasma shape and beam power to avoid them during a live experiment, rather than suppressing them after onset. Published in Nature; demonstrated on one tokamak and proposed as a step toward stable high-performance ITER scenarios.",
+          "sources": [
+            {
+              "name": "ScienceDaily (Princeton release)",
+              "url": "https://sciencedaily.com/releases/2024/02/240221160337.htm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
