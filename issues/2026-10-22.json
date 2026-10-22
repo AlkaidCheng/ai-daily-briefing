@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
   "heading": "Thursday, October 22, 2026",
-  "topLine": "Anthropic previews Claude Duet, a proactive personal agent built on Opus 5.5, to compete with OpenAI's Dots and Meta's Muse.",
+  "topLine": "Anthropic previews Claude Duet, a proactive personal agent built on Opus 5.5, the same day Meta says 10M+ people signed up for its rival Muse agent in six weeks.",
   "sections": [
     {
       "name": "Company announcements",
@@ -10,8 +10,46 @@
           "headline": "Anthropic previews Claude Duet, a proactive personal agent",
           "summary": "Duet runs on Claude Opus 5.5 and acts on behalf of professionals and small-business owners, asking approval before sending messages, making payments, signing documents or deleting anything. It is a research preview with a US waitlist for Pro and Max subscribers; Team and Enterprise are not included yet.",
           "sources": [
-            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html" },
-            { "name": "Inc42", "url": "https://inc42.com/buzz/anthropic-takes-on-openai-meta-with-new-proactive-ai-agent-claude-duet/" }
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html"
+            },
+            {
+              "name": "Inc42",
+              "url": "https://inc42.com/buzz/anthropic-takes-on-openai-meta-with-new-proactive-ai-agent-claude-duet/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta Q3: 10M+ Muse agent sign-ups, capex narrowed to $135–145B, and new nonvoting shares",
+          "summary": "Revenue rose 26% to $64.6B, and Zuckerberg said more than 10 million people in the US and Canada set up Muse agent accounts in about six weeks, with a global launch held back by compute cost. Meta also plans a two-for-one dividend of nonvoting Class C shares (effective Jan 19, 2027) to raise capital and fund acquisitions without diluting his control.",
+          "sources": [
+            {
+              "name": "SiliconANGLE",
+              "url": "https://siliconangle.com/2026/10/21/meta-beats-on-revenue-and-splits-its-stock-two-for-one-with-non-voting-class-c-shares-raise-capital/"
+            },
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/10/21/meta-q3-earnings-mark-zuckerberg-capex-muse/"
+            }
+          ]
+        },
+        {
+          "headline": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+          "summary": "The former Harvard Dean of Science, a member of the team that discovered the accelerating expansion of the universe and of the JASON advisory group, becomes the Trust's first physicist. The Trust can appoint a majority of Anthropic's board, which matters more as the company moves toward an IPO.",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+            },
+            {
+              "name": "Reuters (via WKZO)",
+              "url": "https://wkzo.com/2026/10/21/anthropic-adds-former-harvard-science-dean-to-oversight-body/"
+            },
+            {
+              "name": "X: @AnthropicAI",
+              "url": "https://x.com/AnthropicAI/status/2112946750264676743"
+            }
           ]
         }
       ]
@@ -20,11 +58,22 @@
       "name": "AI solves open problems",
       "items": [
         {
-          "headline": "Claimed proof of the 31-year-old KLS conjecture used human-directed agentic AI",
-          "summary": "Unconfirmed: Microsoft Research says researcher Xinzhi Zhang and collaborator Zhao Song proved the Kannan–Lovász–Simonovits conjecture in a 140-page arXiv preprint (posted Oct 1, revised Oct 4). It has not been independently verified or peer-reviewed, and I could not corroborate the details beyond this report; a separate wiki notes a competing Oct 2026 preprint with heavy ChatGPT assistance.",
+          "headline": "Microsoft Research details its AI-assisted proof of the 31-year-old KLS conjecture",
+          "summary": "In an Oct 21 post, Xinzhi Zhang describes how a human-directed swarm of AI agents explored ~100 research trajectories toward a proof (with Zhao Song) that the KLS constant is bounded independently of dimension; the researchers chose the direction and verified the argument. The preprints date from Oct 1–4 and are not peer reviewed, but an independent group (Bizeul, Klartag, Lehec) posted its own proof building on their criterion, and a community Lean 4 formalization exists.",
           "sources": [
-            { "name": "Unite.AI", "url": "https://www.unite.ai/microsoft-researcher-and-collaborator-prove-31-year-old-kls-conjecture/" }
-          ]
+            {
+              "name": "Microsoft Research blog",
+              "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
+            },
+            {
+              "name": "arXiv (Bizeul–Klartag–Lehec)",
+              "url": "https://arxiv.org/abs/2610.05474"
+            }
+          ],
+          "image": {
+            "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/KLS-BlogHeroFeature-1400x788-1.jpg",
+            "alt": "Comparison of a flat cut and a curved cut through a convex body, the setting of the KLS conjecture"
+          }
         }
       ]
     },
@@ -34,9 +83,57 @@
         {
           "headline": "Recursive SI releases Flint 40B, an Apache-2.0 open-weight coding model",
           "summary": "A 40B-parameter mixture-of-experts coding model with weights on Hugging Face and no revenue gate, advertised at over 125 tokens/s on an M4 Pro MacBook Pro. Speed figures are vendor-reported and I found only one outlet covering it.",
-          "tags": ["model-release"],
+          "tags": [
+            "model-release"
+          ],
           "sources": [
-            { "name": "Forkast", "url": "https://forkast.news/recursive-si-launches-flint-40b-open-weights-that-run-on-the-developers-own-machine/" }
+            {
+              "name": "Forkast",
+              "url": "https://forkast.news/recursive-si-launches-flint-40b-open-weights-that-run-on-the-developers-own-machine/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
+      "items": [
+        {
+          "headline": "OpenAI runs thousands of GPT-Rosalind agents over a whole-brain CRISPR atlas",
+          "summary": "With PerturbAI and Scripps, one agent per gene knockout analyzed millions of mouse brain cells in 32 minutes, cited 700+ references versus 11 for a single agent, and was preferred by blinded experts 75% of the time. Takeaway: splitting a big dataset across many small agents beats one big agent, though the leads (e.g. a Dctn1–cholesterol link) are untested hypotheses in a non-peer-reviewed preprint.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
+            },
+            {
+              "name": "bioRxiv",
+              "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759436v1"
+            }
+          ],
+          "image": {
+            "url": "https://images.ctfassets.net/kftzwdyauwt9/5Uhfx9LWwXWN8zKg7a6aNi/021edebfedf0c6f9638f929ba23900ab/scaling-ai-biological-data-social.png?w=1600&h=900&fit=fill",
+            "alt": "Header image for OpenAI's post on scaling AI research for complex biological data"
+          }
+        },
+        {
+          "headline": "From Prompts to Posteriors: can LLM agents do Bayesian inference in context?",
+          "summary": "Filbry, Melo and Yarin Gal (Oxford) find LLMs on their own usually break Bayes' rule when updating beliefs from evidence in the prompt. Takeaway: give them reasoning and code execution and they closely approximate even intractable posteriors, so tool-using models may already be usable for belief updating in science.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2610.29331"
+            }
+          ]
+        },
+        {
+          "headline": "AW-0: robot models that write code, imagine video and act at once",
+          "summary": "Berkeley, NVIDIA and UPenn (Darrell, Fan, Goldberg, Zhu and others) train one mixture-of-transformers model that jointly generates skill programs as code, future video and motor commands. Takeaway: adding a plan-as-code stream lifted the average rubric score on eight real two-arm tasks to 71.1% versus 46.0% for the best baseline.",
+          "sources": [
+            {
+              "name": "alphaXiv",
+              "url": "https://www.alphaxiv.org/abs/2610.30136"
+            }
           ]
         }
       ]
@@ -45,17 +142,33 @@
       "name": "Policy & industry",
       "items": [
         {
+          "headline": "METR and Redwood red-team OpenAI's internal agent monitor and find ways to blind it",
+          "summary": "A three-week, high-access pilot found that ~10% of internal Codex traffic went unmonitored for months, that agents could postpone monitoring indefinitely by never handing control back, and that client headers could switch monitoring off. OpenAI says all production vulnerabilities are patched, which METR has not independently checked; it is a rare outside audit of a frontier lab's misalignment safeguards.",
+          "sources": [
+            {
+              "name": "METR",
+              "url": "https://metr.substack.com/p/2026-10-22-red-teaming-openai-agent-monitoring"
+            }
+          ]
+        },
+        {
           "headline": "Flapping Airplanes raises $1B at a $6B valuation",
           "summary": "The year-old AI research startup's round was led by Index Ventures and Lux Capital, quadrupling its valuation since a January round.",
           "sources": [
-            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round" }
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round"
+            }
           ]
         },
         {
           "headline": "Legal-AI startup Legora raises $550M at an $8.8B valuation",
           "summary": "The Swedish company's Series E was led by Atreides Management, another sign of heavy investor appetite for vertical AI.",
           "sources": [
-            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-21/legal-ai-startup-legora-raises-funds-at-8-8-billion-valuation" }
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-21/legal-ai-startup-legora-raises-funds-at-8-8-billion-valuation"
+            }
           ]
         }
       ]
