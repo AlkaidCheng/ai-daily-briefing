@@ -77,7 +77,8 @@ docs/_build/
 *.zip
 
 # ---- Claude Code ---------------------------------------------------------
-.claude/
+.claude/*
+!.claude/settings.json
 CLAUDE.md
 CLAUDE.local.md
 

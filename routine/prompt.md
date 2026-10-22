@@ -4,7 +4,15 @@ You are running in a fresh cloud sandbox with this repository (ai-daily-briefing
 
 ## 1. Set the coverage window
 - Get today's Pacific date with `TZ=America/Los_Angeles date +%F` and the heading text with `TZ=America/Los_Angeles date '+%A, %B %-d, %Y'`; never assume either, and never use plain `date`.
-- Issue files live in `issues/` (`YYYY-MM-DD.json`). File modification times are meaningless after a fresh clone, so find when the newest issue dated before today was first committed: `t=$(TZ=America/Los_Angeles date +%F); prev=$(ls issues/*.json | sort | awk -v t="issues/$t.json" '$0 < t' | tail -1); git log --diff-filter=A -1 --format=%cI -- "$prev"`. Today's own file is excluded so that a re-run later the same day covers the same window as the first run, and later edits and archive backfills of older dates do not move this. Cover news published from then until now — normally the last ~24 hours. If runs were missed, cover at most the last 72 hours and say so. If there are no issue files, cover the last 24 hours.
+- Issue files live in `issues/` (`YYYY-MM-DD.json`), and each records the window it covered in `coverage` (`start` and `end`, ISO 8601 UTC). Start this run's window exactly where the previous issue's ended: take the newest issue dated before today and read its `coverage.end`; an older issue without `coverage` falls back to the time its file was first committed. Today's own file is excluded, so a re-run later the same day starts from the same point. Run:
+  ```
+  t=$(TZ=America/Los_Angeles date +%F)
+  prev=$(ls issues/*.json | sort | awk -v t="issues/$t.json" '$0 < t' | tail -1)
+  start=$(python3 -c 'import json, sys; print(json.load(open(sys.argv[1])).get("coverage", {}).get("end", ""))' "$prev")
+  [ -n "$start" ] || start=$(git log --diff-filter=A -1 --format=%cI -- "$prev")
+  end=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+  ```
+  Cover news published between `start` and `end` — normally about 24 hours. If `start` is more than 72 hours before `end` (missed runs), cover only the last 72 hours, set `start` to that, and say so. If there are no issue files, cover the last 24 hours.
 - Read the 3 most recent issue files (excluding today's, if this is a re-run) and do not repeat any story they already covered, unless there is a significant new development (then prefix the headline with "Update:").
 
 ## 2. Topics (these become the sections, in this order; omit a section if nothing qualifies)
@@ -37,6 +45,7 @@ Write `issues/YYYY-MM-DD.json` (UTF-8; overwrite it if it already exists) with e
   "date": "YYYY-MM-DD",
   "heading": "Tuesday, October 21, 2026",
   "topLine": "One sentence on the day's single biggest story.",
+  "coverage": { "start": "2026-10-20T15:06:31Z", "end": "2026-10-21T15:07:02Z" },
   "sections": [
     { "name": "Company announcements",
       "items": [ { "headline": "...", "summary": "...", "tags": [ "model-release" ], "sources": [ { "name": "Anthropic blog", "url": "https://..." } ],
@@ -44,10 +53,10 @@ Write `issues/YYYY-MM-DD.json` (UTF-8; overwrite it if it already exists) with e
   ]
 }
 ```
-Omit `tags` when the item has none, and `image` when it has no figure. Use the section names from step 2. Source names should be short (publication or site name, or "HN thread" / "r/LocalLLaMA thread" / "X: @AnthropicAI").
+`coverage` holds the `start` and `end` from step 1 as UTC timestamps. Omit `tags` when the item has none, and `image` when it has no figure. Use the section names from step 2. Source names should be short (publication or site name, or "HN thread" / "r/LocalLLaMA thread" / "X: @AnthropicAI").
 
 ## 6. Archive the issue
-- Commit only the issue file and push it to `main`: `git add issues/YYYY-MM-DD.json && git commit -m "Issue YYYY-MM-DD" && git push origin HEAD:main`.
+- Commit only the issue file and push it to `main`: `git add issues/YYYY-MM-DD.json && git commit -m "Issue YYYY-MM-DD" && git push origin HEAD:main`. The commit message is exactly `Issue YYYY-MM-DD`: add no body and no trailer lines (no `Co-Authored-By`, `Claude-Session` or similar).
 - If the commit or push fails, still deliver the briefing below, and put a first line "⚠ Issue not archived: <short reason>".
 
 ## 7. Final message (this is what the reader sees in the app)
