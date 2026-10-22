@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-22",
+  "heading": "Thursday, October 22, 2026",
+  "topLine": "Anthropic previews Claude Duet, a proactive personal agent built on Opus 5.5, to compete with OpenAI's Dots and Meta's Muse.",
+  "sections": [
+    {
+      "name": "Company announcements",
+      "items": [
+        {
+          "headline": "Anthropic previews Claude Duet, a proactive personal agent",
+          "summary": "Duet runs on Claude Opus 5.5 and acts on behalf of professionals and small-business owners, asking approval before sending messages, making payments, signing documents or deleting anything. It is a research preview with a US waitlist for Pro and Max subscribers; Team and Enterprise are not included yet.",
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html" },
+            { "name": "Inc42", "url": "https://inc42.com/buzz/anthropic-takes-on-openai-meta-with-new-proactive-ai-agent-claude-duet/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Claimed proof of the 31-year-old KLS conjecture used human-directed agentic AI",
+          "summary": "Unconfirmed: Microsoft Research says researcher Xinzhi Zhang and collaborator Zhao Song proved the Kannan–Lovász–Simonovits conjecture in a 140-page arXiv preprint (posted Oct 1, revised Oct 4). It has not been independently verified or peer-reviewed, and I could not corroborate the details beyond this report; a separate wiki notes a competing Oct 2026 preprint with heavy ChatGPT assistance.",
+          "sources": [
+            { "name": "Unite.AI", "url": "https://www.unite.ai/microsoft-researcher-and-collaborator-prove-31-year-old-kls-conjecture/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Recursive SI releases Flint 40B, an Apache-2.0 open-weight coding model",
+          "summary": "A 40B-parameter mixture-of-experts coding model with weights on Hugging Face and no revenue gate, advertised at over 125 tokens/s on an M4 Pro MacBook Pro. Speed figures are vendor-reported and I found only one outlet covering it.",
+          "tags": ["model-release"],
+          "sources": [
+            { "name": "Forkast", "url": "https://forkast.news/recursive-si-launches-flint-40b-open-weights-that-run-on-the-developers-own-machine/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
+      "items": [
+        {
+          "headline": "Flapping Airplanes raises $1B at a $6B valuation",
+          "summary": "The year-old AI research startup's round was led by Index Ventures and Lux Capital, quadrupling its valuation since a January round.",
+          "sources": [
+            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round" }
+          ]
+        },
+        {
+          "headline": "Legal-AI startup Legora raises $550M at an $8.8B valuation",
+          "summary": "The Swedish company's Series E was led by Atreides Management, another sign of heavy investor appetite for vertical AI.",
+          "sources": [
+            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-21/legal-ai-startup-legora-raises-funds-at-8-8-billion-valuation" }
+          ]
+        }
+      ]
+    }
+  ]
+}
