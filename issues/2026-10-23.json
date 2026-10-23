@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-23",
+  "heading": "Friday, October 23, 2026",
+  "topLine": "OpenAI is reportedly close to raising up to $30 billion at a $1.25 trillion valuation, led by UAE investors, as a bridge to a possible IPO.",
+  "coverage": { "start": "2026-10-22T19:59:24Z", "end": "2026-10-23T15:11:33Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Anthropic donates the Agent Skills standard to the Agentic AI Foundation",
+          "summary": "Anthropic is handing Agent Skills (the SKILL.md format for packaging agent know-how) to the Linux Foundation's AAIF, which already hosts MCP. The donation covers the name, the GitHub org and agentskills.io, and engineers from Anthropic, Google and OpenAI will maintain it. Anthropic says 70+ agent platforms have adopted the standard and about 1M skills have been published.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation" },
+                       { "name": "Simon Willison", "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/" } ] },
+        { "headline": "Anthropic opens a guest-investigator program for life-sciences labs",
+          "summary": "Academic, nonprofit and government labs can apply for 8–12-week collaborations with Anthropic researchers on biology, chemistry, drug-discovery and clinical questions. Anthropic runs its models and harnesses for free and open-sources the resulting data and code. Applications are open for about two weeks.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Microsoft's MAI-DxO diagnosis system is published in Science",
+          "summary": "The peer-reviewed version of Microsoft's 'sequential diagnosis' work reports that its multi-agent orchestrator solved hard NEJM case challenges more than twice as often as generalist physicians (about 83% vs. 22–36%), at up to 20% lower test cost. The catch: the cases were simulated and the comparison was with generalists, not specialists. Microsoft plans a trial at a Boston hospital.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/" },
+                       { "name": "Microsoft Research", "url": "https://www.microsoft.com/en-us/research/publication/sequential-diagnosis-with-language-models/" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Update: OpenAI nears a round of up to $30B at a $1.25T valuation",
+          "summary": "CNBC reports that UAE investors are leading the round, which is framed as a bridge ahead of a possible IPO. Earlier reports put the valuation at about $1.4T. The final size and terms are still being negotiated, and OpenAI has not confirmed them.",
+          "sources": [ { "name": "CNBC", "url": "https://cnbc.com/2026/10/22/openai-funding-round-uae-investors.html" },
+                       { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/" } ] },
+        { "headline": "US Treasury proposes extending outbound-investment curbs to AI and supercomputing",
+          "summary": "The proposed rule, which implements the COIN Act, would restrict US investments over $50,000 in AI (which Treasury calls 'superintelligence'), supercomputing, hypersonics, biotech and quantum in China, Russia, North Korea and other countries of concern. Ordinary stock purchases are excluded. A public comment period comes before any final rule.",
+          "sources": [ { "name": "AP via U.S. News", "url": "https://www.usnews.com/news/business/articles/2026-10-22/us-treasury-proposes-a-rule-to-crack-down-on-high-tech-investments-in-china-other-adversaries" },
+                       { "name": "The Hill", "url": "https://thehill.com/homenews/administration/6167231-treasury-proposes-curbs-artificial-intelligence/" } ] },
+        { "headline": "DeepSeek reportedly raises about $15B days after US federal ban",
+          "summary": "Reports say DeepSeek has raised roughly 100B yuan, one of China's largest private AI rounds, with Tencent and CATL among the biggest backers. Analysts see it as a step toward a listing. It comes days after US civilian agencies were ordered to remove DeepSeek technology. Reported figures have varied over the past weeks, and the company has not confirmed final terms.",
+          "sources": [ { "name": "Semafor", "url": "https://semafor.com/article/10/22/2026/chinas-ai-leader-deepseek-raises-15b" },
+                       { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions" } ] },
+        { "headline": "Police reopen criminal investigation into Grok-generated sexual deepfakes",
+          "summary": "The Bureau of Investigative Journalism reports that police reopened a criminal case over sexualised deepfakes made with X's Grok chatbot after its reporting. Ofcom says X has since blocked UK users from pornographic content in Grok's standalone image tool.",
+          "sources": [ { "name": "The Bureau Investigates", "url": "https://www.thebureauinvestigates.com/stories/2026-10-22/grok-deepfake-case-reopened-after-bureau-reporting" } ] }
+      ] }
+  ]
+}
