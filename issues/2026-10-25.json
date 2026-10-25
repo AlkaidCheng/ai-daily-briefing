@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25",
+  "heading": "Sunday, October 25, 2026",
+  "topLine": "A quiet weekend: Replit has reportedly moved most of its AI spend from Anthropic to OpenAI as the enterprise pricing war heats up.",
+  "coverage": { "start": "2026-10-24T15:07:30Z", "end": "2026-10-25T15:08:06Z" },
+  "sections": [
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Replit reportedly moves most of its AI spend from Anthropic to OpenAI",
+          "summary": "The Information reports that Replit moved most of its model spending to OpenAI in a deal worth more than $100M a year at a discount of 30% or more, after Anthropic ended its discount; the same report says Rippling has shifted the bulk of its coding work to OpenAI. None of the three companies has confirmed the terms, but it is the clearest sign yet of OpenAI cutting prices to win Anthropic's largest customers ahead of both companies' expected IPOs.",
+          "sources": [ { "name": "Techmeme (The Information)", "url": "https://www.techmeme.com/261024/p8" },
+                       { "name": "The Decoder", "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/" } ] },
+        { "headline": "CNBC poll: 63% of US voters oppose an AI data center within 10 miles of home",
+          "summary": "CNBC's All-America survey (1,000 registered voters, Oct 14–18) found only 13% would support a nearby AI data center, with opposition crossing party lines (80% of Democrats, and more opposed than in favor even among MAGA supporters), and 52% want advanced AI development paused until Congress passes safety rules. It adds to mounting local resistance to the build-out ahead of the midterms.",
+          "sources": [ { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/24/trump-ai-data-centers-voter-backlash-midterms.html" } ] }
+      ] }
+  ]
+}
