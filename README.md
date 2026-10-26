@@ -28,6 +28,7 @@ competition milestones, and the mathematical community's response to them.
 | `scripts/build_site.py` | Builds the website from `site/` and the issue archive |
 | `site/` | The website's page, styles and script |
 | `routine/prompt.md` | The routine's instructions |
+| `routine/allowed-domains.txt` | The sites the routine's cloud environment must allow |
 
 ## Reading the archive locally
 
@@ -55,21 +56,23 @@ the routine's instructions at <https://claude.ai/code/routines> to match.
 The routine's cloud environment needs network access beyond the default **Trusted**
 level. Trusted only allows package registries and GitHub, so Hacker News, Hugging
 Face, arXiv and most news sites fail to load, and briefings shrink to what web search
-alone turns up. In the routine's editor, set the environment's **Network access** to
-**Full**, or to **Custom** with at least these allowed domains:
+alone turns up. In the routine's editor, under **Advanced settings > General > Cloud
+environment**, open the environment's settings and set **Network access** to
+**Custom**. Paste `routine/allowed-domains.txt` into **Allowed domains**, and keep
+**Also include default list of common package managers** checked, since that list
+carries GitHub and anthropic.com.
 
-```
-news.ycombinator.com
-hn.algolia.com
-huggingface.co
-arxiv.org
-*.arxiv.org
-www.alphaxiv.org
-```
+`routine/allowed-domains.txt` covers the discovery sources (Hacker News, Hugging
+Face, arXiv, alphaXiv), AI lab and company sites, research and science sites, the
+established press, and government and regulator sites. It reaches 617 of the 708
+source links in the archive; the rest are one-off sites. A leading `*.` matches every
+subdomain but not the domain itself, so some sites are listed both ways. Web search
+does not go through this list, and the WebFetch tool refuses Reddit whatever the list
+says, so the routine searches Reddit instead.
 
-A **Custom** list also needs the news sites and lab blogs the briefing cites, so
-**Full** is simpler. When a source is unreachable, the briefing starts with a
-"⚠ Limited sources" line.
+When a run cannot reach a host, its briefing starts with a "⚠ Limited sources" line
+that names the host. Add hosts worth keeping to the file and to the environment, or
+set **Network access** to **Full** to allow every site.
 
 ---
 

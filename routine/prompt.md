@@ -70,7 +70,7 @@ Write `issues/YYYY-MM-DD.json` (UTF-8; overwrite it if it already exists) with e
 - If the commit or push fails, still deliver the briefing below, and put a first line "⚠ Issue not archived: <short reason>".
 
 ## 7. Final message (this is what the reader sees in the app)
-Markdown, exactly this layout. If any discovery source in step 3 was unreachable, start with the line "⚠ Limited sources: <hosts> unreachable from this run's environment", placed after the "⚠ Issue not archived" line if there is one. Also send a push notification that says so, so that the environment's network access gets fixed.
+Markdown, exactly this layout. If any discovery source in step 3, or any other page you wanted to cite, was unreachable because its host is not allowed, start with the line "⚠ Limited sources: <hosts> unreachable from this run's environment", placed after the "⚠ Issue not archived" line if there is one. List each host once, exactly as it appears in its URL, so it can be added to the environment's allowed domains. If a discovery source was among them, also send a push notification that says so.
 ```
 ## AI Daily Briefing — <heading>
 *<topLine>*
