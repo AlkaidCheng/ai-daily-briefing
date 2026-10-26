@@ -52,6 +52,25 @@ python3 scripts/build_site.py && python3 -m http.server --directory _site
 The routine runs from a copy of `routine/prompt.md`. After editing the file, update
 the routine's instructions at <https://claude.ai/code/routines> to match.
 
+The routine's cloud environment needs network access beyond the default **Trusted**
+level. Trusted only allows package registries and GitHub, so Hacker News, Hugging
+Face, arXiv and most news sites fail to load, and briefings shrink to what web search
+alone turns up. In the routine's editor, set the environment's **Network access** to
+**Full**, or to **Custom** with at least these allowed domains:
+
+```
+news.ycombinator.com
+hn.algolia.com
+huggingface.co
+arxiv.org
+*.arxiv.org
+www.alphaxiv.org
+```
+
+A **Custom** list also needs the news sites and lab blogs the briefing cites, so
+**Full** is simpler. When a source is unreachable, the briefing starts with a
+"⚠ Limited sources" line.
+
 ---
 
 Developed with the assistance of Claude Code.

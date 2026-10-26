@@ -5,6 +5,7 @@ const SECTIONS = [
   "Company announcements",
   "AI solves open problems",
   "Models & open-source",
+  "AI tools & code",
   "Research papers",
   "Policy & industry",
 ];
