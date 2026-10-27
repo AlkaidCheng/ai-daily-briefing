@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-27",
+  "heading": "Tuesday, October 27, 2026",
+  "topLine": "OpenAI says its internal models proved local smoothing and the Kakeya conjecture in every dimension, disproved the Exponential Time Hypothesis and proved QCD exists; outside experts have not yet checked any of the three.",
+  "coverage": {
+    "start": "2026-10-26T19:24:32Z",
+    "end": "2026-10-27T15:41:40Z"
+  },
+  "sections": [
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI claims its models proved the Kakeya conjecture, disproved the Exponential Time Hypothesis and proved QCD exists",
+          "summary": "OpenAI says internal models proved the local smoothing conjecture in every dimension, which would settle the Kakeya and Stein restriction conjectures. It also says they found a subexponential-time algorithm for 3-SAT, which would make ETH false, and a rigorous existence proof for 4D Yang–Mills/QCD. The ETH preprint and Lean proof are on GitHub. Russell Impagliazzo and Ramamohan Paturi, who proposed ETH, will lead verification with Ryan Williams, and a panel led by David Gross is reviewing the unreleased physics work. All three claims are unverified and not peer-reviewed. HN experts call the ETH algorithm 'galactic', with no near-term practical use (1,058 points).",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+            },
+            {
+              "name": "ETH preprint (GitHub)",
+              "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50251344"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Company announcements",
+      "items": [
+        {
+          "headline": "AMD will put $1B into Meta's equity raise and widen their AI infrastructure partnership",
+          "summary": "AMD said Tuesday it will invest $1 billion in the share offering that is part of Meta's plan to raise up to $95B for AI. It also expanded the partnership across EPYC CPUs, Instinct GPUs, Pensando networking and ROCm, and said Helios racks are now installed and being tested at Meta. Analysts called the stake small next to Meta's size, more a sign of alignment than of funding need, and raised fresh questions about circular financing.",
+          "sources": [
+            {
+              "name": "Seeking Alpha",
+              "url": "https://seekingalpha.com/news/4657909-amd-to-invest-1b-in-metas-equity-offering-expands-partnership"
+            },
+            {
+              "name": "AMD release (Yahoo Finance)",
+              "url": "https://finance.yahoo.com/technology/ai/articles/amd-meta-advance-strategic-partnership-132000413.html"
+            }
+          ]
+        },
+        {
+          "headline": "Opera proposes 'WebAI', a web standard for running open-weight models locally in the browser",
+          "summary": "WebAI lets web pages run text generation, classification and similar tasks on the user's own device with open-weight models such as Gemma, or Apple's on-device foundation model on Macs, without a cloud round-trip. It is opt-in and ships as an early preview in Opera One, with Opera GX and Neon to follow. Other browser makers have not yet said whether they will support it.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI tools & code",
+      "items": [
+        {
+          "headline": "Desktop 'AI teammate' workspaces climb GitHub trending: Cindy and OpenBot",
+          "summary": "Cindy (makecindy, Apache-2.0) is an open-source agent for desktop and mobile that drives your files, browser and apps, using Claude Code, Codex or Pi as its harness. It has 7.3k stars, about 1,450 of them today. OpenBot (nightly-labs) is a local-first workspace that runs persistent Codex, Claude and Grok agents, each with its own task queue and browser control, and lets them work together. It has 2.1k stars, about 800 today; it is a development preview and recently moved to a noncommercial license.",
+          "sources": [
+            {
+              "name": "GitHub: makecindy/cindy",
+              "url": "https://github.com/makecindy/cindy"
+            },
+            {
+              "name": "GitHub: nightly-labs/openbot",
+              "url": "https://github.com/nightly-labs/openbot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
+      "items": [
+        {
+          "headline": "Google DeepMind finds predictable scaling laws for reinforcement learning, using an Elo-style score",
+          "summary": "Zheng, Lyle, Khetarpal and Dabney fit scaling laws for actor-critic RL on Starpilot and Craftax. The laws predict performance, compute allocation and the best hyperparameters for runs with up to about 100× more compute. The key is scoring agents with an Elo-style rating instead of noisy mean episode return. Scaling up on these predictions set a new state of the art on Craftax.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2610.33420"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2610.33420v1/figures/craftax_elo.png",
+            "alt": "Elo versus training compute on Craftax, showing a log-linear fit and its prediction at larger compute"
+          }
+        },
+        {
+          "headline": "RSI Arena: ten frontier models each post-trained a 30B base model on their own",
+          "summary": "Each agent got six days, 1,000 GPU-hours and $300 of API credit to turn Nemotron 3.5 Lightning 30B-A3B Base into an assistant, and all ten produced working models. The best, trained by GPT-6 Astra, closed a median 76% of the gap to NVIDIA's own Instruct model. Feedback from user votes improved eight of the ten, but benchmark gains did not track human preference, and one model became more likely to comply with harmful requests. Authors include Thomas Wolf and Alex Pentland.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2610.33624"
+            }
+          ]
+        },
+        {
+          "headline": "Trial by Trace: the best-scoring coding agent isn't the most reliable harness",
+          "summary": "TraceTrial-Bench scores the harness itself (Claude Code, Codex, DeepSeek Harness, OpenClaw) on 95 tasks with 9 models. Claude Code had the highest task success (44%), but OpenClaw best met the harness reliability criteria. In 31% of runs the agent succeeded while breaking at least one harness rule, which outcome-only benchmarks miss. It is one of the most-upvoted papers on Hugging Face today.",
+          "sources": [
+            {
+              "name": "Hugging Face Papers",
+              "url": "https://huggingface.co/papers/2610.32285"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
+      "items": [
+        {
+          "headline": "Cloudflare discloses cross-tenant KV cache exposure on its Workers AI GLM-5.3 endpoint",
+          "summary": "From August 27, the endpoint advertised a ~1M-token context, but its prefill KV cache held only 681K tokens. That misconfiguration plus an SGLang bug could leak cache data between customers on very long prompts. A researcher reported it on September 8, and Cloudflare pulled the model and fixed it. HN commenters praised the candor and criticized shipping with a known capacity mismatch.",
+          "sources": [
+            {
+              "name": "Cloudflare blog",
+              "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50252159"
+            }
+          ]
+        },
+        {
+          "headline": "General Compute raises $100M Series A for GPU-free inference clouds",
+          "summary": "Blackbird Ventures and Abstract Ventures led the round, valuing the startup at $800M post-money, up from $60M at its May seed. General Compute builds bare-metal inference capacity from non-Nvidia chips, including a $400M SambaNova order plus Cerebras and Positron hardware, often in converted bitcoin-mining sites. It targets 75 MW in 2027, a bet against the souring 'neocloud' sentiment.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
