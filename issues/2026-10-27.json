@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
   "heading": "Tuesday, October 27, 2026",
-  "topLine": "OpenAI says its internal models proved local smoothing and the Kakeya conjecture in every dimension, disproved the Exponential Time Hypothesis and proved QCD exists; outside experts have not yet checked any of the three.",
+  "topLine": "OpenAI and Anthropic each say their internal models independently refuted the Exponential Time Hypothesis with a subexponential 3-SAT algorithm; OpenAI also claims Kakeya and QCD proofs, and none of it is independently verified yet.",
   "coverage": {
     "start": "2026-10-26T19:24:32Z",
     "end": "2026-10-27T15:41:40Z"
@@ -11,20 +11,24 @@
       "name": "AI solves open problems",
       "items": [
         {
-          "headline": "OpenAI claims its models proved the Kakeya conjecture, disproved the Exponential Time Hypothesis and proved QCD exists",
-          "summary": "OpenAI says internal models proved the local smoothing conjecture in every dimension, which would settle the Kakeya and Stein restriction conjectures. It also says they found a subexponential-time algorithm for 3-SAT, which would make ETH false, and a rigorous existence proof for 4D Yang–Mills/QCD. The ETH preprint and Lean proof are on GitHub. Russell Impagliazzo and Ramamohan Paturi, who proposed ETH, will lead verification with Ryan Williams, and a panel led by David Gross is reviewing the unreleased physics work. All three claims are unverified and not peer-reviewed. HN experts call the ETH algorithm 'galactic', with no near-term practical use (1,058 points).",
+          "headline": "OpenAI and Anthropic both claim their AI models refuted the Exponential Time Hypothesis; OpenAI adds Kakeya and QCD proofs",
+          "summary": "OpenAI says internal models found a subexponential-time 3-SAT algorithm (refuting ETH), proved local smoothing in every dimension (implying the Kakeya and Stein restriction conjectures), and proved 4D Yang–Mills/QCD exists. Hours later, Anthropic's Levent Alpöge posted a paper credited to Claude, \"A 2^o(n) Time Algorithm for 3-SAT\". He says an internal Claude research model found the core algorithm on October 16 with 14M output tokens and no human input. Each lab released a Lean formalization, and Anthropic's paper calls the two results independent and concurrent. The ETH authors Impagliazzo and Paturi, with Ryan Williams, will lead review of OpenAI's claim, and a panel led by David Gross has OpenAI's physics work. Nothing is peer-reviewed yet, and both labs describe the 3-SAT speedups as purely asymptotic, with no practical impact.",
           "sources": [
             {
               "name": "OpenAI",
               "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
             },
             {
-              "name": "ETH preprint (GitHub)",
-              "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+              "name": "Anthropic/Claude paper",
+              "url": "https://hexagonmath.org/2610.00577v1"
             },
             {
-              "name": "HN thread",
-              "url": "https://news.ycombinator.com/item?id=50251344"
+              "name": "Scientific American",
+              "url": "https://www.scientificamerican.com/article/dueling-proofs-from-openai-and-anthropic-astound-scientists/"
+            },
+            {
+              "name": "X: @__alpoge__",
+              "url": "https://x.com/__alpoge__/status/2114930095009968506"
             }
           ]
         }
