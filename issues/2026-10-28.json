@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "heading": "Wednesday, October 28, 2026",
+  "topLine": "Google DeepMind unveiled Genie 4, a real-time world model with native audio that you can steer in plain language, while Anthropic said an unreleased internal Claude model built five working exploit chains against Chrome, Safari, Android, Windows and Linux.",
+  "coverage": { "start": "2026-10-27T15:41:40Z", "end": "2026-10-28T15:11:11Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google DeepMind unveils Genie 4, an interactive world model with native audio",
+          "summary": "Genie 4 generates explorable environments in real time with sound, music and spoken dialogue. Users can steer it in plain language (change the weather, move the camera, add people), and Gemini 3.8 Flash can act as a planning agent inside the simulation. It is a research preview for trusted testers for now, coming next to Google AI Ultra subscribers via Project Genie and to early partners in the Gemini API. DeepMind gives no benchmarks and says object permanence still drifts in long sessions. With about 975 points, it was the day's top story on HN.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Google DeepMind blog", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50261319" } ],
+          "image": { "url": "https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM=w1440-h810-n-nu", "alt": "Header image from the Genie 4 announcement showing a generated world" } },
+        { "headline": "Anthropic buys Mithril Medicine and reports early drug-discovery results with Claude",
+          "summary": "Anthropic reported results from six pharma and biotech partnerships plus its own drug programme. With Generate Biomedicines, Claude helped redesign a CAR-T component to be about 70% shorter, which gave roughly 10x higher receptor expression in lab tests. With BigHat Biosciences, antibody variants bound more than 10x more tightly. Anthropic also bought Mithril Medicine, which works on rare muscular dystrophies; a human trial could start as early as late 2028. All of the work is preclinical and reported by Anthropic and its partners, not peer-reviewed.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/research/early-progress-drug-development" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50265609" } ] },
+        { "headline": "Anthropic gives US government buyers 40% off every Claude product through GSA",
+          "summary": "A new GSA deal applies the 40% discount to Claude Enterprise, Claude for Government and the API, including purchases made directly from Anthropic. It covers federal, state, local, tribal and territorial agencies and has no minimum spend. Anthropic estimates the savings at $1B and says about 500 government organisations already use Claude.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/news/expanding-partnership-gsa" } ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "Meta FAIR's minimal 'h1' prover settles eight Formal Conjectures problems in Lean",
+          "summary": "h1 is a deliberately simple loop: a general-purpose LLM edits a Lean file, a checker gives feedback, and a reflection step compacts the transcript. The authors say it settled eight open entries in Google DeepMind's Formal Conjectures collection, including variants of Erdős problems 138 and 337, three OEIS conjectures and the existence of an AME(9,10) quantum state. It also solved 670 of 672 PutnamBench problems with GPT-5.5. The proofs are machine-checked in Lean, but the paper is a new, unreviewed preprint, and some results resolve variants rather than the original problems.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.35962" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Liquid AI releases LFM3, six open-weight models of about 2B parameters for on-device use",
+          "summary": "LFM3 covers text, vision, audio and omni models, plus two 'decision' variants, all built on one LFM3-1.7B base pretrained on 22T tokens. The base uses a new architecture that mixes short convolutions, sliding-window attention and global attention. Liquid says the 1.7B text model (256K context) beats its older LFM2.5-2.6B with 35% fewer parameters. Weights and GGUF builds are on Hugging Face.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Hugging Face", "url": "https://huggingface.co/LiquidAI" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50262229" },
+                       { "name": "X: @liquidai", "url": "https://x.com/liquidai/status/2115128329003303107" } ] },
+        { "headline": "Tencent's Hunyuan team open-sources Hy-Nomas, an 8B world model that runs on one RTX 4090",
+          "summary": "Hy-Nomas generates video segment by segment from free-form text and continuous camera control, and is distilled to 4 sampling steps per segment. A 100-second video needs about 20.5 GiB of GPU memory on a single RTX 4090. In the authors' human comparisons it beat open rivals on following prompts, but trailed Genie 3 on spatial memory. Weights, code and a 280-case benchmark are released. It was among the most-upvoted Hugging Face papers of the day.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "HF Papers", "url": "https://huggingface.co/papers/2610.36729" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Survival LLM: an offline AI assistant with a 1.5M-article emergency library",
+          "summary": "This open-source desktop app for Mac and Windows (MIT code) answers questions from a local library and shows the passages it used. The library includes about 930K Wikipedia articles, WikiMed, MedlinePlus, and CDC, FEMA and military field manuals. The app picks a model to fit your RAM, from IBM Granite 4.2 8B up to Nemotron 3.5 Super. It drew 443 points on HN, where commenters questioned its accuracy (14 to 21 of 22 on its own test set) for safety-critical advice.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/anonnerdfrenzy/survival-llm" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50264853" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Anthropic study: analysts went with a coding agent's randomly assigned lean 86% of the time",
+          "summary": "50 professional analysts did a causal-inference task in Claude Code, and a coin flip secretly set which way the agent leaned on each of four defensible analysis choices. Analysts picked the agent's option 86% of the time, against about 50% if the agent had no influence. Its lean also moved their final recommendation by 17 points. 77% repeated the agent's arguments in their write-ups, but only 15% credited it. Takeaway: even an honest agent quietly steers expert judgment calls, though AI users also made far fewer methodological errors.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/research/agents-judgment-calls" } ],
+          "image": { "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/71b6966a15c4da50a8627a6cdb737b509e8c1a1c-1920x864.png", "alt": "Dot plot of how often analysts chose each option depending on the agent's assigned lean" } },
+        { "headline": "Mistral publishes the technical report for Timestral, its CPU-friendly forecasting models",
+          "summary": "The report explains how the four Timestral time-series models (5M to 209M parameters, released Oct 15) are built. Their key trick is a training scheme that lets one model forecast long horizons without masking the context it learns from. They are pretrained only on synthetic data and support covariates. The 209M model ranks first on GIFT-Eval, TIME and fev-bench, and each forecast takes about 17 to 113 ms on 8 CPU threads. Takeaway: a small model can be state of the art at forecasting with no GPU.",
+          "sources": [ { "name": "HF Papers", "url": "https://huggingface.co/papers/2610.37585" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Anthropic says an unreleased Claude model built five working exploit chains across major platforms",
+          "summary": "Anthropic's Frontier Red Team used an unreleased internal model to build five attacks. They include a one-click remote code execution chain in Chrome (four bugs), a Safari same-origin bypass, a lock-screen bypass on a Pixel 9, a remote crash for Windows servers and zero-click root on Linux. All were disclosed and patched first; Google alone assigned 62 Chrome CVEs. Anthropic says frontier models can now chain vulnerabilities with little human help, and is widening defender access through its Cyber Verification Program. The model's exact role in each chain is Anthropic's own account.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude" } ] },
+        { "headline": "Sen. Warren presses Anthropic on the 'existential risks' in its IPO filing",
+          "summary": "In a four-page letter to Dario Amodei, Senator Elizabeth Warren asks what Anthropic is doing about the 'catastrophic or existential risks' its S-1 lists, and how it justifies a valuation that may approach $2T. She also asks about its Amazon and Broadcom ties, and wants answers by Nov. 3. This is the first congressional pushback on the risk disclosures in Anthropic's IPO filing.",
+          "sources": [ { "name": "WSJ", "url": "https://www.wsj.com/finance/regulation/elizabeth-warren-demands-answers-from-anthropic-on-existential-risks-5362f009" },
+                       { "name": "Quartz", "url": "https://qz.com/warren-anthropic-ai-safety-questions-ipo-102826" } ] }
+      ] }
+  ]
+}
