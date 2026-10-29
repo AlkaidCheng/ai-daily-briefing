@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-29",
+  "heading": "Thursday, October 29, 2026",
+  "topLine": "Google unveiled Gemini 4 Carbon, which it says is its strongest model yet and #1 on the Artificial Analysis Intelligence Index, though for now only vetted cyber defenders can use it; Mistral released the open weights of its 1-trillion-parameter Large 4.",
+  "coverage": { "start": "2026-10-28T15:11:11Z", "end": "2026-10-29T15:29:01Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google unveils Gemini 4 Carbon, built for long-horizon coding and cybersecurity",
+          "summary": "Google says Carbon is its strongest model so far and ranks #1 on the Artificial Analysis Intelligence Index v5 with a score of 59. It claims 88.2% on SEC-bench Pro for finding vulnerabilities and 0% attack success on Gray Swan's prompt-injection test. For now only a subset of cyber defenders can use it, with wider access planned through the Fairwind Program and a general release later. Introductory pricing is $2/$10 per million input/output tokens, rising to $4/$20.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50276792" } ],
+          "image": { "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon__evals-table.width-1200.format-webp.webp", "alt": "Gemini 4 Carbon benchmark table compared with other frontier models" } },
+        { "headline": "Anthropic adds enterprise reports that show what Claude spending produces, and reports a Q2 operating profit",
+          "summary": "New reports let managers see what a team produced with Claude over a date range, what it cost and where workflows broke down, and suggest improvements. Anthropic is also adding pooled token budgets. TechCrunch, citing financials shared with investors this week, reports that Anthropic made an operating profit in the second quarter and has 900% net revenue retention, much of it driven by Claude Code.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/" } ],
+          "image": { "url": "https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1024", "alt": "Animated preview of Claude Enterprise spend and outcome reports" } }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Mistral releases open weights for Large 4 ('Le Chonk'), a 1-trillion-parameter MoE",
+          "summary": "The multimodal model has about 52B active parameters and is now on Hugging Face under a modified-MIT license that requires a separate commercial license for companies selling it as a hosted service. After three more weeks of RL since the October preview, Mistral reports 41% on Terminal-Bench 4.0 (up from 28%), roughly on par with GLM-5.3 at the top of open-weight coding. It also adds low and medium reasoning modes. All benchmark figures are Mistral's own.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Mistral AI", "url": "https://mistral.ai/news/mistral-large-4-oss/" },
+                       { "name": "The Next Web", "url": "https://thenextweb.com/news/mistral-large-4-open-weights-release" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50289418" } ] },
+        { "headline": "NVIDIA releases Nemotron 3.5 Transcribe, an open speech model for 40 languages",
+          "summary": "It is a promptable, hybrid Mamba-Transformer MoE with about 30B total and 4B active parameters. It handles transcription, translation, speaker labelling for up to eight speakers, and Q&A over audio up to an hour long. NVIDIA reports a 5.33% average English word error rate, which it says is first among open-weight models on the Open ASR leaderboard.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Hugging Face blog", "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary" } ],
+          "image": { "url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/vGIg17AxweCAnacvnPOet.png", "alt": "Open ASR English leaderboard with Nemotron 3.5 Transcribe at the top of open-weight models" } }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Developer says Claude Code spends 15–20% of tokens on background-agent status summaries",
+          "summary": "A gist by Flamerix AI says that since v2.1.232, Claude Code re-sends each background agent's full transcript to the model about every 30 seconds just to generate a 3–5 word status line. In the author's telemetry that came to 16.4% of spend, and they offer a Bun preload hook that turns it off. The figures are the author's own estimates, measured on Linux, and Anthropic has not responded publicly. The HN thread drew 513 points.",
+          "sources": [ { "name": "GitHub gist", "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50284255" } ] },
+        { "headline": "Impeccable, a design toolkit for coding agents, leads GitHub trending",
+          "summary": "Paul Bakaus's Apache-2.0 project gives Claude Code, Cursor, Codex CLI and other agents 24 commands (such as polish, critique and audit) plus a 62-rule detector for generic 'AI slop' UI patterns. It grew out of Anthropic's frontend-design skill. GitHub trending shows it with about 94.6k stars, 2,881 of them added today.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/pbakaus/impeccable" },
+                       { "name": "GitHub trending", "url": "https://github.com/trending?since=daily" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Dayjob: Tax — Surge tests AI agents on 50 professional tax assignments",
+          "summary": "Surge HQ built 50 realistic tax tasks to see whether agents can do professional tax work. In the HN discussion, commenters point to failures such as missed exclusion rules and deadlines, and argue that agents still trail top tax professionals. Per-model scores could not be checked from this run because Surge's site was unreachable.",
+          "sources": [ { "name": "Surge HQ", "url": "https://surgehq.ai/blog/dayjob-tax" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50275626" } ] },
+        { "headline": "Do AI scientists know what's new? A claim-level novelty check for AI research pipelines",
+          "summary": "Using 1,060 proposals with known publication dates, the authors show that existing novelty filters for 'AI scientist' pipelines also throw out many ideas that humans later published. Their ClaimNov module checks novelty claim by claim. It catches 97% of disguised existing papers at a 1.5% false-alarm rate, and keeps 91 of 100 novel proposals that contain one borrowed contribution, versus 76 for the best prior check.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.36511" } ] },
+        { "headline": "Counting the Bandages: measuring AI time savings net of the errors that slip through",
+          "summary": "The paper argues that time saved by AI should be measured against the defects that get through. Re-analyzing METR's public developer data, it finds a 19–24% slowdown. In a small experiment, AI reviewers told that an AI drafter was ten times more reliable than it really was checked fewer figures, and wrong numbers then got through in 22.5% of briefs, versus none in the baseline condition.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.35942" } ] },
+        { "headline": "Qwenputer: a working RISC-V CPU built inside Qwen3.5's own layers",
+          "summary": "A hobbyist write-up shows Qwen3.5's Gated DeltaNet layers acting as RAM for an embedded RISC-V CPU. The model sends it instructions through its normal tool-call format, and the author reports 97.5% versus 87.5% for the base model on an arithmetic test. This rests mainly on community discussion (625 HN points). Commenters dispute the 'deterministic' and 'no external runtime' claims, since a custom host loads and boots the CPU.",
+          "sources": [ { "name": "divagr.com", "url": "https://divagr.com/blog/qwenputer" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50282838" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "New York bans chatbots from posing as humans or forming romantic bonds with minors",
+          "summary": "Gov. Hochul signed a law, sponsored by Sen. Kristen Gonzalez and Assemblymember Alex Bores, that bars chatbot companies from offering a set of risky features to users under 18 or whose age is unconfirmed. Banned behaviors include claiming to be human or to have feelings, flattery designed to keep kids engaged, and sexual content. Companies must verify age by more than one method. The attorney general can seek $25,000 per violation and can have the state order the destruction of models trained on unlawfully collected data.",
+          "sources": [ { "name": "Fortune", "url": "https://fortune.com/2026/10/28/new-york-state-kathy-hochul-bans-ai-chatbots-romantic-baby-monitors" } ] },
+        { "headline": "Korean AI chipmaker FuriosaAI raises $620M Series D at a $2.9B valuation",
+          "summary": "The inference-chip startup roughly quadrupled its valuation; South Korea's National Growth Fund led with about $280M. FuriosaAI is positioning itself against NVIDIA in inference and is eyeing an IPO as early as 2027. Korean press reports slightly lower won-denominated figures.",
+          "sources": [ { "name": "FuriosaAI", "url": "https://furiosa.ai/blog/furiosaai-620-million-series-d" },
+                       { "name": "Seoul Economic Daily", "url": "https://en.sedaily.com/technology/2026/10/29/furiosaai-raises-820-billion-won-at-38-trillion-won" } ] }
+      ] }
+  ]
+}
