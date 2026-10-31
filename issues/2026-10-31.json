@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-31",
+  "heading": "Saturday, October 31, 2026",
+  "topLine": "OpenAI's new funding round has reportedly secured less than half of its $30 billion target, and Anthropic's chip-financing anchor Blackstone now expects the company to get a junk credit rating after its IPO, both signs that investors are pushing back on AI spending.",
+  "coverage": { "start": "2026-10-30T16:04:36Z", "end": "2026-10-31T15:08:17Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "OpenAI's round reportedly lands about $11B in commitments, short of its $30B goal",
+          "summary": "The Wall Street Journal reports OpenAI has about $11 billion committed so far, less than half its original target. The FT reports the goal is now $20 billion at a $1.25 trillion valuation, down from a $1.4 trillion pitch, after the investor deadline of October 30 passed. Final terms aren't settled and OpenAI declined to comment, so this is the clearest sign yet of investors resisting the top AI labs' valuations.",
+          "sources": [ { "name": "WSJ", "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50312922" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "nesformer runs a working NES CPU inside about 1GB of Qwen weights",
+          "summary": "Drew Breunig's project compiles the NES's 6502 CPU, its RAM and a cartridge's program ROM directly into a stock Qwen3.5 checkpoint, with no training involved. The model plays games by predicting the CPU's execution trace one token at a time, while a small host program draws the screen. It builds on the Qwenputer RISC-V project and was a top Show HN with 273 points.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/dbreunig/nesformer" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50306442" } ],
+          "image": { "url": "https://github.com/dbreunig/nesformer/raw/main/examples/demo.gif", "alt": "Super Mario Bros. running on the CPU compiled into Qwen weights" } },
+        { "headline": "Orkas, an open-source desktop 'team' of AI agents, climbs GitHub trending",
+          "summary": "This MIT-licensed macOS and Windows app has a Commander agent that splits a goal into to-dos. It hands them to 16 built-in specialist agents or to outside CLI agents such as Claude Code, Codex and OpenCode, and keeps data local by default. GitHub trending shows about 5.9k stars, roughly 1,000 of them gained today.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/Orkas-AI/Orkas" } ],
+          "image": { "url": "https://github.com/Orkas-AI/Orkas/raw/main/resources/app-ui/task-en.png", "alt": "Orkas task view showing a Commander agent delegating to-dos" } }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Balestriero and LeCun: with the right training pairs, models trained on different modalities provably learn the same representation",
+          "summary": "The paper proves that JEPAs trained separately on different modalities learn the same representation, up to a rotation, when their training pairs are two views of the same scene. It argues next-token prediction is a weaker form of this, which would explain why language models need scale to line up with vision models. A 109M-parameter text JEPA aligns with DINOv2 and CLIP image encoders better than every language model tested, up to 72B parameters, and needs 42 times fewer samples to get there.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.39302" } ],
+          "image": { "url": "https://arxiv.org/html/2610.39302v1/teaser.png", "alt": "Good views versus bad views, and alignment with DINOv2 plotted against training samples" } },
+        { "headline": "Multi-Token Prediction Done Right: a one-line fix for MTP training",
+          "summary": "Jayden Teoh shows that the usual multi-token-prediction loss contains a noisy gradient term that hurts both next-token and multi-token learning, and the damage grows with scale. Soft-MTP keeps only the KL self-distillation signal, adds no parameters or overhead, and works with both DeepSeek-style and Meta-style MTP. From 167M to 1.2B parameters it lowered perplexity, sped up speculative decoding and raised zero-shot accuracy.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.38331" } ],
+          "image": { "url": "https://arxiv.org/html/2610.38331v1/images/snr_across_scale_muon.png", "alt": "Signal-to-noise of the gradient components across model scales" } },
+        { "headline": "Investor's Last Exam: AI agents research stocks well but forecast poorly",
+          "summary": "A benchmark led by buy-side investors gives agents 86 equity-research assignments. Agents can see only documents dated before each decision point, drawn from 3.43 million timestamped document versions, and are graded against what actually happened later. GPT-6 Astra (68.1/100) and Claude Opus 5.5 (66.9) lead, but Astra scores only 52.5 on forecasting, so good research didn't translate into accurate predictions. It was the second most-upvoted paper on Hugging Face on Friday.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.38342" },
+                       { "name": "HF Papers", "url": "https://huggingface.co/papers/2610.38342" } ],
+          "image": { "url": "https://arxiv.org/html/2610.38342v1/fig2_answer_based_model_icons.png", "alt": "Overall scores and category strengths of the evaluated agents" } }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Blackstone now expects Anthropic to get a 'junk' credit rating after its IPO",
+          "summary": "The FT reports that Blackstone, anchor investor in a $63 billion deal to finance Anthropic's chips, told its own investors it now expects a double-B rating, the top tier of speculative grade. It had earlier expected an investment-grade rating before 2027. A junk rating would make it harder and more expensive for Anthropic to borrow for compute just after this week's IPO filing. Anthropic and Blackstone declined to comment.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/" },
+                       { "name": "FT", "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f" } ] },
+        { "headline": "Researchers show a single link could take over a ChatGPT account; OpenAI has fixed it",
+          "summary": "Security firm Parameter chained a flaw in the MathLive math keyboard used by ChatGPT's graphing feature with a bypass of the site's content-security policy. The result let an attacker take over a signed-in account just by getting the victim to open a link. Parameter says OpenAI rated the bug P1, fixed it on October 26 and paid a $5,000 bounty; OpenAI hasn't confirmed this publicly. The write-up drew 140 points on HN.",
+          "sources": [ { "name": "Parameter", "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50314699" } ] },
+        { "headline": "Proton CEO cancels AI-usage 're-interviews' after staff backlash",
+          "summary": "404 Media reports that Andy Yen called off a near company-wide round of interviews in which employees would have had to justify how they use AI. Sources said these could have led to firings for using too little AI. In an all-hands meeting Yen admitted a 'communication failure' but said the AI push will continue, and promised no job losses from AI in next month's reorganization.",
+          "sources": [ { "name": "404 Media", "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50307183" } ] }
+      ] }
+  ]
+}
