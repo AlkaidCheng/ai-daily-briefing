@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-02",
+  "heading": "Monday, November 2, 2026",
+  "topLine": "Anthropic's amended IPO filing shows about $17 billion in third-quarter revenue, with sequential growth slowing to 47%, and about $895 billion in compute and infrastructure commitments.",
+  "coverage": { "start": "2026-11-01T15:07:49Z", "end": "2026-11-02T16:04:06Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Anthropic's amended S-1 shows about $17B in Q3 revenue and about $895B in commitments",
+          "summary": "Anthropic filed an S-1/A with the SEC on November 2 that adds third-quarter results: about $17B in revenue (up about 1,127% year over year, but up only about 47% from Q2, after 144% growth the quarter before) and a $23.3B quarterly net loss, driven mostly by fair-value changes on convertible notes and derivatives. It also lists about $895B in purchase commitments and leases, almost all for compute and infrastructure. These are the audited numbers investors will price the IPO on.",
+          "sources": [ { "name": "SEC EDGAR", "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/0001628280-26-068676-index.htm" },
+                       { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50337439" } ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "LLM-guided program search yields a new family of entanglement-assisted quantum codes and fills 54 table gaps",
+          "summary": "Researchers at Sogang and Ewha Womans universities used LLM-guided program evolution to find small codes, which they then generalized by hand into an infinite family of entanglement-assisted quantum error-correcting codes. Lean checks the family's algebraic certificate, and ten nonexistence results come with DRAT proofs. They say the family closes 54 gaps in archived code tables. These are the authors' own claims in a new arXiv preprint with released code; there is no peer review or independent check yet.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.41183" },
+                       { "name": "GitHub", "url": "https://github.com/LeGenAI/llm_guided_EAQECC_search/tree/arxiv-v1" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "agent-desktop, a CLI that lets agents drive desktop apps through the accessibility tree, tops GitHub trending",
+          "summary": "agent-desktop, published under Vercel Labs' GitHub organization, is a Rust CLI and C library. It gives coding agents a JSON snapshot of an app's OS accessibility tree, with a reference for each element, so agents can click and type without working from screenshots. It supports macOS, Windows and Linux. It was the top repo on GitHub's daily trending list, gaining 2,243 stars in a day for about 8.6k in total.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/vercel-labs/agent-desktop" } ] },
+        { "headline": "FreeToken, an engine for running large open MoE models on gaming PCs, trends on GitHub",
+          "summary": "FreeToken is an Apache-2.0 inference engine for large mixture-of-experts models such as DeepSeek-V4-Flash and GLM-5.2 on consumer NVIDIA GPUs. It splits work between CPU and GPU and caches experts, and it serves OpenAI- and Anthropic-compatible APIs for coding agents. Its paper's authors include Ion Stoica, Matei Zaharia, Song Han and Kurt Keutzer. It gained 654 stars in a day for about 15.9k in total; its claim of running 290B+ models at interactive speed has not been independently checked.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/FlashML-org/FreeToken" } ],
+          "image": { "url": "https://raw.githubusercontent.com/FlashML-org/FreeToken/main/assets/desktop-console.png", "alt": "FreeToken desktop console screenshot" } }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "bf16 rounding silently drops most RL policy updates; a one-line fix recovers them",
+          "summary": "RL post-training serves rollouts from a bf16 copy of the full-precision weights, and Andrew Gao and William Gao show that ordinary rounding wipes out most small updates: on Qwen3-1.7B only 0.4–0.5% of served weights change per step, so the sampling policy runs 50–150 steps behind the optimizer. Their 'Fair Cast' fix rounds without bias when exporting the weights (stochastic rounding or error feedback). Across 25 matched seed pairs it won 18, tied 6 and lost 1, with a mean gain of 6.1 points.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.41073" } ],
+          "image": { "url": "https://arxiv.org/html/2610.41073/2610.41073v1/figures/fig1_grid.png", "alt": "Held-out accuracy versus optimizer step, Fair Cast against round-to-nearest export across logic, game, math and code tasks" } },
+        { "headline": "LLM-built simple baselines match the published deep-learning models in 12 of 36 Nature/Science/Cell studies",
+          "summary": "Ellington, Wang, Addagudi and Cole had an LLM build simple baselines for 36 deep-learning tasks taken from Nature, Science and Cell-family papers. The median baseline closed 95.5% of the gap between a trivial predictor and the published model, and in 12 studies the baseline matched or beat the deep model. The authors propose automated baselines as a scalable check for peer review.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2610.40700" } ] },
+        { "headline": "Calegari on Tao's blog: 'Mathematics has changed. Let's act like it'",
+          "summary": "In a guest post on Terence Tao's blog, mathematician Frank Calegari argues that the field should accept AI-produced proofs and adapt. His proposals: judge all work as possibly AI-assisted, hire on vision rather than paper counts, push journals to raise their standards, and value choosing worthwhile problems and understanding them over producing new proofs. He calls OpenAI's October release of more than 700 papers a turning point. The post drew about 360 points on Hacker News.",
+          "sources": [ { "name": "Tao's blog", "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50328251" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Axios: OpenAI plans a post-midterm push for mandatory safeguards on the most powerful AI systems",
+          "summary": "Axios reported Sunday that OpenAI, led by policy chief Chris Lehane, plans a policy and PR campaign that starts with Congress's lame-duck session. According to the report, it will call for mandatory safeguards, or 'speed limits', on the most powerful AI systems and back state legislation on how data centers are built. That would be a shift for a company that has mostly lobbied against binding rules. The plans are Axios's reporting; OpenAI has not announced them.",
+          "sources": [ { "name": "Axios", "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy" } ] }
+      ] }
+  ]
+}
