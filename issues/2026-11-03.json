@@ -2,48 +2,152 @@
   "date": "2026-11-03",
   "heading": "Tuesday, November 3, 2026",
   "topLine": "Anthropic's revised IPO filing warns it may soon cross its own threshold for AI-driven acceleration of AI research, and says it can't yet safely let Claude build its successors alone.",
-  "coverage": { "start": "2026-11-02T16:04:06Z", "end": "2026-11-03T15:08:17Z" },
+  "coverage": {
+    "start": "2026-11-02T16:04:06Z",
+    "end": "2026-11-03T15:08:17Z"
+  },
   "sections": [
-    { "name": "Company announcements",
+    {
+      "name": "Company announcements",
       "items": [
-        { "headline": "Anthropic's S-1/A warns it may be close to its threshold for AI-accelerated AI progress",
+        {
+          "headline": "Anthropic's S-1/A warns it may be close to its threshold for AI-accelerated AI progress",
           "summary": "The risk factors in Anthropic's amended IPO filing say it has already used AI to build new models whose capability jumps it didn't spot at the time. Its internal estimates suggest it may soon meet its Responsible Scaling Policy's bar for \"dramatically accelerated progress attributable to AI.\" No current model has been designated as past that bar, and the filing says Anthropic does not expect to safely let Claude fully autonomously design and build later frontier models without meaningful human supervision. Critics note an S-1 is partly a marketing document.",
-          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/" } ] },
-        { "headline": "Musk says Grok Bot usage limits were cut because serving costs were 'unsustainably high'",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+            }
+          ]
+        },
+        {
+          "headline": "Musk says Grok Bot usage limits were cut because serving costs were 'unsustainably high'",
           "summary": "Over Halloween weekend, some Grok Bot subscribers saw their weekly limits suddenly jump to 100% used. Elon Musk confirmed on X that this was no glitch: serving the bot cost too much relative to revenue. He hasn't said what the new limits will be. It's another sign that heavy agent-style usage is pushing flat-rate AI plans toward rationing.",
-          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/" } ] }
-      ] },
-    { "name": "AI tools & code",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI tools & code",
       "items": [
-        { "headline": "NVIDIA open-sources Auto Ontology, a context layer that helps agents query enterprise data",
+        {
+          "headline": "NVIDIA open-sources Auto Ontology, a context layer that helps agents query enterprise data",
           "summary": "Auto Ontology builds a context layer from a company's data catalog and metadata. It helps AI agents find the right tables, learn business definitions, check the SQL they generate and report where an answer came from, and it works over MCP, a CLI or an API. It also ships a natural-language-to-SQL chat UI backed by NVIDIA NIM models. The repo shows about 2.1k stars, and its HN thread reached 211 points.",
-          "sources": [ { "name": "GitHub", "url": "https://github.com/NVIDIA/auto-ontology" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50348962" } ] },
-        { "headline": "CoworkOS, an open agent harness for long human-in-the-loop work, tops Hugging Face papers",
+          "sources": [
+            {
+              "name": "GitHub",
+              "url": "https://github.com/NVIDIA/auto-ontology"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50348962"
+            }
+          ]
+        },
+        {
+          "headline": "CoworkOS, an open agent harness for long human-in-the-loop work, tops Hugging Face papers",
           "summary": "Researchers from Renmin, Fudan, Peking University and others released CoworkOS. It is a three-layer agent runtime (main agent, coordinator, subagents) in which humans and agents edit the same documents, slides, CAD and Blender files, with persistent memory and resumable background jobs. The authors report results competitive with OpenHands, Codex and DeepSeek Harness across 12 benchmarks. In a self-improvement test, CoworkOS ran five rounds of automated post-training that raised Qwen3.6-35B-A3B's average from 33.2 to 43.0. It was the #2 paper on Hugging Face's Nov 3 list (84 upvotes), and the code is on GitHub.",
-          "sources": [ { "name": "HF paper page", "url": "https://huggingface.co/papers/2611.03178" }, { "name": "GitHub", "url": "https://github.com/RUC-NLPIR/CoworkOS" } ],
-          "image": { "url": "https://arxiv.org/html/2611.03178v1/atria-cowork-showcase-overview.png", "alt": "Montage of 24 CoworkOS showcase tasks across documents, slides, CAD and 3D" } }
-      ] },
-    { "name": "Research papers",
+          "sources": [
+            {
+              "name": "HF paper page",
+              "url": "https://huggingface.co/papers/2611.03178"
+            },
+            {
+              "name": "GitHub",
+              "url": "https://github.com/RUC-NLPIR/CoworkOS"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2611.03178v1/atria-cowork-showcase-overview.png",
+            "alt": "Montage of 24 CoworkOS showcase tasks across documents, slides, CAD and 3D"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
       "items": [
-        { "headline": "MIT CSAIL: GPT-6 Astra edits Qwen's raw weights and lifts MATH-500 from 7.9% to 48.1%, but critics say the framing overreaches",
+        {
+          "headline": "MIT CSAIL: GPT-6 Astra edits Qwen's raw weights and lifts MATH-500 from 7.9% to 48.1%, but critics say the framing overreaches",
           "summary": "Rikiya Takehi, Omar Khattab and colleagues report that GPT-6 Astra traced a looping failure in Qwen3.5-0.8B to one direction written by the MLPs in two layers. Subtracting that direction (0.016% of the weights, no training) raised MATH-500 from 7.9% to 48.1% and GSM8K from 13.8% to 67.1%. The same approach failed on Gemma 3 270M. The post hit 2,878 HN points. A rebuttal by spaCy creator Matthew Honnibal (432 points) argues that only 3 of the 10 experiments read raw weights, all on tiny networks, and that the Qwen fix used Python and test runs. The results are self-reported and not peer-reviewed.",
-          "sources": [ { "name": "Project blog", "url": "https://rikiyat.github.io/blog/weight-space-programming/" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50341174" }, { "name": "Honnibal rebuttal", "url": "https://honnibal.dev/blog/astra-read-write-misleading" } ] },
-        { "headline": "MEMENTO: an 8B agent that keeps notes instead of full context beats GPT-5.5 on book-length QA",
+          "sources": [
+            {
+              "name": "Project blog",
+              "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+            },
+            {
+              "name": "X: @rikiyatakehi",
+              "url": "https://x.com/rikiyatakehi/status/2117313742891327994"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50341174"
+            },
+            {
+              "name": "Honnibal rebuttal",
+              "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+            }
+          ]
+        },
+        {
+          "headline": "MEMENTO: an 8B agent that keeps notes instead of full context beats GPT-5.5 on book-length QA",
           "summary": "Columbia researchers trained Qwen3-8B to manage its own context by replacing its history with self-written notes. It never holds more than 20K tokens in context. On book QA with texts up to 2.5M tokens, accuracy rose from 36.9% to 67.8%. That beats GPT-5.5 given the full book (56.7%) at under 1/50 the cost, and nearly matches a GLM-5.3 agent about 100× larger. The takeaway: learned context compaction can stand in for huge context windows.",
-          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.00244" } ] },
-        { "headline": "Wave Forcing streams generated video at about 135 FPS by staggering denoising across GPUs",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.00244"
+            }
+          ]
+        },
+        {
+          "headline": "Wave Forcing streams generated video at about 135 FPS by staggering denoising across GPUs",
           "summary": "Shanghai Jiao Tong University's DENG Lab denoises video chunks in a staggered 'wavefront', so each new chunk builds on cleaner earlier ones. A runtime spreads these stages across GPU replicas. On a Wan2.1 1.3B base, the authors report about 135 FPS end to end on eight H200s, 7× a single-GPU baseline, with much more motion and less subject drift than Rolling Forcing. The speed tests used dummy weights. It was the top Hugging Face paper on Nov 3 (95 upvotes).",
-          "sources": [ { "name": "HF paper page", "url": "https://huggingface.co/papers/2611.00859" }, { "name": "arXiv", "url": "https://arxiv.org/abs/2611.00859" } ],
-          "image": { "url": "https://arxiv.org/html/2611.00859v1/qualitative_comparison_reading.png", "alt": "Qualitative comparison of long streaming video frames from Wave Forcing and baselines" } }
-      ] },
-    { "name": "Policy & industry",
+          "sources": [
+            {
+              "name": "HF paper page",
+              "url": "https://huggingface.co/papers/2611.00859"
+            },
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.00859"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2611.00859v1/qualitative_comparison_reading.png",
+            "alt": "Qualitative comparison of long streaming video frames from Wave Forcing and baselines"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
       "items": [
-        { "headline": "Trajectory raises $45M from Sequoia and Nvidia for continual post-training of open models",
+        {
+          "headline": "Trajectory raises $45M from Sequoia and Nvidia for continual post-training of open models",
           "summary": "The 18-person startup, founded by Stanford alumni from Google DeepMind and Apple, raised a Series A at a $300M valuation. Sequoia led, with Nvidia, Bessemer and Bain Capital Ventures joining. Its now-public platform retrains open-source models on feedback from live apps, and Harvey, Rogo, Decagon, Mercor and Nvidia already use it. It competes with Thinking Machines, Applied Compute and Prime Intellect in automated post-training.",
-          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/" } ] },
-        { "headline": "Israel's 42AI emerges with $62.5M for a 'behavioral world model'",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/"
+            }
+          ]
+        },
+        {
+          "headline": "Israel's 42AI emerges with $62.5M for a 'behavioral world model'",
           "summary": "42AI says its transformer-based model predicts how individuals will respond to decisions and situations, and a separate language model explains each prediction. About 10 large brokerages already use it for liquidity, margin and hedging. The $62.5M came over three years from the founders and Infinity Group rather than outside VCs.",
-          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/" } ] }
-      ] }
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
