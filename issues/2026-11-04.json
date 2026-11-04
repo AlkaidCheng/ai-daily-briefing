@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-04",
+  "heading": "Wednesday, November 4, 2026",
+  "topLine": "AI was on the US midterm ballot: voters in more than 30 localities across nine states approved limits on data centers, and Democratic control of Congress makes federal preemption of state AI laws less likely.",
+  "coverage": { "start": "2026-11-03T15:08:17Z", "end": "2026-11-04T15:08:42Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google will cut off Search for K-12 schools that block its AI tools",
+          "summary": "The New York Times reported that from early 2027 Gemini and Search will be off by default for student accounts, but a school that rejects AI entirely loses student access to Search, because Google says 'Search and AI are deeply integrated.' Sen. Bernie Sanders and NYC Mayor Zohran Mamdani condemned the policy, and Google responded that schools can turn either tool back on and that AI Mode will give step-by-step guidance instead of direct answers.",
+          "sources": [ { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50353192" } ] },
+        { "headline": "Google DeepMind staff push to drop lifetime non-disparagement clauses",
+          "summary": "The Washington Post reports that some DeepMind employees in London have contracts barring them from criticizing Google for life, and staff want the clause removed from existing contracts. Google said it will not enforce post-employment non-disparagement against former employees and has already removed that part of the clause for new hires.",
+          "sources": [ { "name": "Washington Post", "url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50355504" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Axion 1.0: open agent models built on Qwen report 59% on Humanity's Last Exam",
+          "summary": "The team behind Axion 1.0 released 35B-A3B and 122B-A10B agent models, fine-tuned from Qwen with two SFT stages and then RL, and published the full data, prompt and training recipe. The authors report 52.2% and 59.0% on HLE with website access restricted, and 66.7% on FrontierScience Research for the larger model. These are the authors' own numbers, and they caution that the settings differ from other published results. It was the #9 paper on Hugging Face today.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.03233" },
+                       { "name": "HF papers", "url": "https://huggingface.co/papers/2611.03233" } ],
+          "image": { "url": "https://arxiv.org/html/2611.03233v1/overall_dashboard_hle_restricted_review.png", "alt": "Axion 1.0 benchmark dashboard comparing HLE (restricted) scores with open and commercial models" } }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "kimi-k3-in-c runs the 2.78T-parameter Kimi K3 on a CPU with about 8 GB of RAM",
+          "summary": "Developer Fareed Khan's portable C99 implementation, with no BLAS, framework or GPU, claims to run Moonshot's open Kimi K3 for inference in 8.24 GB of RAM by streaming the weights. The repo gives no tokens-per-second figures, so expect it to be very slow. It is on GitHub's daily trending list with 351 stars today and about 10.1k in total.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Update: Simon Willison finds a 27B laptop model can also identify games from raw policy weights",
+          "summary": "Using the prompts from the 'Sparks of Weight-Space Programming' paper behind last week's GPT-6 Astra claims, Qwen 3.8 27B correctly identified Breakout, Pong and Pac-Man policy networks from their raw weights, after roughly 45–65 minutes of reasoning on each, but missed Freeway. Willison calls the result impressive but argues it does not show source code is obsolete. This was HN's top AI post (683 points).",
+          "sources": [ { "name": "Simon Willison", "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50355251" } ] },
+        { "headline": "Near-zero token embeddings silently stall training in Mamba-style gated models",
+          "summary": "A survey of 291 open checkpoints found that 20 of 38 untied gated or hybrid models had input embeddings with norms below 1e-6. In gated models (Mamba, Gated DeltaNet, xLSTM), such tokens amplify gradients until FP32 global-norm clipping overflows and throws away the whole batch, about 20% of steps in a Nemotron-3-Nano-4B continual-pretraining run. The authors propose GroupClip for released checkpoints and a GateFloor fix for pretraining.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.04449" } ] },
+        { "headline": "AI reviewers mostly don't reward authors for substantive paper revisions",
+          "summary": "Across 6,959 revision trajectories from five AI conferences (PaperTrajectory-2026), eight AI reviewers mostly left scores unchanged after major improvements and agreed only weakly on which way scores moved. One brief negative user comment could cancel or reverse the gain from a revision, which questions the use of LLM reviewers in peer review.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.02244" } ] },
+        { "headline": "Route Anything: per-input routing across 452 model/policy setups beats any single one",
+          "summary": "Today's top Hugging Face paper (89 upvotes) scores 452 candidate configurations on 25 benchmarks spanning language, vision, speech, coding, agents and robotics. Oracle per-input routing beats the best fixed choice by 5.4 points, but learned routers recover only 0.3–2.1 points while cutting policy time by 24%, which leaves a large gap for routing research to close.",
+          "sources": [ { "name": "HF papers", "url": "https://huggingface.co/papers/2611.05275" },
+                       { "name": "arXiv", "url": "https://arxiv.org/abs/2611.05275" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Midterm voters back data-center limits, and a Democratic Congress makes AI preemption less likely",
+          "summary": "Voters in more than 30 localities across nine states approved data-center moratoriums, bans or other limits. Edgewater, Florida wrote a ban into its city charter, and Perry, Ohio put conditions on hyperscaler tax breaks. With Democrats projected to control both chambers, the GOP push to override state AI laws looks weaker, so state rules such as California's and New York's stay in force.",
+          "sources": [ { "name": "Semafor", "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures" },
+                       { "name": "Time", "url": "https://time.com/article/2026/11/04/midterm-elections-results-ai-industry-data-centers/" } ] },
+        { "headline": "CrowdStrike to buy AI-agent security startups Fiddler AI and Dreadnode for about $495M",
+          "summary": "Announced at Fal.Con Europe, the deals add agent monitoring (Fiddler AI, about $400M per the WSJ, to become Falcon Observe) and pre-deployment red-teaming of models and agents (Dreadnode, about $95M) to CrowdStrike's platform. Alongside them, CrowdStrike launched an 'AI Kill Switch' that halts a misbehaving agent and cuts its network access.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/" },
+                       { "name": "CyberScoop", "url": "https://cyberscoop.com/crowdstrike-acquires-fiddler-dreadnode-ai-security/" } ] },
+        { "headline": "Inference host Fal raises $1.3B at a $16B valuation, double its April price",
+          "summary": "Bessemer led the round, with Nvidia, Sound Ventures and T. Rowe Price joining. Fal, which serves generative video, image and audio models, announced its Series E and F together for $1.65B in total, and Bloomberg has reported it passed $800M in annualized revenue.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/" } ] }
+      ] }
+  ]
+}
