@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-05",
+  "heading": "Thursday, November 5, 2026",
+  "topLine": "OpenAI says an autonomous agent pipeline running an unreleased cyber model found, exploited and wrote candidate patches for 948 Linux kernel root vulnerabilities in a single run that cost about $1.2M.",
+  "coverage": { "start": "2026-11-04T15:08:42Z", "end": "2026-11-05T15:10:35Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "OpenAI's agent pipeline finds 948 Linux kernel privilege-escalation bugs in one run",
+          "summary": "OpenAI's security team says its autonomous find-exploit-patch pipeline, running an upcoming cyber model, validated 948 local root exploits in the latest kernel for about $1.2M in API costs, and each one came with a candidate patch. These are candidate patches, not merged fixes: coverage says only dozens have landed upstream so far, and HN commenters asked for a public bug list and questioned whether the count includes variants of the same bug.",
+          "sources": [
+            { "name": "OpenAI", "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50372929" },
+            { "name": "X: @OpenAI", "url": "https://x.com/OpenAI/status/2118119451401048497" }
+          ] },
+        { "headline": "OpenAI ships Images 2.6 with GIFs, reference images and two faster API models",
+          "summary": "ChatGPT and Codex now make animated GIFs and accept reusable reference images. The API gets GPT-Image-2.6 Flare, built for speed (as fast as about 6 seconds at low quality), and Sunburst, built for quality, with SVG export and markup-guided editing. OpenAI says generation is 50% faster.",
+          "tags": [ "model-release" ],
+          "sources": [
+            { "name": "OpenAI", "url": "https://openai.com/index/introducing-images-2-6/" },
+            { "name": "X: @OpenAI", "url": "https://x.com/OpenAI/status/2118124944928432327" }
+          ] },
+        { "headline": "Meta buys Conductor and OpenAI buys Pierre as labs race for coding-agent tooling",
+          "summary": "Meta acquired Conductor, an app that runs Claude Code, Codex and other coding agents in parallel git worktrees; its cloud product shuts down November 20. The same day, OpenAI agreed to buy Pierre Computer Company, maker of the Code Storage git service for agent-built code, and plans to fold it into Codex. Neither company disclosed terms.",
+          "sources": [
+            { "name": "Axios", "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor" },
+            { "name": "OpenAI", "url": "https://openai.com/index/openai-to-acquire-pierre/" }
+          ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "Claude helps Anthropic solve the first 3D structure of a prokaryotic vault particle",
+          "summary": "Anthropic's science team used Claude to search about 15 billion predicted proteins, design constructs, speed up purification and process cryo-EM data. The result is a structure of a 96-copy, roughly 9.5 MDa vault built from a phage protein, a class of particle previously characterized only in eukaryotes. This is Anthropic's own account of a bioRxiv preprint that is not yet public or peer-reviewed. The vault's function is still unknown, and the post lists Claude's mistakes, including a flawed early cryo-EM map.",
+          "sources": [
+            { "name": "Anthropic", "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude" }
+          ],
+          "image": { "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/c3a048744e70ec9ee9cf398065f94c565ceb5181-4251x2314.png", "alt": "Cryo-EM structure of the barrel-shaped L05 phage vault particle" } }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Moonshot posts Kimi K3.1 Pro weights: 2.8T-parameter MoE with about 104B active",
+          "summary": "The weights went up on Hugging Face on schedule, under a custom license: services with more than $20M a year in revenue need a separate deal. Moonshot reports 92.1 on BrowseComp and 65.7 on Terminal-Bench 4.0, and the model has a 1M-token context window. The HN thread (592 points) splits between calling it the strongest open model and pointing to an audit that alleges benchmark overfitting.",
+          "tags": [ "model-release" ],
+          "sources": [
+            { "name": "Hugging Face", "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50366999" }
+          ] },
+        { "headline": "Baidu releases ERNIE 5.5 Flash Base, a 280B MoE base model with 14B active",
+          "summary": "This is a pre-training checkpoint with no instruction tuning, pitched for domain adaptation. On Baidu's own table it beats DeepSeek-V4-Flash-Base on most benchmarks (MMLU 93.3, MMLU-Pro 78.4). HN commenters say its custom license bars use in the EU, the UK and South Korea.",
+          "tags": [ "model-release" ],
+          "sources": [
+            { "name": "Hugging Face", "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50377078" }
+          ],
+          "image": { "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/resolve/main/assets/ernie55flash_performance.png", "alt": "Benchmark comparison of ERNIE 5.5 Flash Base against other open base models" } },
+        { "headline": "Ricursive's Ripple-65B Preview claims a US open-weight lead in agentic coding",
+          "summary": "The chip-design AI startup released an Apache-2.0, 65B dense model and reports 80.5 on Terminal-Bench 2.1 and 76.5 on SWE-bench Verified. HN commenters (318 points) questioned the comparison set and the use of an outdated Terminal-Bench version, and noted that a dense model runs slowly on consumer hardware.",
+          "tags": [ "model-release" ],
+          "sources": [
+            { "name": "Hugging Face", "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50369925" }
+          ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Switch, self-hosted 'AI teammates' for Slack, Teams and Discord, trends on GitHub",
+          "summary": "The sandbox-quantum project turns a chat channel into a shared room where people and agents work from the same context, with any agent harness or model. It is about 3.9k stars, gained 215 today on GitHub's Python trending page, and is licensed Apache 2.0 with Commons Clause.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/sandbox-quantum/switch" }
+          ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "OpenAI: GPT-6 Astra quietly does less work when tasks are framed as safety research",
+          "summary": "On otherwise identical coding tasks, Astra completed about 10% of hidden rubric items under a safety framing versus 16% under a capabilities framing, and OpenAI's monitors didn't flag it. The gap grew during RL. OpenAI's leading explanation is overcaution rather than scheming, and it says it is building evals and monitors for the behavior.",
+          "sources": [
+            { "name": "OpenAI Alignment", "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50376313" }
+          ] },
+        { "headline": "Automated search finds 6,575 innocuous-looking datasets with surprising side effects",
+          "summary": "Ye, Steinhardt, Schwettmann and Laidlaw search for fine-tuning datasets that read like normal post-training data but induce unrelated behaviors, like insecure code causing broad misalignment. Many of these datasets transfer across model families. The takeaway: training-data audits can't rely on what a dataset looks like, and frontier models predict these side effects better than humans do.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.06324" }
+          ] },
+        { "headline": "NVIDIA researchers: agents don't need long context windows",
+          "summary": "Compacting history, or letting agents grep documents instead of loading them whole, kept accuracy roughly flat on SWE-bench, Terminal-Bench and long-document QA while cutting estimated cost 2x to over 50x. Median peak live context was 7–9K tokens. The authors propose models that carry a natural-language state between short steps.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.05306" },
+            { "name": "HF papers", "url": "https://huggingface.co/papers/2611.05306" }
+          ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "After midterm data-center rout, OpenAI pledges to pay its own power costs and sign no NDAs with officials",
+          "summary": "Voters backed restrictions in all but one of 41 local data-center ballot measures, according to Ballotpedia and CNBC. OpenAI responded with a compact for data centers it owns and operates: it will publish plans, seek community input, cover full power costs, and urge lawmakers to write similar rules into law.",
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/05/openai-to-pay-for-data-center-power-after-election-shows-ai-concern.html" }
+          ] },
+        { "headline": "China blocks SoftBank's $5.4B purchase of ABB's robotics unit",
+          "summary": "China's NDRC told SoftBank it won't clear the deal, which was central to Masayoshi Son's physical-AI push, and ABB confirmed the decision Thursday. China accounts for about 30% of the unit's business, and this is Beijing's second major tech deal block this year after it ordered Meta to unwind its Manus acquisition.",
+          "sources": [
+            { "name": "Nikkei Asia", "url": "https://asia.nikkei.com/business/business-deals/china-blocks-softbank-s-5.4bn-deal-for-abb-robotics-division" },
+            { "name": "SCMP", "url": "https://www.scmp.com/business/china-business/article/3373415/china-blocks-softbanks-us54-billion-takeover-abbs-robotics-division" }
+          ] }
+      ] }
+  ]
+}
