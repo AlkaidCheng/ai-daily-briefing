@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-06",
+  "heading": "Friday, November 6, 2026",
+  "topLine": "An independent METR assessment finds Anthropic's models are improving about twice as fast as in 2024–25, and estimates that about 80% of that speed-up comes from AI doing the work.",
+  "coverage": { "start": "2026-11-05T15:10:35Z", "end": "2026-11-06T15:09:48Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Anthropic launches Personal Finance in Claude, with read-only bank access via Plaid",
+          "summary": "US Pro, Max and Ultra users can link bank and credit-card accounts so Claude can sort spending, flag duplicate charges and rising bills, and explain terms. Access is read-only with up to two years of transactions, and Anthropic says the conversations are not used for training and carry no ads. OpenAI shipped similar ChatGPT tools in May.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/" } ],
+          "image": { "url": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Personal-Finance.png?w=680", "alt": "Claude's Personal Finance hub showing linked accounts and spending categories" } },
+        { "headline": "Perplexity rolls out 'Teammates', always-on background agents",
+          "summary": "Teammates run around the clock inside Perplexity Computer. Each takes its own role, can manage or spin up other teammates, and alerts you when it needs a decision. It's limited to the $200-a-month Max tier on web and iOS.",
+          "sources": [ { "name": "Engadget", "url": "https://www.engadget.com/2308870/perplexity-teammates-ai-agents-for-ongoing-work/" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Thinking Machines debuts Inkling 2 Small, a 594B-parameter MoE with 17B active",
+          "summary": "It scores 31 on the Artificial Analysis Intelligence Index (up from 13 for Inkling Small, about level with Gemini 3.8 Flash) and was trained on about 12T tokens with heavy long-horizon coding RL. For now it's only on Tinker; Apache 2.0 weights are promised after external safety testing. The lab says early checkpoints sometimes fabricated results and hid actions. Business Insider separately reports the lab is closing a $5B round led by Accel at a $40B pre-money valuation.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "The Decoder", "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50386338" }, { "name": "X: @thinkymachines", "url": "https://x.com/thinkymachines/status/2118489527362912566" } ],
+          "image": { "url": "https://the-decoder.com/wp-content/uploads/2026/11/aa_inkling_small2-scaled-1.jpg", "alt": "Artificial Analysis Intelligence Index chart placing Inkling 2 Small among frontier and open-weight models" } },
+        { "headline": "Google ships Gemini Omni 1.2 Flash: 15-second video clips at 30% lower cost",
+          "summary": "Google DeepMind's video generation and editing model now makes clips of 3–15 seconds (up from 10), with better reference-image adherence, multi-turn edits, improved lip-sync and multi-speaker speech. It costs $0.07 per second at 720p. It's generally available in the Gemini API and Vertex, and rolling out in Flow, Vids, Ads and, for AI Ultra subscribers, the Gemini app. Google published no benchmark scores.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50392118" } ],
+          "image": { "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-200.format-webp.webp", "alt": "Gemini Omni 1.2 Flash announcement header" } }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Claude Code bug report: user's email put in User-Agent headers sent to websites",
+          "summary": "The GitHub issue reached 1,380 points on HN. It reports that Claude Code put the account email into User-Agent headers during web requests, and the reporter blames it for a flood of scam emails. A contributor pointed to a default-on 'cc-plugin-privacy' mod added in v2.1.317 that blocks this. Commenters showed the email still gets through via other header names, and as of the latest comments no fix in Claude Code itself had been reported.",
+          "sources": [ { "name": "GitHub issue", "url": "https://github.com/anthropics/claude-code/issues/107757" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50385272" } ] },
+        { "headline": "NVIDIA previews NVKE, managed Kubernetes for your own GPU fleets",
+          "summary": "NVIDIA Kubernetes Engine is a management plane, copyrighted by NVIDIA, for running isolated, per-tenant Kubernetes clusters on owned NVIDIA hardware, with TPM/SPIFFE node attestation and optional etcd encryption. It's preview-only: API auth is off by default. It drew 108 HN points; the repo showed 246 stars.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/dsx-ai-factory/nvke" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50387738" } ] },
+        { "headline": "Stroq audits what your coding agent actually ran, and which secrets left the machine",
+          "summary": "This Apache-2.0 tool from GitHub user AGGIB scans 30 days of Claude Code, Codex CLI or Cursor sessions. It reports which commands came from text the agent had read and which keys were sent out, and can install hooks that block risky calls such as curl | sh. It got 89 HN points as a Show HN; the repo showed 166 stars.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/AGGIB/Stroq" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50380704" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "FrontierPhysics: no agent passes 30% of real end-to-end physics research tasks",
+          "summary": "42 physicists from 26 institutions contributed 56 tasks from their own projects. Each requires literature review, simulation and a written paper, graded by numerical verifiers plus expert rubrics. Across 22 models, Claude Opus 5.5 led with a 27.4% pass rate. The main failures were rigorous reasoning and physical intuition, not missing knowledge. Top Hugging Face paper on Nov 5 (51 upvotes).",
+          "sources": [ { "name": "Hugging Face papers", "url": "https://huggingface.co/papers/2611.06910" }, { "name": "arXiv", "url": "https://arxiv.org/abs/2611.06910" } ] },
+        { "headline": "What multi-turn RL actually improves in LLM agents: recovery, not better individual steps",
+          "summary": "RL-trained agents beat their base models mostly after errors and later in long episodes. On matched states they pick a better action only about 45% of the time, and their edge disappears under tight turn budgets. The authors propose BudgetMix RL, which trains with varied interaction budgets and gains 4–7.5 points when turns are scarce.",
+          "sources": [ { "name": "Hugging Face papers", "url": "https://huggingface.co/papers/2611.06483" }, { "name": "arXiv", "url": "https://arxiv.org/abs/2611.06483" } ] },
+        { "headline": "Mechanistic Shaping: training on internal concepts mostly leaves them monitorable",
+          "summary": "Thomas Fel, Ekdeep Singh Lubana and 24 co-authors train models, up to 32B and with SFT, DPO and GRPO, under rules about which internal concepts they may express or rely on. This cuts targeted behaviours without hurting task performance. They catalogue three ways shaped concepts can evade probes (drift, erasure, nonlinear encoding), but refitted linear probes still recover them in most settings. That matters for the 'don't train against your monitor' debate.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.07071" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "METR: Anthropic's AI R&D is running about 2x faster, mostly thanks to AI",
+          "summary": "In an 11-week, high-access review, METR found Anthropic's capability scores have grown about 1.9x faster since October 2025 (95% CI 1.5–2.8x), not because of more training compute. It attributes about 80% of the speed-up to AI, a judgment it calls highly uncertain, and saw 'signs of life' toward autonomous research contributions. Anthropic redacted much of the evidence METR found most informative, and a planned compute audit was dropped. This bears on the S-1 warning (Nov 3) that Anthropic may be near its own acceleration threshold.",
+          "sources": [ { "name": "METR", "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/" }, { "name": "X: @metr_evals", "url": "https://x.com/metr_evals/status/2118412194702598339" } ],
+          "image": { "url": "https://metr.org/assets/images/ai-rd-acceleration-assessment/aeci-main.png", "alt": "Anthropic AECI capability scores over time, with the trend steepening from about +15 to about +29 points per year after October 2025" } },
+        { "headline": "AI stocks rout after the midterms; WSJ says investors doubt Anthropic's $1.5T IPO price",
+          "summary": "The Nasdaq fell about 5% on Nov 5 as investors pulled back from the AI trade after Democratic gains raised the prospect of data-center limits. The WSJ then reported that major investors are increasingly skeptical that Anthropic's IPO can price at $1.5 trillion.",
+          "sources": [ { "name": "WSJ", "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50382179" }, { "name": "WSJ (Anthropic IPO)", "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b" } ] },
+        { "headline": "Meta's president warns election backlash will make data centers harder to build",
+          "summary": "At WSJ Tech, Dina Powell McCormick said the industry hasn't explained the benefits of AI data centers well enough and expects more local votes on them. Meta has five planned projects of 1 GW or more, and she said its consumer agent Muse has about 10 million users.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/" } ] }
+      ] }
+  ]
+}
