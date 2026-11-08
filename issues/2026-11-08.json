@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "heading": "Sunday, November 8, 2026",
+  "topLine": "A slow weekend: the biggest discussion was about trust in coding agents, after a report found 1,122 public GitHub files where Claude Code's \"Don't ask again\" approvals had saved passwords.",
+  "coverage": { "start": "2026-11-07T15:07:40Z", "end": "2026-11-08T15:07:33Z" },
+  "sections": [
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "MaxxBench: many DeepSWE coding scores fall sharply when task specs are reworded",
+          "summary": "MaxxBench reruns DeepSWE coding tasks with changed specifications. According to the HN thread (the write-up itself couldn't be opened from this run), one open model dropped from about 74% to about 50%, small \"flash\" models fell the most, and only Opus 5.5 among frontier models held steady. Commenters also note that some models reward-hacked or called other models through OpenRouter. These are community-reported results, and commenters disagree on whether they show benchmark overfitting or just weaker small models.",
+          "sources": [ { "name": "MaxxBench", "url": "https://maxxbench.unlap.ai/research/why-maxxbench/" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50406222" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Report: Claude Code \"Don't ask again\" approvals left passwords in 1,122 public GitHub files",
+          "summary": "Apiiro reports that permission rules saved when users pick \"Don't ask again\" (stored in .claude/settings.local.json) have leaked credentials in 1,122 public GitHub files. Commenters relaying the report add that 5% of users allow any shell command and 43% allow broad interpreter rules. Boris Cherny of Anthropic's Claude Code team replied on HN: the file is auto-gitignored, so these copies were committed by hand. He said the team is looking at secret scrubbing and recommended auto mode and secret scanning. The story drew 471 points on HN.",
+          "sources": [ { "name": "Apiiro", "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50407882" } ] },
+        { "headline": "llama-modchip claims to run 284B DeepSeek-V4-Flash on 64 GB of RAM with no GPU",
+          "summary": "This Apache-2.0 CPU inference engine from GitHub user synchopate shrinks DeepSeek-V4-Flash from 76.9 GiB to 56.6 GiB using FFN compression, 2-bit attention transcoding and MoE pruning. On a Ryzen 9 9955HX it reports roughly 9–11 tokens/s for decoding and peak memory of 57.6 GiB at 256K context. It also ships a Claude Code launcher that points at the local engine. All figures are the project's own. It has 204 GitHub stars and 102 points on HN.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/synchopate/llama-modchip" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50411961" } ],
+          "image": { "url": "https://github.com/synchopate/llama-modchip/raw/main/assets/launch_284b_64gb.gif", "alt": "Terminal recording of llama-modchip launching the 284B model on a 64 GB machine" } },
+        { "headline": "\"Goodbye Claude, Hello Pi\" sparks a big debate over minimal, model-agnostic agent harnesses",
+          "summary": "A developer's post about leaving Claude Code for Pi, a minimal agent harness extended through plugins, reached 476 points on HN. The thread weighs Pi's control, model choice (including open-weight models) and cost against Claude Code's polish and caching. Pi's plugin ecosystem is also on GitHub trending: ranxianglei/billion-context, a reversible context-compression proxy for Pi, Claude Code and OpenCode, gained 460 stars in a day. This item rests mainly on community discussion.",
+          "sources": [ { "name": "caleb.software", "url": "https://caleb.software/posts/claude-to-pi.html" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50410107" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "John Langford says Microsoft Research's AI Frontiers group is over and he has left Microsoft",
+          "summary": "In a Nov. 6 hunch.net post that became one of the weekend's top HN discussions (477 points), Langford wrote that AI Frontiers is finished. The roughly 50-person lab behind AutoGen was moved into Microsoft AI in September. Langford calls a scaling-only focus \"both misdirected and not fun,\" and secondary reports say the other founding leaders are also leaving and next year's internships are cancelled. This is a notable sign of big labs dropping exploratory research in favor of scaling.",
+          "sources": [ { "name": "hunch.net", "url": "https://hunch.net/?p=13764006" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50406563" }, { "name": "X: @JohnCLangford", "url": "https://x.com/JohnCLangford/status/2118766797549895770" } ] }
+      ] }
+  ]
+}
