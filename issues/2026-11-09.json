@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-09",
+  "heading": "Monday, November 9, 2026",
+  "topLine": "NVIDIA's board has opened an independent investigation into whether CEO Jensen Huang was targeted by a Chinese intelligence effort, after he admitted to an affair, and the stock fell 5% on Monday.",
+  "coverage": { "start": "2026-11-08T15:07:33Z", "end": "2026-11-09T15:10:14Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google adds TPU 8tx and TPU 8i Max, making four eighth-generation TPU systems this year",
+          "summary": "TPU 8tx reuses the TPU 8t training silicon with AMD EPYC hosts for confidential inference and small-scale training, at up to 2x lower latency than TPU 8t. TPU 8i Max puts two TPU 8i chips in one package, doubling compute, SRAM and HBM bandwidth in the same rack space. Google also open-sourced TorchTPU for running native PyTorch on TPUs and says TPUs now serve nearly 100 customers. No availability date was given for the new chips.",
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/" } ],
+          "image": { "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/8th-Gen-range_samesize.width-1200.format-webp.webp", "alt": "Google's eighth-generation TPU range: TPU 8t, TPU 8i, TPU 8tx and TPU 8i Max" } }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Unconfirmed: developers say Claude Opus 5.5 has behaved differently since November 3",
+          "summary": "A post asking whether Opus 5.5 was 'nerfed' drew 353 points on HN. Users report more failed tool calls and skipped steps, and some suspect undisclosed A/B tests. The evidence is anecdotal: several commenters who track evals say they see no clear drop, and Anthropic has not responded publicly.",
+          "sources": [ { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50422069" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Unconfirmed: ChatGPT Desktop reportedly forwards your SSH agent to remote machines",
+          "summary": "An HN report (113 points) says the ChatGPT Desktop app turns on SSH agent forwarding for remote Codex hosts by default. If so, an agent on the remote machine could use your local keys, for example to push to private GitHub repos. The only evidence linked is an unmerged pull request in openai/codex, and OpenAI has not commented. Commenters recommend SSH agents that ask you to confirm each use, or hardware keys.",
+          "sources": [ { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50422628" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Weight-space programming: an agent edits about 1,000 weights and lifts a small Qwen's MATH-500 score by 29 points",
+          "summary": "Researchers from Shanghai AI Lab, Tongji and Fudan had a reasoning agent inspect and directly edit the weights of Qwen3.5-0.8B and 9B, with no gradient training. Held-out gains reached +29.5 on MATH-500 from changing just 1,023 parameters, and +36.7 on IFEval. Results were unreliable, though: 6 of 16 attempts kept the original weights, and gains transferred unevenly to other tasks.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.09382" }, { "name": "Hugging Face Papers", "url": "https://huggingface.co/papers/2611.09382" } ] },
+        { "headline": "LLM agents' gains on molecular optimization mostly come from retrieval, not reasoning",
+          "summary": "On the PMO benchmark with 50 oracle calls, a GPT-4o mini agent's score fell from 14.44 to 4.85 once task names and reference compounds were hidden. A simple retrieval-only baseline with no LLM reached about 84% of the agent's score. For anyone reading 'AI for chemistry' claims, the authors suggest two cheap checks: prompts that cannot be solved by retrieval, and a random-walk baseline for docking tasks.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.08522" } ] },
+        { "headline": "Flex-RSI benchmark tests whether frontier agents can recursively improve their own harness",
+          "summary": "In each round, one agent improves a solution to a vision or robotics task, and a second agent revises the harness, including itself. Changes are kept only if they score better on held-out data. Self-improvement helps most when the agent builds its own solution, and editing the harness itself contributes to the gains. Open-weight models trail most when outputs must pass strict checks, such as physical stability or exact correctness, and when feedback is only pass/fail.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.08946" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "NVIDIA board investigates whether Jensen Huang was targeted by a foreign intelligence effort; stock falls 5%",
+          "summary": "Huang admitted an affair in a staff letter on Sunday. The NYT and FT report that US intelligence believes the woman involved, a former executive at the Singapore AI-chip buyer Megaspeed, passed information to Beijing; China calls this unsubstantiated. A committee of independent directors with outside counsel will lead the review. The board says it has no reason to believe NVIDIA secrets or US national security were compromised and that it has confidence in Huang, who remains CEO.",
+          "sources": [ { "name": "NVIDIA newsroom", "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors" }, { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html" } ] },
+        { "headline": "Anthropic reportedly secures $3.4B of gas generators, about 1.7 GW, to power its data centers",
+          "summary": "The FT reports that Anthropic took over generator commitments from the Texas supplier OnePWR, without acquiring the company. It is a sign that frontier labs are now buying on-site power directly. Neither company has confirmed the deal.",
+          "sources": [ { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html" } ] }
+      ] }
+  ]
+}
