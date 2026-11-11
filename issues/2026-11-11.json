@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-11",
+  "heading": "Wednesday, November 11, 2026",
+  "topLine": "Google opened Gemini 4 Carbon, its strongest model, to API developers, businesses and Ultra subscribers, at an introductory $2/$10 per million tokens until November 30.",
+  "coverage": {
+    "start": "2026-11-10T15:09:51Z",
+    "end": "2026-11-11T15:09:36Z"
+  },
+  "sections": [
+    {
+      "name": "Company announcements",
+      "items": [
+        {
+          "headline": "Update: Gemini 4 Carbon is now broadly available, two weeks after a cyber-defenders-only debut",
+          "summary": "Carbon is now on the paid Gemini API, in AI Studio, Antigravity and Gemini for business, and is rolling out to AI Ultra subscribers and AI Mode in Search. Google says it ranks #1 on CursorBench 4.0, WANDR and AutomationBench at less than half the cost per task of the next-best outside model. It costs $2/$10 per million input/output tokens until November 30, then $4/$20.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Google blog",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50442303"
+            }
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_misalignment.width-1200.format-webp.webp",
+            "alt": "Google chart of Gemini 4 Carbon's misalignment measurements across the model's lifecycle"
+          }
+        },
+        {
+          "headline": "Anthropic launches Claude Whiteboards and Claude Sheets in beta, and renames Dashboards to Claude Data",
+          "summary": "Whiteboards gives teams a shared brainstorming board with Claude, and Sheets builds and edits spreadsheets with formulas and tracked edits. Claude Data adds certified metrics and live sharing on top of a data connector. All three are on every paid plan, and the launch extends Claude's push into office work on the first day of Anthropic's IPO roadshow.",
+          "sources": [
+            {
+              "name": "Claude",
+              "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50443716"
+            }
+          ]
+        },
+        {
+          "headline": "Unconfirmed: Apple is reportedly building \"Harbor,\" a Mac app that runs open-weight models locally and clusters Macs",
+          "summary": "9to5Mac reports that code strings and a private-preview sign-up page under Apple's Claris brand show an app that downloads and serves open-weight models, and links Macs over Thunderbolt 5 to pool their memory. Apple has not announced it. The story drew about 400 points on HN.",
+          "sources": [
+            {
+              "name": "9to5Mac",
+              "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50446520"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Update: Gross-led committee says OpenAI's Lean proof establishes that quantum Yang-Mills theory exists; the mass gap is still open",
+          "summary": "The five-member committee chaired by Nobel laureate David Gross issued a statement on November 9, then on November 10 published an explanation of the proof and confirmation that it checks in Lean. Its members say they \"do not claim to fully understand the proof yet,\" so wider community review of the released code is still to come. The $1M Millennium Prize also requires a mass gap, which this result does not cover.",
+          "sources": [
+            {
+              "name": "Scientific American",
+              "url": "https://www.scientificamerican.com/article/openais-shepherds-affirm-blockbuster-physics-result/"
+            },
+            {
+              "name": "KITP statement (PDF)",
+              "url": "https://www.kitp.ucsb.edu/sites/default/files/3rd-Statement-About-Quantum-YangMills-Theory_Nov-9.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "MiniMax open-sources H3-Image, a 33B text-to-image and editing model that outputs 16-megapixel images",
+          "summary": "The 33.1B-parameter diffusion transformer takes 6 sampling steps with no classifier-free guidance, accepts up to 16 reference images for editing, and generates up to 4096x4096 without an upscaler. It already runs in SGLang, vLLM-Omni, Diffusers and ComfyUI. It ships under a community license that requires written authorization for some uses, and the model card shows example images but no benchmark numbers.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+            }
+          ],
+          "image": {
+            "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image/resolve/main/assets/showcase_hero.jpg",
+            "alt": "Showcase grid of images generated by MiniMax-H3-Image"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AI tools & code",
+      "items": [
+        {
+          "headline": "Chrome, Edge, Firefox and MDN teams release skills that move coding agents off outdated JavaScript habits",
+          "summary": "Modern Web Guidance is a set of agent skills plus a CLI that feeds coding agents up-to-date web-platform guidance and browser-compatibility data, so they use modern browser APIs instead of legacy patterns. It sits under the GoogleChrome GitHub org, has about 4.2k stars, and was a 412-point Show HN.",
+          "sources": [
+            {
+              "name": "GitHub",
+              "url": "https://github.com/GoogleChrome/modern-web-guidance"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50443812"
+            }
+          ]
+        },
+        {
+          "headline": "shadcn's \"improve\" skill has a strong model audit your codebase and write plans for cheaper models to carry out",
+          "summary": "Built by shadcn (creator of shadcn/ui), the MIT-licensed agent skill never edits code itself: \"the plan is the product.\" It is on GitHub's daily trending list with 10.5k stars, 333 of them added today.",
+          "sources": [
+            {
+              "name": "GitHub",
+              "url": "https://github.com/shadcn/improve"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
+      "items": [
+        {
+          "headline": "Tree-Ising fixes a looping Qwen model by solving for bit-level weight edits, beating an LLM agent's edit for $0.90 instead of $312",
+          "summary": "This follows up the agent-driven \"weight-space programming\" result: the paper turns the edit into one small Ising/QUBO problem per output row and solves them on a GPU. Qwen3.5-0.8B reaches 55.1% on MATH-500@4 (the agent's edit got 51.7%), and greedy GSM8K on Qwen3.5-2B rises from 21.6% to 69.4%. A separate blog post asking whether a linear program can do the same job also drew attention on HN.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.14210"
+            },
+            {
+              "name": "HN thread (LP follow-up)",
+              "url": "https://news.ycombinator.com/item?id=50452655"
+            }
+          ]
+        },
+        {
+          "headline": "KAIST's WikiTrace: agent memory hurts when lessons arrive without their evidence, and linking them to source runs fixes it",
+          "summary": "The authors find that agents often fail tasks they would solve with no memory at all, and 52% of these failures trace to a memory item the agent followed. WikiTrace links each insight to a summary of its source run and the raw trajectory so the agent can check it. Across eight suites it averages 90.2, versus 87.0 for insights alone and 79.5 with no memory, at about 1.17x the cost.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.14320"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2611.14320v1/fig01-teaser.png",
+            "alt": "Diagram: a wrong memory insight makes an agent fail, and WikiTrace's link to the source run lets it revise the insight and succeed"
+          }
+        },
+        {
+          "headline": "Sage-Taiyi, a 90-author \"metacognitive\" AI-scientist system, reports lab-validated gains in chemistry and materials",
+          "summary": "On the authors' own 265-task ideation benchmark it scores 54.0, versus 47.9 for AI Scientist-v2. In expert collaborations it reportedly raised one cobalt-catalyzed carbonylation from trace yield to 84% and found a 342 MPa magnesium alloy. These are preprint claims, and some of the engineering results are simulation-only.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.12762"
+            },
+            {
+              "name": "HF papers",
+              "url": "https://huggingface.co/papers/2611.12762"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
+      "items": [
+        {
+          "headline": "New York opens RAISE Act registration; OpenAI, Anthropic and other frontier labs must sign up by January 1",
+          "summary": "Developers with more than $500M in revenue that train frontier models must register with the new DIGIT office, publish safety frameworks and report critical incidents within 72 hours. Fines run up to $1M for a first violation and $3M after that. Governor Hochul also launched an AI evaluation center at SUNY Binghamton.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+            }
+          ]
+        },
+        {
+          "headline": "Reuters: a blacklisted, PLA-linked Chinese university bought Nvidia H200 chips through a domestic supplier",
+          "summary": "Procurement records show Northwestern Polytechnical University paid about $123,000 in October for two H200s, and it also rented H200 compute this year under five contracts. Reuters found 26 records of Chinese institutions getting restricted Nvidia chips or compute through local suppliers, which is likely to add to pressure in Congress for chip tracking.",
+          "sources": [
+            {
+              "name": "Reuters via Yahoo Finance",
+              "url": "https://sg.finance.yahoo.com/news/exclusive-pla-linked-chinese-university-051308504.html"
+            },
+            {
+              "name": "ThePrint",
+              "url": "https://theprint.in/world/exclusive-military-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show/3095891/"
+            }
+          ]
+        },
+        {
+          "headline": "Mercor raises $750M Series D at a $20B valuation, double its value a year ago",
+          "summary": "Investors in the AI training-data and evaluation company include General Catalyst, Benchmark, Felicis, NVIDIA and Salesforce. Mercor says it will put the money into research, evaluation and post-training infrastructure, including realistic environments where agents learn professional workflows.",
+          "sources": [
+            {
+              "name": "Mercor blog",
+              "url": "https://www.mercor.com/blog/series-d/"
+            },
+            {
+              "name": "FinSMEs",
+              "url": "https://www.finsmes.com/2026/11/mercor-raises-750m-in-series-d-funding-at-20-billion-valuation.html"
+            }
+          ]
+        },
+        {
+          "headline": "VulnCheck counts 442 CVEs from Anthropic's Project Glasswing so far, and only two known to be exploited",
+          "summary": "Seven months in, Anthropic-attributed CVEs make up about 0.5% of all CVEs published this year. As of November 2, Anthropic's disclosure ledger listed 37,966 findings but only 217 fixes, which VulnCheck reads as maintainers struggling to keep up with AI-found bugs. The post drew 434 points on HN.",
+          "sources": [
+            {
+              "name": "VulnCheck",
+              "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50447074"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
