@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-12",
+  "heading": "Thursday, November 12, 2026",
+  "topLine": "Jensen Huang resigned as NVIDIA's CEO with immediate effect, and CFO Colette Kress is running the world's most important AI-chip company while the board searches for a successor.",
+  "coverage": { "start": "2026-11-11T15:09:36Z", "end": "2026-11-12T15:09:18Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Update: Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress becomes interim CEO",
+          "summary": "Huang stepped down as president, CEO and director, effective immediately, after reports of extramarital relationships. One of the women is reportedly believed by US intelligence to have passed information to China. NVIDIA named former Synopsys CEO Harvey Jones its first board chair. It says its product roadmap is unchanged and it will still report earnings on November 17. Yahoo Finance reports the stock fell more than 12% in early trading.",
+          "sources": [ { "name": "NVIDIA newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition" },
+                       { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html" } ] },
+        { "headline": "Google launches the Gemini Decisions API, a model that scores options instead of writing text",
+          "summary": "The API runs on a new model, Gemini Decision 1. It answers closed-set questions such as tool selection, policy checks, model routing and grading in a single pass, with up to 1,000 yes/no, multiple-choice or rubric questions per input. Each answer comes with a calibrated confidence score. Pricing is $0.10 per million input tokens and nothing for output, which makes it a cheap gatekeeper for agent pipelines. It drew 505 points on Hacker News.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50456791" } ],
+          "image": { "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/decisions-hero-hud_l8rnHOK.width-1200.format-webp.webp", "alt": "Robot camera view in which Gemini detects a spill and returns the next action wipe_with_cloth" } }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "DeepMind releases AlphaGenome 2, which predicts DNA variant effects for one specific cell type at a time",
+          "summary": "The new model works for a given tissue or cell state, including new ones described by a user's own single-cell data. It also adds DNA methylation to the properties it predicts. On 28 immune cell types it found the causal variant in 30% of cases, against 16% for the best previous tools. It is available now for non-commercial research through the AlphaGenome API. DeepMind says it is not validated for clinical use.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "Google DeepMind blog", "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/" },
+                       { "name": "Paper (PDF)", "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/alphagenome-2.pdf" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "AWS open-sources AWS Emulator, a local stand-in for its cloud APIs that coding agents can set up",
+          "summary": "It is a CC0-licensed local emulator of AWS APIs. You can test code against it with no AWS account, either as a server or in-process from Rust tests. It ships an agent skill and an AGENTS.md so a coding agent can install it. CTO Werner Vogels wrote a companion post about the engineer's job when agents write the code. It was the day's top AI story on Hacker News (914 points), and the repo has 4.2k stars.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/aws/aws-emulator" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50456631" } ] },
+        { "headline": "Huawei open-sources MACaQ, a fast quantizer for GGUF and local inference",
+          "summary": "MACaQ is from Huawei's huawei-csl group and works across llama.cpp, vLLM, Diffusers and PyTorch. The team says it quantizes a 122B model in 64 minutes with 32.5 GB of memory. They also report that its refined Q4 GGUF of Qwen3.6-35B-A3B tracks the full-precision model more closely than Unsloth's quant of the same size. These are the authors' own figures. It drew 124 points on HN, and its paper drew 27 upvotes on Hugging Face daily papers.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/huawei-csl/MACaQ" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50458166" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Dense rewards in GRPO lose their edge once you count every token they cost",
+          "summary": "This study ran 1,668 training runs on six models. Step-level Monte-Carlo rewards used 91% of all generated tokens, and once compared at equal compute none of four dense-reward variants beat plain outcome-only GRPO. The one reliable gain came from training on prompts the model solves about half the time. The takeaway is that RL tricks for reasoning should be compared at matched compute, not per update.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.13560" } ] },
+        { "headline": "Saxe group's analytical model shows how to split compute across pretraining, SFT and RL",
+          "summary": "Using a solvable linear model, the authors show that the amount of pretraining data caps what SFT and RL can reach. SFT shortens the plateau RL hits with sparse rewards, which they also observed in OLMo-2 1B. The best share of compute for RL changes non-monotonically with total budget. The paper is accepted at NeurIPS 2026.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.13276" } ],
+          "image": { "url": "https://arxiv.org/html/2611.13276v1/figure1_neurips_upgraded.png", "alt": "Schematic of a three-stage training pipeline and plot of best generalisation against total compute for SFT only, RL only and SFT plus RL" } },
+        { "headline": "A Lean proof only vouches for its translation, so researchers propose a human-in-the-loop audit for AI research",
+          "summary": "The authors point out that one lab released more than 700 AI-generated mathematics manuscripts in October, and only some had machine-checked proofs. A Lean formalization can quietly prove a different statement from the paper's text. They propose a framework with checks by several independent tools, a fidelity audit of each check, fixed points where humans decide, and an attribution report. They built working versions for mathematics and statistics.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.13042" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "United Airlines bars unauthorized third-party AI agents from booking flights",
+          "summary": "United says handing account credentials to personal AI assistants can expose sensitive data, trigger unintended purchases or spend MileagePlus miles. It also says agents can skip steps that federal rules require a human to confirm, such as hazardous-materials declarations. It is the first US carrier to say this explicitly, and it may approve integrations later. The story drew 619 points and 637 comments on Hacker News.",
+          "sources": [ { "name": "Washington Post", "url": "https://www.washingtonpost.com/travel/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50458900" } ] }
+      ] }
+  ]
+}
