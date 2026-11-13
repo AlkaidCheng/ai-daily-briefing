@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-13",
+  "heading": "Friday, November 13, 2026",
+  "topLine": "Google released Gemini 4 Hydrogen, a fast, cheaper Gemini 4 model for coding and agent work, priced at $1.50/$7.50 per million tokens.",
+  "coverage": { "start": "2026-11-12T15:09:18Z", "end": "2026-11-13T15:57:32Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google launches Gemini 4 Hydrogen, a fast Gemini 4 model for coding and agents",
+          "summary": "Google says Hydrogen scores 51 on the Artificial Analysis Intelligence Index at its default setting, edging out Gemini 4 Argon, and 57% on Terminal-Bench 4.1, up from 18.2% for Gemini 3.8 Flash. It costs $1.50 in and $7.50 out per million tokens across a 1M-token context and is rolling out in the Gemini API, AI Studio, the Gemini app and Search. A new Antigravity 'Orchestrator' mode also came out (top HN story, 553 points).",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50471431" } ],
+          "image": { "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-hydrogen_benchmarks_table.gif", "alt": "Benchmark table comparing Gemini 4 Hydrogen with other models" } },
+        { "headline": "Claude.ai, Claude Code and the Claude platform hit elevated errors",
+          "summary": "Anthropic's status page reported elevated errors across claude.ai, Claude Code and platform.claude.com early on November 13 UTC, and the HN thread reached about 400 points. The status page was unreachable from this run, so the cause and duration are unconfirmed here.",
+          "sources": [ { "name": "Claude status", "url": "https://status.claude.com/incidents/nn11wk485zfn" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50481187" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Edge0 releases Edge0-145B, a 4-bit-native MoE built to run coding agents on one 24 GB GPU",
+          "summary": "The 145B-parameter model (10B active, 256K context) was trained natively at 4 bits, and its NVFP4 weights fit in 24 GB of VRAM plus about 38 GB of system RAM. Edge0 claims 86.5 on Terminal-Bench 2.1 and about 98 tokens/s on an RTX 5090 D; both figures are vendor-reported. The weights are free for personal and research use, but commercial use needs a separate license, and parts are under Qwen's license. HN: 306 points.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Hugging Face", "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4" },
+                       { "name": "Edge0 blog", "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50475713" } ],
+          "image": { "url": "https://huggingface.co/Edge0/Edge0-145B-NVFP4/resolve/main/assets/hero.png", "alt": "Edge0-145B model card hero graphic" } }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "smolmaxxing runs LLMs on TV boxes, a 2013 iPad and budget phones",
+          "summary": "This llama.cpp-based project from hyperionaidev adds custom kernels, cuts memory use and streams weights from flash storage so that models run on low-power and old devices. It reached 433 points on HN, and the repo had 577 stars when fetched.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/hyperionaidev/smolmaxxing/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50468888" } ] },
+        { "headline": "Parcha's AgentRun adds memory, durable runs and spend controls on top of Claude Code and Codex",
+          "summary": "AgentRun is an Apache-2.0 control plane for agent harnesses such as Claude Code, Codex, OpenCode and pi. Agents save notes, skills and workflows after each run, runs survive server restarts, and one console handles approvals and spend caps. Show HN: 126 points.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50471650" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Arena-style LLM leaderboards can be gamed by up to 45 places",
+          "summary": "Fleisig, Baumann, Hadfield-Menell and Hovy show that strategic voting, choosing prompts that favor a model, and adding decoy models can each lift a model 15–20 places on Bradley-Terry preference leaderboards, and up to 45 places combined, using public leaderboard data. Takeaway: treat crowd-vote rankings with suspicion unless they have safeguards against manipulation, which the paper proposes.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.14769" } ] },
+        { "headline": "Together AI's agent-driven compiler keeps retuning inference as models and traffic change",
+          "summary": "Together Compiler (TKCC) uses agents to keep optimizing kernels and parallelism on a persistent engine. It reports up to 2.6x more tokens/s than the best open-source engines on Kimi K3, GLM 5.3, MiniMax M3.1 Flash and DeepSeek v4.1 Flash, and 1.7x over hand-written megakernels on Llama 1B. Takeaway: agent-written optimization is now running in Together's production serving.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.14681" } ] },
+        { "headline": "'Trait hitchhiking': RL post-training can amplify traits the reward never targeted",
+          "summary": "Soubki, Tan and Miles Cranmer derive the Price equation from evolutionary biology for RL post-training and show that its estimates track how untargeted traits rise or fall during GRPO training. Takeaway: optimizing one reward can quietly carry along undesirable behaviors, and this offers a way to predict which ones.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.14683" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Report says six Chinese open-weight models carry fingerprints of export-controlled Nvidia Blackwell GPUs",
+          "summary": "Former OpenAI researcher Will DePue's Unemployment Labs argues that the random-initialization patterns left in the weights of DeepSeek-V4-Flash/Pro, Kimi K3/K3.1-Pro, MiniMax-M3 and Ling-3.1-flash match Blackwell-class GPUs. The report says rented B300 and GB200 machines reproduced the preserved starting weights bit for bit. It also says this does not prove an export-control violation, and none of the labs has commented. HN: 331 points.",
+          "sources": [ { "name": "Unemployment Labs", "url": "https://unemploymentlabs.com/checkpoint-forensics" },
+                       { "name": "Crypto Briefing", "url": "https://cryptobriefing.com/chinese-ai-chip-usage-fingerprinting/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50474883" } ] },
+        { "headline": "Chinese AI firms rush to lock in overseas Nvidia capacity ahead of a reported US remote-access rule",
+          "summary": "Reuters reported on November 12 that Chinese companies, including a major cloud provider, are trying to reserve GPU capacity in third countries. The rush follows reports that the Commerce Department is finalizing a rule to block Chinese firms from renting advanced chips in data centers in seven more countries, including Singapore, Malaysia and Thailand. The rule is unpublished, and reports differ on how licensing would work.",
+          "sources": [ { "name": "Forbes", "url": "https://www.forbes.com/sites/jonmarkman/2026/11/12/chinese-ai-firms-rush-to-rent-nvidia-chips-abroad-before-a-new-us-rule/" },
+                       { "name": "MLQ.ai", "url": "https://mlq.ai/news/chinese-ai-firms-rush-to-lock-in-overseas-nvidia-capacity-as-commerce-readies-a-rule-on-remote-chip-access/" } ] }
+      ] }
+  ]
+}
