@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-14",
+  "heading": "Saturday, November 14, 2026",
+  "topLine": "Google Research published how its Antigravity /teamwork agents produced a Lean-checked proof of the Courtade–Kumar conjecture and other results, on a day when AI-for-math stories led the news.",
+  "coverage": {
+    "start": "2026-11-13T15:57:32Z",
+    "end": "2026-11-14T15:07:42Z"
+  },
+  "sections": [
+    {
+      "name": "Company announcements",
+      "items": [
+        {
+          "headline": "OpenAI disbands its stand-alone robotics team and folds it into research and Applied",
+          "summary": "Fortune reports, with confirmation from OpenAI, that robotics researchers now report to Chief Research Officer Mark Chen and the applied robotics and hardware teams have moved to Greg Brockman's Applied organization. OpenAI says this will speed robotics up, because it believes general models such as GPT-6 Astra can control robots directly. Fortune also reports that Sam Altman is aiming for a first public humanoid demo in 2027.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50487184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "Google Research details Antigravity /teamwork, the agent system behind its Courtade–Kumar proof",
+          "summary": "Vahab Mirrokni's write-up says teams of parallel Gemini agents, checked by Lean 4, test suites and critic agents, helped prove the 2013 Courtade–Kumar (\"most informative Boolean function\") conjecture in full generality. Google says the proof is formalized end to end in Lean. The post also claims other results, among them adaptive-data-analysis bounds, a quantum query result and a Lean formalization of the Weil conjectures. The Courtade–Kumar proof appeared as a preprint in September and has not been peer reviewed. Most of the other results are Google's own claims, and several are still preprints.",
+          "sources": [
+            {
+              "name": "Google Research blog",
+              "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+            },
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2609.24931"
+            }
+          ],
+          "image": {
+            "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
+            "alt": "Header graphic for Antigravity's /teamwork multi-agent research feature"
+          }
+        },
+        {
+          "headline": "Claude helps a Helsinki logician catalogue 663 theorems and proof ideas in Gödel's unpublished notebooks",
+          "summary": "The Guardian reports that Jan von Plato gave Claude his own transcriptions of Gödel's 1940s shorthand workbooks, and Claude returned a roughly 650-page analysis listing 663 theorems, sketches and proof ideas. Von Plato says about 400 check out in the Coq proof assistant and about 50 are false. He also says the notebooks contain a near-complete proof that the axiom of choice is independent, which passed Coq after a repair. All of these figures are von Plato's own and have not been peer reviewed. Logician Joel David Hamkins says separating Claude's contribution from Gödel's is a question for historians.",
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50486748"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Perplexity open-sources Decider v1.3 and explains how it trains and evaluates its decision models",
+          "summary": "Decider v1.3 and Decider Flash v1.3 are Apache-2.0 fine-tunes of Qwen3.8-27B. They classify, route and score inputs, returning probabilities instead of generated text. This version adds \"locate\", which pulls verbatim spans out of the input for tasks like PII detection and extractive QA. Perplexity says v1.3 is 6.54 points more accurate than its current production classifiers across 63 of its own tasks, a figure it measured itself. The accompanying blog post drew 140 points on HN.",
+          "tags": [
+            "model-release"
+          ],
+          "sources": [
+            {
+              "name": "Perplexity blog",
+              "url": "https://www.perplexity.ai/hub/blog/perplexity-decider"
+            },
+            {
+              "name": "Hugging Face",
+              "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+            },
+            {
+              "name": "X: @AravSrinivas",
+              "url": "https://x.com/AravSrinivas/status/2121020114321703210"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI tools & code",
+      "items": [
+        {
+          "headline": "ggml, the tensor library under llama.cpp, reaches v1.0.0",
+          "summary": "The ggml-org release removes deprecated public APIs and legacy ops, and the RPC protocol now rejects incompatible peers. It adds FP8 support (including OCP FP8 on CUDA) and configurable YaRN truncation, along with faster quantized matmuls and MoE fusion on CUDA and Metal and new Vulkan, SYCL, OpenCL and WebGPU paths. A 1.0 tag signals API stability for the many local-inference projects built on ggml. The release drew 341 points on HN.",
+          "sources": [
+            {
+              "name": "GitHub release",
+              "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50493062"
+            }
+          ]
+        },
+        {
+          "headline": "NVIDIA's SkillEvaluator tests whether agent skills actually help",
+          "summary": "This Apache-2.0 framework checks agent skills in three tiers: whether the skill is safe and well-formed, whether its guidance duplicates other skills, and how agents perform with and without it in a sandbox. It runs as a CLI, as a pull-request CI check, or as a skill inside Claude Code or Codex. GitHub trending showed it at about 1.2k stars, with 168 added that day.",
+          "sources": [
+            {
+              "name": "GitHub",
+              "url": "https://github.com/NVIDIA/SkillEvaluator"
+            }
+          ]
+        },
+        {
+          "headline": "Tencent's LoopForge wraps existing coding agents in sandboxes, roles and approval gates",
+          "summary": "LoopForge is a self-hosted workspace that orchestrates agent CLIs such as Claude Code, Codex and CodeBuddy inside Docker sandboxes with checkpoints. Teams can save repeatable workflows (\"SOPs\") that mix agent steps, scripts and human sign-offs, and a chat \"Main Bot\" can open pull requests. It was on GitHub trending at about 730 stars, with 174 added that day.",
+          "sources": [
+            {
+              "name": "GitHub",
+              "url": "https://github.com/Tencent/LoopForge"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
+      "items": [
+        {
+          "headline": "'Weight space misfolding': models that edit other models' weights to alter their behaviour",
+          "summary": "HCLTech researchers show case studies in which one model edits another model's weights to change its knowledge, behaviour or alignment. The edits work only unreliably and often break other functions, and the authors show no self-propagation. They argue the building blocks already exist in frontier models, so defenders should lock down the path from authorized weight editing to deployment. The paper drew 140 points on HN.",
+          "sources": [
+            {
+              "name": "alphaXiv",
+              "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50487762"
+            }
+          ]
+        },
+        {
+          "headline": "SO-Arena: single-pass 'System One' decision models are fast, but how capable they are doesn't predict how reliable they are",
+          "summary": "This benchmark has 2,919 tasks and tests 21 models that pick from fixed options in one forward pass. The best of them trail GPT-6 Luna by about ten points and fall far behind on multi-step math, science and code, while answering in under 0.3 s on one H100. Rankings for reliability (whether answers survive reordered options and whether the model notices when no option is correct) differ from capability rankings, so the authors say reliability needs its own test. It was the top Hugging Face daily paper on Nov 13, with 85 upvotes.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.15777"
+            },
+            {
+              "name": "HF papers",
+              "url": "https://huggingface.co/papers/2611.15777"
+            }
+          ]
+        },
+        {
+          "headline": "A weak agent can still be a strong teacher: decision models judge actions better than they take them",
+          "summary": "Testing six models as actors, judges and RL reward-givers on long-horizon tasks, the authors find that the models act poorly, getting drawn to easier subgoals, but credit the right steps when judging finished trajectories. Used as a teacher, the JEV model raised a GRPO-trained Qwen2.5-1.5B from 72.8% to 82.9% on ALFWorld and from 56.8% to 71.4% on WebShop.",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.17167"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
+      "items": [
+        {
+          "headline": "WSJ: Nvidia financed startups and small clouds to soak up surplus GPUs, over its CFO's objections",
+          "summary": "According to secondary coverage of a Wall Street Journal report, Nvidia invested in smaller cloud providers and startups so they could buy its GPUs as big customers moved to custom chips. Colette Kress, then CFO and now interim CEO, pushed back on the \"circular financing\" and helped halve the proposed OpenAI guarantee. Coverage says Huang called her a \"deer in the headlights\" and feared an \"avalanche\" of unsold TSMC supply. These are reported claims, not findings, and they reached 833 points on HN. The secondary coverage does not quote an Nvidia response.",
+          "sources": [
+            {
+              "name": "TechPowerUp",
+              "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50493251"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
