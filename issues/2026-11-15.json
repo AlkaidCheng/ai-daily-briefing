@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-15",
+  "heading": "Sunday, November 15, 2026",
+  "topLine": "The New York Times reports that Commerce Secretary Howard Lutnick pushed for narrower AI-chip export rules that overlap with the business of Cantor Fitzgerald, the firm he used to run, days before Nvidia reports earnings and Anthropic is expected to list.",
+  "coverage": { "start": "2026-11-14T15:07:42Z", "end": "2026-11-15T15:07:20Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google Cloud puts DeepMind's AlphaEvolve on Cloud Batch for HPC and ships agent skills for running clusters",
+          "summary": "Ahead of SC26, Google said one Cluster Toolkit blueprint now sets up an AlphaEvolve controller, and Cloud Batch then spreads hundreds of candidate evaluations across VMs or multi-node MPI jobs, so the Gemini-driven evolutionary search can tune simulation code and engineering parameters. Google also released agent skills that check quotas and capacity and wait for human approval before deploying clusters, plus domain skills for OpenFOAM, GROMACS and AlphaFold 3 pipelines, all in its Google Skills and DeepMind Science Skills GitHub repos. Google did not give a general-availability date for the AlphaEvolve setup.",
+          "sources": [ { "name": "Google Cloud blog", "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26" },
+                       { "name": "GitHub: DeepMind Science Skills", "url": "https://github.com/google-deepmind/science-skills" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Plannotator, a local review layer for coding agents, tops GitHub's daily gains",
+          "summary": "Plannotator, a repo from the GitHub user backnotprop, lets you annotate an agent's plans and specs, review its diffs and PRs, and send the feedback back to Claude Code, Codex or Gemini CLI. Its new Inbox collects messages, questions and files from several agents in one local window. GitHub trending showed it gaining 860 stars in a day, to 11.6k.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/backnotprop/plannotator" },
+                       { "name": "GitHub trending", "url": "https://github.com/trending?since=daily" } ] },
+        { "headline": "Alibaba's Open Code Review, its internal AI code reviewer made open source, keeps climbing GitHub trending",
+          "summary": "This Apache-2.0 command-line tool from Alibaba combines rule-based checks with an LLM agent: it reads Git diffs, sends changed files to a model you configure, and writes line-level comments. An `ocr scan` mode reviews whole files instead of diffs. Trending showed 688 new stars in a day, for about 51.8k in total.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/alibaba/open-code-review" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "NYT: Lutnick pushed narrower AI-chip rules that overlap with his family's former firm",
+          "summary": "The Times reports that Commerce Secretary Howard Lutnick backed a narrower rule for overseas data centers serving Chinese customers, covering seven countries and only future shipments. A data-center operator it would affect is a client of Cantor Fitzgerald, the firm he used to run and whose stake he passed to his family. The Times found no evidence that Cantor's interests swayed his decisions. The report lands as Commerce prepares rules on Chinese remote access to Nvidia GPUs. Most details here come from secondary summaries, because the Times article is paywalled.",
+          "sources": [ { "name": "New York Times", "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50506180" } ] },
+        { "headline": "Scan finds 24,664 Lovable-built apps answering database reads with no login, exposing passports and 200K+ chat messages",
+          "summary": "Hamburg security firm Crissy Field scanned 159,041 Lovable projects found through Common Crawl. Of the 34,545 that run on Supabase, 24,664 returned records to requests with no authentication, including passport and payment details and more than 200,000 chat messages. The cause is missing Row Level Security rules in the generated apps, the same class of flaw as CVE-2025-48757, not a breach of Lovable itself. Lovable called it a broader Supabase configuration problem and recommends security reviews for apps that handle sensitive data. With 916 points, it was the weekend's top AI-related story on Hacker News.",
+          "sources": [ { "name": "Crissy Field", "url": "https://www.crissyfield.de/research/lovable-en/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50499017" } ] },
+        { "headline": "After Huang's exit, Singapore confirms it barred Megaspeed's Alice Huang, and $3B+ of Chinese AI projects face uncertainty",
+          "summary": "Asian governments responded to Jensen Huang's departure from Nvidia. Singapore said it had warned Alice Huang, a former Megaspeed CEO, and barred her from re-entering the country, and its probe of Megaspeed and six others continues. China called the spying allegations groundless. South Korea said Nvidia reaffirmed its plan to supply 260,000 GPUs. Reuters reports that more than $3 billion of Chinese AI projects built on restricted Nvidia chips now face uncertainty.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/" } ],
+          "image": { "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024", "alt": "Jensen Huang, whose exit from Nvidia set off reactions across Asia" } },
+        { "headline": "AI labs are hiring counterintelligence staff fast: Anthropic made 33 such hires in 2026, up from 14 in 2025",
+          "summary": "Revelio Labs data compiled by Reuters shows OpenAI made 22 counterintelligence hires this year, up from 9 in 2025, and Nvidia made 16. Most of these roles pay $200K–$500K. The hiring follows the Nvidia–Megaspeed affair and the arrest of an OpenAI engineer accused of planting a listening device, and it shows labs now treat industrial espionage as a core risk.",
+          "sources": [ { "name": "Fortune", "url": "https://fortune.com/2026/11/14/ai-industrial-espionage-counterintelligence-jobs-china-spying-nvidia-jensen-huang-pentagon-economic-warfare" } ] }
+      ] }
+  ]
+}
