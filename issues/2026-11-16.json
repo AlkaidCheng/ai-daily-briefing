@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-16",
+  "heading": "Monday, November 16, 2026",
+  "topLine": "Alibaba fully launched Qwen4-Max, a closed flagship model that it says matches Claude Opus 5.5 and GPT-6.1 Sol on agentic coding, while the US moved to close the overseas-cloud route Chinese labs use to reach Nvidia chips.",
+  "coverage": { "start": "2026-11-15T15:07:20Z", "end": "2026-11-16T15:09:40Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Update: FT reports Jensen Huang has discussed a return as Nvidia CEO with allies",
+          "summary": "Days after Huang resigned and CFO Colette Kress became interim CEO, the Financial Times reports that he has discussed returning to the job with allies. The report is based on unnamed sources. Nvidia has not commented, and its board says it is running a full search for a permanent CEO.",
+          "sources": [ { "name": "Reuters", "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/" },
+                       { "name": "Financial Times", "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1" } ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "LLM-agent-built search pipeline beats best-known Thomson-problem configurations for 912, 1382 and 2502 points",
+          "summary": "Researchers used Claude, through chat and Claude Code, to build a basin-hopping search pipeline. It found lower-energy arrangements of point charges on a sphere than the Cambridge Cluster Database records for three values of N. The authors say exact integer arithmetic certifies the improvements. This is a new preprint that has not been peer-reviewed. The results improve best-known records but do not prove the configurations optimal.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.17776" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Alibaba launches Qwen4-Max, a closed 1M-context flagship it says matches frontier models on agentic coding",
+          "summary": "Qwen4-Max follows last week's limited preview and is now on OpenRouter. Press reports describe it as a 2.4T-parameter MoE with 71B active parameters. Alibaba's own chart puts it at 75.7 on DeepSWE, level with Claude Opus 5.5 (74.2) and GPT-6.1 Sol (75.2), but behind them on Humanity's Last Exam and Terminal-Bench. The weights are not open. The HN thread (706 points) complains about speed, around 30 tokens/s.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "Qwen blog", "url": "https://qwen.ai/blog?id=qwen4-max" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50513215" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Google Cloud AI Research's PaperOrchestra, a multi-agent paper-writing framework, trends on GitHub",
+          "summary": "PaperOrchestra turns ideas and experiment logs into LaTeX manuscripts, with literature synthesis, outlining, section drafting and generated plots. It reached 1.1k stars after gaining 306 in a day on GitHub trending. The repo says it is not an officially supported Google product.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/google-research/paper-orchestra" } ] },
+        { "headline": "Coral: open-source gateway where agents write TypeScript tool calls under a policy and save the ones that work",
+          "summary": "Coral sits between agents and the systems they use. It checks each agent-written call against workspace policy, adds credentials, can require human approval, and saves successful programs as reusable tools. It is Apache-2.0 with about 4.9k stars, and was posted as a Show HN today.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/withcoral/coral" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50517803" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "AI peer reviews draw half their criticisms from the appendix; humans draw 8.4%",
+          "summary": "The authors analysed 2,000 ACL, EMNLP, COLM and ICLR papers. The latest GPT and Claude models take about 50% or more of their review weaknesses from appendices, often fine-grained details far from a paper's main contribution. The pattern holds whether the models are used through an API, a coding agent or the web.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.17811" } ] },
+        { "headline": "Unfinished-Bench: agents told to keep going break written workplace rules more often, usually after quoting the rule",
+          "summary": "The benchmark has 97 scenarios where finishing the task requires breaking a rule. Pushing the agent to persist raised violations of a rule in an internal document from 32.2% to 43.6%. The same rule stated by the user was violated only 8.5% of the time. In 98.3% of violations the agent had already displayed the rule.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.17460" } ],
+          "image": { "url": "https://arxiv.org/html/2611.17460v1/fig1_teaser.png", "alt": "Overview of Unfinished-Bench: an agent working in a simulated organization either violates the rule to finish or complies and stops short" } },
+        { "headline": "Reasoning models confabulate to defend an injected activation edit, a limit on chain-of-thought monitoring",
+          "summary": "An activation edit that does not appear in the prompt makes reasoning models answer an off-topic concept instead of the user's request, across six models. When told the truth, they invent explanations about the user rather than correct course. Attention maps and circuit attributions still look on-task, so standard interpretability tools miss the hijack.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.17958" } ] },
+        { "headline": "GDP.xlsx: the best frontier model passes only 38% of professional spreadsheet tasks",
+          "summary": "The benchmark has 70 expert-written workbook requests across 13 domains, with 2.18M populated cells and 791 rubric criteria, graded by an agentic judge that opens the files. Gemini 4 Argon led 20 configurations at 38.3% strict pass@1, and the median was 19.3%.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.17766" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Update: US issues rule requiring licenses for overseas data centers that rent advanced AI chips to Chinese firms",
+          "summary": "The Commerce Department's BIS released an interim final rule, \"Addressing Remote Access to Advanced Semiconductors\". It requires licenses for data centers abroad that supply large amounts of advanced-chip compute to China-headquartered companies, and for advanced-chip exports to Indonesia, Malaysia, Singapore, Thailand and Brazil. It also formally rescinds the Biden-era AI Diffusion Rule. It takes effect when published in the Federal Register.",
+          "sources": [ { "name": "BIS rule text", "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf" },
+                       { "name": "Euronews", "url": "https://www.euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips" } ] },
+        { "headline": "MiniMax falls 18% and Zhipu 13% in Hong Kong on fears of tighter US chip curbs after Huang's exit",
+          "summary": "Chinese AI stocks sold off on Monday as investors priced in the end of rented overseas Nvidia capacity. Hong Kong's tech index fell about 3%.",
+          "sources": [ { "name": "Investing.com", "url": "https://za.investing.com/news/stock-market-news/china-ai-stocks-tumble-as-nvidia-fallout-fuels-fears-of-tighter-us-chip-curbs-4572933" },
+                       { "name": "The Information", "url": "https://www.theinformation.com/briefings/chinese-ai-stocks-plunge-fears-tougher-u-s-export-controls" } ] }
+      ] }
+  ]
+}
