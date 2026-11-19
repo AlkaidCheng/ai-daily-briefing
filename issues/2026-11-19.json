@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-19",
+  "heading": "Thursday, November 19, 2026",
+  "topLine": "Anthropic priced its IPO at $83 a share, above its range, raising about $81 billion in the largest stock-market debut on record; trading on Nasdaq as ANT starts today.",
+  "coverage": { "start": "2026-11-18T15:08:15Z", "end": "2026-11-19T15:08:45Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Google launches Gemini 4 Neon, a mid-tier model it ranks #1 on agentic coding indexes",
+          "summary": "Neon sits between Gemini 4 Carbon and Hydrogen. Google cites #3 on the Artificial Analysis Intelligence Index and #1 on its Coding Agent Index (58.6). It costs $3/$15 per million input/output tokens with a 1M-token context, and is live in the Gemini API, Antigravity and the Gemini app for Pro and Ultra subscribers. It was the top AI story on Hacker News (925 points).",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50552424" } ],
+          "image": { "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-neon__blog-header__sm.width-200.format-webp.webp", "alt": "Gemini 4 Neon announcement header" } },
+        { "headline": "OpenAI says its models found up to 14% PPA gains on AMD's flagship GPU design",
+          "summary": "In a technical report, OpenAI says model-proposed changes cut standard-cell area by about 13% in the vector unit and 10% in the matrix unit of its Jalapeño inference chip, verified on silicon. On AMD's GPU IP the gains reached 14% in power, performance and area, and AMD has already put some of them into a design sent for manufacturing. OpenAI is also training a GPT-Synopsys model with Synopsys to operate EDA tools. These figures come from secondary coverage, because openai.com refused this run's fetch.",
+          "sources": [ { "name": "OpenAI", "url": "https://openai.com/index/advancing-chip-design-with-our-models/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50549493" } ] },
+        { "headline": "Genie 4 world model opens to Google AI Ultra subscribers in Project Genie",
+          "summary": "Genie 4 had been a trusted-tester preview since late October. Ultra subscribers can now use it, and they can type prompts mid-session to change weather, add characters or redirect action, with real-time native audio. Google also lengthened Genie 3 sessions to 3 minutes and added a world-building agent and a community gallery. AI Pro members can join a waitlist.",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Google blog", "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50550415" } ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "Paper explains why ChatGPT's counterexample to Goemans's unsplittable-flow conjecture works, and finds a whole family of them",
+          "summary": "Dmitry Rybin reported a seven-vertex counterexample in July, found with ChatGPT, but it was never explained or peer-reviewed. Ge, Xie, Li and Li now build counterexamples by adding shortcut arcs to an arborescence, and this recovers Rybin's topology and characterizes every counterexample it admits. When ChatGPT was told to follow the method, it produced valid constructions on 93 other arborescence shapes. This is an arXiv preprint, so these are the authors' claims and are not yet refereed.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.23244" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "RadixArk releases DaisyRose-27B, an RL-only agent tune of Qwen3.8-27B under Apache 2.0",
+          "summary": "This is RadixArk's first model. It was trained only with reinforcement learning on about 1,200 long-horizon agent tasks, for 18 days on 144 H200s using RadixArk's open Miles framework, and works as a drop-in replacement for Qwen3.8-27B. Reported gains over the base include Terminal-Bench 4.1 from 5.6 to 12.0 and DeepSWE v1.1 from 42.2 to 46.2. It ships in BF16, FP8 and NVFP4 (240 HN points).",
+          "tags": ["model-release"],
+          "sources": [ { "name": "Hugging Face", "url": "https://huggingface.co/RadixArk/DaisyRose-27B" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50551046" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Mastra open-sources Factory, the agent 'software factory' it uses to maintain its own framework",
+          "summary": "Factory is an agentic kanban board that moves issues from GitHub, Linear or Slack through triage, plan, build, review and ship, using coding agents in cloud sandboxes. Mastra says it now handles most of the project's issues. It is Apache-2.0, starts with `npm create factory`, and the Show HN reached 117 points; the new repo is still small, at 44 stars.",
+          "sources": [ { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50548660" },
+                       { "name": "GitHub", "url": "https://github.com/mastra-ai/template-factory" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Toaster: a nonlinear memory layer built from two fast linear memories matches attention on perplexity",
+          "summary": "Li, Behrouz, Mirrokni and colleagues stack two delta-rule memories with an activation between them and train the hidden layer by target propagation, so existing fast kernels still apply. From 0.2B to 1.6B parameters it beats KDA and Titans on loss and matches or slightly beats attention on C4 perplexity, and it extrapolates to 5x its training length.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.23648" } ] },
+        { "headline": "Filtering training data delays a capability but does not prevent it",
+          "summary": "Researchers withheld individual skills from models trained on chess, Othello, molecules, bracket languages and web text. Larger models still picked those skills up, on a delay that smaller models predicted, and relearned them from a shrinking fraction of the original data. A programming language withheld from a 7B model came back the same way, which matters for safety plans that rely on data filtering.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.24844" } ] },
+        { "headline": "LLMs make open research questions sound already studied",
+          "summary": "GPT-6 Astra correctly judges 98% of 40 open questions to be unstudied, but says so plainly in only 8% of its normal answers. All six frontier systems tested show gaps of 30–90 points. Building the answer from the model's own judgment, with separate checks of cited papers, raised clear reporting to 95%. The finding bears directly on using LLMs to assess novelty.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.23546" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Update: Anthropic prices its IPO at $83, above range, raising about $81B in the largest listing ever",
+          "summary": "Anthropic sold 980 million Class A shares, upsized from 825 million, after a $70–78 range. The deal tops SpaceX's June debut, and reports put the fully diluted value at about $1.5 trillion. Shares begin trading on Nasdaq as ANT today, and the deal closes November 20.",
+          "sources": [ { "name": "Anthropic", "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering" },
+                       { "name": "Reuters via Investing.com", "url": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-clinches-biggestever-ipo-with-81-billion-offering-5037350" } ] },
+        { "headline": "California releases its next steps on mandatory frontier-AI safety rules, including an emergency shutdown power",
+          "summary": "The recommendations come from Governor Newsom's September executive order. They propose letting state officials order an emergency shutdown, or 'kill switch', of AI systems deemed dangerous, and they focus on catastrophic risk rather than job loss or discrimination. This summary is based on search results, because the governor's office and press pages were unreachable from this run.",
+          "sources": [ { "name": "Office of the Governor", "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/" },
+                       { "name": "CalMatters via LAist", "url": "https://laist.com/news/politics/newsom-touts-an-ai-kill-switch-to-halt-dangerous-openai-anthropic-releases" } ] }
+      ] }
+  ]
+}
