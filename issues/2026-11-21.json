@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-21",
+  "heading": "Saturday, November 21, 2026",
+  "topLine": "Thinking Machines released Inkling 2 Mini, an Apache-2.0 open-weight 26B looped mixture-of-experts model small enough to run on a 32GB laptop, and it topped Hacker News with more than 1,100 points.",
+  "coverage": { "start": "2026-11-20T15:09:00Z", "end": "2026-11-21T15:07:36Z" },
+  "sections": [
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "Update: Mathematicians start checking Alpöge's claimed Claude proof of the Riemann Hypothesis; Aaronson bets it holds",
+          "summary": "Still unverified. Levent Alpöge's release is a Lean 4 archive of about 17.4M lines, split into 14 parts, and it claims to prove the Generalized Riemann Hypothesis. Scott Aaronson wrote \"my bet is that the proof will stand\" but said distilling the ideas will take years. Lean experts are still checking that the formal statement really is RH, and press reports quote Andrew Granville calling the release \"garbled\". Separately, an all-human GRH draft by Stanford's Alessandro Masullo, posted the same day by Ravi Vakil, had errors flagged within hours.",
+          "sources": [
+            { "name": "Shtetl-Optimized", "url": "https://scottaaronson.blog/?p=10344" },
+            { "name": "The Decoder", "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/" }
+          ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Thinking Machines releases Inkling 2 Mini, an open-weight looped MoE that runs on a laptop",
+          "summary": "The model has 26.4B total parameters, 3.4B of them active, and its middle 12 layers run three times on shared weights. It takes text and images, has a 1M-token context and ships as a single checkpoint of about 20GB under Apache 2.0. On the model card's own table it beats Qwen3.8-27B on SWE-bench Verified (79.2% vs 77.8%) and BrowseComp (79.0% vs 61.6%) but trails it on Terminal Bench and MMMU Pro. A variable-loop research checkpoint was released alongside it.",
+          "tags": [ "model-release" ],
+          "sources": [
+            { "name": "Hugging Face model card", "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini" },
+            { "name": "Thinking Machines", "url": "https://thinkingmachines.ai/news/inkling-2-mini/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50581260" }
+          ],
+          "image": { "url": "https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png", "alt": "Inkling 2 Mini header graphic from the Hugging Face model card" } }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Claude-BugHunter, a Claude Code skill pack for bug bounty and external red-team work, tops GitHub trending",
+          "summary": "Security researcher Sachin Sharma (ElementalSoul) bundles 80+ skills and 15 slash commands, including 58 hunt-* skills for bug classes like SSRF, IDOR and SSTI that draw on 681 disclosed HackerOne reports. The bundle includes scope-check gates for authorized testing and also works with Codex CLI and OpenCode. It gained about 1,800 stars in a day and has about 15.4k in total.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/elementalsouls/Claude-BugHunter" } ] },
+        { "headline": "Digger's OpenComputer, an open-source Devin alternative you drive from Slack",
+          "summary": "You mention @Computer in a Slack thread, an agent works the task on its own cloud VM, and the result comes back as a pull request. You can self-host it or use Digger's hosted cloud. It is Apache-2.0 with about 870 stars, and its Show HN post reached 109 points.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/diggerhq/opencomputer" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50581403" }
+          ],
+          "image": { "url": "https://github.com/diggerhq/opencomputer/raw/main/docs/images/readme-architecture.png", "alt": "OpenComputer architecture diagram" } }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "RL post-training of diffusion transformers is mostly activation steering",
+          "summary": "Researchers from fal, Georgia Tech and Virginia Tech add one fixed set of steering vectors to a frozen image or video model, the same for every prompt and seed. This recovers about 90–112% of the reward gains from RL fine-tuning across six image and two video models, with about 65× fewer parameters than a comparable LoRA on one model. Takeaway: RL mainly nudges models toward outputs they could already produce.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.26627" },
+            { "name": "HF Papers", "url": "https://huggingface.co/papers/2611.26627" }
+          ],
+          "image": { "url": "https://arxiv.org/html/2611.26627v1/teaser_new.png", "alt": "A constant activation shift of frozen SD3.5-M recovers 90–96% of the RL reward gain" } },
+        { "headline": "OpenAI's MedChemBench tests models on medicinal-chemistry reasoning from real papers and patents",
+          "summary": "The benchmark has 99 problems drawn from 117 papers and patents, covering 761 molecules, in four parts: structure reconstruction, scientific reasoning, compound selection and property prediction. GPT-6.2 Astra scores 84.5%, up from 58.2% for GPT-5.6 Sol, and gets 95.4% on structure reconstruction but only about half the credit on compound selection and numerical prediction. The page gives no human baseline.",
+          "sources": [ { "name": "OpenAI", "url": "https://openai.com/index/introducing-medchembench/" } ],
+          "image": { "url": "https://images.ctfassets.net/kftzwdyauwt9/6kbw4PSOhEqlbbiM3ZYhOb/1c770a466f57e0117f970cb124b921ee/introducing-medchembench-header-poster-4k.png", "alt": "MedChemBench announcement header" } }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "SEC's Nvidia probe is reportedly examining possible accounting issues",
+          "summary": "A report citing sources says the SEC's civil probe of Nvidia, first reported on Nov 17, is examining possible accounting issues as well as disclosures. That earlier reporting tied the probe to Southeast Asian sales and alleged chip diversion to China. Neither Nvidia nor the SEC has confirmed the probe, and the story drew 290+ points on HN.",
+          "sources": [
+            { "name": "MarketScreener", "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50581438" }
+          ] },
+        { "headline": "Update: Nasdaq erases its 2026 gains as the AI sell-off hits Anthropic's second trading day",
+          "summary": "The sell-off continued Friday after Anthropic's IPO. The Nasdaq fell below where it started the year, and the S&P 500 and Dow both entered corrections amid worries about AI spending and debt.",
+          "sources": [
+            { "name": "The Guardian", "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off" },
+            { "name": "NBC News", "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394" }
+          ] },
+        { "headline": "Senate Democrats push for a select committee on AI ahead of taking control of Congress",
+          "summary": "Sen. John Hickenlooper wrote to Chuck Schumer and Chris Van Hollen, the two candidates for Democratic leader, asking for a select or joint AI committee with real oversight powers. Ben Ray Luján, Ruben Gallego and Van Hollen back the idea, and Van Hollen has made AI regulation central to his leadership challenge. Schumer's office says he is already working on AI legislation with incoming committee leaders.",
+          "sources": [
+            { "name": "AP via WSLS", "url": "https://www.wsls.com/news/politics/2026/11/20/senator-proposes-select-committee-on-ai-as-democrats-hope-to-move-quickly-to-regulate-it/" },
+            { "name": "Bloomberg Government", "url": "https://news.bgov.com/bloomberg-government-news/van-hollen-backs-creating-ai-select-panel-amid-schumer-challenge" }
+          ] },
+        { "headline": "Google workers petition the company not to cut off Search for schools that turn off AI",
+          "summary": "More than 500 employees and contractors, organized by the Alphabet Workers Union, are protesting a policy under which K-12 schools that keep Gemini off also lose Search, because AI is built into Search. Sen. Ed Markey has called the policy an ultimatum, and the petition reached 270+ points on HN.",
+          "sources": [
+            { "name": "Mother Jones", "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50577901" }
+          ] }
+      ] }
+  ]
+}
