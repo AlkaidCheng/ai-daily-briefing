@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-22",
+  "heading": "Sunday, November 22, 2026",
+  "topLine": "The Lean and Mathlib communities formally certified Levent Alpöge's Claude-assisted Lean proof of the Riemann Hypothesis, and MIT's Andrew Sutherland reports that independent proof checkers accept it too. A readable human proof and peer review are still to come.",
+  "coverage": { "start": "2026-11-21T15:07:36Z", "end": "2026-11-22T15:07:11Z" },
+  "sections": [
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "Update: Lean and Mathlib communities certify Alpöge's Claude-assisted Riemann Hypothesis proof",
+          "summary": "In a joint statement endorsed by the Lean FRO and the Mathlib Initiative, the communities say the Lean library proves Mathlib's own RiemannHypothesis statement and that the proof is valid. MIT's Andrew Sutherland reports that two independent kernels (nanoda and con-leche) accept the full export, and that a sandboxed rebuild reproduced it byte for byte; Lean's own paranoid-kernel runs were still in progress on Nov 22. This is formal verification only: there is no readable paper or peer review yet, and the 2,800-point HN discussion is split over whether a 17-million-line proof that no one can read counts as understanding.",
+          "sources": [
+            { "name": "Lean community blog", "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" },
+            { "name": "Sutherland verification files (MIT)", "url": "https://math.mit.edu/~drew/grh/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50589618" }
+          ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "LookAtMyQuant fits Thinking Machines' Inkling 2 Mini into 5.4 GB",
+          "summary": "This open-source quantization compiler measures how much each part of a model degrades under compression, then gives each part its own bit width to fit a size budget. Its 1.65-bit MLX build of Inkling 2 Mini shrinks the 18.9 GB model to 5.4 GB. The author reports it keeps about 89% of the full model's scores on GSM8K, HumanEval and vision tests, at about 75 tokens/s on an M5 Max; those numbers are self-reported. The repo comes from GitHub user ShinMegamiBoson, has about 470 stars and reached 507 points on HN.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/ShinMegamiBoson/lookatmyquant" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50591853" }
+          ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Dragos plants canaries in 2 million prompts and catches AI providers leaking them",
+          "summary": "Dragos researchers led by HD Moore sent about two million prompts containing unique URLs and decoy AWS credentials to popular AI services from July to November, then watched for anyone using them. They report that data from at least three providers was exposed, including prompts sent to US-based resellers that reached Chinese AI organizations, even when no-retention settings were on. The takeaway for practitioners: a router's 'zero data retention' label is a promise, not a guarantee.",
+          "sources": [
+            { "name": "Dragos blog", "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50596511" }
+          ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "OpenRouter drops three inference providers and strips zero-retention status after the prompt-leak findings",
+          "summary": "Responding to the Dragos research, OpenRouter says it removed three providers, moved affected endpoints off zero data retention (ZDR), emailed affected users, and will run canary checks of its own from now on. It has not publicly named the providers it removed. Novita and Together have posted their own notices: Together says prompt samples to MiniMax M3, GLM-5.2 and Kimi K2.6 from June and July were exposed after an AI coding agent committed a credential to a public repo. Details beyond OpenRouter's post come mainly from the HN discussion.",
+          "sources": [
+            { "name": "OpenRouter blog", "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50595554" }
+          ] },
+        { "headline": "UN talks on autonomous weapons end without a mandate for a binding ban",
+          "summary": "The Convention on Certain Conventional Weapons (CCW) review conference in Geneva closed Saturday after all-night negotiations. States agreed only to 'elaborate' rules for lethal autonomous weapons by 2028, and those rules could be binding or voluntary. The US, Russia and Israel were among those blocking a negotiating mandate for binding rules. Stop Killer Robots called the result 'watered down'; the Swiss chair called it a concrete result.",
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit" },
+            { "name": "SWI swissinfo.ch", "url": "https://www.swissinfo.ch/eng/international-geneva/rules-for-killer-robots-talks-end-with-a-minimal-consensus/92416572" }
+          ] }
+      ] }
+  ]
+}
