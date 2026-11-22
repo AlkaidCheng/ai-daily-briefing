@@ -7,7 +7,7 @@
     { "name": "AI solves open problems",
       "items": [
         { "headline": "Update: Lean and Mathlib communities certify Alpöge's Claude-assisted Riemann Hypothesis proof",
-          "summary": "In a joint statement endorsed by the Lean FRO and the Mathlib Initiative, the communities say the Lean library proves Mathlib's own RiemannHypothesis statement and that the proof is valid. MIT's Andrew Sutherland reports that two independent kernels (nanoda and con-leche) accept the full export, and that a sandboxed rebuild reproduced it byte for byte; Lean's own paranoid-kernel runs were still in progress on Nov 22. This is formal verification only: there is no readable paper or peer review yet, and the 2,800-point HN discussion is split over whether a 17-million-line proof that no one can read counts as understanding.",
+          "summary": "In a joint statement endorsed by the Lean FRO and the Mathlib Initiative, the communities say the Lean library proves Mathlib's own RiemannHypothesis statement and that the proof is valid. MIT's Andrew Sutherland reports that two independent kernels (nanoda and con-leche) accept the full export, and that a sandboxed rebuild reproduced it byte for byte; Lean's own paranoid-kernel runs were still in progress on Nov 22. This is formal verification only: there is no readable paper or peer review yet, and the 1,100-point HN thread is split over whether a 17-million-line proof that no one can read counts as understanding.",
           "sources": [
             { "name": "Lean community blog", "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/" },
             { "name": "Sutherland verification files (MIT)", "url": "https://math.mit.edu/~drew/grh/" },
