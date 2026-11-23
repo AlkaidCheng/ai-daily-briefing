@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-23",
+  "heading": "Monday, November 23, 2026",
+  "topLine": "Nvidia's board reinstated Jensen Huang as CEO eleven days after he resigned, saying senior US officials told it his return poses no national security risk.",
+  "coverage": { "start": "2026-11-22T15:07:11Z", "end": "2026-11-23T15:07:23Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Nvidia reinstates Jensen Huang as CEO, reversing course days after ruling out his return",
+          "summary": "The board voted unanimously to restore Huang as president, CEO and director, effective immediately. It said input from senior levels of the US government led it to conclude his return poses no national security risk. Huang resigned on Nov 12 amid reports that he was the target of a foreign intelligence effort, and the chair said on Nov 17 the board did not intend to bring him back. Interim CEO Colette Kress stays on as CFO, and the independent investigation continues.",
+          "sources": [
+            { "name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director" },
+            { "name": "SEC 8-K", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50611588" }
+          ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "Update: Agent-driven Lean formalization logs about 270 false statements in Masullo's human-written Riemann manuscript",
+          "summary": "Ryan McCorvie's crowdsourced project, in which contributors use coding agents such as Codex and Claude Code, has stated about 6,800 theorems from Alessandro Masullo's 940-page GRH manuscript in Lean and proved about 6,100 of them. Its errata log has about 750 entries, including about 270 statements false as printed and 28 steps with no known repair. The key trace formula (Thm 12.5.1.1) is in dispute. This is a formal referee report, not a verdict: the manuscript is an unfinished draft, and unlike Alpöge's Claude-assisted proof it is not a Lean-checked proof.",
+          "sources": [
+            { "name": "GitHub: riemann-masullo", "url": "https://github.com/mccorvie/riemann-masullo" },
+            { "name": "Azimuth (John Baez)", "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50605045" }
+          ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "Zhipu's GLM-5.4 is its first looped transformer, and weights come later",
+          "summary": "Z.ai says GLM-5.4 reruns a block of layers instead of stacking unique ones. It validated the design at 1B to 750B parameters and claims the 750B model matches much larger dense-depth models. The model is live for GLM Coding Plan users. Weights will follow only 'after completing necessary safety hardening', and per HN commenters the post has no full benchmark table. It drew 538 points on HN.",
+          "tags": [ "model-release" ],
+          "sources": [
+            { "name": "Z.ai blog", "url": "https://z.ai/blog/glm-5.4" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50609685" },
+            { "name": "X: @Zai_org", "url": "https://x.com/Zai_org/status/2124719658074825004" }
+          ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "LocalCode packages agentic coding on local models for Macs",
+          "summary": "LocalCode, an Apache-2.0 project from GitHub user mjwsolo, is a one-command agentic coding tool for Macs. It edits files, runs tests, git and shell commands inside the project, and picks from 12 models and 169 quantizations (Gemma 4, Qwen 3.8, DeepSeek V4 Flash and others) that fit the machine's memory. It had 66 HN points and 128 GitHub stars.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/mjwsolo/localcode" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50604540" }
+          ] },
+        { "headline": "Worker 755, a browser game where you play an LLM's subagent",
+          "summary": "In this Show HN project from gulivan, a real LLM acts as the manager: it assigns tasks through a simulated terminal, checks your work and writes your performance review. It reached 345 HN points and is a pointed parody of agent orchestration.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/gulivan/worker755" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50599762" }
+          ],
+          "image": { "url": "https://github.com/gulivan/worker755/raw/main/docs/play.png", "alt": "Worker 755 gameplay: the simulated terminal where the AI manager assigns tasks" } }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "cmHC: shrinking hyper-connection mixing matrices toward the center of the polytope improves training",
+          "summary": "The top Hugging Face paper of the day, from China Telecom's Xingchen AGI Lab, HKUST(GZ), HIT and Huawei. It finds that manifold-constrained hyper-connections either under-mix or over-mix residual streams. Its fix contracts each doubly stochastic mixing matrix toward the interior, in early layers only, with no new parameters. It lowers loss over mHC from GPT-2 scale up to a 300B MoE and comes with fused Ascend kernels that cut hyper-connection latency by up to 45%.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.27193" },
+            { "name": "HF Papers", "url": "https://huggingface.co/papers/2611.27193" }
+          ],
+          "image": { "url": "https://arxiv.org/html/2611.27193v1/birkhoff.png", "alt": "Hyper-connection architecture and the Birkhoff polytope contracted toward its interior" } },
+        { "headline": "Video world models 'know' where walls are but walk through them anyway",
+          "summary": "Non-penetrating World Models tests six open interactive video generators and finds none reliably stops at obstacles. A probe head of under 2M parameters, reading the frozen diffusion transformer's hidden states, swaps unsafe camera moves for the nearest safe one. Averaged over the six models, violations fall from 74% to 16%, and on LingBot-World 2.0 from 89% to 4%.",
+          "sources": [
+            { "name": "HF Papers", "url": "https://huggingface.co/papers/2611.27963" },
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.27963" }
+          ],
+          "image": { "url": "https://arxiv.org/html/2611.27963v1/fig_arch.png", "alt": "NoPeWorld architecture: a small head on a frozen video DiT predicts collisions and corrects motion" } },
+        { "headline": "Search-native pretraining: a 1.4B model that learns to issue searches matches a 3.3B baseline",
+          "summary": "Ponkshe, Je, Taga, Raffel and Jaggi insert web-search queries and their retrieved results into pretraining text, so models learn to call search while doing language modeling. A 1.4B 'QueryLM' matches or beats a FLOP-matched 3.3B model on every knowledge-intensive task tested, and the edge survives fine-tuning. Checkpoints and data are released.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.26809" }
+          ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "OpenAI's chief scientist proposes pretraining perplexity as the yardstick for shared limits across labs",
+          "summary": "In 'Perplexity and Intelligence', Jakub Pachocki argues that capabilities appear at log-perplexity thresholds on a fixed held-out set from OpenAI's internal codebase. On that scale, models near 0.76 began producing novel results on open math problems, and new, unknown capabilities are expected around 0.68–0.70. He calls for shared evaluation norms and 'common limits' that would be lifted only after monitoring milestones, and warns of an 'avalanche' of AI-accelerated pretraining advances as soon as 2027. HN commenters questioned whether a code-heavy held-out set can work as a cross-lab metric.",
+          "sources": [
+            { "name": "OpenAI", "url": "https://openai.com/index/perplexity-and-intelligence/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50601525" }
+          ] }
+      ] }
+  ]
+}
