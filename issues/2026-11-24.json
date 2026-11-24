@@ -2,53 +2,157 @@
   "date": "2026-11-24",
   "heading": "Tuesday, November 24, 2026",
   "topLine": "Anthropic and OpenAI posted rival AI-generated, Lean-checked proofs hours apart, each claiming VP ≠ VNP (Valiant's 1979 algebraic analogue of P vs NP), but no human mathematician has checked either one yet.",
-  "coverage": { "start": "2026-11-23T15:07:23Z", "end": "2026-11-24T15:07:29Z" },
+  "coverage": {
+    "start": "2026-11-23T15:07:23Z",
+    "end": "2026-11-24T15:07:29Z"
+  },
   "sections": [
-    { "name": "Company announcements",
+    {
+      "name": "Company announcements",
       "items": [
-        { "headline": "Anthropic launches Claude Ship to review, fix and approve pull requests",
+        {
+          "headline": "Anthropic launches Claude Ship to review, fix and approve pull requests",
           "summary": "Claude Ship bundles Code Review, which is now generally available, with two beta agents. PR Steward works on failing CI, merge conflicts and review feedback, and Claude Approvals approves routine PRs under a policy file kept in the repo. A new /ship command in Claude Code runs the whole loop. It is for Team and Enterprise plans on GitHub, billed on tokens, and isn't available to Zero Data Retention or HIPAA setups.",
-          "sources": [ { "name": "Claude blog", "url": "https://claude.com/resources/articles/introducing-claude-ship" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50618513" } ],
-          "image": { "url": "https://assets.claude.com/2a72b687af32e0d798bd2859b12576be1f607f13.png", "alt": "Claude Ship overview graphic showing Code Review, PR Steward and Claude Approvals" } }
-      ] },
-    { "name": "AI solves open problems",
+          "sources": [
+            {
+              "name": "Claude blog",
+              "url": "https://claude.com/resources/articles/introducing-claude-ship"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50618513"
+            }
+          ],
+          "image": {
+            "url": "https://assets.claude.com/2a72b687af32e0d798bd2859b12576be1f607f13.png",
+            "alt": "Claude Ship overview graphic showing Code Review, PR Steward and Claude Approvals"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AI solves open problems",
       "items": [
-        { "headline": "Anthropic posts a Claude-authored proof that VP ≠ VNP over every field, with a Lean formalization",
+        {
+          "headline": "Anthropic posts a Claude-authored proof that VP ≠ VNP over every field, with a Lean formalization",
           "summary": "Anthropic says an internal research Claude model found and wrote up a proof of Valiant's hypothesis: superpolynomial lower bounds (m^(c(log m)^(1/3))) for the permanent and the Hamiltonian-cycle polynomial, so VP ≠ VNP and VNP is not in the closure of VP. The paper and the Lean 4 proof, which a second independent kernel rechecks, are on GitHub. The README says no human mathematician has checked it, that only reading confirms the Lean statements match the paper, and that it does not settle P vs NP. Claimed, not yet verified. The HN thread reached 343 points.",
-          "sources": [ { "name": "anthropics/formal-math", "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50620102" } ] },
-        { "headline": "OpenAI publishes its own VP ≠ VNP proof hours later, logged internally on Nov 6",
+          "sources": [
+            {
+              "name": "anthropics/formal-math",
+              "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50620102"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI publishes its own VP ≠ VNP proof hours later, logged internally on Nov 6",
           "summary": "OpenAI merged a 30-page manuscript, \"VP and VNP are different,\" into its openai/math repo. It comes with a Lean formalization and a comparator challenge. The repo's history file dates the result to November 6, earlier than Anthropic's posting. The PR notes that the Lean build and PDF rebuild were not run for this merge, and human verification is still pending. If both proofs hold up, two labs' AI systems will have independently settled a 47-year-old conjecture within weeks of each other.",
-          "sources": [ { "name": "openai/math PR #5", "url": "https://github.com/openai/math/pull/5" }, { "name": "openai/math history", "url": "https://github.com/openai/math/blob/main/history.md" } ] }
-      ] },
-    { "name": "AI tools & code",
+          "sources": [
+            {
+              "name": "openai/math PR #5",
+              "url": "https://github.com/openai/math/pull/5"
+            },
+            {
+              "name": "openai/math history",
+              "url": "https://github.com/openai/math/blob/main/history.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI tools & code",
       "items": [
-        { "headline": "OpenAI and Cisco open-source Shirudo, which puts eBPF shields on unpatched Linux systems",
+        {
+          "headline": "OpenAI and Cisco open-source Shirudo, which puts eBPF shields on unpatched Linux systems",
           "summary": "Shirudo applies temporary, signed eBPF \"shields\" that block the specific behavior an exploit relies on, without restarting the service, while a patch is prepared. A TPM keeps a verifiable record of each shield loaded or removed. Agents can help investigate a vulnerability and build a shield, but security teams decide what gets deployed. In OpenAI's demo, a Codex-built shield protected a live Elasticsearch service from a Java exploit. The license is BSD-2-Clause.",
-          "sources": [ { "name": "OpenAI", "url": "https://openai.com/index/introducing-shirudo/" }, { "name": "GitHub", "url": "https://github.com/shirudo-dev/shirudo" } ],
-          "image": { "url": "https://images.ctfassets.net/kftzwdyauwt9/bScTLq9smNJq5XAlaHIQW/fab0e70b1aab8ca8dffb70a747056fd7/guardian-agent-desktop-light.png?w=3840&q=90&fm=webp", "alt": "Diagram of Shirudo's guardian agent using eBPF to observe and protect a running system" } }
-      ] },
-    { "name": "Research papers",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/introducing-shirudo/"
+            },
+            {
+              "name": "GitHub",
+              "url": "https://github.com/shirudo-dev/shirudo"
+            }
+          ],
+          "image": {
+            "url": "https://images.ctfassets.net/kftzwdyauwt9/bScTLq9smNJq5XAlaHIQW/fab0e70b1aab8ca8dffb70a747056fd7/guardian-agent-desktop-light.png?w=3840&q=90&fm=webp",
+            "alt": "Diagram of Shirudo's guardian agent using eBPF to observe and protect a running system"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
       "items": [
-        { "headline": "MIT: training the harness, not just the model, lets agents generalize to tasks 64× longer",
+        {
+          "headline": "MIT: training the harness, not just the model, lets agents generalize to tasks 64× longer",
           "summary": "Alex Zhang, Souradip Chakraborty and Omar Khattab train Recursive Language Model harnesses with RL to break problems into sub-calls, so each call the model sees stays close to its training distribution. Trained only on short tasks, these harnesses handled tasks 2–64× longer. RLM-27B beat its Qwen3.8-27B base by 26.9% on average on hard long-context benchmarks, using about half the tokens.",
-          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.28298" } ] },
-        { "headline": "Embo-Harness: frontier multimodal models driving robots directly work best with little hand-holding",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.28298"
+            }
+          ]
+        },
+        {
+          "headline": "Embo-Harness: frontier multimodal models driving robots directly work best with little hand-holding",
           "summary": "An NTU/SenseTime team tested one harness design choice at a time for using a frontier multimodal model as a robot policy. Their recipe leans on the model's own visual reasoning and tool use and drops handcrafted plans and skills. It reached 83.3% success on RoboLab-120, against 57.1% for the best agentic baseline, and 15 of 20 zero-shot real-world trials. Spatial target estimation, not low-level trajectory generation, turned out to be the bottleneck. It was the second most-upvoted Hugging Face paper of the day.",
-          "sources": [ { "name": "Hugging Face papers", "url": "https://huggingface.co/papers/2611.31201" } ],
-          "image": { "url": "https://arxiv.org/html/2611.31201v1/embo-harness.png", "alt": "Embo-Harness recipe overview" } },
-        { "headline": "An agent writes new skills straight into a model's weights, with no gradient training",
+          "sources": [
+            {
+              "name": "Hugging Face papers",
+              "url": "https://huggingface.co/papers/2611.31201"
+            }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2611.31201v1/embo-harness.png",
+            "alt": "Embo-Harness recipe overview"
+          }
+        },
+        {
+          "headline": "An agent writes new skills straight into a model's weights, with no gradient training",
           "summary": "In a single-author preprint, an AI agent inserts hand-written, gated attention heads and MLP neurons into a model without any backpropagation. This lifted Qwen2.5-1.5B-Instruct from 19.95 to 41.05 on normalized BBH and gave it exact 20-digit multiplication. Its next-token outputs on WikiText were otherwise unchanged (KL of 0). The work has not been peer-reviewed, and 4 of 45 modules had small side effects.",
-          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.28483" } ] }
-      ] },
-    { "name": "Policy & industry",
+          "sources": [
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/abs/2611.28483"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
       "items": [
-        { "headline": "Update: Anthropic falls below its $83 IPO price",
+        {
+          "headline": "Update: Anthropic falls below its $83 IPO price",
           "summary": "Shares fell about 7% on Tuesday, wiping out a debut that opened at $111.50 last Thursday. The stock missed Monday's Nvidia-led AI rally amid wider doubts about the AI infrastructure buildout. Analysts stay mostly bullish: Canaccord ($135), Wedbush ($120) and Oppenheimer ($150) all started coverage with buy-equivalent ratings.",
-          "sources": [ { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html" }, { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50627836" } ] },
-        { "headline": "Amazon buys Decart's optimization tech and team, reportedly for $7.5 billion",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50627836"
+            }
+          ]
+        },
+        {
+          "headline": "Amazon buys Decart's optimization tech and team, reportedly for $7.5 billion",
           "summary": "Amazon is hiring Decart's founders and researchers and acquiring the DOS kernel and compiler stack behind its claimed 100× cost cuts, to speed up inference on its Trainium chips. Decart's world models are not part of the deal. Amazon did not disclose terms, and the price comes from Bloomberg's reporting. That is nearly double Decart's May valuation, and Anthropic had walked away from a reported $6B bid earlier this year.",
-          "sources": [ { "name": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/23/amazon-acquires-key-assets-of-ai-startup-decart-for-reported-7-5b/" } ],
-          "image": { "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Decart.png", "alt": "Decart" } }
-      ] }
+          "sources": [
+            {
+              "name": "SiliconANGLE",
+              "url": "https://siliconangle.com/2026/11/23/amazon-acquires-key-assets-of-ai-startup-decart-for-reported-7-5b/"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
