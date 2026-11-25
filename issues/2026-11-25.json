@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-25",
+  "heading": "Wednesday, November 25, 2026",
+  "topLine": "AI-written mathematics arrived in bulk from two labs: OpenAI claims the matrix multiplication exponent is exactly 9/4, and Google's Cogentic agent posted six papers including an unconditional L[1/3] bound for integer factoring — none of it checked yet by outside mathematicians.",
+  "coverage": { "start": "2026-11-24T15:07:29Z", "end": "2026-11-25T15:07:27Z" },
+  "sections": [
+    {
+      "name": "Company announcements",
+      "items": [
+        {
+          "headline": "Meta puts Muse inside Instagram DMs and sets it loose on saved posts",
+          "summary": "Meta's personal AI agent now answers inside an Instagram message thread, catches users up on missed DMs and acts on shared posts, rolling out on iOS and Android in the US, Canada, Mexico, Japan and Singapore. It can also sort bookmarked posts into Collections and turn a recipe reel into a grocery list.",
+          "sources": [
+            { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI solves open problems",
+      "items": [
+        {
+          "headline": "OpenAI claims the matrix multiplication exponent is exactly 9/4, over every field",
+          "summary": "A November 24 OpenAI Math Release preprint pairs the 9/4 upper bound from October with a matching lower bound — at least ⌈n^(9/4)/2⌉ nonscalar multiplication or division gates for formal arithmetic circuits — which would pin down a constant open since the 1960s. The accompanying Lean development covers only division-free circuits over formal polynomial identities, narrower than the paper's claim, and no outside expert has verified the full proof; it also says nothing about practical speedups.",
+          "sources": [
+            { "name": "OpenAI math repo", "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/README.md" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50637220" }
+          ]
+        },
+        {
+          "headline": "Google's Cogentic agent posts six math papers, led by a claimed unconditional L[1/3] factoring bound",
+          "summary": "Google Research published six papers on November 25 produced by Cogentic, its multi-agent prove-and-verify orchestrator built on Gemini; the headline claim is factoring any integer in worst-case expected time L_N[1/3, O(1)] with no unproven number-theoretic hypotheses, against the rigorous L[1/2] standard since Lenstra–Pomerance in 1992. The others claim a sub-quasi-polynomial discrete log in fixed characteristic, a log-rank conjecture improvement and more. The Lean proofs are promised in a companion submission but are not public, the constant is reportedly huge so it breaks no real keys, and no named mathematician has endorsed any of it.",
+          "sources": [
+            { "name": "Google Research repo", "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers" },
+            { "name": "Cogentic paper (arXiv)", "url": "https://arxiv.org/abs/2609.40324" }
+          ]
+        },
+        {
+          "headline": "OpenAI reports wet-lab-validated protein binders designed by GPT-6 without specialist biology models",
+          "summary": "OpenAI says GPT-6-family models designed protein backbones and sequences using general reasoning and code, with partner Onava synthesizing and testing them: 35 of 322 de novo minibinders (10.9%) bound their target across five targets, and 128 of 182 new VHH loop designs (70%) bound IL-4Rα. OpenAI flags the limits itself — hit rates depend on filtering by specialist models, benchmarks may reflect memorization, binding is not specificity or activity, and whole-protein structure prediction remains far behind ESMFold2 (TM 0.38 vs 0.93).",
+          "sources": [
+            { "name": "OpenAI", "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50634658" }
+          ],
+          "image": {
+            "url": "https://images.ctfassets.net/kftzwdyauwt9/4u7ogWwVXuqX5GRdnZxsLM/23d72378f6fea65debd91c914f32fb54/protein-workflows-intrinsic-desktop-light.png",
+            "alt": "Diagram of the model-driven protein design workflows OpenAI tested"
+          }
+        },
+        {
+          "headline": "Model-run searches of Kepler and TESS data turn up unconfirmed exoplanet candidates",
+          "summary": "OpenAI describes two amateur-led searches: one used Codex over ~100,000 Kepler stars and surfaced two transit candidates that a SETI Institute astronomer independently spotted, the other used Astra across ~19 million mostly TESS stars and flagged 49 candidates, one now with the TESS team. Nothing is confirmed — validation needs follow-up observations and peer review, which can take months or years.",
+          "sources": [
+            { "name": "OpenAI", "url": "https://openai.com/index/searching-for-distant-planets-with-astra/" }
+          ],
+          "image": {
+            "url": "https://images.ctfassets.net/kftzwdyauwt9/1Vvl8uwapXZthgt742dVFs/627a21d7b0a87c8aaae3250ffb45b97f/kepler-tess-orange-marker-dark.png",
+            "alt": "Sky map of the Kepler and TESS fields with candidate markers"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Models & open-source",
+      "items": [
+        {
+          "headline": "Ternary Bonsai 2.5 27B retargets a 1.76-bit model at agentic work",
+          "summary": "PrismML pushed Apache-2.0 GGUF and MLX builds of a ternary-weight 27B (Qwen3.8-27B base) that fits in 5.93 GB versus 53.8 GB at FP16, and this version is tuned for tool use: agentic tool-calling average rises from 67.0 to 77.2 and agentic coding from 37.9 to 54.2 versus Bonsai 2, with SWE-bench Verified at 75.6. All figures are vendor-reported, and the smallest quantizations need PrismML's llama.cpp fork.",
+          "tags": ["model-release"],
+          "sources": [
+            { "name": "Hugging Face", "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50633922" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI tools & code",
+      "items": [
+        {
+          "headline": "Claude-BugHunter tops GitHub trending with a red-team skill bundle for coding agents",
+          "summary": "Sachin Sharma's bundle gives Claude Code 84 skills, 15 slash commands and 681 patterns mined from disclosed bug-bounty reports across 24 vulnerability classes, scoped deliberately to external attack surface and excluding C2 frameworks and post-exploitation. It was the day's top trending repo at about 22.5k stars and roughly 1,644 gained in a day; code is MIT, content CC BY 4.0.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/elementalsouls/Claude-BugHunter" },
+            { "name": "GitHub trending", "url": "https://github.com/trending?since=daily" }
+          ]
+        },
+        {
+          "headline": "CLI-Anything generates command-line wrappers so agents can drive GUI software",
+          "summary": "HKUDS's Apache-2.0 project runs a seven-phase pipeline that reads a codebase or docs and emits a tested Python CLI plus a SKILL.md, with ready-made harnesses for GIMP, Blender, LibreOffice, Inkscape and OBS, and a CLI-Hub registry agents can install from. It showed about 65.4k stars with roughly 1,094 added in a day.",
+          "sources": [
+            { "name": "GitHub", "url": "https://github.com/HKUDS/CLI-Anything" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research papers",
+      "items": [
+        {
+          "headline": "ShellBench: top agents fail more than a third of ordinary household tasks, and break safety rules on 15.7% of attempts",
+          "summary": "Built by the OpenClaw Foundation with Parsewave, Hugging Face, Red Hat and UC Berkeley from more than 10 million anonymized agent interactions, the benchmark scores 12 models across 5 harnesses on 100 everyday tasks (53,100 runs). The best scorer passed all three repeated runs of a task less than half the time, agents mishandled a child-pickup safety requirement 79.5% of the time, and model choice mattered more than harness.",
+          "sources": [
+            { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/" }
+          ]
+        },
+        {
+          "headline": "Loom attention lets a transformer rewire its own circuits each token",
+          "summary": "LoomFormer adds 'vertical' attention over earlier heads' outputs — implemented as gated linear attention over a per-token matrix memory — so each head's query, key and value are chosen on the fly, splitting control signals from content. The authors report it matching transformers trained with over 3× the compute, and LoomPythia-2.8B matching Pythia-12B zero-shot for about 2% extra FLOPs; a preprint, not yet reviewed, with code released.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.30634" },
+            { "name": "HF daily papers", "url": "https://huggingface.co/papers/date/2026-11-25" }
+          ],
+          "image": {
+            "url": "https://arxiv.org/html/2611.30634v2/arch.png",
+            "alt": "LoomFormer architecture with LoomMHA, FFN and matrix-memory read/write modules"
+          }
+        },
+        {
+          "headline": "KL divergence goes negative in PyTorch because the standard formulas lose precision",
+          "summary": "Testing 18 closed-form KL families and F.kl_div against certified references over 8.5 million inputs, the authors find over 85% of FP32 values carry ≥1% relative error near KL ≈ 1e-7 and about 30% turn negative below that — and clamping at zero, the usual advice, hides it. Stable reformulations with compensated arithmetic and analytic gradients remove over 97% of significant errors, changing distillation, quantized-layer rankings and GPT-2 circuit scores; discussed on HN in the window.",
+          "sources": [
+            { "name": "arXiv", "url": "https://arxiv.org/abs/2611.30835" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50629962" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Policy & industry",
+      "items": [
+        {
+          "headline": "UK NCSC says autonomous hacking tools are exploiting old weaknesses faster than defenders patch",
+          "summary": "The National Cyber Security Centre reports several incidents since September in which agentic tools caused intrusions and downtime by scanning exposed systems, trying weak passwords and abusing developer API endpoints — exploiting years of accumulated technical debt rather than novel flaws. Free open-source autonomous pentest tools released this year are part of the shift, and the NCSC's line is that basic controls still work.",
+          "sources": [
+            { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/" },
+            { "name": "NCSC blog", "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks" }
+          ]
+        },
+        {
+          "headline": "Tidal will delete more than 29 million fully AI-generated tracks",
+          "summary": "Tidal said 43% of uploads in the past 90 days were AI-generated and about 27 million tracks on the service are fully synthetic, 96% of them with no streams at all; removals start December 9 and it expects to reject 80,000–85,000 submissions a day. AI-assisted music is still allowed, and distributors are barred from delivering fully generated tracks.",
+          "sources": [
+            { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/" },
+            { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50630309" }
+          ]
+        },
+        {
+          "headline": "Unconfirmed: Amazon and Meta are said to be negotiating an end to the Muse shopping blockade",
+          "summary": "Fortune reports, citing people familiar with the talks, that the two are several rounds into a deal that would let Meta's agent buy from Amazon again after a two-month checkout block, with search presentation and ad terms still open and both CEOs needing to sign off. Neither company has commented, and the stakes are Amazon's ad business and its direct relationship with shoppers as third-party agents arrive.",
+          "sources": [
+            { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
