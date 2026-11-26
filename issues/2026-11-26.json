@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-26",
+  "heading": "Thursday, November 26, 2026",
+  "topLine": "OpenAI's Nov 24 math preprints include claims of a strongly polynomial algorithm for linear programming (Smale's ninth problem) and a disproof of the polynomial Hirsch conjecture. Both are unreviewed, with Lean coverage that is only partial.",
+  "coverage": { "start": "2026-11-25T15:07:27Z", "end": "2026-11-26T15:07:42Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "OpenAI starts merging ChatGPT's Chat and Work modes under one shared usage meter",
+          "summary": "OpenAI began rolling out a unified Chat and Work experience to some Pro subscribers. Both modes now draw on one allowance, Instant-model chats stay unlimited, and broader rollout is planned for December. OpenAI says only the heaviest users should hit limits sooner, but a post from Codex lead Tibo Sottiaux, as headlined on HN, says GPT-6.2 Astra users reach limits about 40% faster and Sol users about 25% faster.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50651117" },
+                       { "name": "X: @thsottiaux", "url": "https://twitter.com/thsottiaux/status/2125784147889393806" } ] }
+      ] },
+    { "name": "AI solves open problems",
+      "items": [
+        { "headline": "OpenAI claims a strongly polynomial algorithm for linear programming, answering Smale's ninth problem, plus a disproof of the polynomial Hirsch conjecture",
+          "summary": "Two preprints from OpenAI's Nov 24 batch of nine, which drew wide attention in this window, claim a deterministic strongly polynomial LP algorithm for real coefficients and simple polytopes whose graph diameter is superpolynomial. The Lean proofs cover only the rational-input LP case and the polytope theorems, not the real-number case. Neither paper has been peer-reviewed or checked independently.",
+          "sources": [ { "name": "OpenAI math repo", "url": "https://github.com/openai/math/blob/main/preprints/Strongly-polynomial-linear-programming-November-24-2026/README.md" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50644980" },
+                       { "name": "X: @SebastienBubeck", "url": "https://x.com/SebastienBubeck/status/2125404169788063915" } ] },
+        { "headline": "OpenAI preprint claims the finite Fourier transform needs N(log N)^{1/2+o(1)} linear gates, beating the FFT's N log N",
+          "summary": "A preprint in the same batch claims matching upper and lower bounds on the linear-gate cost of Fourier transforms over finite abelian groups. Its Lean files formalize the upper bound, but its own documentation says the Ω(N√log N) lower bound is not formalized. No outside check has been reported.",
+          "sources": [ { "name": "OpenAI math repo", "url": "https://github.com/openai/math/blob/main/preprints/The-logarithmic-exponent-of-finite-Fourier-transforms-November-24-2026/README.md" },
+                       { "name": "Lean scope doc", "url": "https://github.com/openai/math/blob/main/lean/docs/379.md" } ] },
+        { "headline": "Unconfirmed: Scott Aaronson relays rumors that an AI lab can factor integers in polynomial time",
+          "summary": "In his Nov 25 post 'HOLY SHIT…' (1,769 HN points), Aaronson says he will provisionally accept the labs' Lean-certified results. He also says he has heard many rumors that OpenAI and/or Anthropic hold undisclosed cryptography 'bombshells', possibly factoring in P, which would break RSA. He names no sources and says the details may be garbled. Neither lab has commented, and no such algorithm has been published.",
+          "sources": [ { "name": "Shtetl-Optimized", "url": "https://scottaaronson.blog/?p=10379" },
+                       { "name": "The Defiant", "url": "https://thedefiant.io/news/security/aaronson-qualifies-unverified-ai-factoring-rumors" } ] }
+      ] },
+    { "name": "Models & open-source",
+      "items": [
+        { "headline": "NVIDIA posts Nemotron-Labs-Image-30B-A3B, an autoregressive text-to-image model built from Nemotron 3 Nano",
+          "summary": "The first release from NVIDIA's 'Pixel as Code' VisualCreation framework is a 30B-total, 3B-active MoE that generates images as tokens and runs in vLLM. It reports 92.86 on GenEval and 97.98 on LongTextBench, but trails GPT Image 2 and Qwen-Image on several benchmarks. Weights are for non-commercial research only, and the agentic harness has not been released yet.",
+          "tags": [ "model-release" ],
+          "sources": [ { "name": "Hugging Face", "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B" },
+                       { "name": "HF paper page", "url": "https://huggingface.co/papers/2611.31358" } ],
+          "image": { "url": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B/resolve/main/assets/pixel-as-code-overview.png", "alt": "Overview diagram of NVIDIA's Pixel-as-Code VisualCreation framework" } }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "llm.asm boots straight into a Qwen3 chat from a 24 KB assembly kernel",
+          "summary": "This GitHub project is a bootable x86-64 OS written entirely in assembly, with no Linux, C or libc. It runs Qwen3-0.6B (Q8_0) bare-metal or under KVM and reaches a multi-turn chat prompt in about 80 ms. The README reports about 135 tok/s on 16 EPYC vCPUs, with output matching its Linux build token for token. It reached 195 points on HN.",
+          "sources": [ { "name": "GitHub", "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os" },
+                       { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50648365" } ],
+          "image": { "url": "https://github.com/alesha-pro/llm.asm/raw/main/assets/baremetal-vga.png", "alt": "VGA console screenshot of the bare-metal Qwen3 chat prompt" } }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "ByteDance Seed's Mixture-of-Loops Transformer reuses KV memory across loops for 1.7× token efficiency",
+          "summary": "MoLT is a looped transformer that shares key-value memory across loop iterations and depth. A U-shaped variant separates building memory from reading out predictions. In 400B-token pretraining at 700M parameters it reaches 1.7× the validation cross-entropy token efficiency of OLMo3, and small versions match non-looped latency. The takeaway is that looping can make a model better per token without making it slower.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.34923" },
+                       { "name": "HF paper page", "url": "https://huggingface.co/papers/2611.34923" } ] },
+        { "headline": "'Lazy' agents commit before their own beliefs justify it; rewarding exact posteriors fixes that",
+          "summary": "NTU's RLVB uses a simulator's exact posterior over the hidden answer as a process reward. It pays agents to keep gathering evidence while several answers remain possible, and to commit once the evidence is enough, with no judge or reward model. It lifted three VLMs by 17.1% on average across nine settings and beat LLM-judged PPO with 1.6× fewer GPU-hours. It was the most-upvoted agent paper on HF on Nov 25.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.32884" },
+                       { "name": "HF paper page", "url": "https://huggingface.co/papers/2611.32884" } ],
+          "image": { "url": "https://arxiv.org/html/2611.32884v1/fig2_credit.png", "alt": "Figure 2 of the RLVB paper on credit assignment from posterior process rewards" } },
+        { "headline": "No effort setting turns Claude 5.5 into a reliable gate against plausible-but-wrong patches",
+          "summary": "Claude Opus, Sonnet and Haiku 5.5 reviewed 90 agent-written Django patches from SWE-bench Verified at three effort levels, judged against stronger tests. Higher effort rejected more wrong patches, and medium effort on Opus was nearly as good as high for 20% less cost. Still, every setting accepted at least 45% of the wrong patches, so AI review is no substitute for stronger tests.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.33639" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "42 attorneys general move to block Character.AI's bankruptcy auction of 21 million users' chat logs",
+          "summary": "A coalition led by California AG Rob Bonta objects to the Dec 1 auction of chat histories, including those of more than 2.1 million minors. The only disclosed bidder is a Delaware LLC formed on Nov 13. The AGs say buyers would not be bound by Character.AI's privacy promises, and that state chatbot-safety laws taking effect Jan 1 could be violated.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/" } ] },
+        { "headline": "New York bans AI-chatbot toys for five years",
+          "summary": "Gov. Kathy Hochul signed a ban on making, distributing and selling toys with embedded AI chatbots, such as talking plush toys, dolls and connected robots. It takes effect 90 days after signing. New York is the second state to do this, after California.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/" } ] },
+        { "headline": "Amodei calls claims that Anthropic wants humans to cede control to AI 'absurd' and floats limits on recursive self-improvement",
+          "summary": "In a long X post, Anthropic's CEO says humans must keep final decision-making power and should 'never sacrifice legitimacy or self-determination at the altar of efficiency or security.' He adds that Claude should not build successive frontier models without meaningful human supervision. This comes as Anthropic's IPO filings describe Claude generations accelerating their successors.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/" } ] },
+        { "headline": "S&P weighs downgrading Nvidia's credit rating over 'key man' risk after Huang's ouster and return",
+          "summary": "S&P Global is reviewing a possible cut from AA to AA-, citing weak executive oversight and no succession planning. A downgrade could raise borrowing costs across the neoclouds that depend on Nvidia-guaranteed financing for its $500 billion AI infrastructure lending program.",
+          "sources": [ { "name": "TechCrunch", "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/" } ] }
+      ] }
+  ]
+}
