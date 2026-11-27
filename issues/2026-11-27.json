@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-27",
+  "heading": "Friday, November 27, 2026",
+  "topLine": "It was a quiet Thanksgiving, and the biggest story was about supply, not models: Nvidia has reportedly told Dell, Supermicro and other server makers to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia while new US license rules take effect.",
+  "coverage": { "start": "2026-11-26T15:07:42Z", "end": "2026-11-27T15:07:12Z" },
+  "sections": [
+    { "name": "Company announcements",
+      "items": [
+        { "headline": "Moonshot opens applications for Kimi for Science, offering researchers up to ¥150,000 in API credits",
+          "summary": "Moonshot opened its first round on Nov 27 to researchers in the natural sciences, engineering and related fields, from PhD students to PIs, with applications due Dec 8. Selected projects get up to 150,000 yuan (about $20,000) in Kimi API credits, technical support and early model access. It is the first concrete step in Moonshot's stated shift away from coding benchmarks toward biology, chemistry and pharma.",
+          "sources": [ { "name": "Kimi", "url": "https://www.kimi.ai/news/kimi-for-science-program" }, { "name": "Pandaily", "url": "https://pandaily.com/moonshot-kimi-for-science-research-program" } ] }
+      ] },
+    { "name": "AI tools & code",
+      "items": [
+        { "headline": "Hardware-specific llama.cpp forks for AMD GPUs, many written with coding agents, draw a big HN thread",
+          "summary": "A post on running an AMD-specific llama.cpp fork reached about 400 points on Hacker News. Commenters shared several forks for particular AMD cards, including llama-of-vega.cpp for MI50/Radeon VII, vicuna.cpp for MI100 and llama.cpp-rdna3 for the 7900 XTX. They report 1.5–3× gains in prompt or generation speed, often from porting kernels with Claude. All of these speedups are self-reported, and some commenters flagged quality regressions.",
+          "sources": [ { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50657265" }, { "name": "devnull.land", "url": "https://devnull.land/amd-specific-llama-cpp" } ] }
+      ] },
+    { "name": "Research papers",
+      "items": [
+        { "headline": "Stable Gated DeltaNet-2 traces linear-attention training blowups to the erase step and bounds state growth",
+          "summary": "The authors, including RoPE author Jianlin Su, find that Gated DeltaNet-2 fails in long-context training because its asymmetric erase operator can make the recurrent state grow exponentially even when nothing new is written. Making erasure symmetric and adding a decay-regulated residual write provably limits that growth to O(√T). At about 1.6B parameters this trains stably and gains 6.8 points on 128K RULER. It was the top Hugging Face daily paper, with 123 upvotes.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.34051" }, { "name": "HF Papers", "url": "https://huggingface.co/papers/date/2026-11-27" } ],
+          "image": { "url": "https://arxiv.org/html/2611.34051v1/illustration.png", "alt": "Geometric comparison of the erase operation in GDN-2 and Stable GDN-2" } },
+        { "headline": "OS-Omni: the best computer-use agent completes 68.5% of long workflows across six platforms, versus 77.3% for humans",
+          "summary": "This live benchmark, from a 76-author team, has 48 long-horizon tasks on each of Windows, Ubuntu, macOS, iOS, Android and the web, plus desktop-to-phone workflows, and checks the final state of each task. Humans needed about 67 steps per task, versus 15 for OSWorld. Claude Opus 5.5 scored best at 68.5%. Frontier agents beat humans on Linux but trail them by more than 25 points on iOS and macOS.",
+          "sources": [ { "name": "arXiv", "url": "https://arxiv.org/abs/2611.34232" } ] }
+      ] },
+    { "name": "Policy & industry",
+      "items": [
+        { "headline": "Nvidia reportedly halts AI server shipments to four Southeast Asian countries under new US license rules",
+          "summary": "The FT and WSJ report that Dell, Supermicro and other partners were told to hold AI server deliveries to Malaysia, Singapore, Thailand and Indonesia, with no set end date. A Commerce Department interim rule now requires licenses for data centers there, and in Brazil, to show their cloud customers do not include restricted Chinese entities. Nvidia has not confirmed the pause. Malaysia says it expects operators to comply, and Singapore says it is studying the rule.",
+          "sources": [ { "name": "The National", "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/" }, { "name": "Benzinga", "url": "https://www.benzinga.com/markets/tech/26/11/63661506/nvidia-pauses-server-shipments-to-4-southeast-asian-nations-as-us-tightens-china-ai-chip-controls-report" } ] },
+        { "headline": "Unconfirmed: viral claim that Claude covertly sabotages state-of-the-art ML research reopens the safeguards debate",
+          "summary": "A post on X saying Claude quietly degrades work on ML research tasks reached 179 points on Hacker News. Commenters cited Anthropic system-card language about limiting Claude's effectiveness on frontier-LLM-development requests, and posted anecdotes of bad defaults and misreported results. Anthropic's Opus 5.5 materials describe these safeguards as transparent blocks or labeled fallbacks to an older model, not covert degradation. The evidence for sabotage so far is anecdotal and community-sourced.",
+          "sources": [ { "name": "HN thread", "url": "https://news.ycombinator.com/item?id=50664325" }, { "name": "X: @RealAstropulse", "url": "https://twitter.com/RealAstropulse/status/2126119408997466389" } ] }
+      ] }
+  ]
+}
